@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Retro Hound deals">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#2a1b3d">
+<meta name="robots" content="noindex">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="icon" href="icon-180.png">
+<title>Retro Hound deals</title>
+<style>
+:root{
+  --bg:#f5f3f7;--card:#fff;--ink:#1c1823;--muted:#6b6577;--line:#e2dde8;--head:#2a1b3d;--head-ink:#f6f1fb;
+  --accent:#c2402a;--good:#1f7a4a;--good-bg:#d9f2e3;--ok:#7a5a12;--ok-bg:#f6ecd0;--chip:#efeaf4;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121016;--card:#1c1922;--ink:#efeaf6;--muted:#a59db3;--line:#2f2a38;--head:#1d1428;--head-ink:#f6f1fb;
+  --accent:#ef6a52;--good:#7fdba5;--good-bg:#173a27;--ok:#e9c76b;--ok-bg:#3a3017;--chip:#2a2532;}}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--head);color:var(--head-ink);padding:10px 16px;padding-top:max(10px,env(safe-area-inset-top));display:flex;align-items:center;gap:10px}
+header h1{font:700 21px/1.1 Georgia,"Times New Roman",serif;margin:0;flex:1}
+header .upd{font-size:12px;opacity:.75;text-align:right}
+main{max-width:980px;margin:0 auto;padding:12px 16px calc(24px + env(safe-area-inset-bottom))}
+.filters{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}
+.filters input,.filters select{width:100%;font:inherit;font-size:16px;padding:10px 12px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+.filters .q{grid-column:1/-1}
+@media(min-width:760px){.filters{grid-template-columns:2fr 1fr 1fr 1fr}.filters .q{grid-column:auto}}
+.count{color:var(--muted);font-size:13px;margin:4px 2px 10px}
+.list{display:grid;gap:10px}
+@media(min-width:760px){.list{grid-template-columns:1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;grid-template-columns:84px 1fr;gap:12px;text-decoration:none;color:inherit}
+.card:active{transform:scale(.995)}
+.thumb{width:84px;height:84px;border-radius:10px;background:var(--chip) center/cover no-repeat;display:grid;place-items:center;color:var(--muted);font-size:26px}
+.t{font-weight:600;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.lab{color:var(--muted);font-size:13px;margin-top:2px}
+.nums{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin-top:8px}
+.price{font-size:20px;font-weight:700}
+.usual{color:var(--muted);font-size:14px}
+.pill{font-weight:700;font-size:13px;padding:3px 9px;border-radius:999px;background:var(--good-bg);color:var(--good)}
+.pill.ok{background:var(--ok-bg);color:var(--ok)}
+.meta{color:var(--muted);font-size:12.5px;margin-top:6px}
+.flag{color:var(--accent);font-size:12.5px;margin-top:4px}
+.empty{background:var(--card);border:1px dashed var(--line);border-radius:14px;padding:24px;text-align:center;color:var(--muted)}
+footer{color:var(--muted);font-size:12px;text-align:center;margin:20px 0 6px}
+</style>
+</head>
+<body>
+<header><h1>✦ Retro Hound</h1><div class="upd" id="upd">loading…</div></header>
+<main>
+  <div class="filters">
+    <input class="q" id="q" type="search" placeholder="Search, e.g. pitfall, skeletor, galaxy explorer, big m" enterkeyhint="search">
+    <select id="type"><option value="">All types</option></select>
+    <select id="region"><option value="">Any region</option><option value="PAL">Atari: Australian (PAL)</option><option value="NTSC">Atari: worldwide (NTSC)</option></select>
+    <select id="sort"><option value="deal">Biggest % under</option><option value="saving">Biggest $ saving</option><option value="newest">Newest</option><option value="price">Cheapest</option></select>
+  </div>
+  <div class="count" id="count"></div>
+  <div class="list" id="list"></div>
+  <footer>Prices include postage where known. “Usually” is what matching items sold for recently. Check each listing before buying.</footer>
+</main>
+<script>
+const TYPES = [["atari:game","Atari games"],["atari:console","Atari consoles"],["atari:accessory","Atari controllers"],["atari:merch","Atari merchandise"],
+  ["motu","Masters of the Universe"],["lego","Space LEGO"],["milkbar","Milk bar advertising"]];
+const $ = id => document.getElementById(id);
+const money = n => n == null ? "–" : "$" + (n >= 100 ? Math.round(n).toLocaleString("en-AU") : n.toFixed(2));
+const esc = s => String(s == null ? "" : s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+let data = { deals: [] };
+const saved = (() => { try { return JSON.parse(localStorage.getItem("f") || "{}"); } catch { return {}; } })();
+for (const [v, l] of TYPES) $("type").insertAdjacentHTML("beforeend", `<option value="${v}">${l}</option>`);
+for (const k of ["type", "region", "sort"]) if (saved[k] != null) $(k).value = saved[k];
+function ago(iso) {
+  const m = Math.round((Date.now() - Date.parse(iso)) / 60000);
+  return m < 2 ? "just now" : m < 60 ? `${m} min ago` : m < 1440 ? `${Math.round(m / 60)} h ago` : `${Math.round(m / 1440)} days ago`;
+}
+function render() {
+  const q = $("q").value.trim().toLowerCase(), type = $("type").value, region = $("region").value, sort = $("sort").value;
+  try { localStorage.setItem("f", JSON.stringify({ type, region, sort })); } catch {}
+  let items = data.deals.filter(d => {
+    if (q && !(d.t + " " + d.lab).toLowerCase().includes(q)) return false;
+    if (type) { const [l, k] = type.split(":"); if (d.line !== l || (k && d.kind !== k)) return false; }
+    if (region && (d.line !== "atari" || d.reg !== region)) return false;
+    return true;
+  });
+  const by = { deal: (a, b) => b.d - a.d, saving: (a, b) => (b.f - b.p) - (a.f - a.p), newest: (a, b) => (b.seen || "").localeCompare(a.seen || ""), price: (a, b) => a.p - b.p };
+  items.sort(by[sort] || by.deal);
+  $("count").textContent = `${items.length} deal${items.length === 1 ? "" : "s"}${data.deals.length !== items.length ? ` (of ${data.deals.length})` : ""}`;
+  $("list").innerHTML = items.length ? items.slice(0, 300).map(d => `
+    <a class="card" href="${esc(d.u)}" target="_blank" rel="noopener">
+      <div class="thumb" ${d.i ? `style="background-image:url('${esc(d.i)}')"` : ""}>${d.i ? "" : "✦"}</div>
+      <div>
+        <div class="t">${esc(d.t)}</div>
+        <div class="lab">${esc(d.lab)}</div>
+        <div class="nums"><span class="price">${money(d.p)}</span>
+          <span class="usual">usually ${money(d.f)}</span>
+          <span class="pill ${d.d < 0.25 ? "ok" : ""}">${Math.round(d.d * 100)}% under</span></div>
+        <div class="meta">${esc(d.s)}${d.loc ? " · " + esc(d.loc) : ""} · ${d.n} sales compared${d.os ? " · overseas seller" : ""}</div>
+        ${(d.fl || []).slice(0, 1).map(f => `<div class="flag">⚠ ${esc(f)}</div>`).join("")}
+      </div></a>`).join("")
+    : `<div class="empty">No deals match right now.</div>`;
+}
+async function load() {
+  try {
+    const r = await fetch("deals.json?t=" + Date.now(), { cache: "no-store" });
+    data = await r.json();
+    $("upd").textContent = "updated " + ago(data.updated);
+    render();
+  } catch (e) { $("upd").textContent = "couldn't load"; $("list").innerHTML = `<div class="empty">Couldn't load the deals. Check your connection and pull down to try again.</div>`; }
+}
+["q", "type", "region", "sort"].forEach(id => $(id).addEventListener(id === "q" ? "input" : "change", render));
+document.addEventListener("visibilitychange", () => { if (!document.hidden) load(); });
+load();
+</script>
+</body>
+</html>
