@@ -1,0 +1,565 @@
+# Coin Hound 2.19 refresh report
+Written 2026-10-28T11:19:25Z (28 Oct, 10:19 pm Sydney) · refresh report only started 2026-10-28T05:19:25Z, took 21600 s
+Totals: {"ebay_sold":214,"shops":9482,"ebay_active":191,"facebook":0,"pages_read":1,"removed_after_reading":0,"ended":0,"alerts":8}
+Stored: 11326 live · 7273 sold
+Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
+eBay: not paused
+
+## This refresh: 40 steps, 29 with problems
+shops: 9/36 worked, 1423 kept
+ebay_sold: 1/2 worked, 133 kept
+facebook: 1/1 worked, 0 kept
+ebay_active: 0/1 worked, 0 kept
+
+### Problems this refresh
+- shop | The Coin Collection | Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
+- ebay_sold | Sets 2015 Proof year set RAM 50th Anniversary Proof | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 8:05 pm
+- shop | Colonial Coins & Medals | Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Walter Holt (Old Money) | Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Romanorvm | Error: romanorum.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Ancient Coin Traders | Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+- shop | Drake Sterling Numismatics | Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+- shop | John Platts Stamps & Coins | Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
+- shop | Coinworks | Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
+- shop | Prospect Stamps & Coins | Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Guy Stuff | Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Newcastle Coins | Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Bullionmark | Error: product pages have no readable price data
+- shop | SA Gold Traders | Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Ceylon Exchange | Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
+- shop | City Gold Bullion | Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Great Southland Bullion | Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Peter Strich Stamps & Coins | Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+- shop | I.S. Wright | Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Coins Australia | Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
+- ebay_active | Sets 2015 Fine silver proof year set Proof | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop | Edlins | Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | ABC Bullion | Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Rainbow Rarities | Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+- shop | Royal Australian Mint eShop | Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
+- shop | The Coin & Stamp Place | Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+- shop | Cockatoo Coins | Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Max Stern & Co | Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
+- shop | The Coin Company | Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
+
+## Shops: 68 on · 36 working · 27 failing · 5 not read yet
+- Edlins (edlins.com.au): FAILING 1× – Error: edlins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:49Z
+- Cockatoo Coins (cockatoocoins.com.au): FAILING 1× – Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:31Z
+- Coins Australia (coinsaustralia.com.au): FAILING 1× – Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:50Z
+- Guy Stuff (guystuff.com.au): FAILING 1× – Error: guystuff.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:35Z
+- I.S. Wright (iswright.com.au): FAILING 1× – Error: iswright.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:55Z
+- Newcastle Coins (newcastlecoins.com.au): FAILING 1× – Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:34Z
+- Prospect Stamps & Coins (prospectstampsandcoins.com.au): FAILING 1× – Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:35Z
+- John Platts Stamps & Coins (jpsnc.com.au): FAILING 1× – Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later) · last tried 2026-10-28T08:34:39Z
+- Peter Strich Stamps & Coins (peterstrich.com.au): FAILING 1× – Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:06Z
+- The Coin Collection (coincollect.com.au): FAILING 1× – Error: coincollect.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:32Z
+- The Coin & Stamp Place (thestampplace.com): FAILING 1× – Error: thestampplace.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:32Z
+- Max Stern & Co (maxstern.com.au): FAILING 1× – Error: maxstern.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:50Z
+- The Coin Company (thecoincompany.com.au): FAILING 1× – Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
+- Royal Australian Mint eShop (eshop.ramint.gov.au): FAILING 1× – Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
+- Coinworks (coinworks.com.au): FAILING 1× – Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later) · last tried 2026-10-28T08:34:36Z
+- Drake Sterling Numismatics (www.drakesterling.com): FAILING 1× – Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:37Z
+- Colonial Coins & Medals (coinmedalshop.com.au): FAILING 1× – Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:31Z
+- Rainbow Rarities (rainbowrarities.com): FAILING 1× – Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:47Z
+- Ancient Coin Traders (ancientcointraders.com): FAILING 1× – Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:37Z
+- Romanorvm (romanorum.com.au): FAILING 1× – Error: romanorum.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:39Z
+- Walter Holt (Old Money) (oldmoney.com.au): FAILING 1× – Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:43Z
+- ABC Bullion (www.abcbullion.com.au): FAILING 1× – Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:48Z
+- Bullionmark (bullionmark.com.au): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T08:35:41Z · last worked 2026-10-16T15:10:09Z
+- City Gold Bullion (citygoldbullion.com.au): FAILING 1× – Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:14Z
+- Great Southland Bullion (greatsouthlandbullion.com.au): FAILING 1× – Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:04Z
+- Ceylon Exchange (ceylonexchange.com.au): FAILING 1× – Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:15Z
+- SA Gold Traders (sagoldtraders.com.au): FAILING 1× – Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:03Z
+- Guardian Gold (guardian-gold.com.au): ok – 33 kept, read as woocommerce · last tried 2026-10-27T20:50:43Z · last worked 2026-10-27T20:50:43Z
+- Heritage Numismatics (heritagenumismatics.com.au): ok – 23 kept, read as shopify · last tried 2026-10-27T20:50:42Z · last worked 2026-10-27T20:50:42Z
+- Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 335 kept, read as shopify · last tried 2026-10-27T20:51:22Z · last worked 2026-10-27T20:51:22Z
+- Peter's of Kensington (petersofkensington.com.au): ok – 0 kept, read as generic · last tried 2026-10-27T20:09:36Z · last worked 2026-10-27T20:09:36Z
+- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 132 kept, read as shopify · last tried 2026-10-27T20:50:46Z · last worked 2026-10-27T20:50:46Z
+- Town Hall Coins (townhallcoins.com): ok – 1505 kept, read as shopify · last tried 2026-10-27T20:51:19Z · last worked 2026-10-27T20:51:19Z
+- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2115 kept, read as shopify · last tried 2026-10-27T20:52:02Z · last worked 2026-10-27T20:52:02Z
+- Loose Change Coins (loosechangecoins.com.au): ok – 448 kept, read as shopify · last tried 2026-10-27T20:51:34Z · last worked 2026-10-27T20:51:34Z
+- Adelaide Exchange (adelaide-exchange.com.au): not read yet · last tried 2026-10-27T08:23:46Z
+- Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2309 kept, read as woocommerce · last tried 2026-10-27T20:06:45Z · last worked 2026-10-27T20:06:45Z
+- Bulk Bullion (bulkbullion.com.au): ok – 36 kept, read as shopify · last tried 2026-10-27T20:51:42Z · last worked 2026-10-27T20:51:42Z
+- Downies (www.downies.com): not read yet · last tried 2026-10-23T03:04:04Z
+- Melbourne Coins & Collectables (melbournecoinco.com): ok – 42 kept, read as shopify · last tried 2026-10-27T20:52:04Z · last worked 2026-10-27T20:52:04Z
+- Mint Coin Shop (mintcoinshop.com.au): ok – 147 kept, read as shopify · last tried 2026-10-27T20:52:10Z · last worked 2026-10-27T20:52:10Z
+- Southern Cross Coins (southerncrosscoins.com.au): ok – 247 kept, read as woocommerce · last tried 2026-10-27T20:05:08Z · last worked 2026-10-27T20:05:08Z
+- Coin City (coincity.com.au): ok – 967 kept, read as shopify · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
+- Direct Coins (directcoins.com.au): ok – 134 kept, read as shopify · last tried 2026-10-28T06:01:31Z · last worked 2026-10-28T06:01:31Z
+- Mint Coins (mintcoins.com.au): ok – 0 kept, read as generic · last tried 2026-10-27T20:03:32Z · last worked 2026-10-27T20:03:32Z
+- Swan Bullion (swanbullion.com): ok – 24 kept, read as woocommerce · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
+- The Perth Mint (www.perthmint.com): ok – 18 kept, read as generic · last tried 2026-10-20T05:38:54Z · last worked 2026-10-18T15:11:06Z
+- Sterling & Currency (www.sterlingcurrency.com.au): ok – 1 kept, read as generic · last tried 2026-10-27T20:09:41Z · last worked 2026-10-27T20:09:41Z
+- Vintage Coins & Banknotes (vintagecoinsandbanknotes.com.au): ok – 95 kept, read as shopify · last tried 2026-10-27T20:04:03Z · last worked 2026-10-27T20:04:03Z
+- Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 46 kept, read as shopify · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
+- Imperial Numismatics (imperialnumismatics.com.au): ok – 99 kept, read as woocommerce · last tried 2026-10-27T20:03:53Z · last worked 2026-10-27T20:03:53Z
+- WA Coins (wacoins.com.au): ok – 335 kept, read as woocommerce · last tried 2026-10-27T20:04:19Z · last worked 2026-10-27T20:04:19Z
+- Smits Stamps & Coins (smitsstampsandcoinswa.com.au): not read yet · last tried 2026-10-17T19:09:02Z
+- The Coin Chest (the-coin-chest.com): ok – 134 kept, read as woocommerce · last tried 2026-10-28T06:01:31Z · last worked 2026-10-28T06:01:31Z
+- Ainslie Bullion (ainsliebullion.com.au): ok – 85 kept, read as generic · last tried 2026-10-27T20:09:37Z · last worked 2026-10-27T20:09:37Z
+- Jaggards (www.jaggards.com.au): ok – 75 kept, read as woocommerce · last tried 2026-10-28T06:01:29Z · last worked 2026-10-28T06:01:29Z
+- KJC Bullion (www.kjc-gold-silver-bullion.com.au): ok – 13 kept, read as generic · last tried 2026-10-22T11:33:17Z · last worked 2026-10-21T19:10:38Z
+- Queensland Mint (qmint.com): ok – 0 kept, read as generic · last tried 2026-10-17T23:06:52Z · last worked 2026-10-17T08:30:34Z
+- Bullion Now (bullionnow.com.au): ok – 3 kept, read as woocommerce · last tried 2026-10-27T20:09:39Z · last worked 2026-10-27T20:09:39Z
+- Gold Stackers (goldstackers.com.au): ok – 29 kept, read as woocommerce · last tried 2026-10-27T20:03:53Z · last worked 2026-10-27T20:03:53Z
+- Imperial Bullion (imperialbullion.com.au): ok – 12 kept, read as woocommerce · last tried 2026-10-28T06:01:50Z · last worked 2026-10-28T06:01:50Z
+- Gold Bullion Australia (goldbullionaustralia.com.au): ok – 25 kept, read as woocommerce · last tried 2026-10-27T20:03:58Z · last worked 2026-10-27T20:03:58Z
+- As Good As Gold (asgoodasgold.com.au): ok – 31 kept, read as shopify · last tried 2026-10-28T06:01:48Z · last worked 2026-10-28T06:01:48Z
+- Bradford Coins (bradfordcoins.com.au): not read yet · last tried 2026-10-27T08:23:37Z
+- Australian Bullion Company (www.australianbullioncompany.com.au): ok – 16 kept, read as woocommerce · last tried 2026-10-27T20:03:55Z · last worked 2026-10-27T20:03:55Z
+- Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-28T06:01:35Z · last worked 2026-10-28T06:01:35Z
+- Bullion Money (bullionmoney.com.au): not read yet · last tried 2026-10-27T08:23:37Z
+- The Purple Penny (www.thepurplepenny.com, added by you): ok – 0 kept, read as generic · last tried 2026-10-17T19:08:05Z · last worked 2026-10-17T08:30:34Z
+
+## Why failing shops fail (step-by-step check)
+### Edlins (edlins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
+  - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
+### Cockatoo Coins (cockatoocoins.com.au) – problem: the website's address doesn't exist any more (domain not found)
+  - Website: the website's address doesn't exist any more (domain not found)
+  - raw Website: UnknownHostException: Unable to resolve host "cockatoocoins.com.au": No address associated with hostname
+### Coins Australia (coinsaustralia.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 301, ended at https://coinsaustralia.com.au/, 319 characters
+  - raw Shopify product feed: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+  - raw WooCommerce product feed: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
+### Guy Stuff (guystuff.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://guystuff.com.au/, 347302 characters, mentions Cloudflare/captcha
+  - raw Shopify product feed: HTTP 404 from https://guystuff.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://guystuff.com.au/wp-json/wc/store/v1/products?per_page=5
+### I.S. Wright (iswright.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://www.iswright.com.au/, 16412 characters
+  - raw Shopify product feed: HTTP 404 from https://iswright.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://iswright.com.au/wp-json/wc/store/v1/products?per_page=5
+### Newcastle Coins (newcastlecoins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://newcastlecoins.com.au/, 82413 characters
+  - raw Shopify product feed: HTTP 404 from https://newcastlecoins.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://newcastlecoins.com.au/wp-json/wc/store/v1/products?per_page=5
+
+## Last 3 days by source (685 steps)
+- shop The Coin Collection: 0/1 worked, 0 kept
+    1× Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
+- shop Colonial Coins & Medals: 0/1 worked, 0 kept
+    1× Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap)
+- shop Walter Holt (Old Money): 0/1 worked, 0 kept
+    1× Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap)
+- shop Romanorvm: 0/1 worked, 0 kept
+    1× Error: romanorum.com.au: couldn't read this site (no product feed or sitemap)
+- shop Ancient Coin Traders: 0/1 worked, 0 kept
+    1× Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+- shop Drake Sterling Numismatics: 0/1 worked, 0 kept
+    1× Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+- shop John Platts Stamps & Coins: 0/1 worked, 0 kept
+    1× Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
+- shop Coinworks: 0/1 worked, 0 kept
+    1× Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
+- shop Prospect Stamps & Coins: 0/1 worked, 0 kept
+    1× Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Guy Stuff: 0/1 worked, 0 kept
+    1× Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+- shop Newcastle Coins: 0/1 worked, 0 kept
+    1× Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Bullionmark: 0/1 worked, 0 kept
+    1× Error: product pages have no readable price data
+- shop SA Gold Traders: 0/1 worked, 0 kept
+    1× Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
+- shop Ceylon Exchange: 0/1 worked, 0 kept
+    1× Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
+- shop City Gold Bullion: 0/1 worked, 0 kept
+    1× Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop Great Southland Bullion: 0/1 worked, 0 kept
+    1× Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop Peter Strich Stamps & Coins: 0/1 worked, 0 kept
+    1× Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+- shop I.S. Wright: 0/1 worked, 0 kept
+    1× Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+- shop Coins Australia: 0/1 worked, 0 kept
+    1× Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
+- shop Edlins: 0/1 worked, 0 kept
+    1× Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+- shop ABC Bullion: 0/1 worked, 0 kept
+    1× Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop Rainbow Rarities: 0/1 worked, 0 kept
+    1× Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+- shop Royal Australian Mint eShop: 0/1 worked, 0 kept
+    1× Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
+- shop The Coin & Stamp Place: 0/1 worked, 0 kept
+    1× Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+- shop Cockatoo Coins: 0/1 worked, 0 kept
+    1× Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Max Stern & Co: 0/1 worked, 0 kept
+    1× Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
+- shop The Coin Company: 0/1 worked, 0 kept
+    1× Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
+- shop Adelaide Exchange: 0/3 worked, 0 kept
+    3× Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
+- shop Bullion Money: 0/3 worked, 0 kept
+    3× Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+- shop Bradford Coins: 0/3 worked, 0 kept
+    3× Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+- ebay_active: 26/40 worked, 848 kept
+    11× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+    3× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- ebay_sold: 33/45 worked, 1698 kept
+    6× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+    6× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop Ainslie Bullion: 10/13 worked, 812 kept
+    3× Error: product pages have no readable price data
+- shop WA Coins: 12/13 worked, 3984 kept
+    1× Error: SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
+- facebook: 108/115 worked, 0 kept
+    7× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- shop Imperial Bullion: 15/15 worked, 180 kept
+- shop As Good As Gold: 15/15 worked, 457 kept
+- shop Swan Bullion: 15/15 worked, 391 kept
+- shop Coins & Collectables Victoria: 15/15 worked, 690 kept
+- shop Royal Bullion: 15/15 worked, 0 kept
+- shop Coin City: 14/14 worked, 13457 kept
+- shop The Coin Chest: 14/14 worked, 1887 kept
+- shop Direct Coins: 14/14 worked, 1969 kept
+- shop Jaggards: 14/14 worked, 1016 kept
+- shop Mint Coin Shop: 15/15 worked, 2169 kept
+- shop Melbourne Coins & Collectables: 14/14 worked, 618 kept
+- shop Bulk Bullion: 15/15 worked, 570 kept
+- shop Loose Change Coins: 14/14 worked, 6000 kept
+- shop Wynyard Coin Centre: 13/13 worked, 27424 kept
+- shop Town Hall Coins: 14/14 worked, 20993 kept
+- shop Sydney Coins & Jewellery: 15/15 worked, 1980 kept
+- shop Online Coins & Collectables: 13/13 worked, 4517 kept
+- shop Guardian Gold: 14/14 worked, 379 kept
+- shop Heritage Numismatics: 15/15 worked, 353 kept
+- shop Sterling & Currency: 13/13 worked, 65 kept
+- shop Bullion Now: 13/13 worked, 36 kept
+- shop Peter's of Kensington: 13/13 worked, 0 kept
+- shop Tasmanian Numismatics: 12/12 worked, 27829 kept
+- shop Southern Cross Coins: 12/12 worked, 2952 kept
+- shop Vintage Coins & Banknotes: 14/14 worked, 1306 kept
+- shop Gold Bullion Australia: 14/14 worked, 352 kept
+- shop Australian Bullion Company: 14/14 worked, 224 kept
+- shop Gold Stackers: 14/14 worked, 399 kept
+- shop Imperial Numismatics: 13/13 worked, 1256 kept
+- shop Mint Coins: 13/13 worked, 0 kept
+- cashconverters: 5/5 worked, 485 kept
+
+## Log, newest first (last 300 steps)
+2026-10-28T08:35:31Z | shop | The Coin Collection | 0 | Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:35:23Z | ebay_sold | Sets 2015 Proof year set RAM 50th Anniversary Proof | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 8:05 pm
+2026-10-28T08:34:58Z | facebook | Sets 2015 Fine silver proof year set Proof | 0
+2026-10-28T08:34:43Z | shop | Colonial Coins & Medals | 0 | Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:39Z | shop | Walter Holt (Old Money) | 0 | Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:39Z | shop | Romanorvm | 0 | Error: romanorum.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:37Z | shop | Ancient Coin Traders | 0 | Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:36Z | shop | Drake Sterling Numismatics | 0 | Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:35Z | shop | John Platts Stamps & Coins | 0 | Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
+2026-10-28T08:34:35Z | shop | Coinworks | 0 | Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
+2026-10-28T08:34:34Z | shop | Prospect Stamps & Coins | 0 | Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:32Z | shop | Guy Stuff | 0 | Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:31Z | shop | Newcastle Coins | 0 | Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:15Z | shop | Bullionmark | 0 | Error: product pages have no readable price data
+2026-10-28T08:34:14Z | shop | SA Gold Traders | 0 | Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:06Z | shop | Ceylon Exchange | 0 | Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:34:04Z | shop | City Gold Bullion | 0 | Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:55Z | shop | Great Southland Bullion | 0 | Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:50Z | shop | Peter Strich Stamps & Coins | 0 | Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:50Z | shop | I.S. Wright | 0 | Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:49Z | shop | Coins Australia | 0 | Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:48Z | ebay_active | Sets 2015 Fine silver proof year set Proof | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-28T08:33:48Z | shop | Edlins | 0 | Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:47Z | shop | ABC Bullion | 0 | Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:44Z | shop | Rainbow Rarities | 0 | Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:44Z | shop | Royal Australian Mint eShop | 0 | Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:42Z | ebay_sold | Sets 2015 Fine silver proof year set Proof | 133
+2026-10-28T08:33:39Z | shop | The Coin & Stamp Place | 0 | Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:39Z | shop | Cockatoo Coins | 0 | Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:39Z | shop | Max Stern & Co | 0 | Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T08:33:39Z | shop | The Coin Company | 0 | Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T06:01:44Z | shop | Imperial Bullion | 12
+2026-10-28T06:01:44Z | shop | As Good As Gold | 31
+2026-10-28T06:01:35Z | shop | Swan Bullion | 24
+2026-10-28T06:01:31Z | shop | Coins & Collectables Victoria | 46
+2026-10-28T06:01:31Z | shop | Royal Bullion | 0
+2026-10-28T06:01:12Z | shop | Coin City | 967
+2026-10-28T06:01:12Z | shop | The Coin Chest | 134
+2026-10-28T06:01:12Z | shop | Direct Coins | 134
+2026-10-28T06:01:12Z | shop | Jaggards | 75
+2026-10-27T20:52:05Z | ebay_active | australian proof set | 62
+2026-10-27T20:52:02Z | shop | Mint Coin Shop | 147
+2026-10-27T20:51:50Z | shop | Melbourne Coins & Collectables | 42
+2026-10-27T20:51:34Z | shop | Bulk Bullion | 36
+2026-10-27T20:51:19Z | shop | Loose Change Coins | 448
+2026-10-27T20:50:46Z | shop | Wynyard Coin Centre | 2115
+2026-10-27T20:50:43Z | shop | Town Hall Coins | 1505
+2026-10-27T20:50:42Z | shop | Sydney Coins & Jewellery | 132
+2026-10-27T20:50:41Z | ebay_sold | australian proof set | 209
+2026-10-27T20:50:38Z | shop | Online Coins & Collectables | 335
+2026-10-27T20:50:38Z | shop | Guardian Gold | 33
+2026-10-27T20:50:38Z | shop | Heritage Numismatics | 23
+2026-10-27T20:09:30Z | facebook | Sets 2015 Baby proof set Personalised Proof | 0
+2026-10-27T20:09:01Z | ebay_sold | Sets 2015 Baby proof set Personalised Proof | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:39 am
+2026-10-27T20:08:40Z | facebook | Sets 2014 Uncirculated year set Coloured $1 edition Collector issue | 0
+2026-10-27T20:07:41Z | ebay_active | Sets 2014 Uncirculated year set Coloured $1 edition Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T20:07:16Z | ebay_sold | Sets 2014 Uncirculated year set Coloured $1 edition Collector issue | 31
+2026-10-27T20:06:56Z | facebook | Sets 2014 Baby uncirculated set Dot the Kangaroo Collector issue | 0
+2026-10-27T20:06:45Z | shop | Sterling & Currency | 1
+2026-10-27T20:06:18Z | ebay_active | Sets 2014 Baby uncirculated set Dot the Kangaroo Collector issue | 62
+2026-10-27T20:05:59Z | shop | Bullion Now | 3
+2026-10-27T20:05:23Z | ebay_sold | Sets 2014 Baby uncirculated set Dot the Kangaroo Collector issue | 24
+2026-10-27T20:05:08Z | shop | Peter's of Kensington | 0
+2026-10-27T20:05:01Z | facebook | Sets 2014 Proof year set Gold-plated $1 edition Proof | 0
+2026-10-27T20:04:59Z | shop | Tasmanian Numismatics | 2309
+2026-10-27T20:04:45Z | shop | Ainslie Bullion | 85
+2026-10-27T20:04:19Z | shop | Wynyard Coin Centre | 2113
+2026-10-27T20:04:03Z | shop | Southern Cross Coins | 247
+2026-10-27T20:04:01Z | shop | Online Coins & Collectables | 335
+2026-10-27T20:03:58Z | shop | Town Hall Coins | 1505
+2026-10-27T20:03:55Z | shop | Vintage Coins & Banknotes | 95
+2026-10-27T20:03:53Z | shop | Sydney Coins & Jewellery | 132
+2026-10-27T20:03:53Z | shop | Gold Bullion Australia | 25
+2026-10-27T20:03:50Z | shop | Australian Bullion Company | 16
+2026-10-27T20:03:47Z | shop | Gold Stackers | 29
+2026-10-27T20:03:45Z | shop | Imperial Bullion | 12
+2026-10-27T20:03:42Z | ebay_active | Sets 2014 Proof year set Gold-plated $1 edition Proof | 64
+2026-10-27T20:03:42Z | shop | WA Coins | 335
+2026-10-27T20:03:40Z | shop | Mint Coin Shop | 144
+2026-10-27T20:03:38Z | shop | As Good As Gold | 31
+2026-10-27T20:03:36Z | shop | Heritage Numismatics | 23
+2026-10-27T20:03:29Z | ebay_sold | Sets 2014 Proof year set Gold-plated $1 edition Proof | 28
+2026-10-27T20:03:28Z | shop | Swan Bullion | 26
+2026-10-27T20:03:25Z | shop | Imperial Numismatics | 99
+2026-10-27T20:03:25Z | shop | Royal Bullion | 0
+2026-10-27T20:03:18Z | shop | Coins & Collectables Victoria | 46
+2026-10-27T20:03:14Z | shop | Bulk Bullion | 36
+2026-10-27T20:03:05Z | facebook | Sets 2014 Fine silver proof year set Proof | 0
+2026-10-27T20:03:01Z | shop | Guardian Gold | 33
+2026-10-27T20:03:01Z | shop | Mint Coins | 0
+2026-10-27T20:03:01Z | shop | Coin City | 966
+2026-10-27T20:03:01Z | shop | The Coin Chest | 134
+2026-10-27T20:02:49Z | ebay_active | Sets 2014 Fine silver proof year set Proof | 65
+2026-10-27T20:02:29Z | ebay_sold | Sets 2014 Fine silver proof year set Proof | 131
+2026-10-27T20:02:25Z | shop | Loose Change Coins | 448
+2026-10-27T20:02:25Z | shop | Melbourne Coins & Collectables | 42
+2026-10-27T20:02:25Z | shop | Direct Coins | 139
+2026-10-27T20:02:25Z | shop | Jaggards | 73
+2026-10-27T16:14:09Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-10-27T16:13:49Z | facebook | 50c 2026 Unity Wave Hill Walk Off Land Rights Act Commemorative | 0
+2026-10-27T16:13:30Z | facebook | 50c 2025 Year of the Snake 14-sided uncirculated Collector issue | 0
+2026-10-27T16:13:09Z | facebook | 50c 2025 Steam Train Giants Western Australia V Class V1220 Collector issue | 0
+2026-10-27T16:12:49Z | facebook | 50c 2025 Steam Train Giants Victoria H Class H220 'Heavy Harry' Collector issue | 0
+2026-10-27T16:12:28Z | facebook | 50c 2025 Steam Train Giants Tasmania Q Class Q5 Collector issue | 0
+2026-10-27T16:12:07Z | facebook | 50c 2025 Steam Train Giants South Australia 520 Sir Malcolm Barclay-Harvey Colle | 0
+2026-10-27T16:11:44Z | facebook | 50c 2025 Steam Train Giants Queensland Beyer-Garratt No. 1009 Collector issue | 0
+2026-10-27T16:11:03Z | ebay_sold | 50c 2025 Steam Train Giants Queensland Beyer-Garratt No. 1009 Collector issue | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 3:41 am
+2026-10-27T16:10:40Z | facebook | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 0
+2026-10-27T16:10:26Z | shop | Sterling & Currency | 8
+2026-10-27T16:10:09Z | shop | Peter's of Kensington | 0
+2026-10-27T16:09:42Z | ebay_active | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T16:09:28Z | shop | Bullion Now | 3
+2026-10-27T16:09:05Z | shop | Ainslie Bullion | 0 | Error: product pages have no readable price data
+2026-10-27T16:09:05Z | ebay_sold | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 18
+2026-10-27T16:08:51Z | shop | Tasmanian Numismatics | 2309
+2026-10-27T16:08:43Z | facebook | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 0
+2026-10-27T16:08:36Z | shop | Wynyard Coin Centre | 2113
+2026-10-27T16:08:26Z | shop | Vintage Coins & Banknotes | 95
+2026-10-27T16:08:24Z | shop | Southern Cross Coins | 247
+2026-10-27T16:08:21Z | shop | Sydney Coins & Jewellery | 132
+2026-10-27T16:08:19Z | shop | Gold Bullion Australia | 25
+2026-10-27T16:08:16Z | shop | Australian Bullion Company | 16
+2026-10-27T16:08:15Z | shop | Gold Stackers | 29
+2026-10-27T16:08:12Z | shop | Online Coins & Collectables | 335
+2026-10-27T16:08:10Z | shop | Imperial Bullion | 12
+2026-10-27T16:08:07Z | shop | As Good As Gold | 31
+2026-10-27T16:08:05Z | shop | Mint Coin Shop | 144
+2026-10-27T16:08:02Z | shop | Town Hall Coins | 1505
+2026-10-27T16:08:02Z | shop | Heritage Numismatics | 23
+2026-10-27T16:08:00Z | ebay_active | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T16:07:58Z | shop | Swan Bullion | 26
+2026-10-27T16:07:58Z | shop | Royal Bullion | 0
+2026-10-27T16:07:48Z | shop | Coins & Collectables Victoria | 46
+2026-10-27T16:07:48Z | shop | Bulk Bullion | 36
+2026-10-27T16:07:48Z | ebay_sold | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 17
+2026-10-27T16:07:34Z | shop | WA Coins | 335
+2026-10-27T16:07:27Z | shop | Imperial Numismatics | 99
+2026-10-27T16:07:26Z | facebook | 50c 2025 Koala Collector issue | 0
+2026-10-27T16:07:24Z | shop | Mint Coins | 0
+2026-10-27T16:07:21Z | shop | Coin City | 966
+2026-10-27T16:07:21Z | shop | The Coin Chest | 134
+2026-10-27T16:07:21Z | shop | Guardian Gold | 33
+2026-10-27T16:07:06Z | ebay_active | 50c 2025 Koala Collector issue | 69
+2026-10-27T16:07:02Z | shop | Loose Change Coins | 448
+2026-10-27T16:07:02Z | shop | Direct Coins | 139
+2026-10-27T16:07:02Z | shop | Melbourne Coins & Collectables | 42
+2026-10-27T16:07:02Z | shop | Jaggards | 73
+2026-10-27T12:07:28Z | ebay_sold | 50c 2025 Koala Collector issue | 217
+2026-10-27T08:28:05Z | ebay_sold | 50c 2025 Koala Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T08:27:43Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 0
+2026-10-27T08:27:04Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 46
+2026-10-27T08:26:25Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 14
+2026-10-27T08:26:18Z | shop | Peter's of Kensington | 0
+2026-10-27T08:26:03Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0
+2026-10-27T08:25:43Z | shop | Ainslie Bullion | 96
+2026-10-27T08:25:03Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T08:24:58Z | shop | Sterling & Currency | 3
+2026-10-27T08:24:42Z | shop | Bullion Now | 3
+2026-10-27T08:24:42Z | shop | Vintage Coins & Banknotes | 95
+2026-10-27T08:24:37Z | shop | Tasmanian Numismatics | 2310
+2026-10-27T08:24:35Z | shop | Sydney Coins & Jewellery | 132
+2026-10-27T08:24:32Z | shop | Gold Bullion Australia | 26
+2026-10-27T08:24:30Z | shop | Australian Bullion Company | 16
+2026-10-27T08:24:27Z | shop | Gold Stackers | 29
+2026-10-27T08:24:23Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 220
+2026-10-27T08:24:23Z | shop | Imperial Bullion | 12
+2026-10-27T08:24:20Z | shop | As Good As Gold | 31
+2026-10-27T08:24:14Z | shop | Wynyard Coin Centre | 2114
+2026-10-27T08:24:14Z | shop | Mint Coin Shop | 144
+2026-10-27T08:24:05Z | shop | Heritage Numismatics | 23
+2026-10-27T08:24:01Z | shop | Royal Bullion | 0
+2026-10-27T08:23:59Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0
+2026-10-27T08:23:55Z | shop | Swan Bullion | 26
+2026-10-27T08:23:51Z | shop | Bulk Bullion | 37
+2026-10-27T08:23:46Z | shop | Coins & Collectables Victoria | 46
+2026-10-27T08:23:37Z | shop | Southern Cross Coins | 247
+2026-10-27T08:23:37Z | shop | Adelaide Exchange | 0 | Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T08:23:37Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T08:23:37Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T08:23:27Z | shop | Online Coins & Collectables | 336
+2026-10-27T08:23:25Z | shop | Town Hall Coins | 1505
+2026-10-27T08:23:12Z | shop | WA Coins | 335
+2026-10-27T08:23:11Z | shop | Imperial Numismatics | 102
+2026-10-27T08:23:06Z | shop | Guardian Gold | 33
+2026-10-27T08:23:03Z | shop | Mint Coins | 0
+2026-10-27T08:23:03Z | shop | Coin City | 966
+2026-10-27T08:23:00Z | shop | The Coin Chest | 135
+2026-10-27T08:22:53Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T08:22:46Z | shop | Loose Change Coins | 448
+2026-10-27T08:22:46Z | shop | Direct Coins | 140
+2026-10-27T08:22:46Z | shop | Melbourne Coins & Collectables | 42
+2026-10-27T08:22:46Z | shop | Jaggards | 73
+2026-10-27T06:10:42Z | cashconverters | coin categories | 34
+2026-10-27T06:10:13Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-10-27T06:09:47Z | facebook | 50c 2025 Steam Train Giants Victoria H Class H220 'Heavy Harry' Collector issue | 0
+2026-10-27T06:09:23Z | facebook | 50c 2025 Steam Train Giants Tasmania Q Class Q5 Collector issue | 0
+2026-10-27T06:08:59Z | facebook | 50c 2025 Steam Train Giants South Australia 520 Sir Malcolm Barclay-Harvey Colle | 0
+2026-10-27T06:08:46Z | shop | Bullion Now | 4
+2026-10-27T06:08:27Z | shop | Peter's of Kensington | 0
+2026-10-27T06:08:27Z | facebook | 50c 2025 Steam Train Giants Queensland Beyer-Garratt No. 1009 Collector issue | 0
+2026-10-27T06:08:27Z | shop | Vintage Coins & Banknotes | 95
+2026-10-27T06:07:58Z | facebook | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 0
+2026-10-27T06:07:53Z | shop | Sterling & Currency | 1
+2026-10-27T06:07:48Z | shop | Sydney Coins & Jewellery | 132
+2026-10-27T06:07:44Z | shop | Gold Bullion Australia | 26
+2026-10-27T06:07:40Z | shop | Australian Bullion Company | 16
+2026-10-27T06:07:31Z | facebook | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 0
+2026-10-27T06:07:31Z | shop | Gold Stackers | 29
+2026-10-27T06:07:24Z | shop | Imperial Bullion | 12
+2026-10-27T06:07:24Z | shop | As Good As Gold | 31
+2026-10-27T06:07:03Z | facebook | 50c 2025 Koala Collector issue | 0
+2026-10-27T06:06:55Z | shop | Mint Coin Shop | 144
+2026-10-27T06:06:49Z | shop | Heritage Numismatics | 23
+2026-10-27T06:06:46Z | shop | Royal Bullion | 0
+2026-10-27T06:06:40Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 0
+2026-10-27T06:06:40Z | shop | Swan Bullion | 26
+2026-10-27T06:06:36Z | shop | Bulk Bullion | 37
+2026-10-27T06:06:31Z | shop | Coins & Collectables Victoria | 46
+2026-10-27T06:06:30Z | shop | Ainslie Bullion | 57
+2026-10-27T06:06:22Z | shop | Adelaide Exchange | 0 | Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T06:06:20Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T06:06:19Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0
+2026-10-27T06:06:19Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-27T06:06:12Z | shop | Tasmanian Numismatics | 2309
+2026-10-27T06:05:53Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 5:36 pm
+2026-10-27T06:05:32Z | shop | Wynyard Coin Centre | 2114
+2026-10-27T06:05:31Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0
+2026-10-27T06:05:18Z | shop | Southern Cross Coins | 247
+2026-10-27T06:05:14Z | shop | Online Coins & Collectables | 336
+2026-10-27T06:05:12Z | shop | Town Hall Coins | 1505
+2026-10-27T06:05:08Z | shop | WA Coins | 335
+2026-10-27T06:04:50Z | shop | Imperial Numismatics | 102
+2026-10-27T06:04:42Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-27T06:04:42Z | shop | Coin City | 966
+2026-10-27T06:04:42Z | shop | Mint Coins | 0
+2026-10-27T06:04:41Z | shop | Guardian Gold | 29
+2026-10-27T06:04:34Z | shop | The Coin Chest | 135
+2026-10-27T06:03:51Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 220
+2026-10-27T06:03:43Z | shop | Loose Change Coins | 448
+2026-10-27T06:03:43Z | shop | Melbourne Coins & Collectables | 42
+2026-10-27T06:03:43Z | shop | Direct Coins | 140
+2026-10-27T06:03:43Z | shop | Jaggards | 73
+2026-10-26T20:08:57Z | shop | Vintage Coins & Banknotes | 95
+2026-10-26T20:08:51Z | shop | Sydney Coins & Jewellery | 132
+2026-10-26T20:08:46Z | shop | Gold Bullion Australia | 25
+2026-10-26T20:08:43Z | shop | Australian Bullion Company | 16
+2026-10-26T20:08:39Z | shop | Gold Stackers | 29
+2026-10-26T20:08:35Z | shop | Imperial Bullion | 12
+2026-10-26T20:08:32Z | shop | As Good As Gold | 30
+2026-10-26T20:08:26Z | shop | Mint Coin Shop | 144
+2026-10-26T20:08:22Z | shop | Heritage Numismatics | 23
+2026-10-26T20:08:17Z | shop | Royal Bullion | 0
+2026-10-26T20:08:12Z | shop | Swan Bullion | 26
+2026-10-26T20:08:08Z | shop | Bulk Bullion | 39
+2026-10-26T20:08:04Z | shop | Coins & Collectables Victoria | 46
+2026-10-26T20:05:35Z | cashconverters | coin categories | 87
+2026-10-26T20:05:23Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-10-26T20:04:58Z | facebook | 50c 2025 Steam Train Giants Victoria H Class H220 'Heavy Harry' Collector issue | 0
+2026-10-26T20:04:36Z | facebook | 50c 2025 Steam Train Giants Tasmania Q Class Q5 Collector issue | 0
+2026-10-26T20:04:16Z | facebook | 50c 2025 Steam Train Giants South Australia 520 Sir Malcolm Barclay-Harvey Colle | 0
+2026-10-26T20:03:57Z | facebook | 50c 2025 Steam Train Giants Queensland Beyer-Garratt No. 1009 Collector issue | 0
+2026-10-26T20:03:36Z | facebook | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 0
+2026-10-26T20:03:12Z | facebook | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 0
+2026-10-26T20:02:50Z | facebook | 50c 2025 Koala Collector issue | 0
+2026-10-26T20:02:30Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 0
+2026-10-26T20:02:09Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0
+2026-10-26T20:01:57Z | shop | Bullion Now | 2
+2026-10-26T20:01:50Z | shop | Sterling & Currency | 9
+2026-10-26T20:01:49Z | shop | Peter's of Kensington | 0
+2026-10-26T20:01:49Z | shop | Ainslie Bullion | 100
+2026-10-26T20:01:49Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0
+2026-10-26T20:01:49Z | shop | Adelaide Exchange | 0 | Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-26T20:01:49Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-26T20:01:49Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-26T19:58:54Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:29 am
+2026-10-26T19:57:40Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-26T19:57:21Z | facebook | 50c 2025 Christmas Festive Florals Queensland Christmas Orchid Coloured Collecto | 0
+2026-10-26T19:57:08Z | shop | Tasmanian Numismatics | 2323
+2026-10-26T19:57:04Z | shop | Wynyard Coin Centre | 2113
+2026-10-26T19:57:02Z | ebay_active | 50c 2025 Christmas Festive Florals Queensland Christmas Orchid Coloured Collecto | 66
+2026-10-26T19:56:39Z | shop | Southern Cross Coins | 247
+2026-10-26T19:56:38Z | shop | Online Coins & Collectables | 335
+2026-10-26T19:56:32Z | shop | Town Hall Coins | 1505
+2026-10-26T19:56:32Z | shop | WA Coins | 335
+2026-10-26T19:56:22Z | shop | Guardian Gold | 24
+2026-10-26T19:56:16Z | shop | Coin City | 966
+2026-10-26T19:56:12Z | shop | Imperial Numismatics | 102
+2026-10-26T19:56:12Z | shop | Mint Coins | 0
+2026-10-26T19:56:11Z | shop | The Coin Chest | 135
+2026-10-26T19:56:08Z | shop | Jaggards | 72
+2026-10-26T19:56:05Z | shop | Melbourne Coins & Collectables | 43
+2026-10-26T19:56:04Z | shop | Loose Change Coins | 420
+2026-10-26T19:56:03Z | shop | Direct Coins | 141
+2026-10-26T19:56:03Z | shop | Vintage Coins & Banknotes | 95
+2026-10-26T19:56:02Z | shop | Sydney Coins & Jewellery | 132
+2026-10-26T19:56:00Z | shop | Gold Bullion Australia | 25
+2026-10-26T19:55:59Z | shop | Australian Bullion Company | 16
+2026-10-26T19:55:59Z | shop | Gold Stackers | 29
+2026-10-26T19:55:58Z | shop | Imperial Bullion | 12
+2026-10-26T19:55:58Z | shop | As Good As Gold | 30
