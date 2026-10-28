@@ -1,68 +1,75 @@
 # Coin Hound 2.23 refresh report
-Written 2026-10-28T17:45:21Z (29 Oct, 4:45 am Sydney) · refresh report only started 2026-10-28T11:45:21Z, took 21600 s
-Totals: {"ebay_sold":206,"ebay_active":130,"facebook":0,"shops_failed":10,"shops":5179,"cashconverters":89,"pages_read":0,"removed_after_reading":0,"ended":0,"alerts":8}
-Stored: 11025 live · 7338 sold
+Written 2026-10-28T19:27:21Z (29 Oct, 6:27 am Sydney) · refresh slice started 2026-10-28T19:19:08Z, took 493 s
+Totals: {"shops":4131,"shops_failed":18,"ebay_active":122,"facebook":0,"ebay_sold":137,"pages_read":0,"removed_after_reading":0,"ended":0,"alerts":9}
+Last problem: ebay_sold (Sets 2016 Proof year set 50th Anniversary of Australian Decimal Currency Proof): Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:55 am
+Stored: 11045 live · 7347 sold
 Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
-eBay: not paused
+eBay: PAUSED (blocked) until 2026-10-28T19:55:25Z
+Linked collection: 1899 wanted, 546 owned, catalogue 2547
 
-## This refresh: 50 steps, 13 with problems
-cashconverters: 1/1 worked, 89 kept
-facebook: 11/12 worked, 0 kept
-shops: 17/27 worked, 5179 kept
-ebay_active: 4/5 worked, 193 kept
-ebay_sold: 4/5 worked, 370 kept
+## This refresh: 48 steps, 21 with problems
+shops: 17/35 worked, 4131 kept
+facebook: 7/7 worked, 0 kept
+ebay_sold: 1/2 worked, 137 kept
+ebay_active: 2/4 worked, 122 kept
 
 ### Problems this refresh
-- facebook | (skipped for the rest of this refresh) | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-- shop | Ainslie Bullion | Error: product pages have no readable price data
-- ebay_active | Sets 2016 Fine silver proof year set Proof | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 3:08 am
-- ebay_sold | Sets 2016 Fine silver proof year set Proof | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- shop | Adelaide Exchange | Error: product pages have no readable price data
-- shop | Bullion Money | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
-- shop | Bradford Coins | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
-- shop | Downies | TypeError: w.endsWith is not a function
-- shop | KJC Bullion | Error: product pages have no readable price data
-- shop | Smits Stamps & Coins | Error: smitsstampsandcoinswa.com.au: couldn't read this site (no product feed or sitemap)
-- shop | The Purple Penny | Error: product pages have no readable price data
-- shop | The Perth Mint | Error: product pages have no readable price data
-- shop | Queensland Mint | Error: product pages have no readable price data
+- shop | Ancient Coin Traders | Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+- shop | Drake Sterling Numismatics | Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+- shop | Coinworks | Error: product pages have no readable price data
+- shop | Prospect Stamps & Coins | Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Guy Stuff | Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Newcastle Coins | Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+- ebay_sold | Sets 2016 Proof year set 50th Anniversary of Australian Decimal Currency Proof | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:55 am
+- shop | The Coin & Stamp Place | Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+- ebay_active | Sets 2016 Fine silver proof year set Proof | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop | Cockatoo Coins | Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Ceylon Exchange | Error: product pages have no readable price data
+- shop | City Gold Bullion | Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Peter Strich Stamps & Coins | Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Great Southland Bullion | Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | I.S. Wright | Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Coins Australia | Error: product pages have no readable price data
+- shop | Edlins | Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+- shop | ABC Bullion | Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Rainbow Rarities | Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+- shop | Royal Australian Mint eShop | Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
+- ebay_active | Sets 2015 Baby uncirculated set ABC's Collector issue | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 
-## Shops: 68 on · 31 working · 36 failing · 1 not read yet
-- Edlins (edlins.com.au): FAILING 1× – Error: edlins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:49Z
-- Cockatoo Coins (cockatoocoins.com.au): FAILING 1× – Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:31Z
-- Coins Australia (coinsaustralia.com.au): FAILING 1× – Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:50Z
-- Guy Stuff (guystuff.com.au): FAILING 1× – Error: guystuff.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:35Z
-- I.S. Wright (iswright.com.au): FAILING 1× – Error: iswright.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:55Z
-- Newcastle Coins (newcastlecoins.com.au): FAILING 1× – Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:34Z
-- Prospect Stamps & Coins (prospectstampsandcoins.com.au): FAILING 1× – Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:35Z
-- John Platts Stamps & Coins (jpsnc.com.au): FAILING 1× – Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later) · last tried 2026-10-28T08:34:39Z
-- Peter Strich Stamps & Coins (peterstrich.com.au): FAILING 1× – Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:06Z
+## Shops: 68 on · 34 working · 34 failing · 0 not read yet
+- Edlins (edlins.com.au): FAILING 2× – Error: edlins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:20:11Z
+- Cockatoo Coins (cockatoocoins.com.au): FAILING 2× – Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:24:43Z
+- Coins Australia (coinsaustralia.com.au): FAILING 2× – Error: product pages have no readable price data · last tried 2026-10-28T19:21:47Z
+- Guy Stuff (guystuff.com.au): FAILING 2× – Error: guystuff.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:24:58Z
+- I.S. Wright (iswright.com.au): FAILING 2× – Error: iswright.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:21:14Z
+- Newcastle Coins (newcastlecoins.com.au): FAILING 2× – Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:24:48Z
+- Prospect Stamps & Coins (prospectstampsandcoins.com.au): FAILING 2× – Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:25:00Z
+- Peter Strich Stamps & Coins (peterstrich.com.au): FAILING 2× – Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:21:58Z
 - The Coin Collection (coincollect.com.au): FAILING 1× – Error: coincollect.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:32Z
 - Adelaide Exchange (adelaide-exchange.com.au): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:37:40Z
 - The Purple Penny (www.thepurplepenny.com, added by you): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:35:54Z · last worked 2026-10-17T08:30:34Z
-- The Coin & Stamp Place (thestampplace.com): FAILING 1× – Error: thestampplace.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:32Z
+- The Coin & Stamp Place (thestampplace.com): FAILING 2× – Error: thestampplace.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:26:00Z
 - Downies (www.downies.com): FAILING 1× – TypeError: w.endsWith is not a function · last tried 2026-10-28T15:36:44Z
-- The Coin Company (thecoincompany.com.au): FAILING 1× – Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
 - The Perth Mint (www.perthmint.com): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:35:47Z · last worked 2026-10-18T15:11:06Z
-- Royal Australian Mint eShop (eshop.ramint.gov.au): FAILING 1× – Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
-- Coinworks (coinworks.com.au): FAILING 1× – Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later) · last tried 2026-10-28T08:34:36Z
-- Drake Sterling Numismatics (www.drakesterling.com): FAILING 1× – Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:37Z
+- Royal Australian Mint eShop (eshop.ramint.gov.au): FAILING 2× – Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:20:00Z
+- Coinworks (coinworks.com.au): FAILING 2× – Error: product pages have no readable price data · last tried 2026-10-28T19:26:15Z
+- Drake Sterling Numismatics (www.drakesterling.com): FAILING 2× – Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:26:04Z
 - Colonial Coins & Medals (coinmedalshop.com.au): FAILING 1× – Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:31Z
 - Smits Stamps & Coins (smitsstampsandcoinswa.com.au): FAILING 1× – Error: smitsstampsandcoinswa.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T15:36:28Z
-- Rainbow Rarities (rainbowrarities.com): FAILING 1× – Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:47Z
-- Ancient Coin Traders (ancientcointraders.com): FAILING 1× – Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:37Z
+- Rainbow Rarities (rainbowrarities.com): FAILING 2× – Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:20:06Z
+- Ancient Coin Traders (ancientcointraders.com): FAILING 2× – Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:26:42Z
 - Romanorvm (romanorum.com.au): FAILING 1× – Error: romanorum.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:39Z
 - Walter Holt (Old Money) (oldmoney.com.au): FAILING 1× – Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:43Z
 - Ainslie Bullion (ainsliebullion.com.au): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:39:01Z · last worked 2026-10-27T20:09:37Z
 - KJC Bullion (www.kjc-gold-silver-bullion.com.au): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:37:02Z · last worked 2026-10-21T19:10:38Z
 - Queensland Mint (qmint.com): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T15:35:33Z · last worked 2026-10-17T08:30:34Z
-- ABC Bullion (www.abcbullion.com.au): FAILING 1× – Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:48Z
+- ABC Bullion (www.abcbullion.com.au): FAILING 2× – Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:20:10Z
 - Bullionmark (bullionmark.com.au): FAILING 1× – Error: product pages have no readable price data · last tried 2026-10-28T08:35:41Z · last worked 2026-10-16T15:10:09Z
-- City Gold Bullion (citygoldbullion.com.au): FAILING 1× – Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:14Z
-- Great Southland Bullion (greatsouthlandbullion.com.au): FAILING 1× – Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:04Z
+- City Gold Bullion (citygoldbullion.com.au): FAILING 2× – Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:22:00Z
+- Great Southland Bullion (greatsouthlandbullion.com.au): FAILING 2× – Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T19:21:42Z
 - Bradford Coins (bradfordcoins.com.au): FAILING 1× – Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T15:35:55Z
 - Bullion Money (bullionmoney.com.au): FAILING 1× – Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T15:35:58Z
-- Ceylon Exchange (ceylonexchange.com.au): FAILING 1× – Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:15Z
+- Ceylon Exchange (ceylonexchange.com.au): FAILING 2× – Error: product pages have no readable price data · last tried 2026-10-28T19:23:31Z
 - SA Gold Traders (sagoldtraders.com.au): FAILING 1× – Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:03Z
 - Guardian Gold (guardian-gold.com.au): ok – 30 kept, read as woocommerce · last tried 2026-10-28T15:39:11Z · last worked 2026-10-28T15:39:11Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 22 kept, read as shopify · last tried 2026-10-28T15:39:05Z · last worked 2026-10-28T15:39:05Z
@@ -70,386 +77,75 @@ ebay_sold: 4/5 worked, 370 kept
 - Peter's of Kensington (petersofkensington.com.au): ok – 0 kept, read as generic · last tried 2026-10-28T15:41:06Z · last worked 2026-10-28T15:41:06Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 132 kept, read as shopify · last tried 2026-10-28T15:39:18Z · last worked 2026-10-28T15:39:18Z
 - Town Hall Coins (townhallcoins.com): ok – 1499 kept, read as shopify · last tried 2026-10-28T15:40:10Z · last worked 2026-10-28T15:40:10Z
-- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2115 kept, read as shopify · last tried 2026-10-27T20:52:02Z · last worked 2026-10-27T20:52:02Z
-- Loose Change Coins (loosechangecoins.com.au): ok – 448 kept, read as shopify · last tried 2026-10-27T20:51:34Z · last worked 2026-10-27T20:51:34Z
+- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2052 kept, read as shopify · last tried 2026-10-28T19:20:53Z · last worked 2026-10-28T19:20:53Z
+- John Platts Stamps & Coins (jpsnc.com.au): ok – 0 kept, read as generic · last tried 2026-10-28T19:26:23Z · last worked 2026-10-28T19:26:23Z
+- Loose Change Coins (loosechangecoins.com.au): ok – 467 kept, read as shopify · last tried 2026-10-28T19:19:35Z · last worked 2026-10-28T19:19:35Z
 - Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2308 kept, read as woocommerce · last tried 2026-10-28T15:38:50Z · last worked 2026-10-28T15:38:50Z
-- Bulk Bullion (bulkbullion.com.au): ok – 36 kept, read as shopify · last tried 2026-10-27T20:51:42Z · last worked 2026-10-27T20:51:42Z
-- Max Stern & Co (maxstern.com.au): not read yet · last tried 2026-10-28T08:33:50Z
-- Melbourne Coins & Collectables (melbournecoinco.com): ok – 42 kept, read as shopify · last tried 2026-10-27T20:52:04Z · last worked 2026-10-27T20:52:04Z
-- Mint Coin Shop (mintcoinshop.com.au): ok – 147 kept, read as shopify · last tried 2026-10-27T20:52:10Z · last worked 2026-10-27T20:52:10Z
+- Bulk Bullion (bulkbullion.com.au): ok – 36 kept, read as shopify · last tried 2026-10-28T19:19:24Z · last worked 2026-10-28T19:19:24Z
+- Max Stern & Co (maxstern.com.au): ok – 29 kept, read as generic · last tried 2026-10-28T19:26:25Z · last worked 2026-10-28T19:26:25Z
+- Melbourne Coins & Collectables (melbournecoinco.com): ok – 32 kept, read as shopify · last tried 2026-10-28T19:19:27Z · last worked 2026-10-28T19:19:27Z
+- Mint Coin Shop (mintcoinshop.com.au): ok – 130 kept, read as shopify · last tried 2026-10-28T19:19:35Z · last worked 2026-10-28T19:19:35Z
 - Southern Cross Coins (southerncrosscoins.com.au): ok – 245 kept, read as woocommerce · last tried 2026-10-28T15:38:36Z · last worked 2026-10-28T15:38:36Z
-- Coin City (coincity.com.au): ok – 967 kept, read as shopify · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
-- Direct Coins (directcoins.com.au): ok – 134 kept, read as shopify · last tried 2026-10-28T06:01:31Z · last worked 2026-10-28T06:01:31Z
+- Coin City (coincity.com.au): ok – 963 kept, read as shopify · last tried 2026-10-28T19:20:09Z · last worked 2026-10-28T19:20:09Z
+- Direct Coins (directcoins.com.au): ok – 130 kept, read as shopify · last tried 2026-10-28T19:19:49Z · last worked 2026-10-28T19:19:49Z
 - Mint Coins (mintcoins.com.au): ok – 0 kept, read as generic · last tried 2026-10-28T15:36:53Z · last worked 2026-10-28T15:36:53Z
-- Swan Bullion (swanbullion.com): ok – 24 kept, read as woocommerce · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
+- Swan Bullion (swanbullion.com): ok – 24 kept, read as woocommerce · last tried 2026-10-28T19:19:52Z · last worked 2026-10-28T19:19:52Z
+- The Coin Company (thecoincompany.com.au): ok – 5 kept, read as generic · last tried 2026-10-28T19:26:25Z · last worked 2026-10-28T19:26:25Z
 - Sterling & Currency (www.sterlingcurrency.com.au): ok – 3 kept, read as generic · last tried 2026-10-28T15:41:07Z · last worked 2026-10-28T15:41:07Z
 - Vintage Coins & Banknotes (vintagecoinsandbanknotes.com.au): ok – 95 kept, read as shopify · last tried 2026-10-28T15:37:10Z · last worked 2026-10-28T15:37:10Z
-- Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 46 kept, read as shopify · last tried 2026-10-28T06:01:44Z · last worked 2026-10-28T06:01:44Z
+- Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 44 kept, read as shopify · last tried 2026-10-28T19:19:54Z · last worked 2026-10-28T19:19:54Z
 - Imperial Numismatics (imperialnumismatics.com.au): ok – 99 kept, read as woocommerce · last tried 2026-10-28T15:37:12Z · last worked 2026-10-28T15:37:12Z
 - WA Coins (wacoins.com.au): ok – 336 kept, read as woocommerce · last tried 2026-10-28T15:37:51Z · last worked 2026-10-28T15:37:51Z
-- The Coin Chest (the-coin-chest.com): ok – 134 kept, read as woocommerce · last tried 2026-10-28T06:01:31Z · last worked 2026-10-28T06:01:31Z
-- Jaggards (www.jaggards.com.au): ok – 75 kept, read as woocommerce · last tried 2026-10-28T06:01:29Z · last worked 2026-10-28T06:01:29Z
+- The Coin Chest (the-coin-chest.com): ok – 100 kept, read as woocommerce · last tried 2026-10-28T19:19:47Z · last worked 2026-10-28T19:19:47Z
+- Jaggards (www.jaggards.com.au): ok – 76 kept, read as woocommerce · last tried 2026-10-28T19:19:37Z · last worked 2026-10-28T19:19:37Z
 - Bullion Now (bullionnow.com.au): ok – 1 kept, read as woocommerce · last tried 2026-10-28T15:41:07Z · last worked 2026-10-28T15:41:07Z
 - Gold Stackers (goldstackers.com.au): ok – 29 kept, read as woocommerce · last tried 2026-10-28T15:36:57Z · last worked 2026-10-28T15:36:57Z
-- Imperial Bullion (imperialbullion.com.au): ok – 12 kept, read as woocommerce · last tried 2026-10-28T06:01:50Z · last worked 2026-10-28T06:01:50Z
+- Imperial Bullion (imperialbullion.com.au): ok – 12 kept, read as woocommerce · last tried 2026-10-28T19:19:59Z · last worked 2026-10-28T19:19:59Z
 - Gold Bullion Australia (goldbullionaustralia.com.au): ok – 26 kept, read as woocommerce · last tried 2026-10-28T15:37:08Z · last worked 2026-10-28T15:37:08Z
-- As Good As Gold (asgoodasgold.com.au): ok – 31 kept, read as shopify · last tried 2026-10-28T06:01:48Z · last worked 2026-10-28T06:01:48Z
+- As Good As Gold (asgoodasgold.com.au): ok – 31 kept, read as shopify · last tried 2026-10-28T19:19:56Z · last worked 2026-10-28T19:19:56Z
 - Australian Bullion Company (www.australianbullioncompany.com.au): ok – 20 kept, read as woocommerce · last tried 2026-10-28T15:37:01Z · last worked 2026-10-28T15:37:01Z
-- Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-28T06:01:35Z · last worked 2026-10-28T06:01:35Z
+- Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-28T19:19:41Z · last worked 2026-10-28T19:19:41Z
 
-## Why failing shops fail (step-by-step check)
-### Edlins (edlins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WordPress [checked 2026-10-28T12:04:24Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
-  - raw Platform: WordPress (generator: WordPress 7.1.3) · title “EDLINS &#8211; Coins ,Banknotes and Collectabes”
-  - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://edlins.com.au/robots.txt
-  - raw Site map https://edlins.com.au/index.php?route=extension/feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
-### Cockatoo Coins (cockatoocoins.com.au) – problem: the website's address doesn't exist any more (domain not found) [checked 2026-10-28T12:04:34Z]
-  - Website: the website's address doesn't exist any more (domain not found)
-  - raw Website: UnknownHostException: Unable to resolve host "cockatoocoins.com.au": No address associated with hostname
-### Coins Australia (coinsaustralia.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins [checked 2026-10-28T12:04:39Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.coinsaustralia.com.au/, 44234 characters
-  - raw Platform: not recognised · title “Coins Australia - Australian Coins Shop”
-  - raw Shopify product feed: HTTP 404 from https://coinsaustralia.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://coinsaustralia.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://www.coinsaustralia.com.au/sitemap.xml
-  - raw Site map https://www.coinsaustralia.com.au/sitemap.xml: <sitemapindex> 5 site maps
-  - raw Site map https://www.coinsaustralia.com.au/sitemap_pages.xml: <urlset> 6 pages, 6 look like products
-  - raw Site map https://www.coinsaustralia.com.au/sitemap_products.xml: <urlset> 899 pages, 899 look like products
-### Guy Stuff (guystuff.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento [checked 2026-10-28T12:04:48Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://guystuff.com.au/, 347302 characters, mentions Cloudflare/captcha
-  - raw Platform: Magento · title “Men&#039;s Gifts &amp; Collectables, NRL merchandise Guy Stuff Guy Stuff”
-  - raw Shopify product feed: HTTP 404 from https://guystuff.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://guystuff.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: no Sitemap lines
-  - raw Site map https://guystuff.com.au/pub/media/sitemap.xml: <html> (13634 characters, starts “�PNG      IHDR  �   �   ����    pHYs       ��  iC”)
-  - raw Site map https://guystuff.com.au/media/sitemap.xml: <html> (13634 characters, starts “�PNG      IHDR  �   �   ����    pHYs       ��  iC”)
-  - raw Site map https://guystuff.com.au/index.php?route=extension/feed/google_sitemap: <html> (356599 characters, starts “<!doctype html> <html lang="en"> <head > <script”)
-### I.S. Wright (iswright.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read [checked 2026-10-28T12:05:16Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://www.iswright.com.au/, 16412 characters
-  - raw Platform: not recognised · title “I. S. WRIGHT Group -  Coins, Stamps &amp; Collectables”
-  - raw Shopify product feed: HTTP 404 from https://iswright.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://iswright.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://iswright.com.au/robots.txt
-### Newcastle Coins (newcastlecoins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento + OpenCart [checked 2026-10-28T12:05:22Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://newcastlecoins.com.au/, 82413 characters
-  - raw Platform: Magento + OpenCart · title “Newcastle Coins”
-  - raw Shopify product feed: HTTP 404 from https://newcastlecoins.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://newcastlecoins.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://newcastlecoins.com.au/robots.txt
-  - raw Site map https://newcastlecoins.com.au/index.php?route=extension/feed/google_sitemap: <html> (0 characters, starts “”)
-### Prospect Stamps & Coins (prospectstampsandcoins.com.au) – problem: the website blocks apps like Coin Hound (bot check) [checked 2026-10-28T12:05:22Z]
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 403 from https://prospectstampsandcoins.com.au/ (the site asked for a bot check – try again later)
-### John Platts Stamps & Coins (jpsnc.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento + Ecwid [checked 2026-10-28T12:05:29Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 16 pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.jpsnc.com.au/, 294189 characters, mentions Cloudflare/captcha
-  - raw Platform: Magento + Ecwid · title “Competitive Pricing Icon”
-  - raw Shopify product feed: HTTP 404 from https://jpsnc.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://jpsnc.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://www.jpsnc.com.au/sitemap.xml
-  - raw Site map https://www.jpsnc.com.au/sitemap.xml: <urlset> 18 pages, 16 look like products
-### Peter Strich Stamps & Coins (peterstrich.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress + Magento [checked 2026-10-28T12:05:31Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://peterstrich.com.au/, 21981 characters
-  - raw Platform: WooCommerce + WordPress + Magento (generator: WordPress 5.1.19) · title “Peter Strich Stamps &amp; Coins | Stamp &amp; Coin dealer”
-  - raw Shopify product feed: HTTP 404 from https://peterstrich.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://peterstrich.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://peterstrich.com.au/robots.txt
-  - raw Site map https://peterstrich.com.au/index.php?route=extension/feed/google_sitemap: <html> (21981 characters, starts “<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E”)
-### The Coin Collection (coincollect.com.au) – problem: the website blocks apps like Coin Hound (bot check) [checked 2026-10-28T12:05:31Z]
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 403 from https://coincollect.com.au/ (the site asked for a bot check – try again later)
-### Adelaide Exchange (adelaide-exchange.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 49 pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.adelaide-exchange.com.au/, 51687 characters
-  - raw Platform: Magento (generator: DotNetNuke ) · title “Adelaide Exchange Jewellers”
-  - raw Shopify product feed: HTTP 404 from https://adelaide-exchange.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://adelaide-exchange.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://www.adelaide-exchange.com.au/sitemap.aspx
-  - raw Site map https://www.adelaide-exchange.com.au/sitemap.aspx: <urlset> 49 pages, 49 look like products
-### The Purple Penny (www.thepurplepenny.com) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform WooCommerce + WordPress + Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 1 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.thepurplepenny.com/, 112304 characters
-  - raw Platform: WooCommerce + WordPress + Magento (generator: WordPress 5.8.18) · title “PCGS Graded Australian and World Coins in Adelaide - The Purple Penny”
-  - raw Shopify product feed: HTTP 404 from https://www.thepurplepenny.com/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://www.thepurplepenny.com/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: no Sitemap lines
-  - raw Site map https://www.thepurplepenny.com/sitemap.xml: <sitemapindex> 37 site maps
-  - raw Site map https://www.thepurplepenny.com/post-sitemap.xml: <urlset> 105 pages, 105 look like products
-  - raw Site map https://www.thepurplepenny.com/page-sitemap.xml: <urlset> 35 pages, 14 look like products
-  - raw Site map https://www.thepurplepenny.com/attachment-sitemap.xml: <urlset> 1000 pages, 976 look like products
-### The Coin & Stamp Place (thestampplace.com) – problem: the website's security certificate is broken [checked 2026-10-28T12:05:39Z]
-  - Website: the website's security certificate is broken
-  - raw Website: SSLHandshakeException: Chain validation failed
-### Downies (www.downies.com) – WORKS when checked: read through its Shopify product feed · platform Shopify + Magento
-  - Website: reachable
-  - Shopify product feed: works – e.g. “Disney Classics IV Wreck it Ralph Gold-plated Prooflike Commemorative” $19.99
-  - raw Website: HTTP 200, ended at https://www.downies.com/, 568537 characters
-  - raw Platform: Shopify + Magento · title “Downies Collectables”
-### The Coin Company (thecoincompany.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform BigCommerce [checked 2026-10-28T12:05:48Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://thecoincompany.com.au/, 116150 characters
-  - raw Platform: BigCommerce · title “The Coin Company - Buy Collectible Silver, Gold, Platinum Coins”
-  - raw Shopify product feed: HTTP 404 from https://thecoincompany.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://thecoincompany.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: no Sitemap lines
-  - raw Site map https://thecoincompany.com.au/xmlsitemap.php: <sitemapindex> 5 site maps
-  - raw Site map https://thecoincompany.com.au/xmlsitemap.php?type=pages&page=1: <urlset> 7 pages, 5 look like products
-  - raw Site map https://thecoincompany.com.au/xmlsitemap.php?type=products&page=1: <urlset> 2138 pages, 2138 look like products
-### The Perth Mint (www.perthmint.com) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.perthmint.com/, 403753 characters
-  - raw Platform: Magento · title “The Perth Mint | Buy gold, silver coins and bullion”
-  - raw Shopify product feed: HTTP 404 from https://www.perthmint.com/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://www.perthmint.com/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://www.perthmint.com/sitemap.xml
-  - raw Site map https://www.perthmint.com/sitemap.xml: <urlset> 2579 pages, 1980 look like products
-### Royal Australian Mint eShop (eshop.ramint.gov.au) – problem: the website blocks apps like Coin Hound (bot check) [checked 2026-10-28T12:05:49Z]
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 429 from https://eshop.ramint.gov.au/ (the site asked for a bot check – try again later)
-### Coinworks (coinworks.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento [checked 2026-10-28T12:05:51Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://coinworks.com.au/, 211645 characters, mentions Cloudflare/captcha
-  - raw Platform: Magento · title “Rare Australian Coin Dealers | Buy Collectable Coins Online”
-  - raw Shopify product feed: HTTP 404 from https://coinworks.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://coinworks.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://coinworks.com.au/~sitemap/
-  - raw Site map https://coinworks.com.au/~sitemap/: <urlset> 799 pages, 797 look like products
-### Drake Sterling Numismatics (www.drakesterling.com) – problem: the website blocks apps like Coin Hound (bot check) [checked 2026-10-28T12:05:51Z]
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 403 from https://www.drakesterling.com/ (the site asked for a bot check – try again later)
-### Colonial Coins & Medals (coinmedalshop.com.au) – problem: the website isn't answering [checked 2026-10-28T12:05:59Z]
-  - Website: the website isn't answering
-  - raw Website: ConnectException: Failed to connect to coinmedalshop.com.au/202.124.241.178:443
-### Smits Stamps & Coins (smitsstampsandcoinswa.com.au) – problem: the website's address doesn't exist any more (domain not found)
-  - Website: the website's address doesn't exist any more (domain not found)
-  - raw Website: UnknownHostException: Unable to resolve host "smitsstampsandcoinswa.com.au": No address associated with hostname
-### Rainbow Rarities (rainbowrarities.com) – problem: no product feed and no site map, so there's nothing Coin Hound can read [checked 2026-10-28T12:06:05Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://rainbowrarities.com/, 10284 characters
-  - raw Platform: not recognised · title “Rainbow Rarities”
-  - raw Shopify product feed: HTTP 404 from https://rainbowrarities.com/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://rainbowrarities.com/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: no Sitemap lines
-### Ancient Coin Traders (ancientcointraders.com) – problem: no product feed and no site map, so there's nothing Coin Hound can read [checked 2026-10-28T12:06:09Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://www.ancientcointraders.com/, 99183 characters, mentions Cloudflare/captcha
-  - raw Platform: not recognised · title “Index Page Title | Ancient Coin Traders”
-  - raw Shopify product feed: HTTP 404 from https://ancientcointraders.com/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://ancientcointraders.com/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: no Sitemap lines
-  - raw Site map https://ancientcointraders.com/index.php?route=extension/feed/google_sitemap: <html> (101479 characters, starts “<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <me”)
-### Romanorvm (romanorum.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento [checked 2026-10-28T12:06:11Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://romanorum.com.au/, 14605 characters
-  - raw Platform: Magento · title “Romanorum - Romanorum Ancient Coins &amp; Antiquities”
-  - raw Shopify product feed: HTTP 404 from https://romanorum.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://romanorum.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://romanorum.com.au/robots.txt
-### Walter Holt (Old Money) (oldmoney.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read [checked 2026-10-28T12:06:17Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://oldmoney.com.au/, 9674 characters
-  - raw Platform: not recognised (generator: Mozilla/4.04 [en] (Win95; I) [Netscape]) · title “Old Money! - Walter Holt's Ancient Greek and Roman Coins.”
-  - raw Shopify product feed: HTTP 404 from https://oldmoney.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://oldmoney.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://oldmoney.com.au/robots.txt
-### Ainslie Bullion (ainsliebullion.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 224 pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://ainsliebullion.com.au/, 274019 characters
-  - raw Platform: Magento · title “Ainslie Bullion | Buy Gold in Brisbane, Melbourne & the Gold Coast”
-  - raw Shopify product feed: HTTP 404 from https://ainsliebullion.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://ainsliebullion.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://ainsliebullion.com.au/sitemap.aspx
-  - raw Site map https://ainsliebullion.com.au/sitemap.aspx: <urlset> 4505 pages, 224 look like products
-### KJC Bullion (www.kjc-gold-silver-bullion.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://www.kjc-gold-silver-bullion.com.au/, 208293 characters
-  - raw Platform: not recognised · title “KJC Bullion - Australia's largest range of gold and silver”
-  - raw Shopify product feed: HTTP 404 from https://www.kjc-gold-silver-bullion.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://www.kjc-gold-silver-bullion.com.au/wp-json/wc/store/v1/products?per_page
-  - raw Site map robots.txt: https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_categories_0/, https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_categories_1/, https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_products_0/, https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_products_1/
-  - raw Site map https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_categories_0/: <urlset> 23 pages, 23 look like products
-  - raw Site map https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_categories_1/: <urlset> 180 pages, 180 look like products
-  - raw Site map https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_products_0/: <urlset> 12 pages, 12 look like products
-  - raw Site map https://www.kjc-gold-silver-bullion.com.au/sitemap/sitemap_products_1/: <urlset> 181 pages, 181 look like products
-### Queensland Mint (qmint.com) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 300+ pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://queenslandmint.com/, 893083 characters
-  - raw Platform: Magento (generator: Gatsby 5.13.7) · title “Queensland Mint | Discover Treasure”
-  - raw Shopify product feed: HTTP 404 from https://qmint.com/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://qmint.com/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://queenslandmint.com/sitemap.xml
-  - raw Site map https://queenslandmint.com/sitemap.xml: <urlset> 1265 pages, 1205 look like products
-### ABC Bullion (www.abcbullion.com.au) – problem: the website blocks apps like Coin Hound (bot check) [checked 2026-10-28T12:06:17Z]
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 403 from https://www.abcbullion.com.au/ (the site asked for a bot check – try again later)
-### Bullionmark (bullionmark.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento [checked 2026-10-28T12:06:28Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 264 pages listed
-  - Product pages: none of 4 sample pages had a readable price
-  - raw Website: HTTP 200, ended at https://bullionmark.com.au/, 909612 characters
-  - raw Platform: Magento (generator: Gatsby 5.13.7) · title “BULLIONMARK | Maximise Every Ounce”
-  - raw Shopify product feed: HTTP 404 from https://bullionmark.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://bullionmark.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://bullionmark.com.au/sitemap.xml
-  - raw Site map https://bullionmark.com.au/sitemap.xml: <urlset> 288 pages, 264 look like products
-### City Gold Bullion (citygoldbullion.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress [checked 2026-10-28T12:06:43Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://citygoldbullion.com.au/, 64660 characters
-  - raw Platform: WooCommerce + WordPress (generator: WordPress 6.2.14) · title “City Gold Bullion”
-  - raw Shopify product feed: HTTP 404 from https://citygoldbullion.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://citygoldbullion.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://citygoldbullion.com.au/sitemap_index.xml
-  - raw Site map https://citygoldbullion.com.au/sitemap_index.xml: <html> (118155 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/product-sitemap.xml: <html> (118157 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/store-products-sitemap.xml: <html> (118164 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/sitemap/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/media/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-  - raw Site map https://citygoldbullion.com.au/index.php?route=extension/feed/google_sitemap: <html> (64660 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
-### Great Southland Bullion (greatsouthlandbullion.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress + Magento [checked 2026-10-28T12:07:15Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://greatsouthlandbullion.au/, 286722 characters, mentions Cloudflare/captcha
-  - raw Platform: WooCommerce + WordPress + Magento (generator: Elementor 4.3.4; features: additional_custom_breakpoints; se) · title “Great Southland Bullion”
-  - raw Shopify product feed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
-  - raw WooCommerce product feed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
-  - raw Site map robots.txt: no Sitemap lines
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap_index.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/product-sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap_products_1.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap-products.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/store-products-sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/xmlsitemap.php: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap/products.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap1.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/pub/media/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/media/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/index.php?route=extension/feed/google_sitemap: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-  - raw Site map https://greatsouthlandbullion.com.au/sitemap.php: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
-### Bradford Coins (bradfordcoins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 200, ended at https://bradfordcoins.com.au/Pages/Home.html, 5099 characters
-  - raw Platform: Magento · title “Bradford Coins &#8211; Coin, Gold &amp; Silver Bullion Dealer, Cairns”
-  - raw Shopify product feed: HTTP 404 from https://bradfordcoins.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://bradfordcoins.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://bradfordcoins.com.au/sitemap.xml
-  - raw Site map https://bradfordcoins.com.au/sitemap.xml: <urlset> 7 pages, 0 look like products
-### Bullion Money (bullionmoney.com.au) – problem: the website blocks apps like Coin Hound (bot check)
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - raw Website: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
-### Ceylon Exchange (ceylonexchange.com.au) – problem: IOException: too many redirects · platform WordPress + Magento [checked 2026-10-28T12:07:50Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: 135 pages listed
-  - Product pages: IOException: too many redirects
-  - raw Website: HTTP 200, ended at https://ceylonexchange.com.au/, 53085 characters
-  - raw Platform: WordPress + Magento (generator: WordPress 7.0.7) · title “Ceylon Exchange - Currency Exchange, Money Transfer, Gold &amp; Silver Bullion”
-  - raw Shopify product feed: HTTP 404 from https://ceylonexchange.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://ceylonexchange.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: https://ceylonexchange.com.au/sitemap_index.xml
-  - raw Site map https://ceylonexchange.com.au/sitemap_index.xml: <sitemapindex> 8 site maps
-  - raw Site map http://ceylonexchange.com.au/post-sitemap.xml: <urlset> 40 pages, 39 look like products
-  - raw Site map http://ceylonexchange.com.au/page-sitemap.xml: <urlset> 92 pages, 89 look like products
-  - raw Site map http://ceylonexchange.com.au/cfmemailverification-sitemap.xml: <urlset> 3 pages, 3 look like products
-  - raw Site map http://ceylonexchange.com.au/form-maker_fmc-sitemap.xml: <urlset> 1 pages, 1 look like products
-  - raw Site map http://ceylonexchange.com.au/status_email-sitemap.xml: <urlset> 3 pages, 3 look like products
-  - raw Site map http://ceylonexchange.com.au/category-sitemap.xml: <urlset> 3 pages, 0 look like products
-  - raw Site map http://ceylonexchange.com.au/post_tag-sitemap.xml: <urlset> 11 pages, 0 look like products
-  - raw Site map http://ceylonexchange.com.au/author-sitemap.xml: <urlset> 2 pages, 0 look like products
-  - raw Product page http://ceylonexchange.com.au/mobile-top-up/: IOException: too many redirects
-### SA Gold Traders (sagoldtraders.com.au) – problem: the website's address doesn't exist any more (domain not found) [checked 2026-10-28T12:07:58Z]
-  - Website: the website's address doesn't exist any more (domain not found)
-  - raw Website: UnknownHostException: Unable to resolve host "sagoldtraders.com.au": No address associated with hostname
-
-## Last 3 days by source (680 steps)
+## Last 3 days by source (682 steps)
+- shop Ancient Coin Traders: 0/2 worked, 0 kept
+    2× Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+- shop Drake Sterling Numismatics: 0/2 worked, 0 kept
+    2× Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+- shop Coinworks: 0/2 worked, 0 kept
+    1× Error: product pages have no readable price data
+    1× Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
+- shop Prospect Stamps & Coins: 0/2 worked, 0 kept
+    2× Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Guy Stuff: 0/2 worked, 0 kept
+    2× Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+- shop Newcastle Coins: 0/2 worked, 0 kept
+    2× Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop The Coin & Stamp Place: 0/2 worked, 0 kept
+    2× Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+- shop Cockatoo Coins: 0/2 worked, 0 kept
+    2× Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Ceylon Exchange: 0/2 worked, 0 kept
+    1× Error: product pages have no readable price data
+    1× Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
+- shop City Gold Bullion: 0/2 worked, 0 kept
+    2× Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop Peter Strich Stamps & Coins: 0/2 worked, 0 kept
+    2× Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+- shop Great Southland Bullion: 0/2 worked, 0 kept
+    2× Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop I.S. Wright: 0/2 worked, 0 kept
+    2× Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+- shop Coins Australia: 0/2 worked, 0 kept
+    1× Error: product pages have no readable price data
+    1× Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
+- shop Edlins: 0/2 worked, 0 kept
+    2× Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+- shop ABC Bullion: 0/2 worked, 0 kept
+    2× Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+- shop Rainbow Rarities: 0/2 worked, 0 kept
+    2× Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+- shop Royal Australian Mint eShop: 0/2 worked, 0 kept
+    2× Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
 - shop Adelaide Exchange: 0/4 worked, 0 kept
     3× Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
     1× Error: product pages have no readable price data
@@ -477,97 +173,109 @@ ebay_sold: 4/5 worked, 370 kept
     1× Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap)
 - shop Romanorvm: 0/1 worked, 0 kept
     1× Error: romanorum.com.au: couldn't read this site (no product feed or sitemap)
-- shop Ancient Coin Traders: 0/1 worked, 0 kept
-    1× Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
-- shop Drake Sterling Numismatics: 0/1 worked, 0 kept
-    1× Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
-- shop John Platts Stamps & Coins: 0/1 worked, 0 kept
-    1× Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
-- shop Coinworks: 0/1 worked, 0 kept
-    1× Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
-- shop Prospect Stamps & Coins: 0/1 worked, 0 kept
-    1× Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
-- shop Guy Stuff: 0/1 worked, 0 kept
-    1× Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
-- shop Newcastle Coins: 0/1 worked, 0 kept
-    1× Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
 - shop Bullionmark: 0/1 worked, 0 kept
     1× Error: product pages have no readable price data
 - shop SA Gold Traders: 0/1 worked, 0 kept
     1× Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
-- shop Ceylon Exchange: 0/1 worked, 0 kept
-    1× Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
-- shop City Gold Bullion: 0/1 worked, 0 kept
-    1× Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
-- shop Great Southland Bullion: 0/1 worked, 0 kept
-    1× Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
-- shop Peter Strich Stamps & Coins: 0/1 worked, 0 kept
-    1× Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
-- shop I.S. Wright: 0/1 worked, 0 kept
-    1× Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
-- shop Coins Australia: 0/1 worked, 0 kept
-    1× Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
-- shop Edlins: 0/1 worked, 0 kept
-    1× Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
-- shop ABC Bullion: 0/1 worked, 0 kept
-    1× Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
-- shop Rainbow Rarities: 0/1 worked, 0 kept
-    1× Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
-- shop Royal Australian Mint eShop: 0/1 worked, 0 kept
-    1× Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
-- shop The Coin & Stamp Place: 0/1 worked, 0 kept
-    1× Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
-- shop Cockatoo Coins: 0/1 worked, 0 kept
-    1× Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
-- shop Max Stern & Co: 0/1 worked, 0 kept
+- shop John Platts Stamps & Coins: 1/2 worked, 0 kept
+    1× Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
+- shop Max Stern & Co: 1/2 worked, 29 kept
     1× Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
-- shop The Coin Company: 0/1 worked, 0 kept
+- shop The Coin Company: 1/2 worked, 5 kept
     1× Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
-- ebay_active: 25/40 worked, 939 kept
-    11× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-    4× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-- ebay_sold: 32/45 worked, 1877 kept
-    7× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-    6× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-- shop Ainslie Bullion: 10/13 worked, 812 kept
+- ebay_active: 27/43 worked, 1061 kept
+    13× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+    3× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- ebay_sold: 33/46 worked, 2014 kept
+    7× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+    6× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop Ainslie Bullion: 9/12 worked, 690 kept
     3× Error: product pages have no readable price data
-- shop WA Coins: 12/13 worked, 3994 kept
+- shop WA Coins: 11/12 worked, 3668 kept
     1× Error: SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
-- facebook: 104/111 worked, 0 kept
-    7× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-- cashconverters: 6/6 worked, 574 kept
-- shop Online Coins & Collectables: 14/14 worked, 4851 kept
-- shop Town Hall Coins: 14/14 worked, 21006 kept
-- shop Sydney Coins & Jewellery: 15/15 worked, 1980 kept
-- shop Guardian Gold: 14/14 worked, 384 kept
-- shop Heritage Numismatics: 15/15 worked, 350 kept
-- shop Sterling & Currency: 13/13 worked, 62 kept
-- shop Bullion Now: 13/13 worked, 35 kept
-- shop Peter's of Kensington: 13/13 worked, 0 kept
-- shop Tasmanian Numismatics: 13/13 worked, 30137 kept
-- shop Southern Cross Coins: 12/12 worked, 2954 kept
-- shop Vintage Coins & Banknotes: 14/14 worked, 1312 kept
-- shop Gold Bullion Australia: 14/14 worked, 353 kept
-- shop Australian Bullion Company: 14/14 worked, 228 kept
-- shop Gold Stackers: 14/14 worked, 402 kept
-- shop Imperial Numismatics: 13/13 worked, 1269 kept
-- shop Mint Coins: 13/13 worked, 0 kept
+- facebook: 101/107 worked, 0 kept
+    6× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 - shop Imperial Bullion: 14/14 worked, 168 kept
 - shop As Good As Gold: 14/14 worked, 426 kept
-- shop Swan Bullion: 14/14 worked, 364 kept
-- shop Coins & Collectables Victoria: 14/14 worked, 644 kept
+- shop Coins & Collectables Victoria: 14/14 worked, 642 kept
+- shop Swan Bullion: 14/14 worked, 361 kept
+- shop Coin City: 13/13 worked, 12522 kept
 - shop Royal Bullion: 14/14 worked, 0 kept
-- shop Coin City: 13/13 worked, 12508 kept
-- shop The Coin Chest: 13/13 worked, 1752 kept
-- shop Direct Coins: 13/13 worked, 1826 kept
-- shop Jaggards: 13/13 worked, 944 kept
-- shop Mint Coin Shop: 14/14 worked, 2023 kept
-- shop Melbourne Coins & Collectables: 13/13 worked, 568 kept
-- shop Bulk Bullion: 14/14 worked, 532 kept
-- shop Loose Change Coins: 13/13 worked, 5585 kept
-- shop Wynyard Coin Centre: 13/13 worked, 27424 kept
+- shop The Coin Chest: 13/13 worked, 1717 kept
+- shop Direct Coins: 13/13 worked, 1813 kept
+- shop Jaggards: 13/13 worked, 948 kept
+- shop Mint Coin Shop: 14/14 worked, 2007 kept
+- shop Wynyard Coin Centre: 13/13 worked, 27377 kept
+- shop Loose Change Coins: 13/13 worked, 5637 kept
+- shop Melbourne Coins & Collectables: 13/13 worked, 550 kept
+- shop Bulk Bullion: 14/14 worked, 530 kept
+- cashconverters: 5/5 worked, 444 kept
+- shop Online Coins & Collectables: 13/13 worked, 4463 kept
+- shop Town Hall Coins: 13/13 worked, 19520 kept
+- shop Sydney Coins & Jewellery: 14/14 worked, 1848 kept
+- shop Guardian Gold: 13/13 worked, 359 kept
+- shop Heritage Numismatics: 14/14 worked, 325 kept
+- shop Sterling & Currency: 12/12 worked, 59 kept
+- shop Bullion Now: 12/12 worked, 33 kept
+- shop Peter's of Kensington: 12/12 worked, 0 kept
+- shop Tasmanian Numismatics: 12/12 worked, 27811 kept
+- shop Southern Cross Coins: 11/11 worked, 2711 kept
+- shop Vintage Coins & Banknotes: 13/13 worked, 1223 kept
+- shop Gold Bullion Australia: 13/13 worked, 328 kept
+- shop Australian Bullion Company: 13/13 worked, 212 kept
+- shop Gold Stackers: 13/13 worked, 376 kept
+- shop Imperial Numismatics: 12/12 worked, 1183 kept
+- shop Mint Coins: 12/12 worked, 0 kept
 
 ## Log, newest first (last 300 steps)
+2026-10-28T19:26:15Z | shop | John Platts Stamps & Coins | 0
+2026-10-28T19:26:05Z | facebook | Sets 2016 Uncirculated year set 50th Anniversary of Australian Decimal Currency  | 0
+2026-10-28T19:26:04Z | shop | Ancient Coin Traders | 0 | Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:26:00Z | shop | Drake Sterling Numismatics | 0 | Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:25:46Z | facebook | Sets 2016 Baby uncirculated set Alphabet Collector issue | 0
+2026-10-28T19:25:27Z | facebook | Sets 2016 Proof year set 50th Anniversary of Australian Decimal Currency Proof | 0
+2026-10-28T19:25:00Z | shop | Coinworks | 0 | Error: product pages have no readable price data
+2026-10-28T19:24:58Z | shop | Prospect Stamps & Coins | 0 | Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:24:48Z | shop | Guy Stuff | 0 | Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:24:43Z | shop | Newcastle Coins | 0 | Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:24:42Z | ebay_sold | Sets 2016 Proof year set 50th Anniversary of Australian Decimal Currency Proof | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:55 am
+2026-10-28T19:24:22Z | facebook | Sets 2016 Fine silver proof year set Proof | 0
+2026-10-28T19:23:31Z | shop | The Coin & Stamp Place | 0 | Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:23:21Z | ebay_active | Sets 2016 Fine silver proof year set Proof | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-28T19:22:46Z | ebay_sold | Sets 2016 Fine silver proof year set Proof | 137
+2026-10-28T19:22:25Z | facebook | Sets 2016 Baby proof set Personalised Proof | 0
+2026-10-28T19:22:00Z | shop | Cockatoo Coins | 0 | Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:21:58Z | shop | Ceylon Exchange | 0 | Error: product pages have no readable price data
+2026-10-28T19:21:55Z | ebay_active | Sets 2016 Baby proof set Personalised Proof | 58
+2026-10-28T19:21:47Z | shop | City Gold Bullion | 0 | Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:21:42Z | shop | Peter Strich Stamps & Coins | 0 | Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:21:35Z | facebook | Sets 2015 Uncirculated year set RAM 50th Anniversary Collector issue | 0
+2026-10-28T19:21:14Z | shop | Great Southland Bullion | 0 | Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:20:56Z | ebay_active | Sets 2015 Uncirculated year set RAM 50th Anniversary Collector issue | 64
+2026-10-28T19:20:53Z | shop | I.S. Wright | 0 | Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:20:31Z | facebook | Sets 2015 Baby uncirculated set ABC's Collector issue | 0
+2026-10-28T19:20:11Z | shop | Max Stern & Co | 29
+2026-10-28T19:20:10Z | shop | Coins Australia | 0 | Error: product pages have no readable price data
+2026-10-28T19:20:09Z | shop | Edlins | 0 | Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:20:06Z | shop | ABC Bullion | 0 | Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:20:00Z | shop | Rainbow Rarities | 0 | Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:19:59Z | shop | Royal Australian Mint eShop | 0 | Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
+2026-10-28T19:19:56Z | shop | The Coin Company | 5
+2026-10-28T19:19:54Z | shop | Imperial Bullion | 12
+2026-10-28T19:19:52Z | shop | As Good As Gold | 31
+2026-10-28T19:19:49Z | shop | Coins & Collectables Victoria | 44
+2026-10-28T19:19:48Z | shop | Swan Bullion | 24
+2026-10-28T19:19:41Z | shop | Coin City | 963
+2026-10-28T19:19:37Z | shop | Royal Bullion | 0
+2026-10-28T19:19:36Z | shop | The Coin Chest | 100
+2026-10-28T19:19:35Z | shop | Direct Coins | 130
+2026-10-28T19:19:27Z | shop | Jaggards | 76
+2026-10-28T19:19:24Z | shop | Mint Coin Shop | 130
+2026-10-28T19:19:20Z | ebay_active | Sets 2015 Baby uncirculated set ABC's Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-28T19:19:13Z | shop | Wynyard Coin Centre | 2052
+2026-10-28T19:19:13Z | shop | Loose Change Coins | 467
+2026-10-28T19:19:13Z | shop | Melbourne Coins & Collectables | 32
+2026-10-28T19:19:13Z | shop | Bulk Bullion | 36
 2026-10-28T15:40:59Z | cashconverters | coin categories | 89
 2026-10-28T15:40:48Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 2026-10-28T15:40:27Z | facebook | Sets 2017 Proof year set Effigy of an Era Proof | 0
@@ -820,51 +528,3 @@ ebay_sold: 4/5 worked, 370 kept
 2026-10-27T06:08:27Z | facebook | 50c 2025 Steam Train Giants Queensland Beyer-Garratt No. 1009 Collector issue | 0
 2026-10-27T06:08:27Z | shop | Vintage Coins & Banknotes | 95
 2026-10-27T06:07:58Z | facebook | 50c 2025 Steam Train Giants New South Wales AD60 Beyer-Garratt 6029 Collector is | 0
-2026-10-27T06:07:53Z | shop | Sterling & Currency | 1
-2026-10-27T06:07:48Z | shop | Sydney Coins & Jewellery | 132
-2026-10-27T06:07:44Z | shop | Gold Bullion Australia | 26
-2026-10-27T06:07:40Z | shop | Australian Bullion Company | 16
-2026-10-27T06:07:31Z | facebook | 50c 2025 Steam Train Giants Commonwealth Railways CR-G1 Collector issue | 0
-2026-10-27T06:07:31Z | shop | Gold Stackers | 29
-2026-10-27T06:07:24Z | shop | Imperial Bullion | 12
-2026-10-27T06:07:24Z | shop | As Good As Gold | 31
-2026-10-27T06:07:03Z | facebook | 50c 2025 Koala Collector issue | 0
-2026-10-27T06:06:55Z | shop | Mint Coin Shop | 144
-2026-10-27T06:06:49Z | shop | Heritage Numismatics | 23
-2026-10-27T06:06:46Z | shop | Royal Bullion | 0
-2026-10-27T06:06:40Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry The Colours of Light Col | 0
-2026-10-27T06:06:40Z | shop | Swan Bullion | 26
-2026-10-27T06:06:36Z | shop | Bulk Bullion | 37
-2026-10-27T06:06:31Z | shop | Coins & Collectables Victoria | 46
-2026-10-27T06:06:30Z | shop | Ainslie Bullion | 57
-2026-10-27T06:06:22Z | shop | Adelaide Exchange | 0 | Error: adelaide-exchange.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-27T06:06:20Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-27T06:06:19Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0
-2026-10-27T06:06:19Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-27T06:06:12Z | shop | Tasmanian Numismatics | 2309
-2026-10-27T06:05:53Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry My Country Collector iss | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 5:36 pm
-2026-10-27T06:05:32Z | shop | Wynyard Coin Centre | 2114
-2026-10-27T06:05:31Z | facebook | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0
-2026-10-27T06:05:18Z | shop | Southern Cross Coins | 247
-2026-10-27T06:05:14Z | shop | Online Coins & Collectables | 336
-2026-10-27T06:05:12Z | shop | Town Hall Coins | 1505
-2026-10-27T06:05:08Z | shop | WA Coins | 335
-2026-10-27T06:04:50Z | shop | Imperial Numismatics | 102
-2026-10-27T06:04:42Z | ebay_active | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-10-27T06:04:42Z | shop | Coin City | 966
-2026-10-27T06:04:42Z | shop | Mint Coins | 0
-2026-10-27T06:04:41Z | shop | Guardian Gold | 29
-2026-10-27T06:04:34Z | shop | The Coin Chest | 135
-2026-10-27T06:03:51Z | ebay_sold | 50c 2025 Dorothea Mackellar Treasured Australian Poetry Dawn Collector issue | 220
-2026-10-27T06:03:43Z | shop | Loose Change Coins | 448
-2026-10-27T06:03:43Z | shop | Melbourne Coins & Collectables | 42
-2026-10-27T06:03:43Z | shop | Direct Coins | 140
-2026-10-27T06:03:43Z | shop | Jaggards | 73
-2026-10-26T20:08:57Z | shop | Vintage Coins & Banknotes | 95
-2026-10-26T20:08:51Z | shop | Sydney Coins & Jewellery | 132
-2026-10-26T20:08:46Z | shop | Gold Bullion Australia | 25
-2026-10-26T20:08:43Z | shop | Australian Bullion Company | 16
-2026-10-26T20:08:39Z | shop | Gold Stackers | 29
-2026-10-26T20:08:35Z | shop | Imperial Bullion | 12
-2026-10-26T20:08:32Z | shop | As Good As Gold | 30
-2026-10-26T20:08:26Z | shop | Mint Coin Shop | 144
