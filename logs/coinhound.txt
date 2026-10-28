@@ -1,5 +1,5 @@
 # Coin Hound 2.19 refresh report
-Written 2026-10-28T11:19:25Z (28 Oct, 10:19 pm Sydney) · refresh report only started 2026-10-28T05:19:25Z, took 21600 s
+Written 2026-10-28T11:19:58Z (28 Oct, 10:19 pm Sydney) · refresh report only started 2026-10-28T05:19:58Z, took 21600 s
 Totals: {"ebay_sold":214,"shops":9482,"ebay_active":191,"facebook":0,"pages_read":1,"removed_after_reading":0,"ended":0,"alerts":8}
 Stored: 11326 live · 7273 sold
 Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
