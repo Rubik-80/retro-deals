@@ -1,12 +1,12 @@
-# Coin Hound 2.19 refresh report
-Written 2026-10-28T11:19:58Z (28 Oct, 10:19 pm Sydney) · refresh report only started 2026-10-28T05:19:58Z, took 21600 s
+# Coin Hound 2.21 refresh report
+Written 2026-10-28T12:04:21Z (28 Oct, 11:04 pm Sydney) · refresh report only started 2026-10-28T06:04:21Z, took 21600 s
 Totals: {"ebay_sold":214,"shops":9482,"ebay_active":191,"facebook":0,"pages_read":1,"removed_after_reading":0,"ended":0,"alerts":8}
-Stored: 11326 live · 7273 sold
+Stored: 11316 live · 7249 sold
 Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
 eBay: not paused
 
-## This refresh: 40 steps, 29 with problems
-shops: 9/36 worked, 1423 kept
+## This refresh: 31 steps, 29 with problems
+shops: 0/27 worked, 0 kept
 ebay_sold: 1/2 worked, 133 kept
 facebook: 1/1 worked, 0 kept
 ebay_active: 0/1 worked, 0 kept
@@ -42,7 +42,7 @@ ebay_active: 0/1 worked, 0 kept
 - shop | Max Stern & Co | Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
 - shop | The Coin Company | Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
 
-## Shops: 68 on · 36 working · 27 failing · 5 not read yet
+## Shops: 68 on · 36 working · 26 failing · 6 not read yet
 - Edlins (edlins.com.au): FAILING 1× – Error: edlins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:49Z
 - Cockatoo Coins (cockatoocoins.com.au): FAILING 1× – Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:31Z
 - Coins Australia (coinsaustralia.com.au): FAILING 1× – Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:50Z
@@ -54,7 +54,6 @@ ebay_active: 0/1 worked, 0 kept
 - Peter Strich Stamps & Coins (peterstrich.com.au): FAILING 1× – Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:06Z
 - The Coin Collection (coincollect.com.au): FAILING 1× – Error: coincollect.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:35:32Z
 - The Coin & Stamp Place (thestampplace.com): FAILING 1× – Error: thestampplace.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:34:32Z
-- Max Stern & Co (maxstern.com.au): FAILING 1× – Error: maxstern.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:50Z
 - The Coin Company (thecoincompany.com.au): FAILING 1× – Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
 - Royal Australian Mint eShop (eshop.ramint.gov.au): FAILING 1× – Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T08:33:44Z
 - Coinworks (coinworks.com.au): FAILING 1× – Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later) · last tried 2026-10-28T08:34:36Z
@@ -79,9 +78,11 @@ ebay_active: 0/1 worked, 0 kept
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2115 kept, read as shopify · last tried 2026-10-27T20:52:02Z · last worked 2026-10-27T20:52:02Z
 - Loose Change Coins (loosechangecoins.com.au): ok – 448 kept, read as shopify · last tried 2026-10-27T20:51:34Z · last worked 2026-10-27T20:51:34Z
 - Adelaide Exchange (adelaide-exchange.com.au): not read yet · last tried 2026-10-27T08:23:46Z
+- The Purple Penny (www.thepurplepenny.com, added by you): ok – 0 kept, read as generic · last tried 2026-10-17T19:08:05Z · last worked 2026-10-17T08:30:34Z
 - Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2309 kept, read as woocommerce · last tried 2026-10-27T20:06:45Z · last worked 2026-10-27T20:06:45Z
 - Bulk Bullion (bulkbullion.com.au): ok – 36 kept, read as shopify · last tried 2026-10-27T20:51:42Z · last worked 2026-10-27T20:51:42Z
 - Downies (www.downies.com): not read yet · last tried 2026-10-23T03:04:04Z
+- Max Stern & Co (maxstern.com.au): not read yet · last tried 2026-10-28T08:33:50Z
 - Melbourne Coins & Collectables (melbournecoinco.com): ok – 42 kept, read as shopify · last tried 2026-10-27T20:52:04Z · last worked 2026-10-27T20:52:04Z
 - Mint Coin Shop (mintcoinshop.com.au): ok – 147 kept, read as shopify · last tried 2026-10-27T20:52:10Z · last worked 2026-10-27T20:52:10Z
 - Southern Cross Coins (southerncrosscoins.com.au): ok – 247 kept, read as woocommerce · last tried 2026-10-27T20:05:08Z · last worked 2026-10-27T20:05:08Z
@@ -110,54 +111,260 @@ ebay_active: 0/1 worked, 0 kept
 - Australian Bullion Company (www.australianbullioncompany.com.au): ok – 16 kept, read as woocommerce · last tried 2026-10-27T20:03:55Z · last worked 2026-10-27T20:03:55Z
 - Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-28T06:01:35Z · last worked 2026-10-28T06:01:35Z
 - Bullion Money (bullionmoney.com.au): not read yet · last tried 2026-10-27T08:23:37Z
-- The Purple Penny (www.thepurplepenny.com, added by you): ok – 0 kept, read as generic · last tried 2026-10-17T19:08:05Z · last worked 2026-10-17T08:30:34Z
 
 ## Why failing shops fail (step-by-step check)
-### Edlins (edlins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+### Edlins (edlins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WordPress
   - Website: reachable
   - Shopify product feed: none
   - WooCommerce product feed: none
   - Site map: none found
   - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
+  - raw Platform: WordPress (generator: WordPress 7.1.3) · title “EDLINS &#8211; Coins ,Banknotes and Collectabes”
   - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
   - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://edlins.com.au/robots.txt
+  - raw Site map https://edlins.com.au/index.php?route=extension/feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
 ### Cockatoo Coins (cockatoocoins.com.au) – problem: the website's address doesn't exist any more (domain not found)
   - Website: the website's address doesn't exist any more (domain not found)
   - raw Website: UnknownHostException: Unable to resolve host "cockatoocoins.com.au": No address associated with hostname
-### Coins Australia (coinsaustralia.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+### Coins Australia (coinsaustralia.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins
   - Website: reachable
   - Shopify product feed: none
   - WooCommerce product feed: none
-  - Site map: none found
-  - raw Website: HTTP 301, ended at https://coinsaustralia.com.au/, 319 characters
-  - raw Shopify product feed: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
-  - raw WooCommerce product feed: SyntaxError: Unexpected token '<', "<!DOCTYPE "... is not valid JSON
-### Guy Stuff (guystuff.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Site map: 300+ pages listed
+  - Product pages: none of 4 sample pages had a readable price
+  - raw Website: HTTP 200, ended at https://www.coinsaustralia.com.au/, 44234 characters
+  - raw Platform: not recognised · title “Coins Australia - Australian Coins Shop”
+  - raw Shopify product feed: HTTP 404 from https://coinsaustralia.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://coinsaustralia.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://www.coinsaustralia.com.au/sitemap.xml
+  - raw Site map https://www.coinsaustralia.com.au/sitemap.xml: <sitemapindex> 5 site maps
+  - raw Site map https://www.coinsaustralia.com.au/sitemap_pages.xml: <urlset> 6 pages, 6 look like products
+  - raw Site map https://www.coinsaustralia.com.au/sitemap_products.xml: <urlset> 899 pages, 899 look like products
+### Guy Stuff (guystuff.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento
   - Website: reachable
   - Shopify product feed: none
   - WooCommerce product feed: none
   - Site map: none found
   - raw Website: HTTP 200, ended at https://guystuff.com.au/, 347302 characters, mentions Cloudflare/captcha
+  - raw Platform: Magento · title “Men&#039;s Gifts &amp; Collectables, NRL merchandise Guy Stuff Guy Stuff”
   - raw Shopify product feed: HTTP 404 from https://guystuff.com.au/products.json?limit=5
   - raw WooCommerce product feed: HTTP 404 from https://guystuff.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: no Sitemap lines
+  - raw Site map https://guystuff.com.au/pub/media/sitemap.xml: <html> (13634 characters, starts “�PNG      IHDR  �   �   ����    pHYs       ��  iC”)
+  - raw Site map https://guystuff.com.au/media/sitemap.xml: <html> (13634 characters, starts “�PNG      IHDR  �   �   ����    pHYs       ��  iC”)
+  - raw Site map https://guystuff.com.au/index.php?route=extension/feed/google_sitemap: <html> (356599 characters, starts “<!doctype html> <html lang="en"> <head > <script”)
 ### I.S. Wright (iswright.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
   - Website: reachable
   - Shopify product feed: none
   - WooCommerce product feed: none
   - Site map: none found
   - raw Website: HTTP 200, ended at https://www.iswright.com.au/, 16412 characters
+  - raw Platform: not recognised · title “I. S. WRIGHT Group -  Coins, Stamps &amp; Collectables”
   - raw Shopify product feed: HTTP 404 from https://iswright.com.au/products.json?limit=5
   - raw WooCommerce product feed: HTTP 404 from https://iswright.com.au/wp-json/wc/store/v1/products?per_page=5
-### Newcastle Coins (newcastlecoins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - raw Site map robots.txt: HTTP 404 from https://iswright.com.au/robots.txt
+### Newcastle Coins (newcastlecoins.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento + OpenCart
   - Website: reachable
   - Shopify product feed: none
   - WooCommerce product feed: none
   - Site map: none found
   - raw Website: HTTP 200, ended at https://newcastlecoins.com.au/, 82413 characters
+  - raw Platform: Magento + OpenCart · title “Newcastle Coins”
   - raw Shopify product feed: HTTP 404 from https://newcastlecoins.com.au/products.json?limit=5
   - raw WooCommerce product feed: HTTP 404 from https://newcastlecoins.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://newcastlecoins.com.au/robots.txt
+  - raw Site map https://newcastlecoins.com.au/index.php?route=extension/feed/google_sitemap: <html> (0 characters, starts “”)
+### Prospect Stamps & Coins (prospectstampsandcoins.com.au) – problem: the website blocks apps like Coin Hound (bot check)
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 403 from https://prospectstampsandcoins.com.au/ (the site asked for a bot check – try again later)
+### John Platts Stamps & Coins (jpsnc.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento + Ecwid
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: 16 pages listed
+  - Product pages: none of 4 sample pages had a readable price
+  - raw Website: HTTP 200, ended at https://www.jpsnc.com.au/, 294189 characters, mentions Cloudflare/captcha
+  - raw Platform: Magento + Ecwid · title “Competitive Pricing Icon”
+  - raw Shopify product feed: HTTP 404 from https://jpsnc.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://jpsnc.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://www.jpsnc.com.au/sitemap.xml
+  - raw Site map https://www.jpsnc.com.au/sitemap.xml: <urlset> 18 pages, 16 look like products
+### Peter Strich Stamps & Coins (peterstrich.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress + Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://peterstrich.com.au/, 21981 characters
+  - raw Platform: WooCommerce + WordPress + Magento (generator: WordPress 5.1.19) · title “Peter Strich Stamps &amp; Coins | Stamp &amp; Coin dealer”
+  - raw Shopify product feed: HTTP 404 from https://peterstrich.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://peterstrich.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://peterstrich.com.au/robots.txt
+  - raw Site map https://peterstrich.com.au/index.php?route=extension/feed/google_sitemap: <html> (21981 characters, starts “<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//E”)
+### The Coin Collection (coincollect.com.au) – problem: the website blocks apps like Coin Hound (bot check)
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 403 from https://coincollect.com.au/ (the site asked for a bot check – try again later)
+### The Coin & Stamp Place (thestampplace.com) – problem: the website's security certificate is broken
+  - Website: the website's security certificate is broken
+  - raw Website: SSLHandshakeException: Chain validation failed
+### The Coin Company (thecoincompany.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform BigCommerce
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: 300+ pages listed
+  - Product pages: none of 4 sample pages had a readable price
+  - raw Website: HTTP 200, ended at https://thecoincompany.com.au/, 116150 characters
+  - raw Platform: BigCommerce · title “The Coin Company - Buy Collectible Silver, Gold, Platinum Coins”
+  - raw Shopify product feed: HTTP 404 from https://thecoincompany.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://thecoincompany.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: no Sitemap lines
+  - raw Site map https://thecoincompany.com.au/xmlsitemap.php: <sitemapindex> 5 site maps
+  - raw Site map https://thecoincompany.com.au/xmlsitemap.php?type=pages&page=1: <urlset> 7 pages, 5 look like products
+  - raw Site map https://thecoincompany.com.au/xmlsitemap.php?type=products&page=1: <urlset> 2138 pages, 2138 look like products
+### Royal Australian Mint eShop (eshop.ramint.gov.au) – problem: the website blocks apps like Coin Hound (bot check)
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 429 from https://eshop.ramint.gov.au/ (the site asked for a bot check – try again later)
+### Coinworks (coinworks.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: 300+ pages listed
+  - Product pages: none of 4 sample pages had a readable price
+  - raw Website: HTTP 200, ended at https://coinworks.com.au/, 211645 characters, mentions Cloudflare/captcha
+  - raw Platform: Magento · title “Rare Australian Coin Dealers | Buy Collectable Coins Online”
+  - raw Shopify product feed: HTTP 404 from https://coinworks.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://coinworks.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://coinworks.com.au/~sitemap/
+  - raw Site map https://coinworks.com.au/~sitemap/: <urlset> 799 pages, 797 look like products
+### Drake Sterling Numismatics (www.drakesterling.com) – problem: the website blocks apps like Coin Hound (bot check)
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 403 from https://www.drakesterling.com/ (the site asked for a bot check – try again later)
+### Colonial Coins & Medals (coinmedalshop.com.au) – problem: the website isn't answering
+  - Website: the website isn't answering
+  - raw Website: ConnectException: Failed to connect to coinmedalshop.com.au/202.124.241.178:443
+### Rainbow Rarities (rainbowrarities.com) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://rainbowrarities.com/, 10284 characters
+  - raw Platform: not recognised · title “Rainbow Rarities”
+  - raw Shopify product feed: HTTP 404 from https://rainbowrarities.com/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://rainbowrarities.com/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: no Sitemap lines
+### Ancient Coin Traders (ancientcointraders.com) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://www.ancientcointraders.com/, 99183 characters, mentions Cloudflare/captcha
+  - raw Platform: not recognised · title “Index Page Title | Ancient Coin Traders”
+  - raw Shopify product feed: HTTP 404 from https://ancientcointraders.com/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://ancientcointraders.com/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: no Sitemap lines
+  - raw Site map https://ancientcointraders.com/index.php?route=extension/feed/google_sitemap: <html> (101479 characters, starts “<!DOCTYPE html> <html> <head> <meta charset="utf-8"> <me”)
+### Romanorvm (romanorum.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://romanorum.com.au/, 14605 characters
+  - raw Platform: Magento · title “Romanorum - Romanorum Ancient Coins &amp; Antiquities”
+  - raw Shopify product feed: HTTP 404 from https://romanorum.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://romanorum.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://romanorum.com.au/robots.txt
+### Walter Holt (Old Money) (oldmoney.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://oldmoney.com.au/, 9674 characters
+  - raw Platform: not recognised (generator: Mozilla/4.04 [en] (Win95; I) [Netscape]) · title “Old Money! - Walter Holt's Ancient Greek and Roman Coins.”
+  - raw Shopify product feed: HTTP 404 from https://oldmoney.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://oldmoney.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://oldmoney.com.au/robots.txt
+### ABC Bullion (www.abcbullion.com.au) – problem: the website blocks apps like Coin Hound (bot check)
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 403 from https://www.abcbullion.com.au/ (the site asked for a bot check – try again later)
+### Bullionmark (bullionmark.com.au) – problem: its product pages don't include a readable price, so Coin Hound can't price its coins · platform Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: 264 pages listed
+  - Product pages: none of 4 sample pages had a readable price
+  - raw Website: HTTP 200, ended at https://bullionmark.com.au/, 909612 characters
+  - raw Platform: Magento (generator: Gatsby 5.13.7) · title “BULLIONMARK | Maximise Every Ounce”
+  - raw Shopify product feed: HTTP 404 from https://bullionmark.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://bullionmark.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://bullionmark.com.au/sitemap.xml
+  - raw Site map https://bullionmark.com.au/sitemap.xml: <urlset> 288 pages, 264 look like products
+### City Gold Bullion (citygoldbullion.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://citygoldbullion.com.au/, 64660 characters
+  - raw Platform: WooCommerce + WordPress (generator: WordPress 6.2.14) · title “City Gold Bullion”
+  - raw Shopify product feed: HTTP 404 from https://citygoldbullion.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://citygoldbullion.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://citygoldbullion.com.au/sitemap_index.xml
+  - raw Site map https://citygoldbullion.com.au/sitemap_index.xml: <html> (118155 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/product-sitemap.xml: <html> (118157 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/store-products-sitemap.xml: <html> (118164 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/sitemap/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/media/sitemap.xml: <html> (118152 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+  - raw Site map https://citygoldbullion.com.au/index.php?route=extension/feed/google_sitemap: <html> (64660 characters, starts “<!DOCTYPE html> <!--[if IE 8 ]><html class="ie ie8" lang="e”)
+### Great Southland Bullion (greatsouthlandbullion.com.au) – problem: no product feed and no site map, so there's nothing Coin Hound can read · platform WooCommerce + WordPress + Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - raw Website: HTTP 200, ended at https://greatsouthlandbullion.au/, 286722 characters, mentions Cloudflare/captcha
+  - raw Platform: WooCommerce + WordPress + Magento (generator: Elementor 4.3.4; features: additional_custom_breakpoints; se) · title “Great Southland Bullion”
+  - raw Shopify product feed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+  - raw WooCommerce product feed: SyntaxError: Unexpected token '<', "<!doctype "... is not valid JSON
+  - raw Site map robots.txt: no Sitemap lines
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap_index.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/product-sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap_products_1.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap-products.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/store-products-sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/xmlsitemap.php: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap/products.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap1.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/pub/media/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/media/sitemap.xml: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/index.php?route=extension/feed/google_sitemap: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+  - raw Site map https://greatsouthlandbullion.com.au/sitemap.php: <html> (286722 characters, starts “<!doctype html><html lang="en-AU" prefix="og: https://ogp.me”)
+### Ceylon Exchange (ceylonexchange.com.au) – problem: IOException: too many redirects · platform WordPress + Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: 135 pages listed
+  - Product pages: IOException: too many redirects
+  - raw Website: HTTP 200, ended at https://ceylonexchange.com.au/, 53085 characters
+  - raw Platform: WordPress + Magento (generator: WordPress 7.0.7) · title “Ceylon Exchange - Currency Exchange, Money Transfer, Gold &amp; Silver Bullion”
+  - raw Shopify product feed: HTTP 404 from https://ceylonexchange.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://ceylonexchange.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: https://ceylonexchange.com.au/sitemap_index.xml
+  - raw Site map https://ceylonexchange.com.au/sitemap_index.xml: <sitemapindex> 8 site maps
+  - raw Site map http://ceylonexchange.com.au/post-sitemap.xml: <urlset> 40 pages, 39 look like products
+  - raw Site map http://ceylonexchange.com.au/page-sitemap.xml: <urlset> 92 pages, 89 look like products
+  - raw Site map http://ceylonexchange.com.au/cfmemailverification-sitemap.xml: <urlset> 3 pages, 3 look like products
+  - raw Site map http://ceylonexchange.com.au/form-maker_fmc-sitemap.xml: <urlset> 1 pages, 1 look like products
+  - raw Site map http://ceylonexchange.com.au/status_email-sitemap.xml: <urlset> 3 pages, 3 look like products
+  - raw Site map http://ceylonexchange.com.au/category-sitemap.xml: <urlset> 3 pages, 0 look like products
+  - raw Site map http://ceylonexchange.com.au/post_tag-sitemap.xml: <urlset> 11 pages, 0 look like products
+  - raw Site map http://ceylonexchange.com.au/author-sitemap.xml: <urlset> 2 pages, 0 look like products
+  - raw Product page http://ceylonexchange.com.au/mobile-top-up/: IOException: too many redirects
+### SA Gold Traders (sagoldtraders.com.au) – problem: the website's address doesn't exist any more (domain not found)
+  - Website: the website's address doesn't exist any more (domain not found)
+  - raw Website: UnknownHostException: Unable to resolve host "sagoldtraders.com.au": No address associated with hostname
 
-## Last 3 days by source (685 steps)
+## Last 3 days by source (674 steps)
 - shop The Coin Collection: 0/1 worked, 0 kept
     1× Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
 - shop Colonial Coins & Medals: 0/1 worked, 0 kept
@@ -228,8 +435,8 @@ ebay_active: 0/1 worked, 0 kept
     3× Error: product pages have no readable price data
 - shop WA Coins: 12/13 worked, 3984 kept
     1× Error: SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
-- facebook: 108/115 worked, 0 kept
-    7× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- facebook: 98/104 worked, 0 kept
+    6× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 - shop Imperial Bullion: 15/15 worked, 180 kept
 - shop As Good As Gold: 15/15 worked, 457 kept
 - shop Swan Bullion: 15/15 worked, 391 kept
