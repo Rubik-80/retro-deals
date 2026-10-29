@@ -1,27 +1,28 @@
 # Coin Hound 2.28 refresh report
-Written 2026-10-29T11:28:19Z (29 Oct, 10:28 pm Sydney) · refresh slice started 2026-10-29T11:19:29Z, took 531 s
-Totals: {"ebay_sold":8,"ebay_active":8,"facebook":0,"shops_failed":2,"shops":88,"cashconverters":170,"pages_read":0,"removed_after_reading":0,"ended":0,"alerts":5}
-Last problem: ebay_active ($1 2009 Inspirational Australians Steve Irwin Collector issue): Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:51 pm
-Stored: 11636 live · 7690 sold
+Written 2026-10-29T19:28:12Z (30 Oct, 6:28 am Sydney) · refresh slice started 2026-10-29T19:19:28Z, took 524 s
+Totals: {"ebay_active":7,"shops":4585,"facebook":0,"ebay_sold":0,"shops_failed":3,"cashconverters":149,"pages_read":4,"removed_after_reading":1,"ended":0,"alerts":1}
+Last problem: ebay_sold ($1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue): Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:51 am
+Stored: 11669 live · 7705 sold
 Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
-eBay: PAUSED (blocked) until 2026-10-29T11:51:44Z
+eBay: PAUSED (blocked) until 2026-10-29T19:51:42Z
 Linked collection: 1899 wanted, 546 owned, catalogue 2547
 
-## This refresh: 22 steps, 5 with problems
-cashconverters: 1/1 worked, 170 kept
+## This refresh: 35 steps, 6 with problems
+cashconverters: 1/1 worked, 149 kept
 facebook: 10/11 worked, 0 kept
-shops: 4/6 worked, 88 kept
-ebay_active: 1/2 worked, 8 kept
-ebay_sold: 1/2 worked, 8 kept
+shops: 17/20 worked, 4585 kept
+ebay_sold: 0/1 worked, 0 kept
+ebay_active: 1/2 worked, 7 kept
 
 ### Problems this refresh
 - facebook | (skipped for the rest of this refresh) | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-- shop | Smits Stamps & Coins | Error: smitsstampsandcoinswa.com.au: couldn't read this site (no product feed or sitemap)
-- ebay_active | $1 2009 Inspirational Australians Steve Irwin Collector issue | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:51 pm
-- ebay_sold | $1 2009 Inspirational Australians Steve Irwin Collector issue | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- shop | Colonial Coins & Medals | Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap)
+- shop | Mint Coins | Error: no product sitemap found
+- ebay_sold | $1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:51 am
+- ebay_active | $1 2009 Inspirational Australians Steve Irwin Collector issue | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop | The Perth Mint | Error: product pages have no readable price data – e.g. https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h: HTTP 200, 415942 chars, ended at https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h · title 
+- shop | SA Gold Traders | Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
 
-## Shops: 68 on · 38 working · 30 failing · 0 not read yet
+## Shops: 68 on · 36 working · 32 failing · 0 not read yet
 - Edlins (edlins.com.au): FAILING 3× (skipped until its daily retry) – Error: edlins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:24:18Z
 - Cockatoo Coins (cockatoocoins.com.au): FAILING 3× (skipped until its daily retry) – Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:28:04Z
 - Coins Australia (coinsaustralia.com.au): FAILING 3× (skipped until its daily retry) – Error: product pages have no readable price data – e.g. https://www.coinsaustralia.com.au/shop/item/2024-ghostbusters-2oz-silver-slimer-shaped-coin: HTTP 200, 30697 chars, ended at https://www.coinsaustralia.com.au/shop/item/2024-ghostbusters-2oz-silver-slimer-shaped-coin · title “Coins Australia - 2024 Ghostbusters 2oz Silver Slimer Shaped Coin” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $199 · last tried 2026-10-28T23:25:56Z
@@ -33,7 +34,8 @@ ebay_sold: 1/2 worked, 8 kept
 - The Coin Collection (coincollect.com.au): FAILING 3× (skipped until its daily retry) – Error: coincollect.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T05:24:19Z
 - Adelaide Exchange (adelaide-exchange.com.au): FAILING 3× (skipped until its daily retry) – Error: product pages have no readable price data – e.g. http://www.adelaide-exchange.com.au/Promotions.aspx: HTTP 200, 36611 chars, ended at https://www.adelaide-exchange.com.au/Promotions.aspx · title “Adelaide Exchange > Promotions” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: none · prices look live-loaded · last tried 2026-10-29T05:27:29Z
 - The Coin & Stamp Place (thestampplace.com): FAILING 3× (skipped until its daily retry) – Error: thestampplace.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:31:55Z
-- Mint Coins (mintcoins.com.au): FAILING 2× – Error: no product sitemap found · last tried 2026-10-29T05:28:56Z · last worked 2026-10-28T15:36:53Z
+- Mint Coins (mintcoins.com.au): FAILING 3× (skipped until its daily retry) – Error: no product sitemap found · last tried 2026-10-29T19:21:43Z · last worked 2026-10-28T15:36:53Z
+- The Perth Mint (www.perthmint.com): FAILING 1× – Error: product pages have no readable price data – e.g. https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h: HTTP 200, 415942 chars, ended at https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h · title “Roman Legion 2018 2oz Silver Antiqued Rimless Coin” · JSON-LD: Product/http://schema.org/Brand/Offer/Organization (price 0) · itemprop price: none · meta price: none · first $ amount in the text: none · has add-to-cart · last tried 2026-10-29T19:21:44Z · last worked 2026-10-29T05:28:51Z
 - Royal Australian Mint eShop (eshop.ramint.gov.au): FAILING 3× (skipped until its daily retry) – Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:35:09Z
 - Coinworks (coinworks.com.au): FAILING 3× (skipped until its daily retry) – Error: product pages have no readable price data – e.g. https://coinworks.com.au/The-1813-Dump-underrated-and-undervalued: HTTP 200, 220957 chars, ended at https://coinworks.com.au/1813-dump · title “The 1813 Dump &amp; Holey Dollar | Coinworks” · JSON-LD: WebPage/LocalBusiness/PostalAddress/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer/Product/Offer (price 0,) · itemprop price: none · meta price: none · first $ amount in the text: $5,000 · last tried 2026-10-28T23:36:26Z
 - Drake Sterling Numismatics (www.drakesterling.com): FAILING 3× (skipped until its daily retry) – Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:36:26Z
@@ -43,56 +45,55 @@ ebay_sold: 1/2 worked, 8 kept
 - Ancient Coin Traders (ancientcointraders.com): FAILING 3× (skipped until its daily retry) – Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:41:15Z
 - Romanorvm (romanorum.com.au): FAILING 3× (skipped until its daily retry) – Error: romanorum.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T09:34:33Z
 - Walter Holt (Old Money) (oldmoney.com.au): FAILING 3× (skipped until its daily retry) – Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T09:34:43Z
-- Queensland Mint (qmint.com): FAILING 2× – Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/1g-abc-gold-minted-bar: HTTP 200, 953316 chars, ended at https://queenslandmint.com/shop/product/1g-abc-gold-minted-bar · title “ABC 1g Gold Minted Bar | Queensland Mint” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $0 · has add-to-cart · prices look live-loaded · last tried 2026-10-28T23:57:57Z · last worked 2026-10-17T08:30:34Z
+- Ainslie Bullion (ainsliebullion.com.au): FAILING 1× – Error: product pages have no readable price data – e.g. https://ainsliebullion.com.au/Buy/Keyword/Platinum-Bar/ID/61: HTTP 200, 114116 chars, ended at https://ainsliebullion.com.au/Buy/Keyword/Platinum-Bar/ID/61 · title “Buy Gold & Silver Bullion | Trusted Australian Dealer Since 1974” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $2,386.68 · prices look live-loaded · last tried 2026-10-29T15:21:42Z · last worked 2026-10-29T00:00:42Z
+- Queensland Mint (qmint.com): FAILING 3× (skipped until its daily retry) – Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/2013-Australian-Silver-200th-Anniversary-Holey-Dollar-and-Du: HTTP 200, 913665 chars, ended at https://queenslandmint.com/shop/product/2013-Australian-Silver-200th-Anniversary-Holey-Dollar-and-Du · title “Queensland Mint” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $0 · has add-to-cart · prices look live-loaded · last tried 2026-10-29T15:21:50Z · last worked 2026-10-17T08:30:34Z
 - ABC Bullion (www.abcbullion.com.au): FAILING 3× (skipped until its daily retry) – Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-28T23:58:01Z
-- Bullionmark (bullionmark.com.au): FAILING 2× – Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/maxpax-mates-metal-bundle: HTTP 200, 903527 chars, ended at https://bullionmark.com.au/shop/product/maxpax-mates-metal-bundle · title “MaxPax Mates Metal Bundle - 1kg Silver, 1oz Gold, 1oz Platinum - BULLI” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $0 · has add-to-cart · prices look live-loaded · last tried 2026-10-28T23:59:52Z · last worked 2026-10-16T15:10:09Z
+- Bullionmark (bullionmark.com.au): FAILING 3× (skipped until its daily retry) – Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/2024-2oz-kookaburra-gold-high-relief-proof-coin-in-presentat: HTTP 200, 892800 chars, ended at https://bullionmark.com.au/shop/product/2024-2oz-kookaburra-gold-high-relief-proof-coin-in-presentat · title “2024 2oz Kookaburra Gold High Relief Proof Coin in Presentation Case |” · JSON-LD: none · itemprop price: none · meta price: none · first $ amount in the text: $0 · has add-to-cart · prices look live-loaded · last tried 2026-10-29T15:21:37Z · last worked 2026-10-16T15:10:09Z
 - City Gold Bullion (citygoldbullion.com.au): FAILING 3× (skipped until its daily retry) – Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T00:00:27Z
 - Great Southland Bullion (greatsouthlandbullion.com.au): FAILING 3× (skipped until its daily retry) – Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T00:01:20Z
-- Bradford Coins (bradfordcoins.com.au): FAILING 2× – Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T00:00:46Z
-- Bullion Money (bullionmoney.com.au): FAILING 2× – Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T00:01:00Z
+- Bradford Coins (bradfordcoins.com.au): FAILING 3× (skipped until its daily retry) – Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T15:21:42Z
+- Bullion Money (bullionmoney.com.au): FAILING 3× (skipped until its daily retry) – Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T15:21:53Z
 - Ceylon Exchange (ceylonexchange.com.au): FAILING 3× (skipped until its daily retry) – Error: no product sitemap found · last tried 2026-10-29T00:01:06Z
-- SA Gold Traders (sagoldtraders.com.au): FAILING 2× – Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T05:25:48Z
-- Guardian Gold (guardian-gold.com.au): ok – 32 kept, read as woocommerce · last tried 2026-10-29T05:22:00Z · last worked 2026-10-29T05:22:00Z
-- Heritage Numismatics (heritagenumismatics.com.au): ok – 22 kept, read as shopify · last tried 2026-10-29T05:22:00Z · last worked 2026-10-29T05:22:00Z
-- Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 353 kept, read as shopify · last tried 2026-10-29T05:23:01Z · last worked 2026-10-29T05:23:01Z
-- Peter's of Kensington (petersofkensington.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T05:24:16Z · last worked 2026-10-29T05:24:16Z
-- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 132 kept, read as shopify · last tried 2026-10-29T05:22:07Z · last worked 2026-10-29T05:22:07Z
-- Town Hall Coins (townhallcoins.com): ok – 1601 kept, read as shopify · last tried 2026-10-29T05:22:54Z · last worked 2026-10-29T05:22:54Z
-- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2041 kept, read as shopify · last tried 2026-10-29T05:25:29Z · last worked 2026-10-29T05:25:29Z
-- John Platts Stamps & Coins (jpsnc.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T05:25:39Z · last worked 2026-10-29T05:25:39Z
-- Loose Change Coins (loosechangecoins.com.au): ok – 469 kept, read as shopify · last tried 2026-10-29T05:23:16Z · last worked 2026-10-29T05:23:16Z
-- The Purple Penny (www.thepurplepenny.com, added by you): ok – 0 kept, read as generic · last tried 2026-10-29T11:26:48Z · last worked 2026-10-29T11:26:48Z
-- Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2390 kept, read as woocommerce · last tried 2026-10-29T05:28:23Z · last worked 2026-10-29T05:28:23Z
-- Bulk Bullion (bulkbullion.com.au): ok – 35 kept, read as shopify · last tried 2026-10-29T05:25:48Z · last worked 2026-10-29T05:25:48Z
-- Downies (www.downies.com): ok – 1164 kept, read as shopify · last tried 2026-10-29T05:27:09Z · last worked 2026-10-29T05:27:09Z
-- Max Stern & Co (maxstern.com.au): ok – 2 kept, read as generic · last tried 2026-10-29T11:26:47Z · last worked 2026-10-29T11:26:47Z
-- Melbourne Coins & Collectables (melbournecoinco.com): ok – 33 kept, read as shopify · last tried 2026-10-29T05:27:27Z · last worked 2026-10-29T05:27:27Z
-- Mint Coin Shop (mintcoinshop.com.au): ok – 139 kept, read as shopify · last tried 2026-10-29T05:27:34Z · last worked 2026-10-29T05:27:34Z
-- Southern Cross Coins (southerncrosscoins.com.au): ok – 224 kept, read as woocommerce · last tried 2026-10-29T05:28:56Z · last worked 2026-10-29T05:28:56Z
-- Coin City (coincity.com.au): ok – 960 kept, read as shopify · last tried 2026-10-29T05:28:23Z · last worked 2026-10-29T05:28:23Z
-- Direct Coins (directcoins.com.au): ok – 128 kept, read as shopify · last tried 2026-10-29T05:28:40Z · last worked 2026-10-29T05:28:40Z
-- Swan Bullion (swanbullion.com): ok – 23 kept, read as woocommerce · last tried 2026-10-29T05:28:49Z · last worked 2026-10-29T05:28:49Z
-- The Coin Company (thecoincompany.com.au): ok – 10 kept, read as generic · last tried 2026-10-29T11:26:47Z · last worked 2026-10-29T11:26:47Z
-- The Perth Mint (www.perthmint.com): ok – 0 kept, read as generic · last tried 2026-10-29T05:28:51Z · last worked 2026-10-29T05:28:51Z
-- Sterling & Currency (www.sterlingcurrency.com.au): ok – 13 kept, read as generic · last tried 2026-10-28T23:58:11Z · last worked 2026-10-28T23:58:11Z
-- Vintage Coins & Banknotes (vintagecoinsandbanknotes.com.au): ok – 23 kept, read as shopify · last tried 2026-10-29T09:33:56Z · last worked 2026-10-29T09:33:56Z
-- Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 44 kept, read as shopify · last tried 2026-10-29T09:33:51Z · last worked 2026-10-29T09:33:51Z
-- Imperial Numismatics (imperialnumismatics.com.au): ok – 64 kept, read as woocommerce · last tried 2026-10-29T09:34:12Z · last worked 2026-10-29T09:34:12Z
-- WA Coins (wacoins.com.au): ok – 338 kept, read as woocommerce · last tried 2026-10-29T09:34:31Z · last worked 2026-10-29T09:34:31Z
-- The Coin Chest (the-coin-chest.com): ok – 132 kept, read as woocommerce · last tried 2026-10-29T09:34:53Z · last worked 2026-10-29T09:34:53Z
-- Ainslie Bullion (ainsliebullion.com.au): ok – 122 kept, read as generic · last tried 2026-10-29T00:00:42Z · last worked 2026-10-29T00:00:42Z
-- Jaggards (www.jaggards.com.au): ok – 76 kept, read as woocommerce · last tried 2026-10-29T11:23:24Z · last worked 2026-10-29T11:23:24Z
-- KJC Bullion (www.kjc-gold-silver-bullion.com.au): ok – 67 kept, read as generic · last tried 2026-10-29T00:01:18Z · last worked 2026-10-29T00:01:18Z
-- Bullion Now (bullionnow.com.au): ok – 2 kept, read as woocommerce · last tried 2026-10-29T05:28:56Z · last worked 2026-10-29T05:28:56Z
-- Gold Stackers (goldstackers.com.au): ok – 29 kept, read as woocommerce · last tried 2026-10-28T23:58:17Z · last worked 2026-10-28T23:58:17Z
-- Imperial Bullion (imperialbullion.com.au): ok – 11 kept, read as woocommerce · last tried 2026-10-28T23:59:59Z · last worked 2026-10-28T23:59:59Z
-- Gold Bullion Australia (goldbullionaustralia.com.au): ok – 26 kept, read as woocommerce · last tried 2026-10-29T00:00:05Z · last worked 2026-10-29T00:00:05Z
-- As Good As Gold (asgoodasgold.com.au): ok – 31 kept, read as shopify · last tried 2026-10-29T00:00:30Z · last worked 2026-10-29T00:00:30Z
-- Australian Bullion Company (www.australianbullioncompany.com.au): ok – 20 kept, read as woocommerce · last tried 2026-10-29T00:00:52Z · last worked 2026-10-29T00:00:52Z
-- Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-29T00:00:56Z · last worked 2026-10-29T00:00:56Z
+- SA Gold Traders (sagoldtraders.com.au): FAILING 3× (skipped until its daily retry) – Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap) · last tried 2026-10-29T19:23:14Z
+- Guardian Gold (guardian-gold.com.au): ok – 32 kept, read as woocommerce · last tried 2026-10-29T15:21:59Z · last worked 2026-10-29T15:21:59Z
+- Heritage Numismatics (heritagenumismatics.com.au): ok – 22 kept, read as shopify · last tried 2026-10-29T15:21:57Z · last worked 2026-10-29T15:21:57Z
+- Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 355 kept, read as shopify · last tried 2026-10-29T15:23:08Z · last worked 2026-10-29T15:23:08Z
+- Peter's of Kensington (petersofkensington.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T15:24:31Z · last worked 2026-10-29T15:24:31Z
+- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 132 kept, read as shopify · last tried 2026-10-29T15:22:05Z · last worked 2026-10-29T15:22:05Z
+- Town Hall Coins (townhallcoins.com): ok – 1609 kept, read as shopify · last tried 2026-10-29T15:22:50Z · last worked 2026-10-29T15:22:50Z
+- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2041 kept, read as shopify · last tried 2026-10-29T15:25:22Z · last worked 2026-10-29T15:25:22Z
+- John Platts Stamps & Coins (jpsnc.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T15:25:42Z · last worked 2026-10-29T15:25:42Z
+- Loose Change Coins (loosechangecoins.com.au): ok – 468 kept, read as shopify · last tried 2026-10-29T15:23:08Z · last worked 2026-10-29T15:23:08Z
+- The Purple Penny (www.thepurplepenny.com, added by you): ok – 0 kept, read as generic · last tried 2026-10-29T19:26:44Z · last worked 2026-10-29T19:26:44Z
+- Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2389 kept, read as woocommerce · last tried 2026-10-29T19:21:17Z · last worked 2026-10-29T19:21:17Z
+- Bulk Bullion (bulkbullion.com.au): ok – 34 kept, read as shopify · last tried 2026-10-29T15:25:28Z · last worked 2026-10-29T15:25:28Z
+- Downies (www.downies.com): ok – 1163 kept, read as shopify · last tried 2026-10-29T15:27:10Z · last worked 2026-10-29T15:27:10Z
+- Max Stern & Co (maxstern.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T19:26:46Z · last worked 2026-10-29T19:26:46Z
+- Melbourne Coins & Collectables (melbournecoinco.com): ok – 33 kept, read as shopify · last tried 2026-10-29T19:19:43Z · last worked 2026-10-29T19:19:43Z
+- Mint Coin Shop (mintcoinshop.com.au): ok – 139 kept, read as shopify · last tried 2026-10-29T19:19:40Z · last worked 2026-10-29T19:19:40Z
+- Southern Cross Coins (southerncrosscoins.com.au): ok – 224 kept, read as woocommerce · last tried 2026-10-29T19:21:21Z · last worked 2026-10-29T19:21:21Z
+- Coin City (coincity.com.au): ok – 960 kept, read as shopify · last tried 2026-10-29T19:20:17Z · last worked 2026-10-29T19:20:17Z
+- Direct Coins (directcoins.com.au): ok – 128 kept, read as shopify · last tried 2026-10-29T19:19:54Z · last worked 2026-10-29T19:19:54Z
+- Swan Bullion (swanbullion.com): ok – 23 kept, read as woocommerce · last tried 2026-10-29T19:19:59Z · last worked 2026-10-29T19:19:59Z
+- The Coin Company (thecoincompany.com.au): ok – 2 kept, read as generic · last tried 2026-10-29T19:26:45Z · last worked 2026-10-29T19:26:45Z
+- Sterling & Currency (www.sterlingcurrency.com.au): ok – 0 kept, read as generic · last tried 2026-10-29T15:27:10Z · last worked 2026-10-29T15:27:10Z
+- Vintage Coins & Banknotes (vintagecoinsandbanknotes.com.au): ok – 23 kept, read as shopify · last tried 2026-10-29T19:21:52Z · last worked 2026-10-29T19:21:52Z
+- Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 44 kept, read as shopify · last tried 2026-10-29T19:21:50Z · last worked 2026-10-29T19:21:50Z
+- Imperial Numismatics (imperialnumismatics.com.au): ok – 64 kept, read as woocommerce · last tried 2026-10-29T19:22:17Z · last worked 2026-10-29T19:22:17Z
+- WA Coins (wacoins.com.au): ok – 338 kept, read as woocommerce · last tried 2026-10-29T19:22:14Z · last worked 2026-10-29T19:22:14Z
+- The Coin Chest (the-coin-chest.com): ok – 132 kept, read as woocommerce · last tried 2026-10-29T19:22:25Z · last worked 2026-10-29T19:22:25Z
+- Jaggards (www.jaggards.com.au): ok – 76 kept, read as woocommerce · last tried 2026-10-29T19:22:27Z · last worked 2026-10-29T19:22:27Z
+- KJC Bullion (www.kjc-gold-silver-bullion.com.au): ok – 39 kept, read as generic · last tried 2026-10-29T15:27:10Z · last worked 2026-10-29T15:27:10Z
+- Bullion Now (bullionnow.com.au): ok – 10 kept, read as woocommerce · last tried 2026-10-29T19:26:45Z · last worked 2026-10-29T19:26:45Z
+- Gold Stackers (goldstackers.com.au): ok – 29 kept, read as woocommerce · last tried 2026-10-29T15:19:56Z · last worked 2026-10-29T15:19:56Z
+- Imperial Bullion (imperialbullion.com.au): ok – 11 kept, read as woocommerce · last tried 2026-10-29T15:20:13Z · last worked 2026-10-29T15:20:13Z
+- Gold Bullion Australia (goldbullionaustralia.com.au): ok – 25 kept, read as woocommerce · last tried 2026-10-29T15:20:22Z · last worked 2026-10-29T15:20:22Z
+- As Good As Gold (asgoodasgold.com.au): ok – 31 kept, read as shopify · last tried 2026-10-29T15:20:26Z · last worked 2026-10-29T15:20:26Z
+- Australian Bullion Company (www.australianbullioncompany.com.au): ok – 20 kept, read as woocommerce · last tried 2026-10-29T15:21:50Z · last worked 2026-10-29T15:21:50Z
+- Royal Bullion (royalbullion.com.au): ok – 0 kept, read as woocommerce · last tried 2026-10-29T15:21:46Z · last worked 2026-10-29T15:21:46Z
 
 ## Top 50 deals as the app shows them (best first)
-- 52% under | $12 vs usual $25, 2 sales, low | 2015 $1 ANZAC Centenary 'C' Mintmark Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 C mintmark unc | price not confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-c-mintmark-uncirculated-coin
+- 52% under | $12 vs usual $25, 2 sales, low | 2015 $1 ANZAC Centenary 'C' Mintmark Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 C mintmark unc | price confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-c-mintmark-uncirculated-coin
 - 52% under | $12 vs usual $24.99, 2 sales, low | 1981 Mint Set | shop:Town Hall Coins | read as: mint_set 1981 unc | price not confirmed | https://townhallcoins.com/products/1981-mint-set
 - 50% under | $20 vs usual $40, 2 sales, low | His Majesty King Charles III 2025 50c PNC (RAM) | shop:Coins & Collectables Victoria | read as: pnc 2025 50c | price not confirmed | https://coinsandcollectables.com.au/products/his-majesty-king-charles-iii-2025-50c-pnc-ram
 - 39% under | $30 vs usual $49, 2 sales, low | 2009 $1 Master C Mintmark Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2009 $1 C mintmark unc | price confirmed | https://coincity.com.au/products/2009-1-master-c-mintmark-uncirculated-coin-in-ram-card
@@ -104,7 +105,7 @@ ebay_sold: 1/2 worked, 8 kept
 - 31% under | $130 vs usual $189, 2 sales, low | 2026 Six-Coin Proof Set | Royal Australian Mint – 60th Anniversary of Decimal Currency | shop:Sydney Coins & Jewellery | read as: proof_set 2026 proof | price not confirmed | https://sydneycoins.com.au/products/2026-six-coin-coloured-proof-set-royal-australian-mint-60th-anniversary-of-decimal-currency
 - 31% under | $249 vs usual $358.88, 3 sales, low | 2000 Baby Proof Set | shop:Town Hall Coins | read as: proof_set 2000 proof | price confirmed | https://townhallcoins.com/products/2000-baby-proof-set
 - 31% under | $30.5 vs usual $43.92 (melt $26.52), 4 sales, medium | 1966 50c Round Circulated Coin | shop:Town Hall Coins | read as: coin 1966 50c circulated | price not confirmed | https://townhallcoins.com/products/1966-50c-round-circulated-coin
-- 28% under | $87.85 vs usual $122 (melt $76.89), 2 sales, low | 1oz Perth Mint Silver Kookaburra Coin 2026 | shop:Guardian Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"label","weight_oz":1} | price not confirmed | https://guardian-gold.com.au/product/1oz-perth-mint-silver-kookaburra-coin-2026/
+- 29% under | $86.92 vs usual $122 (melt $76.89), 2 sales, low | 1oz Perth Mint Silver Kookaburra Coin 2026 | shop:Guardian Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"label","weight_oz":1} | price not confirmed | https://guardian-gold.com.au/product/1oz-perth-mint-silver-kookaburra-coin-2026/
 - 28% under | $15 vs usual $20.77, 2 sales, low | 2013 $1 200 Years of The Benevolent Society Uncirculated Coin | shop:Town Hall Coins | read as: coin 2013 $1 unc | price not confirmed | https://townhallcoins.com/products/2013-1-200-years-of-the-benevolent-society-uncirculated-coin
 - 26% under | $57 vs usual $77.37, 2 sales, low | Australia 2023 $2 Tooth Fairy Superb Gem Unc Coin PCGS MS67 #2175 | shop:Tasmanian Numismatics | read as: coin 2023 $2 unc | price confirmed | https://tasmaniannumismatics.com.au/product/australia-2023-2-tooth-fairy-superb-gem-unc-coin-pcgs-ms67-2175/
 - 26% under | $57 vs usual $77.37, 2 sales, low | Australia 2023 $2 Tooth Fairy Superb Gem Unc Coin PCGS MS67 #2176 | shop:Tasmanian Numismatics | read as: coin 2023 $2 unc | price confirmed | https://tasmaniannumismatics.com.au/product/australia-2023-2-tooth-fairy-superb-gem-unc-coin-pcgs-ms67-2176/
@@ -112,47 +113,58 @@ ebay_sold: 1/2 worked, 8 kept
 - 26% under | $57 vs usual $77.37, 2 sales, low | Australia 2023 Tooth Fairy Two Dollars $2 Coin PCGS MS67 #6205 | shop:Tasmanian Numismatics | read as: coin 2023 $2 unc | price confirmed | https://tasmaniannumismatics.com.au/product/australia-2023-tooth-fairy-two-dollars-2-coin-pcgs-ms67-6205/
 - 26% under | $57 vs usual $77.37, 2 sales, low | Australia 2023 Tooth Fairy Two Dollars $2 Coin PCGS MS67 #6215 | shop:Tasmanian Numismatics | read as: coin 2023 $2 unc | price confirmed | https://tasmaniannumismatics.com.au/product/australia-2023-tooth-fairy-two-dollars-2-coin-pcgs-ms67-6215/
 - 26% under | $57 vs usual $77.37, 2 sales, low | Australia 2023 Tooth Fairy Two Dollars $2 Coin PCGS MS67 #6225 | shop:Tasmanian Numismatics | read as: coin 2023 $2 unc | price confirmed | https://tasmaniannumismatics.com.au/product/australia-2023-tooth-fairy-two-dollars-2-coin-pcgs-ms67-6225/
+- 26% under | $90.35 vs usual $122 (melt $76.89), 2 sales, low | 1oz Perth Mint Kookaburra Silver Coin – 2026 | shop:Gold Bullion Australia | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://www.goldbullionaustralia.com.au/product/1oz-perth-mint-kookaburra-silver-coin-2026/
+- 26% under | $90.7 vs usual $122 (melt $76.89), 2 sales, low | 1oz – Perth Mint Kookaburra Silver Coin (Year 2026) | shop:Gold Stackers | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://www.goldstackers.com.au/product/australian-kookaburra-2026-1oz-silver-bullion-coin/
 - 25% under | $30 vs usual $40, 3 sales, low | 1983 Australia 20c in Uncirculated Scarce Date Coin | shop:WA Coins | read as: coin 1983 20c unc | price not confirmed | https://www.wacoins.com.au/shop/1983-australia-20c-in-uncirculated-scarce-date-coin/
-- 24% under | $92.45 vs usual $122 (melt $76.89), 2 sales, low | 1oz – Perth Mint Kookaburra Silver Coin (Year 2026) | shop:Gold Stackers | read as: bullion 2026 1oz silver | page/description: {"metal":"silver"} | price not confirmed | https://www.goldstackers.com.au/product/australian-kookaburra-2026-1oz-silver-bullion-coin/
-- 24% under | $92.6 vs usual $122 (melt $76.89), 2 sales, low | 1oz Perth Mint Kookaburra Silver Coin – 2026 | shop:Gold Bullion Australia | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://www.goldbullionaustralia.com.au/product/1oz-perth-mint-kookaburra-silver-coin-2026/
 - 24% under | $39 vs usual $51, 11 sales, high | 2000 $1 Australia's First Victoria Cross Uncirculated Coin | shop:Town Hall Coins | read as: coin 2000 $1 unc | price not confirmed | https://townhallcoins.com/products/2000-1-australias-first-victoria-cross-uncirculated-coin
+- 23% under | $88.16 vs usual $114.7 (melt $76.89), 2 sales, low | Perth Mint Kangaroo 1 oz Silver Bar | shop:As Good As Gold | read as: bar 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/perth-mint-kangaroo-1-oz-silver-bar
 - 23% under | $34.95 vs usual $45.45, 2 sales, low | 2013 50c 50th Anniversary of Surfing in Australia Unc Coin in Card | shop:Coin City | read as: coin 2013 50c unc | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2013-50c-50th-anniversary-of-surfing-in-australia-unc-coin-in-card
-- 22% under | $89.95 vs usual $114.7 (melt $76.89), 2 sales, low | Perth Mint Kangaroo 1 oz Silver Bar | shop:As Good As Gold | read as: bar 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/perth-mint-kangaroo-1-oz-silver-bar
+- 22% under | $31.55 vs usual $40.56 (melt $26.52), 75 sales, high | Australia 1966 Round 50c Silver Coin | shop:Gold Stackers | read as: coin 1966 50c silver | price not confirmed | https://www.goldstackers.com.au/product/australia-1966-round-50c-silver-coin/
 - 21% under | $96.04 vs usual $122 (melt $76.89), 2 sales, low | 2026 Perth Mint Silver Kookaburra Coin 1oz | shop:Bullion Now | read as: bullion 2026 1oz silver | price not confirmed | https://bullionnow.com.au/shop/2026-perth-mint-silver-kookaburra-coin-1oz/
-- 21% under | $32.2 vs usual $40.56 (melt $26.52), 75 sales, high | Australia 1966 Round 50c Silver Coin | shop:Gold Stackers | read as: coin 1966 50c silver | price not confirmed | https://www.goldstackers.com.au/product/australia-1966-round-50c-silver-coin/
-- 20% under | $98.18 vs usual $122 (melt $76.89), 2 sales, low | 2026 1oz Perth Mint Silver Kookaburra Coin | shop:Jaggards | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"label"} | price not confirmed | https://www.jaggards.com.au/product/2026-1oz-perth-mint-silver-kookaburra-coin/
+- 21% under | $97.04 vs usual $122 (melt $76.89), 2 sales, low | 2026 1oz Perth Mint Silver Kookaburra Coin | shop:Jaggards | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"label"} | price not confirmed | https://www.jaggards.com.au/product/2026-1oz-perth-mint-silver-kookaburra-coin/
 - 19% under | $30 vs usual $37.2, 4 sales, medium | 1987 Royal Australian Mint 7 Coin Mint Set | shop:Wynyard Coin Centre | read as: mint_set 1987 unc | price not confirmed | https://wynyardcoins.com.au/products/mint-set-1987-7
 - 19% under | $18 vs usual $22.26, 2 sales, low | 1997 $1 Sir Charles Kingsford Smith S Mintmark Unc Coin in RAM Card | shop:Coin City | read as: coin 1997 $1 S mintmark unc | price not confirmed | https://coincity.com.au/products/1997-1-sir-charles-kingsford-smith-s-mintmark-unc-coin-in-ram-card
 - 19% under | $19 vs usual $23.5, 3 sales, low | 1980 Royal Australian Mint 6 coin set | shop:Southern Cross Coins | read as: mint_set 1980 unc | price not confirmed | https://southerncrosscoins.com.au/product/1980-royal-australian-mint-6-coin-set/
 - 19% under | $6.5 vs usual $8, 2 sales, low | 2006 $1 50 Years of Australian Television C Mintmark Unc Coin in RAM Card | shop:Coin City | read as: coin 2006 $1 C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$1"} | price not confirmed | https://coincity.com.au/products/2006-1-50-years-of-australian-television-c-mintmark-unc-coin-in-ram-card
+- 17% under | $88.36 vs usual $106.98 (melt $76.89), 4 sales, medium | 2026 Australian Kangaroo 1 oz Silver Coin | shop:As Good As Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/2026-australian-kangaroo-1-oz-silver-coin
 - 17% under | $29 vs usual $35, 2 sales, low | 2010 $1 100 Years of Australian Coinage Uncirculated 4 Coin Set | shop:Town Hall Coins | read as: mint_set 2010 $1 unc | price not confirmed | https://townhallcoins.com/products/2010-1-100-years-of-australian-coinage-uncirculated-4-coin-set
 - 17% under | $125 vs usual $150.16, 4 sales, medium | $2 2026 Dawn Service 'C' Mintmark Coloured Silver Proof | shop:Wynyard Coin Centre | read as: coin 2026 $2 silver C mintmark proof | page/description: {"metal":"silver","metal_by":"purity"} | price confirmed | https://wynyardcoins.com.au/products/2-2026-dawn-service-c-mintmark-coloured-silver-proof11904
 - 17% under | $5 vs usual $6, 2 sales, low | 50c 2019 International Year of Indigenous Languages UNC | shop:Wynyard Coin Centre | read as: coin 2019 50c unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2019-international-year-of-indigenous-languages-unc-1
 - 16% under | $22.5 vs usual $26.75, 4 sales, medium | 50c 2025 Koala Series UNC | shop:Wynyard Coin Centre | read as: coin 2025 50c unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2025-koala-series-unc
-- 16% under | $90.15 vs usual $106.98 (melt $76.89), 4 sales, medium | 2026 Australian Kangaroo 1 oz Silver Coin | shop:As Good As Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/2026-australian-kangaroo-1-oz-silver-coin
+- 15% under | $90.8 vs usual $106.98 (melt $76.89), 4 sales, medium | 1 oz 2026 Australian Kangaroo Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2026 1oz silver | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-kangaroo-silver-bullion-coin/3003876
 - 15% under | $7.5 vs usual $8.79, 2 sales, low | 2009 $1 Coin - 60 Years of Australian Citizenship - 'C' Canberra | shop:Loose Change Coins | read as: coin 2009 $1 C mintmark unc | page/description: {"metal":null,"metal_by":"label","year":2009,"denom":"$1","finish":"unc"} | price not confirmed | https://loosechangecoins.com.au/products/2009-60-years-of-australian-citizenship-1-coin-multiple-mint-marks-available
 - 14% under | $6.8 vs usual $7.95, 2 sales, low | 1988 $1 Coin - Australian Bicentenary - Uncirculated | shop:Loose Change Coins | read as: coin 1988 $1 unc | price not confirmed | https://loosechangecoins.com.au/products/1988-australian-1-dollar-coin-australian-bicentenary-aunc-with-2x2-holder-1
+- 14% under | $91.66 vs usual $105.99 (melt $76.89), 9 sales, high | 2026 Australian Kookaburra 1 oz Silver Coin | shop:As Good As Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1,"year":2026} | price not confirmed | https://asgoodasgold.com.au/products/2026-australian-kookaburra-1-oz-silver-coin
 - 14% under | $30 vs usual $34.7, 2 sales, low | 2015 50c Australia At War Tobruk Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 50c unc | price not confirmed | https://townhallcoins.com/products/2015-50c-australia-at-war-tobruk-uncirculated-coin
-- 13% under | $92.63 vs usual $106.98 (melt $76.89), 4 sales, medium | 1 oz 2026 Australian Kangaroo Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"label"} | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-kangaroo-silver-bullion-coin/3003876
 - 13% under | $40 vs usual $45.95, 6 sales, medium | 2026 RAM Uncirculated Six Coin Set - 60th Anniversary of Decimal Currency | shop:Online Coins & Collectables | read as: mint_set 2026 unc | price not confirmed | https://onlinecoinsandcollectables.com.au/products/2026-ram-uncirculated-six-coin-set-60th-anniversary-of-decimal-currency
 - 13% under | $53.3 vs usual $61.06, 5 sales, medium | 2023 RAM Baby Coins Uncirculated mint 6 coin set | ebay | read as: mint_set 2023 unc | price not confirmed | https://www.ebay.com.au/itm/227536430096
 - 13% under | $35 vs usual $40, 2 sales, low | 2007 Royal Australian Mint Uncirculated Coin Set - Year of the Surf Lifesaver | shop:Loose Change Coins | read as: mint_set 2007 unc | page/description: {"year":2007,"finish":"unc"} | price not confirmed | https://loosechangecoins.com.au/products/2007-royal-australian-mint-uncirculated-6-coin-set-year-of-the-lifesaver
+- 12% under | $92.9 vs usual $105.99 (melt $76.89), 9 sales, high | 1 oz 2026 Australian Kookaburra Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2026 1oz silver | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-kookaburra-silver-bullion-coin/3003919
 - 12% under | $150 vs usual $170.55, 2 sales, low | 2013 Baby Proof Set - Dot & the Kangaroo | shop:Wynyard Coin Centre | read as: proof_set 2013 proof | price not confirmed | https://wynyardcoins.com.au/products/baby-proof-set-2013-dot-the-kangaroo
-- 12% under | $93.45 vs usual $105.99 (melt $76.89), 9 sales, high | 2026 Australian Kookaburra 1 oz Silver Coin | shop:As Good As Gold | read as: bullion 2026 1oz silver | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1,"year":2026} | price not confirmed | https://asgoodasgold.com.au/products/2026-australian-kookaburra-1-oz-silver-coin
 - 11% under | $12 vs usual $13.51, 2 sales, low | 2015 $1 ANZAC Centenary 'S' Counterstamp Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 S mintmark unc | price not confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-s-counterstamp-uncirculated-coin
 - 11% under | $50 vs usual $56, 2 sales, low | 2024 Six Coin Uncirculated Baby Set | shop:Loose Change Coins | read as: mint_set 2024 unc | price not confirmed | https://loosechangecoins.com.au/products/2024-six-coin-uncirculated-baby-set
-- 9% under | $70 vs usual $77.06, 8 sales, high | 2006 $1 50 Years of Australian Television Silver Proof Coin | shop:Town Hall Coins | read as: coin 2006 $1 silver proof | price not confirmed | https://townhallcoins.com/products/2006-1-50-years-of-australian-television-silver-proof-coin
 
-## Needs checking: 5 listings held back as too cheap to be real
+## Needs checking: 3 listings held back as too cheap to be real
 - 99% under | $1 vs usual $76.89 (melt $76.89), 0 sales, melt only | 1997 Australia Kangaroo 1 oz Silver (.999) $1 frosted UNC coin | ebay | read as: coin 1997 $1 1oz silver unc | price not confirmed | HELD BACK: priced at 1% of the metal value it was read as (1 oz silver) – probably not what it was read as | https://www.ebay.com.au/itm/287664389504
-- 96% under | $94.73 vs usual $2472.07 (melt $2472.07), 0 sales, melt only | 1 oz 2026 Australian Kookaburra Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2026 32.1507oz silver | page/description: {"metal":"silver","metal_by":"label","weight_oz":32.1507} | price not confirmed | HELD BACK: priced at 4% of the metal value it was read as (32.1507 oz silver) – probably not what it was read as | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-kookaburra-silver-bullion-coin/3003919
-    description read: The Perth Mint is pleased to present three bullion coins featuring the kookaburra, meticulously struck from 99.99% pure silver in 1 kilo, 10oz and 1oz sizes. Having first heard the call of the Australian Kookaburra in 1990, investors have been faithful to the iconic silver series for more than three decades. material: Silver. The Perth Mint is pleased to present three bullion coins featuring the kookaburra, meticulously struck from 99.99% pure silver in 1 kilo, 10oz and 1oz sizes. Having first h
-- 89% under | $650 vs usual $5709.08 (melt $5709.08), 0 sales, melt only | Looney Tunes Mint Trading Coins | shop:Mint Coin Shop | read as: bullion 1oz gold | page/description: {"metal":"gold","metal_by":"purity","weight_oz":1} | price not confirmed | HELD BACK: priced at 11% of the metal value it was read as (1 oz gold) – probably not what it was read as | https://mintcoinshop.com.au/products/looney-tunes-mint-trading-coins
-    description read: Collectible sets feature Bugs, Tweety, Sylvester, and all your favorite Looney Tunes characters, from gold-gilded costumes to rib-tickling silver antics. Every Looney Tunes legend reunited, backed by the original logo, in a collector’s dream chase struck in 1oz 9999 pure gold.. Metal: Finish: Denomination: Year of Issue: Country of Issue: Country of Manufacture:
-- 84% under | $50 vs usual $305, 2 sales, low | 2014 Australian ANZAC 100 Years $1 Mint Roll | shop:Sydney Coins & Jewellery | read as: roll 2014 $1 | price not confirmed | HELD BACK: 84% under what matching sales went for – probably not the same item | https://sydneycoins.com.au/products/2014-australian-anzac-100-years-1-mint-roll
+- 84% under | $50 vs usual $305, 2 sales, low | 2014 Australian ANZAC 100 Years $1 Mint Roll | shop:Sydney Coins & Jewellery | read as: roll 2014 $1 | price confirmed | HELD BACK: 84% under what matching sales went for – probably not the same item | https://sydneycoins.com.au/products/2014-australian-anzac-100-years-1-mint-roll
+    description read: 2027 Year of the Goat 50c Uncirculated Coin Discover the beauty and elegance of the 2027 Year of the Goat 50c Uncirculated Coin,... Regular price $25.00 -Liquid error (snippets/product-price line 34): Computation results in '-Infinity'% Regular price $25.00 2027 Year of the Goat 1oz Silver Domed Proof Coin Discover the beauty and elegance of the 2027 Year of the Goat 1oz Silver Domed... Regular price $250.00 -Liquid error (snippets/product-price line 34): Computation results in '-Infinity'% Regu
 - 82% under | $9.95 vs usual $55.7, 2 sales, low | 2014 $1 A Voyage To Terra Australis 'B' Counterstamp Uncirculated Coin | shop:Town Hall Coins | read as: coin 2014 $1 B mintmark unc | price confirmed | HELD BACK: 82% under what matching sales went for – probably not the same item | https://townhallcoins.com/products/2014-1-a-voyage-to-terra-australis-b-counterstamp-uncirculated-coin
 
-## Last 3 days by source (713 steps)
+## Last 3 days by source (648 steps)
+- shop SA Gold Traders: 0/3 worked, 0 kept
+    3× Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
+- shop Bullion Money: 0/6 worked, 0 kept
+    6× Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+- shop Bradford Coins: 0/6 worked, 0 kept
+    6× Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+- shop Queensland Mint: 0/3 worked, 0 kept
+    1× Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/2013-Australian-Silver-200th-Anniversary-Holey-Dollar-and-Du: HTTP 200, 913665 chars, ended at https://q
+    1× Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/1g-abc-gold-minted-bar: HTTP 200, 953316 chars, ended at https://queenslandmint.com/shop/product/1g-abc-
+    1× Error: product pages have no readable price data
+- shop Bullionmark: 0/3 worked, 0 kept
+    1× Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/2024-2oz-kookaburra-gold-high-relief-proof-coin-in-presentat: HTTP 200, 892800 chars, ended at https://b
+    1× Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/maxpax-mates-metal-bundle: HTTP 200, 903527 chars, ended at https://bullionmark.com.au/shop/product/maxp
+    1× Error: product pages have no readable price data
 - shop Smits Stamps & Coins: 0/3 worked, 0 kept
     3× Error: smitsstampsandcoinswa.com.au: couldn't read this site (no product feed or sitemap)
 - shop Colonial Coins & Medals: 0/3 worked, 0 kept
@@ -167,28 +179,16 @@ ebay_sold: 1/2 worked, 8 kept
     1× Error: product pages have no readable price data – e.g. http://www.adelaide-exchange.com.au/BuyBullion/OurProducts.aspx: HTTP 200, 69924 chars, ended at https://www.adelaide-exchange.com.au/BuyBullion
 - shop The Coin Collection: 0/3 worked, 0 kept
     3× Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
-- shop SA Gold Traders: 0/2 worked, 0 kept
-    2× Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
 - shop Ceylon Exchange: 0/3 worked, 0 kept
     1× Error: no product sitemap found
     1× Error: product pages have no readable price data
     1× Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
-- shop Bullion Money: 0/5 worked, 0 kept
-    5× Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
-- shop Bradford Coins: 0/5 worked, 0 kept
-    5× Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
 - shop Great Southland Bullion: 0/3 worked, 0 kept
     3× Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
 - shop City Gold Bullion: 0/3 worked, 0 kept
     3× Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
-- shop Bullionmark: 0/2 worked, 0 kept
-    1× Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/maxpax-mates-metal-bundle: HTTP 200, 903527 chars, ended at https://bullionmark.com.au/shop/product/maxp
-    1× Error: product pages have no readable price data
 - shop ABC Bullion: 0/3 worked, 0 kept
     3× Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
-- shop Queensland Mint: 0/2 worked, 0 kept
-    1× Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/1g-abc-gold-minted-bar: HTTP 200, 953316 chars, ended at https://queenslandmint.com/shop/product/1g-abc-
-    1× Error: product pages have no readable price data
 - shop Ancient Coin Traders: 0/3 worked, 0 kept
     3× Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
 - shop Rainbow Rarities: 0/3 worked, 0 kept
@@ -221,67 +221,143 @@ ebay_sold: 1/2 worked, 8 kept
     1× Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
 - shop Edlins: 0/3 worked, 0 kept
     3× Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
-- shop The Perth Mint: 1/3 worked, 0 kept
+- shop The Perth Mint: 1/4 worked, 0 kept
+    1× Error: product pages have no readable price data – e.g. https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h: HTTP 200, 415942 chars, ended at https://w
     1× Error: product pages have no readable price data – e.g. https://www.perthmint.com/shop/collector-coins/coins/2018-year-of-the-dog-1oz-silver-gilded-edition/: HTTP 200, 389773 chars, ended at https://w
     1× Error: product pages have no readable price data
-- shop KJC Bullion: 1/2 worked, 67 kept
-    1× Error: product pages have no readable price data
-- ebay_active: 30/48 worked, 1387 kept
+- ebay_active: 25/43 worked, 1292 kept
     13× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     5× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-- shop The Purple Penny: 2/3 worked, 0 kept
+- shop Ainslie Bullion: 5/8 worked, 460 kept
+    2× Error: product pages have no readable price data
+    1× Error: product pages have no readable price data – e.g. https://ainsliebullion.com.au/Buy/Keyword/Platinum-Bar/ID/61: HTTP 200, 114116 chars, ended at https://ainsliebullion.com.au/Buy/Keyword/Platinu
+- shop Mint Coins: 6/9 worked, 0 kept
+    3× Error: no product sitemap found
+- shop KJC Bullion: 2/3 worked, 106 kept
     1× Error: product pages have no readable price data
-- shop Downies: 2/3 worked, 2322 kept
+- ebay_sold: 31/44 worked, 3660 kept
+    7× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+    6× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop The Purple Penny: 3/4 worked, 0 kept
+    1× Error: product pages have no readable price data
+- shop Downies: 3/4 worked, 3485 kept
     1× TypeError: w.endsWith is not a function
-- shop Ainslie Bullion: 7/10 worked, 626 kept
-    3× Error: product pages have no readable price data
-- ebay_sold: 37/50 worked, 3692 kept
-    7× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-    6× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-- shop Max Stern & Co: 3/4 worked, 43 kept
-    1× Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
-- shop The Coin Company: 3/4 worked, 23 kept
+- shop The Coin Company: 4/5 worked, 25 kept
     1× Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
-- shop John Platts Stamps & Coins: 3/4 worked, 0 kept
+- shop Max Stern & Co: 4/5 worked, 43 kept
+    1× Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
+- shop John Platts Stamps & Coins: 4/5 worked, 0 kept
     1× Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
-- shop Mint Coins: 9/11 worked, 0 kept
-    2× Error: no product sitemap found
-- shop WA Coins: 10/11 worked, 3355 kept
-    1× Error: SSLHandshakeException: java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.
-- facebook: 112/120 worked, 0 kept
-    8× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-- cashconverters: 6/6 worked, 660 kept
-- shop Jaggards: 12/12 worked, 883 kept
-- shop The Coin Chest: 12/12 worked, 1577 kept
-- shop Imperial Numismatics: 11/11 worked, 1037 kept
-- shop Vintage Coins & Banknotes: 12/12 worked, 996 kept
-- shop Coins & Collectables Victoria: 13/13 worked, 592 kept
-- shop Swan Bullion: 13/13 worked, 329 kept
-- shop Direct Coins: 12/12 worked, 1644 kept
-- shop Coin City: 12/12 worked, 11576 kept
-- shop Southern Cross Coins: 11/11 worked, 2669 kept
-- shop Mint Coin Shop: 13/13 worked, 1852 kept
-- shop Melbourne Coins & Collectables: 12/12 worked, 480 kept
-- shop Tasmanian Numismatics: 11/11 worked, 25619 kept
-- shop Bulk Bullion: 13/13 worked, 484 kept
-- shop Wynyard Coin Centre: 12/12 worked, 25164 kept
-- shop Loose Change Coins: 12/12 worked, 5325 kept
-- shop Peter's of Kensington: 11/11 worked, 0 kept
-- shop Town Hall Coins: 12/12 worked, 18246 kept
-- shop Online Coins & Collectables: 12/12 worked, 4055 kept
-- shop Sydney Coins & Jewellery: 13/13 worked, 1716 kept
-- shop Bullion Now: 10/10 worked, 23 kept
-- shop Guardian Gold: 12/12 worked, 349 kept
-- shop Heritage Numismatics: 13/13 worked, 296 kept
-- shop Royal Bullion: 12/12 worked, 0 kept
-- shop Australian Bullion Company: 11/11 worked, 184 kept
-- shop As Good As Gold: 12/12 worked, 367 kept
-- shop Gold Bullion Australia: 11/11 worked, 279 kept
-- shop Imperial Bullion: 12/12 worked, 143 kept
-- shop Gold Stackers: 11/11 worked, 319 kept
-- shop Sterling & Currency: 10/10 worked, 45 kept
+- facebook: 108/117 worked, 0 kept
+    9× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- cashconverters: 7/7 worked, 822 kept
+- shop Jaggards: 10/10 worked, 743 kept
+- shop The Coin Chest: 10/10 worked, 1304 kept
+- shop WA Coins: 9/9 worked, 3023 kept
+- shop Imperial Numismatics: 9/9 worked, 795 kept
+- shop Vintage Coins & Banknotes: 10/10 worked, 734 kept
+- shop Coins & Collectables Victoria: 11/11 worked, 498 kept
+- shop Bullion Now: 8/8 worked, 28 kept
+- shop Southern Cross Coins: 9/9 worked, 2152 kept
+- shop Swan Bullion: 11/11 worked, 274 kept
+- shop Direct Coins: 10/10 worked, 1349 kept
+- shop Coin City: 10/10 worked, 9638 kept
+- shop Tasmanian Numismatics: 9/9 worked, 21038 kept
+- shop Melbourne Coins & Collectables: 10/10 worked, 384 kept
+- shop Mint Coin Shop: 11/11 worked, 1559 kept
+- shop Bulk Bullion: 11/11 worked, 401 kept
+- shop Wynyard Coin Centre: 10/10 worked, 20866 kept
+- shop Peter's of Kensington: 9/9 worked, 0 kept
+- shop Loose Change Coins: 10/10 worked, 4533 kept
+- shop Online Coins & Collectables: 10/10 worked, 3405 kept
+- shop Town Hall Coins: 10/10 worked, 15340 kept
+- shop Sydney Coins & Jewellery: 11/11 worked, 1452 kept
+- shop Heritage Numismatics: 11/11 worked, 249 kept
+- shop Guardian Gold: 10/10 worked, 309 kept
+- shop Australian Bullion Company: 9/9 worked, 156 kept
+- shop Royal Bullion: 10/10 worked, 0 kept
+- shop As Good As Gold: 10/10 worked, 308 kept
+- shop Gold Bullion Australia: 9/9 worked, 229 kept
+- shop Imperial Bullion: 10/10 worked, 118 kept
+- shop Sterling & Currency: 8/8 worked, 38 kept
+- shop Gold Stackers: 9/9 worked, 261 kept
 
 ## Log, newest first (last 300 steps)
+2026-10-29T19:24:46Z | cashconverters | coin categories | 149
+2026-10-29T19:24:33Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-10-29T19:24:11Z | facebook | $1 2010 Five Kangaroos Proof Proof | 0
+2026-10-29T19:23:52Z | facebook | $1 2009 Year of the Ox Uncirculated Collector issue | 0
+2026-10-29T19:23:32Z | facebook | $1 2009 Year of the Ox Perth Mint PNC Collector issue | 0
+2026-10-29T19:23:15Z | shop | The Purple Penny | 0
+2026-10-29T19:23:12Z | facebook | $1 2009 Swimming Australia 100 Years Collector issue | 0
+2026-10-29T19:22:50Z | facebook | $1 2009 Stargazing Collector issue | 0
+2026-10-29T19:22:27Z | shop | The Coin Company | 2
+2026-10-29T19:22:27Z | facebook | $1 2009 Land Series Frilled-neck Lizard Collector issue | 0
+2026-10-29T19:22:25Z | shop | Max Stern & Co | 0
+2026-10-29T19:22:17Z | shop | Jaggards | 76
+2026-10-29T19:22:14Z | shop | The Coin Chest | 132
+2026-10-29T19:22:06Z | facebook | $1 2009 Land Series Bilby Collector issue | 0
+2026-10-29T19:21:52Z | shop | WA Coins | 338
+2026-10-29T19:21:50Z | shop | Imperial Numismatics | 64
+2026-10-29T19:21:44Z | facebook | $1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue | 0
+2026-10-29T19:21:44Z | shop | Vintage Coins & Banknotes | 23
+2026-10-29T19:21:43Z | shop | Coins & Collectables Victoria | 44
+2026-10-29T19:21:21Z | shop | Bullion Now | 10
+2026-10-29T19:21:17Z | shop | Mint Coins | 0 | Error: no product sitemap found
+2026-10-29T19:21:12Z | ebay_sold | $1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 6:51 am
+2026-10-29T19:20:50Z | facebook | $1 2009 Inspirational Australians Steve Irwin Collector issue | 0
+2026-10-29T19:20:17Z | shop | Southern Cross Coins | 224
+2026-10-29T19:20:08Z | ebay_active | $1 2009 Inspirational Australians Steve Irwin Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-29T19:19:59Z | shop | The Perth Mint | 0 | Error: product pages have no readable price data – e.g. https://www.perthmint.com/shop/collector-coins/coins/warfare-roman-legion-2018-2oz-silver-antiqued-h: HTTP 200, 415942 chars, ended at https://www.perthmint.com/shop/collector-coins/co
+2026-10-29T19:19:54Z | shop | Swan Bullion | 23
+2026-10-29T19:19:43Z | facebook | $1 2009 Five Kangaroos Master mintmark 'C' counterstamp Collector issue | 0
+2026-10-29T19:19:43Z | shop | Direct Coins | 128
+2026-10-29T19:19:40Z | shop | Coin City | 960
+2026-10-29T19:19:36Z | ebay_active | $1 2009 Five Kangaroos Master mintmark 'C' counterstamp Collector issue | 7
+2026-10-29T19:19:32Z | shop | SA Gold Traders | 0 | Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-29T19:19:32Z | shop | Tasmanian Numismatics | 2389
+2026-10-29T19:19:32Z | shop | Melbourne Coins & Collectables | 33
+2026-10-29T19:19:32Z | shop | Mint Coin Shop | 139
+2026-10-29T15:25:55Z | cashconverters | coin categories | 132
+2026-10-29T15:25:43Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-10-29T15:25:42Z | shop | Downies | 1163
+2026-10-29T15:25:22Z | facebook | $1 2010 Five Kangaroos Proof Proof | 0
+2026-10-29T15:25:22Z | shop | Bulk Bullion | 34
+2026-10-29T15:24:50Z | facebook | $1 2009 Year of the Ox Uncirculated Collector issue | 0
+2026-10-29T15:24:31Z | shop | John Platts Stamps & Coins | 0
+2026-10-29T15:24:24Z | facebook | $1 2009 Year of the Ox Perth Mint PNC Collector issue | 0
+2026-10-29T15:24:03Z | facebook | $1 2009 Swimming Australia 100 Years Collector issue | 0
+2026-10-29T15:23:37Z | facebook | $1 2009 Stargazing Collector issue | 0
+2026-10-29T15:23:16Z | facebook | $1 2009 Land Series Frilled-neck Lizard Collector issue | 0
+2026-10-29T15:23:08Z | shop | Wynyard Coin Centre | 2041
+2026-10-29T15:23:08Z | shop | Peter's of Kensington | 0
+2026-10-29T15:22:54Z | facebook | $1 2009 Land Series Bilby Collector issue | 0
+2026-10-29T15:22:50Z | shop | Loose Change Coins | 468
+2026-10-29T15:22:31Z | facebook | $1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue | 0
+2026-10-29T15:22:07Z | ebay_sold | $1 2009 Kangaroo Series Ken Done cupro-nickel Collector issue | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 2:52 am
+2026-10-29T15:22:05Z | shop | Online Coins & Collectables | 355
+2026-10-29T15:21:59Z | shop | Town Hall Coins | 1609
+2026-10-29T15:21:57Z | shop | Sydney Coins & Jewellery | 132
+2026-10-29T15:21:53Z | shop | Heritage Numismatics | 22
+2026-10-29T15:21:50Z | shop | KJC Bullion | 39
+2026-10-29T15:21:50Z | shop | Guardian Gold | 32
+2026-10-29T15:21:46Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-29T15:21:44Z | facebook | $1 2009 Inspirational Australians Steve Irwin Collector issue | 0
+2026-10-29T15:21:42Z | shop | Australian Bullion Company | 20
+2026-10-29T15:21:42Z | shop | Royal Bullion | 0
+2026-10-29T15:21:37Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
+2026-10-29T15:20:46Z | ebay_active | $1 2009 Inspirational Australians Steve Irwin Collector issue | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-10-29T15:20:39Z | ebay_sold | $1 2009 Inspirational Australians Steve Irwin Collector issue | 20
+2026-10-29T15:20:26Z | shop | Ainslie Bullion | 0 | Error: product pages have no readable price data – e.g. https://ainsliebullion.com.au/Buy/Keyword/Platinum-Bar/ID/61: HTTP 200, 114116 chars, ended at https://ainsliebullion.com.au/Buy/Keyword/Platinum-Bar/ID/61 · title “Buy Gold & Silver B
+2026-10-29T15:20:22Z | shop | As Good As Gold | 31
+2026-10-29T15:20:15Z | facebook | $1 2009 Five Kangaroos Master mintmark 'C' counterstamp Collector issue | 0
+2026-10-29T15:20:14Z | shop | Gold Bullion Australia | 25
+2026-10-29T15:19:56Z | shop | Imperial Bullion | 11
+2026-10-29T15:19:54Z | ebay_active | $1 2009 Five Kangaroos Master mintmark 'C' counterstamp Collector issue | 7
+2026-10-29T15:19:49Z | shop | Sterling & Currency | 0
+2026-10-29T15:19:49Z | shop | Queensland Mint | 0 | Error: product pages have no readable price data – e.g. https://queenslandmint.com/shop/product/2013-Australian-Silver-200th-Anniversary-Holey-Dollar-and-Du: HTTP 200, 913665 chars, ended at https://queenslandmint.com/shop/product/2013-Aust
+2026-10-29T15:19:49Z | shop | Bullionmark | 0 | Error: product pages have no readable price data – e.g. https://bullionmark.com.au/shop/product/2024-2oz-kookaburra-gold-high-relief-proof-coin-in-presentat: HTTP 200, 892800 chars, ended at https://bullionmark.com.au/shop/product/2024-2oz-
+2026-10-29T15:19:49Z | shop | Gold Stackers | 29
 2026-10-29T11:25:02Z | cashconverters | coin categories | 170
 2026-10-29T11:24:48Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 2026-10-29T11:24:27Z | facebook | $1 2010 Five Kangaroos Proof Proof | 0
@@ -507,78 +583,3 @@ ebay_sold: 1/2 worked, 8 kept
 2026-10-28T15:39:21Z | facebook | Sets 2016 Uncirculated year set 50th Anniversary of Australian Decimal Currency  | 0
 2026-10-28T15:39:18Z | shop | Town Hall Coins | 1499
 2026-10-28T15:39:11Z | shop | Sydney Coins & Jewellery | 132
-2026-10-28T15:39:05Z | shop | Guardian Gold | 30
-2026-10-28T15:39:01Z | shop | Heritage Numismatics | 22
-2026-10-28T15:38:59Z | facebook | Sets 2016 Baby uncirculated set Alphabet Collector issue | 0
-2026-10-28T15:38:50Z | shop | Sterling & Currency | 3
-2026-10-28T15:38:38Z | facebook | Sets 2016 Proof year set 50th Anniversary of Australian Decimal Currency Proof | 0
-2026-10-28T15:38:36Z | shop | Bullion Now | 1
-2026-10-28T15:38:16Z | facebook | Sets 2016 Fine silver proof year set Proof | 0
-2026-10-28T15:37:51Z | shop | Ainslie Bullion | 0 | Error: product pages have no readable price data
-2026-10-28T15:37:51Z | ebay_active | Sets 2016 Fine silver proof year set Proof | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 3:08 am
-2026-10-28T15:37:40Z | shop | Peter's of Kensington | 0
-2026-10-28T15:37:12Z | shop | Tasmanian Numismatics | 2308
-2026-10-28T15:37:10Z | shop | Southern Cross Coins | 245
-2026-10-28T15:37:08Z | shop | WA Coins | 336
-2026-10-28T15:37:02Z | shop | Vintage Coins & Banknotes | 95
-2026-10-28T15:37:01Z | ebay_sold | Sets 2016 Fine silver proof year set Proof | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-10-28T15:37:01Z | shop | Gold Bullion Australia | 26
-2026-10-28T15:36:57Z | shop | Australian Bullion Company | 20
-2026-10-28T15:36:53Z | shop | Gold Stackers | 29
-2026-10-28T15:36:44Z | shop | Imperial Numismatics | 99
-2026-10-28T15:36:39Z | facebook | Sets 2016 Baby proof set Personalised Proof | 0
-2026-10-28T15:36:29Z | shop | Mint Coins | 0
-2026-10-28T15:36:25Z | ebay_active | Sets 2016 Baby proof set Personalised Proof | 58
-2026-10-28T15:36:06Z | ebay_sold | Sets 2016 Baby proof set Personalised Proof | 154
-2026-10-28T15:35:58Z | shop | Adelaide Exchange | 0 | Error: product pages have no readable price data
-2026-10-28T15:35:55Z | shop | Bullion Money | 0 | Error: bullionmoney.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T15:35:54Z | shop | Bradford Coins | 0 | Error: bradfordcoins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T15:35:47Z | shop | Downies | 0 | TypeError: w.endsWith is not a function
-2026-10-28T15:35:44Z | facebook | Sets 2015 Uncirculated year set RAM 50th Anniversary Collector issue | 0
-2026-10-28T15:35:33Z | shop | KJC Bullion | 0 | Error: product pages have no readable price data
-2026-10-28T15:35:25Z | ebay_active | Sets 2015 Uncirculated year set RAM 50th Anniversary Collector issue | 64
-2026-10-28T15:34:38Z | ebay_sold | Sets 2015 Uncirculated year set RAM 50th Anniversary Collector issue | 45
-2026-10-28T15:34:16Z | facebook | Sets 2015 Baby uncirculated set ABC's Collector issue | 0
-2026-10-28T15:34:06Z | ebay_active | Sets 2015 Baby uncirculated set ABC's Collector issue | 8
-2026-10-28T15:33:58Z | ebay_sold | Sets 2015 Baby uncirculated set ABC's Collector issue | 7
-2026-10-28T15:33:53Z | shop | Smits Stamps & Coins | 0 | Error: smitsstampsandcoinswa.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T15:33:53Z | shop | The Purple Penny | 0 | Error: product pages have no readable price data
-2026-10-28T15:33:53Z | shop | The Perth Mint | 0 | Error: product pages have no readable price data
-2026-10-28T15:33:53Z | shop | Queensland Mint | 0 | Error: product pages have no readable price data
-2026-10-28T15:24:04Z | facebook | Sets 2015 Proof year set RAM 50th Anniversary Proof | 0
-2026-10-28T15:23:57Z | ebay_active | Sets 2015 Proof year set RAM 50th Anniversary Proof | 63
-2026-10-28T15:23:51Z | ebay_sold | Sets 2015 Proof year set RAM 50th Anniversary Proof | 164
-2026-10-28T08:35:31Z | shop | The Coin Collection | 0 | Error: coincollect.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:35:23Z | ebay_sold | Sets 2015 Proof year set RAM 50th Anniversary Proof | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 8:05 pm
-2026-10-28T08:34:58Z | facebook | Sets 2015 Fine silver proof year set Proof | 0
-2026-10-28T08:34:43Z | shop | Colonial Coins & Medals | 0 | Error: coinmedalshop.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:39Z | shop | Walter Holt (Old Money) | 0 | Error: oldmoney.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:39Z | shop | Romanorvm | 0 | Error: romanorum.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:37Z | shop | Ancient Coin Traders | 0 | Error: ancientcointraders.com: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:36Z | shop | Drake Sterling Numismatics | 0 | Error: www.drakesterling.com: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:35Z | shop | John Platts Stamps & Coins | 0 | Error: 200 from https://www.jpsnc.com.au (the site asked for a bot check – try again later)
-2026-10-28T08:34:35Z | shop | Coinworks | 0 | Error: 200 from https://coinworks.com.au/rare-notes (the site asked for a bot check – try again later)
-2026-10-28T08:34:34Z | shop | Prospect Stamps & Coins | 0 | Error: prospectstampsandcoins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:32Z | shop | Guy Stuff | 0 | Error: guystuff.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:31Z | shop | Newcastle Coins | 0 | Error: newcastlecoins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:15Z | shop | Bullionmark | 0 | Error: product pages have no readable price data
-2026-10-28T08:34:14Z | shop | SA Gold Traders | 0 | Error: sagoldtraders.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:06Z | shop | Ceylon Exchange | 0 | Error: ceylonexchange.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:34:04Z | shop | City Gold Bullion | 0 | Error: citygoldbullion.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:55Z | shop | Great Southland Bullion | 0 | Error: greatsouthlandbullion.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:50Z | shop | Peter Strich Stamps & Coins | 0 | Error: peterstrich.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:50Z | shop | I.S. Wright | 0 | Error: iswright.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:49Z | shop | Coins Australia | 0 | Error: coinsaustralia.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:48Z | ebay_active | Sets 2015 Fine silver proof year set Proof | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-10-28T08:33:48Z | shop | Edlins | 0 | Error: edlins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:47Z | shop | ABC Bullion | 0 | Error: www.abcbullion.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:44Z | shop | Rainbow Rarities | 0 | Error: rainbowrarities.com: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:44Z | shop | Royal Australian Mint eShop | 0 | Error: eshop.ramint.gov.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:42Z | ebay_sold | Sets 2015 Fine silver proof year set Proof | 133
-2026-10-28T08:33:39Z | shop | The Coin & Stamp Place | 0 | Error: thestampplace.com: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:39Z | shop | Cockatoo Coins | 0 | Error: cockatoocoins.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:39Z | shop | Max Stern & Co | 0 | Error: maxstern.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T08:33:39Z | shop | The Coin Company | 0 | Error: thecoincompany.com.au: couldn't read this site (no product feed or sitemap)
-2026-10-28T06:01:44Z | shop | Imperial Bullion | 12
-2026-10-28T06:01:44Z | shop | As Good As Gold | 31
-2026-10-28T06:01:35Z | shop | Swan Bullion | 24
