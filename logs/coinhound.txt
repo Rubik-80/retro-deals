@@ -1,22 +1,31 @@
-# Coin Hound 2.45 refresh report
-Written 2026-11-11T02:01:31Z (11 Nov, 1:01 pm Sydney) · refresh slice started 2026-11-11T01:53:30Z, took 481 s
-Totals: {"ebay_active":390,"facebook":0,"ebay_sold":1044,"shops":5919,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":66,"claude_removed":0,"alerts":7}
-Time taken (seconds): searching 409 · pricing 28 · reading pages 3 · checks and alerts 42
-Stored: 14217 live · 5932 sold
-Sources on: ebay_sold, ebay_active, facebook, cashconverters, shops
-eBay: not paused
+# Coin Hound 2.50 refresh report
+Written 2026-11-11T10:59:07Z (11 Nov, 9:59 pm Sydney) · refresh slice started 2026-11-11T10:52:30Z, took 398 s
+Totals: {"shops_failed":1,"shops":4983,"ebay_active":0,"facebook":0,"ebay_sold":0,"pages_read":14,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":7}
+Time taken (seconds): searching 328 · pricing 3 · reading pages 51 · checks and alerts 16
+Last problem: ebay_sold (2000 20c Platypus): Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:24 pm
+Stored: 13754 live · 5975 sold
+Sources on: ebay_sold, ebay_active, ebay_auctions, facebook, cashconverters, shops
+eBay: PAUSED (blocked) until 2026-11-11T11:24:18Z
+eBay developer keys: none (reading eBay's pages)
+Quick checks: every 30 min · last 2026-11-11T10:50:42Z {"pages_read":15,"alerts":0}
 Linked collection: 1840 wanted, 633 owned, catalogue 2575
-Claude's checks: last applied 2026-11-11T02:00:53Z (file from 2026-11-10T19:38:32Z) – 66 applied, 0 removed, 5 corrected, 61 verified
+Claude's checks: last applied 2026-11-11T10:58:55Z (file from 2026-11-10T19:38:32Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## This refresh: 33 steps, 0 with problems
-facebook: 6/6 worked, 0 kept
-ebay_active: 6/6 worked, 390 kept
-shops: 16/16 worked, 5919 kept
-ebay_sold: 5/5 worked, 1044 kept
+## This refresh: 40 steps, 4 with problems
+facebook: 10/11 worked, 0 kept
+shops: 26/27 worked, 4983 kept
+ebay_sold: 0/1 worked, 0 kept
+ebay_active: 0/1 worked, 0 kept
 
-## Shops: 68 on · 40 working · 22 read but nothing found · 2 failing · 4 website gone · 0 not read yet
-- The Coin Chest (the-coin-chest.com): FAILING 5× (skipped until its daily retry) – Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later) · last tried 2026-11-09T01:50:07Z · last worked 2026-11-04T19:32:40Z
-- Bullion Money (bullionmoney.com.au): FAILING 5× (skipped until its daily retry) – Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later) · last tried 2026-11-08T19:41:14Z
+### Problems this refresh
+- facebook | (skipped for the rest of this refresh) | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- ebay_sold | 2000 20c Platypus | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:24 pm
+- ebay_active | 1999 20c Platypus | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop | Bullion Money | Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
+
+## Shops: 68 on · 42 working · 20 read but nothing found · 0 no online shop · 2 failing · 4 website gone · 0 not read yet
+- The Coin Chest (the-coin-chest.com): FAILING 6× (skipped until its daily retry) – Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later) · last tried 2026-11-11T07:47:55Z · last worked 2026-11-04T19:32:40Z
+- Bullion Money (bullionmoney.com.au): FAILING 6× (skipped until its daily retry) – Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later) · last tried 2026-11-11T10:52:52Z
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (21 pages) · read 21 pages but found no priced products
       page: / 33291ch · h1 “EDLINS” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?post_type=product 33291ch · h1 “EDLINS” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
@@ -29,33 +38,33 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /?page_id=674 33353ch · h1 “Company Profile” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=42 34180ch · h1 “Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-09T01:50:38Z · last worked 2026-11-09T01:50:38Z
 - Cockatoo Coins (cockatoocoins.com.au): FAILING 1× – Error: UnknownHostException: Unable to resolve host "cockatoocoins.com.au": No address associated with hostname · last tried 2026-11-04T20:22:48Z
-- Coins Australia (coinsaustralia.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (10 pages) · read 10 pages but found no priced products · moved to https://www.coinsaustralia.com.au · read in the hidden browser · last tried 2026-11-10T01:50:36Z · last worked 2026-11-10T01:50:36Z
-- Guardian Gold (guardian-gold.com.au): ok – 17 kept of 33 found, read through its WooCommerce product feed · last tried 2026-11-10T01:50:36Z · last worked 2026-11-10T01:50:36Z
+- Coins Australia (coinsaustralia.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (1 pages) · read 1 pages but found no priced products · moved to https://www.coinsaustralia.com.au · read in the hidden browser · last tried 2026-11-11T07:48:34Z · last worked 2026-11-11T07:48:34Z
+- Guardian Gold (guardian-gold.com.au): ok – 20 kept of 45 found, read through its WooCommerce product feed · last tried 2026-11-11T10:55:41Z · last worked 2026-11-11T10:55:41Z
 - Guy Stuff (guystuff.com.au): ok – 0 kept of 15 found, read through browsing its pages (40 pages) · 15 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-09T07:48:34Z · last worked 2026-11-09T07:48:34Z
-- Heritage Numismatics (heritagenumismatics.com.au): ok – 28 kept of 60 found, read through its Shopify product feed · last tried 2026-11-10T01:50:18Z · last worked 2026-11-10T01:50:18Z
+- Heritage Numismatics (heritagenumismatics.com.au): ok – 26 kept of 58 found, read through its Shopify product feed · last tried 2026-11-11T10:55:16Z · last worked 2026-11-11T10:55:16Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /?post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /?s=coin&post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-08T19:41:22Z · last worked 2026-11-08T19:41:22Z
 - Newcastle Coins (newcastlecoins.com.au): ok – 14 kept of 18 found, read through browsing its pages (8 pages) · read in the hidden browser · last tried 2026-11-09T07:47:57Z · last worked 2026-11-09T07:47:57Z
-- Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 378 kept of 4425 found, read through its Shopify product feed · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-10T01:52:14Z · last worked 2026-11-10T01:52:14Z
+- Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 383 kept of 4422 found, read through its Shopify product feed · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-11T10:57:48Z · last worked 2026-11-11T10:57:48Z
 - Peter's of Kensington (petersofkensington.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (4 pages) · read 4 pages but found no priced products · moved to https://www.petersofkensington.com.au · last tried 2026-11-08T13:50:39Z · last worked 2026-11-08T13:50:39Z
-- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (4 pages) · read 4 pages but found no priced products · read in the hidden browser
-      page: / 273119ch · h1 “Categories” · $ amounts 42 · price elements 154 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×52
-      page: /shop/ 67269ch · h1 “Oops!We were unable to find what you were looking ” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /products/ 67039ch · h1 “Products” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /store/ 67269ch · h1 “Oops!We were unable to find what you were looking ” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /catalog/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /?post_type=product: hidden browser: this refresh's pages are used up – more next refresh
-      page: /index.php?route=product/search&search=coin&limit=100: hidden browser: this refresh's pages are used up – more next refresh
-      page: /catalogsearch/result/?q=coin: hidden browser: this refresh's pages are used up – more next refresh
-      page: /search?q=coin: hidden browser: this refresh's pages are used up – more next refresh
-      page: /?s=coin&post_type=product: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-09T13:52:03Z · last worked 2026-11-09T13:52:03Z
-- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-10T01:50:44Z · last worked 2026-11-10T01:50:44Z
-- Town Hall Coins (townhallcoins.com): ok – 1586 kept of 2134 found, read through its Shopify product feed · last tried 2026-11-10T01:51:58Z · last worked 2026-11-10T01:51:58Z
+- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
+      page: / 278121ch · h1 “Categories” · $ amounts 44 · price elements 159 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×54
+      page: /top-menu/help/product-limits.html 70085ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /top-menu/shop-location.html 69366ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
+      page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
+      page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
+      page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
+      page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-11T10:53:33Z · last worked 2026-11-11T10:53:33Z
+- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-11T10:55:39Z · last worked 2026-11-11T10:55:39Z
+- Town Hall Coins (townhallcoins.com): ok – 1602 kept of 2150 found, read through its Shopify product feed · last tried 2026-11-11T10:56:59Z · last worked 2026-11-11T10:56:59Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2039 kept of 4645 found, read through its Shopify product feed · last tried 2026-11-11T01:57:46Z · last worked 2026-11-11T01:57:46Z
 - John Platts Stamps & Coins (jpsnc.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (10 pages) · read 10 pages but found no priced products · moved to https://www.jpsnc.com.au · read in the hidden browser · last tried 2026-11-10T01:51:39Z · last worked 2026-11-10T01:51:39Z
-- Loose Change Coins (loosechangecoins.com.au): ok – 479 kept of 857 found, read through its Shopify product feed · last tried 2026-11-10T01:50:53Z · last worked 2026-11-10T01:50:53Z
+- Loose Change Coins (loosechangecoins.com.au): ok – 490 kept of 868 found, read through its Shopify product feed · last tried 2026-11-11T10:55:59Z · last worked 2026-11-11T10:55:59Z
 - Peter Strich Stamps & Coins (peterstrich.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (12 pages) · read 12 pages but found no priced products
       page: / 21981ch · h1 “Shows in 2026 – Bring your collection for a free v” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes page_item×7 blocks-gallery-item×5 page-item-4×1 current_page_item×1 page-item-2615×1 page-item-3145×1
       page: /?post_type=product 10949ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes page_item×7 page-item-4×1 page-item-2615×1 page-item-3145×1 page-item-7×1 page-item-13×1
@@ -79,17 +88,17 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /search?q=coin: hidden browser: this refresh's pages are used up – more next refresh
       page: /?s=coin&post_type=product: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-09T19:48:15Z · last worked 2026-11-09T19:48:15Z
 - Adelaide Exchange (adelaide-exchange.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (43 pages) · read 43 pages but found no priced products · moved to https://www.adelaide-exchange.com.au · last tried 2026-11-06T20:52:18Z · last worked 2026-11-06T20:52:18Z
-- The Purple Penny (thepurplepenny.com): ok – 489 kept of 1198 found, read through its WooCommerce product feed · moved to https://www.thepurplepenny.com · last tried 2026-11-10T01:51:50Z · last worked 2026-11-10T01:51:50Z
+- The Purple Penny (thepurplepenny.com): ok – 489 kept of 1198 found, read through its WooCommerce product feed · moved to https://www.thepurplepenny.com · last tried 2026-11-11T10:56:59Z · last worked 2026-11-11T10:56:59Z
 - Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2348 kept of 2736 found, read through its WooCommerce product feed · last tried 2026-11-11T02:00:13Z · last worked 2026-11-11T02:00:13Z
-- The Coin & Stamp Place (thestampplace.com): ok – 0 kept of 13 found, read through its WooCommerce product feed · 13 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-10T01:50:27Z · last worked 2026-11-10T01:50:27Z
-- Bulk Bullion (bulkbullion.com.au): ok – 33 kept of 97 found, read through its Shopify product feed · last tried 2026-11-10T01:50:32Z · last worked 2026-11-10T01:50:32Z
+- The Coin & Stamp Place (thestampplace.com): ok – 0 kept of 13 found, read through its WooCommerce product feed · 13 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-11T10:55:21Z · last worked 2026-11-11T10:55:21Z
+- Bulk Bullion (bulkbullion.com.au): ok – 34 kept of 96 found, read through its Shopify product feed · last tried 2026-11-11T10:55:31Z · last worked 2026-11-11T10:55:31Z
 - Downies (www.downies.com): ok – 1218 kept of 2863 found, read through its Shopify product feed · last tried 2026-11-11T01:58:56Z · last worked 2026-11-11T01:58:56Z
 - Max Stern & Co (maxstern.com.au): ok – 0 kept of 4 found, read through its site map, page by page (150 pages) · 4 priced products found, none kept (not Australian coins, or filtered out) · moved to https://www.maxstern.com.au · last tried 2026-11-11T01:58:40Z · last worked 2026-11-11T01:58:40Z
-- Melbourne Coins & Collectables (melbournecoinco.com): ok – 39 kept of 923 found, read through its Shopify product feed · last tried 2026-11-10T01:50:55Z · last worked 2026-11-10T01:50:55Z
-- Mint Coin Shop (mintcoinshop.com.au): ok – 141 kept of 266 found, read through its Shopify product feed · last tried 2026-11-10T01:51:13Z · last worked 2026-11-10T01:51:13Z
+- Melbourne Coins & Collectables (melbournecoinco.com): ok – 39 kept of 920 found, read through its Shopify product feed · last tried 2026-11-11T10:55:59Z · last worked 2026-11-11T10:55:59Z
+- Mint Coin Shop (mintcoinshop.com.au): ok – 142 kept of 265 found, read through its Shopify product feed · last tried 2026-11-11T10:56:06Z · last worked 2026-11-11T10:56:06Z
 - Southern Cross Coins (southerncrosscoins.com.au): ok – 217 kept of 327 found, read through its WooCommerce product feed · last tried 2026-11-11T01:58:26Z · last worked 2026-11-11T01:58:26Z
-- Coin City (coincity.com.au): ok – 971 kept of 1307 found, read through its Shopify product feed · last tried 2026-11-10T01:52:03Z · last worked 2026-11-10T01:52:03Z
-- Direct Coins (directcoins.com.au): ok – 134 kept of 321 found, read through its Shopify product feed · last tried 2026-11-10T01:51:38Z · last worked 2026-11-10T01:51:38Z
+- Coin City (coincity.com.au): ok – 973 kept of 1309 found, read through its Shopify product feed · last tried 2026-11-11T10:56:47Z · last worked 2026-11-11T10:56:47Z
+- Direct Coins (directcoins.com.au): ok – 132 kept of 318 found, read through its Shopify product feed · last tried 2026-11-11T10:56:17Z · last worked 2026-11-11T10:56:17Z
 - Mint Coins (mintcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (10 pages) · read 10 pages but found no priced products
       page: / 158670ch · h1 “” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×15 menu-item-type-post_type×15 menu-item-object-page×15 hfe-menu-item×15 e-grid×10 menu-item-home×3
       page: /?post_type=product 158670ch · h1 “” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×15 menu-item-type-post_type×15 menu-item-object-page×15 hfe-menu-item×15 e-grid×10 menu-item-home×3
@@ -101,20 +110,14 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /contact-us/ 113223ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×15 menu-item-type-post_type×15 menu-item-object-page×15 hfe-menu-item×15 e-grid×3 menu-item-home×3
       page: /jewellery/ 133477ch · h1 “” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×15 menu-item-type-post_type×15 menu-item-object-page×15 hfe-menu-item×15 e-grid×3 menu-item-home×3
       page: /?route=product%2Fsearch&search=coin 102432ch · h1 “Archives” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×15 menu-item-type-post_type×15 menu-item-object-page×15 hfe-menu-item×15 e-grid×3 menu-item-home×3 · last tried 2026-11-10T13:48:19Z · last worked 2026-11-10T13:48:19Z
-- Swan Bullion (swanbullion.com): ok – 26 kept of 92 found, read through its WooCommerce product feed · last tried 2026-11-10T01:51:13Z · last worked 2026-11-10T01:51:13Z
-- The Coin Company (thecoincompany.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (150 pages) · read 150 pages but found no priced products · last tried 2026-11-09T19:52:09Z · last worked 2026-11-09T19:52:09Z
-- The Perth Mint (www.perthmint.com): ok – 7 kept of 12 found, read through its site map, page by page (150 pages) · last tried 2026-11-10T01:51:26Z · last worked 2026-11-10T01:51:26Z
-- Royal Australian Mint eShop (eshop.ramint.gov.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (4 pages) · read 4 pages but found no priced products · read in the hidden browser
+- Swan Bullion (swanbullion.com): ok – 22 kept of 88 found, read through its WooCommerce product feed · last tried 2026-11-11T10:56:08Z · last worked 2026-11-11T10:56:08Z
+- The Coin Company (thecoincompany.com.au): ok – 3 kept of 9 found, read through its site map, page by page (27 pages) · last tried 2026-11-11T10:56:08Z · last worked 2026-11-11T10:56:08Z
+- The Perth Mint (www.perthmint.com): ok – 11 kept of 18 found, read through its site map, page by page (22 pages) · last tried 2026-11-11T10:57:40Z · last worked 2026-11-11T10:57:40Z
+- Royal Australian Mint eShop (eshop.ramint.gov.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
       page: / 714ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /shop/ 721ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /products/ 726ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
-      page: /store/ 722ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
-      page: /catalog/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /?post_type=product: hidden browser: this refresh's pages are used up – more next refresh
-      page: /index.php?route=product/search&search=coin&limit=100: hidden browser: this refresh's pages are used up – more next refresh
-      page: /catalogsearch/result/?q=coin: hidden browser: this refresh's pages are used up – more next refresh
-      page: /search?q=coin: hidden browser: this refresh's pages are used up – more next refresh
-      page: /?s=coin&post_type=product: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-09T13:51:50Z · last worked 2026-11-09T13:51:50Z
+      page: /store/ 722ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-11T07:49:12Z · last worked 2026-11-11T07:49:12Z
 - Coinworks (coinworks.com.au): ok – 0 kept of 1 found, read through its site map, page by page (150 pages) · 1 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-11T01:57:39Z · last worked 2026-11-11T01:57:39Z
 - Drake Sterling Numismatics (www.drakesterling.com): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (4 pages) · read 4 pages but found no priced products · read in the hidden browser
       page: / 554690ch · h1 “” · $ amounts 24 · price elements 0 · buy buttons 0 · cards read 0 · classes ant-space-item×11 ant-card×7 ant-card-bordered×7 ant-card-body×7 ant-card-hoverable×6 ant-card-cover×3
@@ -130,9 +133,9 @@ ebay_sold: 5/5 worked, 1044 kept
 - Sterling & Currency (www.sterlingcurrency.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (150 pages) · read 150 pages but found no priced products · last tried 2026-11-11T01:58:43Z · last worked 2026-11-11T01:58:43Z
 - Vintage Coins & Banknotes (vintagecoinsandbanknotes.com.au): ok – 23 kept of 616 found, read through its Shopify product feed · moved to https://www.vintagecoinsandnotes.com.au · last tried 2026-11-10T13:49:04Z · last worked 2026-11-10T13:49:04Z
 - Coins & Collectables Victoria (coinsandcollectables.com.au): ok – 44 kept of 103 found, read through its Shopify product feed · moved to https://collectablesemporium.au · last tried 2026-11-11T01:57:54Z · last worked 2026-11-11T01:57:54Z
-- Imperial Numismatics (imperialnumismatics.com.au): ok – 42 kept of 499 found, read through its WooCommerce product feed · last tried 2026-11-09T19:52:22Z · last worked 2026-11-09T19:52:22Z
+- Imperial Numismatics (imperialnumismatics.com.au): ok – 42 kept of 496 found, read through its WooCommerce product feed · last tried 2026-11-11T10:54:52Z · last worked 2026-11-11T10:54:52Z
 - Colonial Coins & Medals (coinmedalshop.com.au): FAILING 1× – Error: ConnectException: Failed to connect to coinmedalshop.com.au/202.124.241.178:443 · last tried 2026-11-05T11:45:18Z
-- WA Coins (wacoins.com.au): ok – 337 kept of 690 found, read through its WooCommerce product feed · moved to https://www.wacoins.com.au · last tried 2026-11-10T01:50:15Z · last worked 2026-11-10T01:50:15Z
+- WA Coins (wacoins.com.au): ok – 334 kept of 686 found, read through its WooCommerce product feed · moved to https://www.wacoins.com.au · last tried 2026-11-11T10:55:59Z · last worked 2026-11-11T10:55:59Z
 - Smits Stamps & Coins (smitsstampsandcoinswa.com.au): FAILING 1× – Error: UnknownHostException: Unable to resolve host "smitsstampsandcoinswa.com.au": No address associated with hostname · last tried 2026-11-05T11:45:16Z
 - Rainbow Rarities (rainbowrarities.com): ok – 0 kept of 1 found, read through browsing its pages (4 pages) · 1 priced products found, none kept (not Australian coins, or filtered out) · read in the hidden browser · last tried 2026-11-10T01:47:53Z · last worked 2026-11-10T01:47:53Z
 - Ancient Coin Traders (ancientcointraders.com): ok – 1 kept of 5 found, read through browsing its pages (40 pages) · moved to https://www.ancientcointraders.com · last tried 2026-11-10T07:49:17Z · last worked 2026-11-10T07:49:17Z
@@ -159,7 +162,7 @@ ebay_sold: 5/5 worked, 1044 kept
 - Ainslie Bullion (ainsliebullion.com.au): ok – 2 kept of 2 found, read through its site map, page by page (150 pages) · last tried 2026-11-09T19:52:08Z · last worked 2026-11-09T19:52:08Z
 - Jaggards (www.jaggards.com.au): ok – 1 kept of 1 found, read through browsing its pages (7 pages) · read in the hidden browser · last tried 2026-11-11T01:56:15Z · last worked 2026-11-11T01:56:15Z
 - KJC Bullion (www.kjc-gold-silver-bullion.com.au): ok – 14 kept of 35 found, read through its site map, page by page (150 pages) · last tried 2026-11-11T01:57:46Z · last worked 2026-11-11T01:57:46Z
-- Queensland Mint (qmint.com): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (10 pages) · read 10 pages but found no priced products · moved to https://queenslandmint.com · read in the hidden browser · last tried 2026-11-11T01:57:59Z · last worked 2026-11-11T01:57:59Z
+- Queensland Mint (qmint.com): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (1 pages) · read 1 pages but found no priced products · moved to https://queenslandmint.com · read in the hidden browser · last tried 2026-11-11T10:53:16Z · last worked 2026-11-11T10:53:16Z
 - ABC Bullion (www.abcbullion.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (8 pages) · read 8 pages but found no priced products · read in the hidden browser
       page: / 1266896ch · h1 “” · $ amounts 516 · price elements 3 · buy buttons 1 · cards read 0 · classes items-center×208 items-start×34 md:items-start×20 sm:items-center×8 grid-cols-1×7 grid×7
       page: /shop/ 230027ch · h1 “” · $ amounts 267 · price elements 0 · buy buttons 0 · cards read 0 · classes items-center×119 items-start×8 grid×2 grid-cols-1×2 sm:items-center×1 lg:items-center×1
@@ -173,12 +176,12 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /?s=coin&post_type=product: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-10T13:48:19Z · last worked 2026-11-10T13:48:19Z
 - Bullion Now (bullionnow.com.au): ok – 4 kept of 5 found, read through its site map, page by page (150 pages) · last tried 2026-11-11T01:57:59Z · last worked 2026-11-11T01:57:59Z
 - Gold Stackers (goldstackers.com.au): ok – 25 kept of 61 found, read through its WooCommerce product feed · moved to https://www.goldstackers.com.au · last tried 2026-11-11T01:58:06Z · last worked 2026-11-11T01:58:06Z
-- Bullionmark (bullionmark.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (10 pages) · read 10 pages but found no priced products · read in the hidden browser · last tried 2026-11-11T01:58:02Z · last worked 2026-11-11T01:58:02Z
-- Imperial Bullion (imperialbullion.com.au): ok – 10 kept of 27 found, read through its WooCommerce product feed · last tried 2026-11-10T01:49:46Z · last worked 2026-11-10T01:49:46Z
-- Gold Bullion Australia (goldbullionaustralia.com.au): ok – 21 kept of 75 found, read through its WooCommerce product feed · moved to https://www.goldbullionaustralia.com.au · last tried 2026-11-10T01:49:57Z · last worked 2026-11-10T01:49:57Z
+- Bullionmark (bullionmark.com.au): ok – 0 kept of 1 found, read through its site map, page by page (2 pages) · 1 priced products found, none kept (not Australian coins, or filtered out) · read in the hidden browser · last tried 2026-11-11T10:53:21Z · last worked 2026-11-11T10:53:21Z
+- Imperial Bullion (imperialbullion.com.au): ok – 9 kept of 26 found, read through its WooCommerce product feed · last tried 2026-11-11T10:54:58Z · last worked 2026-11-11T10:54:58Z
+- Gold Bullion Australia (goldbullionaustralia.com.au): ok – 23 kept of 78 found, read through its WooCommerce product feed · moved to https://www.goldbullionaustralia.com.au · last tried 2026-11-11T10:55:08Z · last worked 2026-11-11T10:55:08Z
 - City Gold Bullion (citygoldbullion.com.au): ok – 9 kept of 28 found, read through its site map, page by page (65 pages) · last tried 2026-11-11T01:55:38Z · last worked 2026-11-11T01:55:38Z
-- As Good As Gold (asgoodasgold.com.au): ok – 30 kept of 92 found, read through its Shopify product feed · last tried 2026-11-10T01:49:51Z · last worked 2026-11-10T01:49:51Z
-- Great Southland Bullion (greatsouthlandbullion.com.au): ok – 27 kept of 38 found, read through its WooCommerce product feed · moved to https://greatsouthlandbullion.au · last tried 2026-11-10T01:50:04Z · last worked 2026-11-10T01:50:04Z
+- As Good As Gold (asgoodasgold.com.au): ok – 31 kept of 93 found, read through its Shopify product feed · last tried 2026-11-11T10:55:03Z · last worked 2026-11-11T10:55:03Z
+- Great Southland Bullion (greatsouthlandbullion.com.au): ok – 27 kept of 35 found, read through its WooCommerce product feed · moved to https://greatsouthlandbullion.au · last tried 2026-11-11T10:55:10Z · last worked 2026-11-11T10:55:10Z
 - Bradford Coins (bradfordcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (8 pages) · read 8 pages but found no priced products
       page: /Pages/Home.html 5099ch · h1 “Bradford Coins” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /Pages/Home.html?post_type=product 5099ch · h1 “Bradford Coins” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -188,7 +191,7 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /Pages/Pawnbroking.html 2514ch · h1 “Pawnbroking” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /Pages/WhatWeTrade.html 2732ch · h1 “What We Trade” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes tradeCard×2 tradeGrid×1
       page: /Pages/SecondHandItems.html 2024ch · h1 “Second-Hand Items” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-10T19:47:22Z · last worked 2026-11-10T19:47:22Z
-- Australian Bullion Company (www.australianbullioncompany.com.au): ok – 18 kept of 65 found, read through its WooCommerce product feed · last tried 2026-11-10T01:50:27Z · last worked 2026-11-10T01:50:27Z
+- Australian Bullion Company (www.australianbullioncompany.com.au): ok – 18 kept of 64 found, read through its WooCommerce product feed · last tried 2026-11-11T10:55:26Z · last worked 2026-11-11T10:55:26Z
 - Royal Bullion (royalbullion.com.au): NOTHING FOUND – 0 kept of 0 found, read through its site map, page by page (40 pages) · read 40 pages but found no priced products · moved to https://www.royalbullion.com.au · last tried 2026-11-10T07:48:46Z · last worked 2026-11-10T07:48:46Z
 - Ceylon Exchange (ceylonexchange.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (31 pages) · read 31 pages but found no priced products
       page: / 53085ch · h1 “Ceylon Exchange” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×16 menu-item-type-post_type×13 menu-item-object-page×13 has-post-thumbnail×8 menu-item-has-children×3 menu-item-type-custom×2
@@ -203,101 +206,64 @@ ebay_sold: 5/5 worked, 1044 kept
       page: /gold-silver-bullion/ 44608ch · h1 “Gold & Silver Bullion” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×16 menu-item-type-post_type×13 menu-item-object-page×13 menu-item-has-children×3 menu-item-type-custom×2 menu-item-object-custom×2 · last tried 2026-11-11T01:54:53Z · last worked 2026-11-11T01:54:53Z
 - SA Gold Traders (sagoldtraders.com.au): FAILING 1× – Error: UnknownHostException: Unable to resolve host "sagoldtraders.com.au": No address associated with hostname · last tried 2026-11-05T14:25:12Z
 
-## Top 56 deals as the app shows them (best first)
-- 72% under | $5 vs usual $17.95, 3 sales, low | 2001 50c Centenary of Federation Uncirculated Coin in Pack | shop:Coin City | read as: coin 2001 50c unc | AI: coin base  (1) 2001 50c Centenary of Federation CuNi unc in pack | page/description: {"denom":"50c","finish":"unc"} | price confirmed | https://coincity.com.au/products/2001-50c-centenary-of-federation-uncirculated-coin-in-pack
-    id: shop:coincity.com.au:47817503572289 · key: 1j673dc · Claude: verified 2026-11-10
-    description read: 2001 50c Centenary of Federation Uncirculated Coin in Pack Honouring 100 years of nationhood, Australia celebrates the Centenary of Federation in 2001.Uniting the colonies as one country, and confirming a growing sense of national identity, the official ceremony was held in Sydney's Centennial Park  Celebrating the most important milestone on the road to independence, the 100th anniversary of Federation has been recognised with the approval of an official legal tender commemorative. In strictly uncirculated condition, the 2001 Centenary of Federation 50c is struck by the Royal Australian Mint, Canberra. Denomination : 50c Finish : Uncirculated Metal : Cupro Nickel Weight : 15.55 gms NOTE : C
-- 63% under | $55 vs usual $150, 2 sales, low | 2013 Australia 10c Coin PCGS PR69DCAM #6581 | shop:Tasmanian Numismatics | read as: coin 2013 10c proof | AI: coin base  (1) 2013 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/2013-australia-10c-coin-pcgs-pr69dcam-6581/
-    id: shop:tasmaniannumismatics.com.au:37478 · key: a5z8x4 · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 56% under | $45 vs usual $103, 2 sales, low | 2001 Australia 10c Coin PCGS PR69DCAM #6707 | shop:Tasmanian Numismatics | read as: coin 2001 10c proof | AI: coin base  (1) 2001 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/2001-australia-10c-coin-pcgs-pr69dcam-6707/
-    id: shop:tasmaniannumismatics.com.au:37067 · key: 1o3qrrr · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 53% under | $11.82 vs usual $25, 2 sales, low | 1 x 2016 5 Cent Changeover uncirculated Coin. | ebay | read as: coin 2016 5c unc | AI: coin base  (1) single 2016 5c unc ex changeover set | price not confirmed | https://www.ebay.com.au/itm/960160971341
-    id: ebay:960160971341 · key: 1dso7qe · Claude: verified 2026-11-10
-- 52% under | $40 vs usual $82.81, 2 sales, low | 60th Anniversary of Decimal Currency 2026 $1 Uncirculated Four Coin Set | shop:Mint Coin Shop | read as: mint_set 2026 $1 unc | AI: mint_set base  (1) 2026 $1 60th Anniv Decimal Currency 4-coin set (C mintmark + S/M/B privy) | page/description: {"metal":null,"metal_by":"label","year":2026,"denom":"$1","finish":"unc"} | price confirmed | https://mintcoinshop.com.au/products/60th-anniversary-of-decimal-currency-2026-1-uncirculated-four-coin-set
-    id: shop:mintcoinshop.com.au:51710522196269 · key: 10b8zks · Claude: verified 2026-11-10
-    description read: Country of issue: Australia. Year of issue: 2026. Face value: $1 AUD. Metal: Base metal. Finish: Uncirculated. Metal Content: Aluminium bronze. Diameter: 25.00mm. Mark: ‘C’ Mintmark and ‘S’, ‘M’ & ‘B’ Privy Marks. In 2026, the Royal Australian Mint commemorates 60 years of Australian decimal currency with this special four-coin uncirculated set, celebrating six decades of numismatic history since the historic changeover on 14 February 1966. This thoughtfully curated set brings together a ‘C’ Mintmark coin alongside ‘S’, ‘M’ and ‘B’ Privy Mark coins, symbolising the Mint’s legacy and evolution. Key Specifications Denomination: $1 (each coin) Year: 2026 Finish: Uncirculated Metal Content: Alum
-- 52% under | $40 vs usual $82.81, 2 sales, low | 2026 Royal Australian Mint $1 Privy Mark Uncirculated 4-Coin Set - 60th Anniversary of Decimal Currency | shop:Online Coins & Collectables | read as: mint_set 2026 $1 unc | AI: mint_set base  (1) 2026 $1 60th Anniv Decimal Currency 4-coin privy set | page/description: {"denom":"$1"} | price confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-1-privy-mark-uncirculated-4-coin-set-60th-anniversary-of-decimal-currency
-    id: shop:onlinecoinsandcollectables.com.au:47494825640192 · key: 1fuxvdu · Claude: verified 2026-11-10
-    description read: Set contains a 'C' Mintmark and 'S', 'M' and 'B' Privy Mark coins Coin's obverse features the effigy of King Charles III designed by Daniel Thorne Australian legal tender Denomination: $1 Metal Content: AlBr Mass: 9.00grams Diameter: 25.00grams DETAILS In 2026, the Royal Australian Mint celebrates t The original round, and 80 per cent silver, 50c coin was updated to cupronickel and given its distinctive 12 sided dodecagon shape from 1969. Of the billions of coins released into circulation by the Mint, some have become highly collectable, including the elusive 1966 'wavy baseline' 20c coin and the even rarer 2000-year dated $1/10c mule. Set contains a 'C' Mintmark and 'S', 'M' and 'B' Privy M
-- 48% under | $55 vs usual $105.95, 2 sales, low | 2021 Australia 10 Cent Coin PCGS PR69DCAM #8212 | shop:Tasmanian Numismatics | read as: coin 2021 10c proof | AI: coin base  (1) 2021 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/2021-australia-10-cent-coin-pcgs-pr69dcam-8212/
-    id: shop:tasmaniannumismatics.com.au:39289 · key: k3pgpo · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
+## Why failing shops fail (step-by-step check)
+### The Coin Chest (the-coin-chest.com) – problem: the website blocks plain requests (a bot check), and browsing its pages found no priced products
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - Browsing its pages: the website blocks apps like Coin Hound (bot check)
+  - raw Website: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later)
+  - raw Browsing: 403 from https://the-coin-chest.com/products/ (the site asked for a bot check – try again later)
+
+## Top 41 deals as the app shows them (best first)
 - 47% under | $12 vs usual $22.5, 2 sales, low | 2015 $1 ANZAC Centenary 'M' Counterstamp Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 M mintmark unc | AI: coin base  (1) 2015 $1 ANZAC Centenary M counterstamp unc | price confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-m-counterstamp-uncirculated-coin
     id: shop:townhallcoins.com:46862549549296 · key: 1l9mneg · Claude: verified 2026-11-10
-- 46% under | $19 vs usual $34.99, 2 sales, low | 2022 Australian Dinosaurs $1 Uncirculated Privy Mark Four-Coin Collection | shop:WA Coins | read as: set 2022 $1 unc | AI: set base  (1) 2022 Australian Dinosaurs $1 privy mark 4-coin collection | price confirmed | https://www.wacoins.com.au/shop/2022-australian-dinosaurs-1-uncirculated-privy-mark-four-coin-collection/
-    id: shop:wacoins.com.au:18747 · key: 1dayfr3 · Claude: verified 2026-11-10
-- 46% under | $19 vs usual $34.99, 2 sales, low | 2022 Australian Dinosaurs $1 Uncirculated Four-Coin Collection | shop:WA Coins | read as: set 2022 $1 unc | AI: set base  (1) 2022 Australian Dinosaurs $1 4-coin collection | price confirmed | https://www.wacoins.com.au/shop/2022-australian-dinosaurs-1-uncirculated-four-coin-collection/
-    id: shop:wacoins.com.au:18780 · key: x5tza2 · Claude: verified 2026-11-10
 - 42% under | $249 vs usual $425.38, 2 sales, low | 2000 Baby Proof Set | shop:Town Hall Coins | read as: proof_set 2000 proof | AI: proof_set base  (1) 2000 RAM baby proof set | price confirmed | https://townhallcoins.com/products/2000-baby-proof-set
     id: shop:townhallcoins.com:46862533394672 · key: 1ke2sfj · Claude: verified 2026-11-10
-- 41% under | $88.5 vs usual $150, 2 sales, low | 2013 Australia 10c Proof Ten Cent Coin - PCGS PR70DCAM | ebay | read as: coin 2013 10c proof | AI: coin base  (1) 2013 10c proof ex proof set, PCGS PR70DCAM | price not confirmed | https://www.ebay.com.au/itm/307233624925
-    id: ebay:307233624925 · key: 1kbxcop · Claude: verified 2026-11-10
 - 38% under | $35 vs usual $56, 2 sales, low | 2024 Baby Uncirculated Six Coin Year Set | shop:The Coin Company | read as: mint_set 2024 unc | AI: mint_set base  (1) 2024 RAM baby six-coin unc year set | price confirmed | https://thecoincompany.com.au/2024-baby-uncirculated-six-coin-year-set/
     id: shop:thecoincompany.com.au:821d639864234a7e · key: uogs3e · Claude: verified 2026-11-10
     description read: The%20Coin%20Company%20is%20proud%20to%20present%202024%20Baby%20Uncirculated%20Six%20Coin%20Year%20Set%20by%20The%20Royal%20Australian%20Mint.%0AThe%20Royal%20Australian%20Mint%20has%20released%20annual%20baby%20sets%20since%201995.%20This%202024%20Six-Coin%20Uncirculated%20Baby%20Coin%20Year%20Set This 2024 Six-Coin Uncirculated Baby Coin Year Set sees the much loved Royal Australian Mint’s baby coins reissued in a joyous celebration of all things baby, coin and collecting. Altogether, they create a unique and engaging year set that celebrates the arrival of a bub, the wonders of a child’s imagination and the simple joys of collecting. Coin Highlights: The set features all six of the Royal
-- 35% under | $55 vs usual $85, 2 sales, low | 1998 Australia 20c Coin PCGS PR69DCAM #6359 | shop:Tasmanian Numismatics | read as: coin 1998 20c proof | AI: not read | price not confirmed | https://tasmaniannumismatics.com.au/product/1998-australia-20c-coin-pcgs-pr69dcam-6359/
-    id: shop:tasmaniannumismatics.com.au:38018 · key: 4ijf3g
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
-- 34% under | $45 vs usual $68, 2 sales, low | 1992 Australia 10c Coin PCGS PR69DCAM #6664 | shop:Tasmanian Numismatics | read as: coin 1992 10c proof | AI: coin base  (1) 1992 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1992-australia-10c-coin-pcgs-pr69dcam-6664/
-    id: shop:tasmaniannumismatics.com.au:37009 · key: edvz2f · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 33% under | $8 vs usual $12, 2 sales, low | 1999 C Australia The Last Anzacs One Dollar Uncirculated | shop:KJC Bullion | read as: coin 1999 $1 C mintmark unc | AI: coin base  (1) 1999 $1 Last Anzacs AlBr unc with C mintmark | page/description: {"metal":null,"metal_by":"label"} | price confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1999-c-australia-the-last-anzacs-one-dollar-uncirculated/2204854
-    id: shop:www.kjc-gold-silver-bullion.com.au:10cbab858bd625e5 · key: n3pcwu · Claude: corrected 2026-11-10
-    description read: * 1999 issue commemorating the Last Anzacs* Features C Mint Mark for Canberra Product Type: Numismatic. material: Aluminium Bronze. * 1999 issue commemorating the Last Anzacs* Features C Mint Mark for Canberra Category: Online Shop / Online Shop / Royal Australian Mint Issues / Royal Australian Mint Issues / QEII $1 Aluminium Bronze Coins / QEII $1 Aluminium Bronze Coins / 1999 C Australia The Last Anzacs One Dollar Uncirculated * 1999 issue commemorating the Last Anzacs* Features C Mint Mark for Canberra Product Type: Numismatic. material: Aluminium Bronze. * 1999 issue commemorating the Last Anzacs* Features C Mint Mark for Canberra Category: Online Shop / Online Shop / Royal Australian Mi
-- 33% under | $55.5 vs usual $82.81, 2 sales, low | 2026 $1 60th Anniversary of Decimal Currency Al/Br Mintmark & Privy Mark Uncirculated 4- Coin Set | shop:Coin City | read as: mint_set 2026 $1 unc | AI: mint_set base  (1) 2026 $1 60th Anniv Decimal Currency AlBr mintmark & privy 4-coin set | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price confirmed | https://coincity.com.au/products/2026-1-60th-anniversary-of-decimal-currency-al-br-mintmark-privy-mark-uncirculated-4-coin-set
-    id: shop:coincity.com.au:51168005030209 · key: whxpzf · Claude: verified 2026-11-10
-    description read: 2026 $1 60th Anniversary of Decimal Currency Al/Br Mintmark &amp; Privy Mark Uncirculated 4- Coin Set In 2026, the Royal Australian Mint celebrates the sixtieth anniversary of Australian decimal currency by exploring six decades of our shared numismatic history. Australia in the 1960s was a young country wanting to assert itself on the world stage. The original round, and 80 per cent silver, 50c coin was updated to cupronickel and given its distinctive 12 sided dodecagon shape from 1969. Of the billions of coins released into circulation by the Mint, some have become highly collectible, including the elusive 1966'wavy baseline' 20c coins and the even rarer 2000-year dated $1/10c mule. Each s
-- 33% under | $55 vs usual $82, 3 sales, low | 1986 Australia 20c Coin PCGS PR69DCAM #6505 | shop:Tasmanian Numismatics | read as: coin 1986 20c proof | AI: not read | price not confirmed | https://tasmaniannumismatics.com.au/product/1986-australia-20c-coin-pcgs-pr69dcam-6505/
-    id: shop:tasmaniannumismatics.com.au:37367 · key: pt49yv
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 33% under | $16.99 vs usual $25.28, 2 sales, low | 1991 10c PROOF COIN "LYREBIRD" "STUNNING RARE COIN" | ebay | read as: coin 1991 10c proof | AI: coin base  (1) 1991 10c lyrebird proof, ex proof set | price not confirmed | https://www.ebay.com.au/itm/128084094640
     id: ebay:128084094640 · key: 5d52l2 · Claude: verified 2026-11-10
-- 30% under | $55 vs usual $78, 2 sales, low | 2007 Australia 10c Coin PCGS PR69DCAM #6538 | shop:Tasmanian Numismatics | read as: coin 2007 10c proof | AI: coin base  (1) 2007 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/2007-australia-10c-coin-pcgs-pr69dcam-6538/
-    id: shop:tasmaniannumismatics.com.au:37452 · key: 14lexg9 · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
+- 31% under | $47 vs usual $68, 2 sales, low | 1992 Australia 10c Coin PCGS PR69DCAM #6664 | shop:Tasmanian Numismatics | read as: coin 1992 10c proof | AI: coin base  (1) 1992 10c proof ex proof set, PCGS PR69DCAM | page/description: {"year":1992,"denom":"10c"} | price confirmed | https://tasmaniannumismatics.com.au/product/1992-australia-10c-coin-pcgs-pr69dcam-6664/
+    id: shop:tasmaniannumismatics.com.au:37009 · key: 1wxb2rb · Claude: verified 2026-11-10
+    description read: Face Value: 10c. Region: Australia. Material: Cu/Ni. Grade: PR69DCAM. Year: 1992. Graded by PCGS and is covered by their guarantee of grade and authenticity for life. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary** Description Weight .05 kg Dimensions 8 × 2 × 6 cm Face Value 10c Region Australia Material Cu/Ni Grade PR69DCAM Year 1992 1992 Australia 10 Graded by PCGS and is covered by their guarantee of grade and authenticity for life. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number ma
 - 29% under | $20 vs usual $28.26, 4 sales, medium | 2021 Coloured 2 Dollar Uncirculated Coin Ambulance Services C Mintmark | shop:Sterling & Currency | read as: coin 2021 $2 C mintmark unc | AI: coin base  (1) 2021 $2 coloured Ambulance Services C mintmark unc | page/description: {"metal":null,"metal_by":"label"} | price confirmed | https://www.sterlingcurrency.com.au/2021-coloured-2-dollar-uncirculated-coin-ambulance
-    id: shop:www.sterlingcurrency.com.au:d52750e040eba2b8 · key: imcdoq · Claude: verified 2026-11-10
+    id: shop:www.sterlingcurrency.com.au:d52750e040eba2b8 · key: 1yclh6f · Claude: verified 2026-11-10
     description read: 2021 Coloured 2 Dollar Uncirculated Coin Ambulance Services C Mintmark Obverse: Elizabeth II to right, legend around Reverse: Coloured indigenous design, legend around Composition: Aluminium Bronze | Weight: 6.60g | Diameter: 20.50mm Mintage: 50,000 Just 50,000 of these coins were released in this f Category: Home / Home / / Coins / Coins / / Circulating Decimal Coins / Circulating Decimal Coins / / Two Dollars / Two Dollars / / 2021 Coloured 2 Dollar Uncirculated Coin Ambulance Services C Mintmark / 2021 Coloured 2 Dollar Uncirculated Coin Ambulance Services C Mintmark. 2021 Coloured 2 Dollar Uncirculated Coin Ambulance Services C Mintmark Obverse: Elizabeth II to right, legend around Rever
-- 29% under | $8.5 vs usual $11.95, 5 sales, medium | 2013 20c Coin - Centenary of Canberra - Uncirculated | shop:Loose Change Coins | read as: coin 2013 20c unc | AI: coin base  (1) single 2013 20c Centenary of Canberra unc | price not confirmed | https://loosechangecoins.com.au/products/2013-australian-20-cent-coin-the-centenary-of-canberra-low-mintage-1
-    id: shop:loosechangecoins.com.au:31312790290565 · key: i99130 · Claude: verified 2026-11-10
-    description read: 2013 20c "Centenary of Canberra" — Uncirculated (Ex-Security Bag). Single Uncirculated 20c coin struck to circulating standard by the Royal Australian Mint. Technical Specs: Cupronickel (75% Copper, 25% Nickel), 11.30g weight, 28.52mm diameter, reeded edge.. Please Note:. Package Contents: This listing is for a single uncirculated coin only, supplied in a protective Mylar flip.. Condition Detail: Retains uncirculated details and full original mint bloom. Image Note: All available coins remain in excellent condition for their age and will be in a similar condition to that shown.. Issued in 2013 to celebrate the centenary of Australia's capital, this one-year-only 20c coin features a architect
-- 29% under | $45 vs usual $63, 3 sales, low | 1990 Australia 10c Coin PCGS PR69DCAM #6648 | shop:Tasmanian Numismatics | read as: coin 1990 10c proof | AI: coin base  (1) 1990 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1990-australia-10c-coin-pcgs-pr69dcam-6648/
-    id: shop:tasmaniannumismatics.com.au:37003 · key: 19gtgxb · Claude: verified 2026-11-10
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 25% under | $29 vs usual $38.5 (melt $7.05), 3 sales, low | 2015 10c Australian Koala 1/10oz Silver Coin | shop:Town Hall Coins | read as: coin 2015 10c 0.1oz silver | AI: bullion_coin silver 0.1 (1) 2015 Perth Mint Koala 1/10oz silver bullion coin | price not confirmed | https://townhallcoins.com/products/2015-10c-australian-koala-1-10oz-silver-coin
+- 29% under | $8.5 vs usual $11.95, 5 sales, medium | 2013 20c Coin - Centenary of Canberra - Uncirculated | shop:Loose Change Coins | read as: coin 2013 20c unc | AI: coin base  (1) single 2013 20c Centenary of Canberra unc | price confirmed | https://loosechangecoins.com.au/products/2013-australian-20-cent-coin-the-centenary-of-canberra-low-mintage-1
+    id: shop:loosechangecoins.com.au:31312790290565 · key: 1hbd6os · Claude: verified 2026-11-10
+    description read: 2013 20c "Centenary of Canberra" — Uncirculated (Ex-Security Bag) Single Uncirculated 20c coin struck to circulating standard by the Royal Australian Mint. Technical Specs: Cupronickel (75% Copper, 25% Nickel), 11.30g weight, 28.52mm diameter, reeded edge. Please Note: Package Contents: This listing is for a single uncirculated coin only, supplied in a protective Mylar flip. Condition Detail: Retains uncirculated details and full original mint bloom. Image Note: All available coins remain in excellent condition for their age and will be in a similar condition to that shown. About this Coin Issued in 2013 to celebrate the centenary of Australia's capital, this one-year-only 20c coin features 
+- 25% under | $29 vs usual $38.5 (melt $7.05), 3 sales, low | 2015 10c Australian Koala 1/10oz Silver Coin | shop:Town Hall Coins | read as: coin 2015 10c 0.1oz silver | AI: bullion_coin silver 0.1 (1) 2015 Perth Mint Koala 1/10oz silver bullion coin | price confirmed | https://townhallcoins.com/products/2015-10c-australian-koala-1-10oz-silver-coin
     id: shop:townhallcoins.com:46862555939056 · key: fu8ond · Claude: corrected 2026-11-10
-- 21% under | $20 vs usual $25.45, 6 sales, medium | 2011 50c 60th Anniversary of National Service Uncirculated Coin | shop:Town Hall Coins | read as: coin 2011 50c unc | AI: coin base  (1) 2011 50c National Service 60th Anniv unc | price not confirmed | https://townhallcoins.com/products/2011-50c-60th-anniversary-of-national-service-uncirculated-coin
+- 21% under | $20 vs usual $25.45, 6 sales, medium | 2011 50c 60th Anniversary of National Service Uncirculated Coin | shop:Town Hall Coins | read as: coin 2011 50c unc | AI: coin base  (1) 2011 50c National Service 60th Anniv unc | price confirmed | https://townhallcoins.com/products/2011-50c-60th-anniversary-of-national-service-uncirculated-coin
     id: shop:townhallcoins.com:46862523367664 · key: 1uuzg6l · Claude: verified 2026-11-10
 - 21% under | $25 vs usual $31.55, 3 sales, low | 2012 50 Cent Uncirculated Coin Diamond Jubilee | shop:Sterling & Currency | read as: coin 2012 50c unc | AI: coin base  (1) 2012 50c Diamond Jubilee CuNi unc carded | page/description: {"metal":null,"metal_by":"label"} | price confirmed | https://www.sterlingcurrency.com.au/2012-50-cent-uncirculated-coin-diamond-jubilee
-    id: shop:www.sterlingcurrency.com.au:3f3086c8e3dfd1f0 · key: 1koxcrc · Claude: verified 2026-11-10
+    id: shop:www.sterlingcurrency.com.au:3f3086c8e3dfd1f0 · key: fzo38 · Claude: verified 2026-11-10
     description read: 2012 50 Cent Carded Coin Uncirculated Diamond Jubilee Obverse: Elizabeth II to right, legend around Reverse: Crown above denomination, legend around Alloy: Copper / Nickel | Diameter: 31.50mm | Weight: 15.55g Mintage: 45,002 This scarce 50 cent mark This scarce 50 cent marks 60 years since Queen Eli Category: Home / Home / / Coins / Coins / / Royal Australian Mint Decimal Coins / Royal Australian Mint Decimal Coins / / Uncirculated Coins / Uncirculated Coins / / 2012 50 Cent Uncirculated Coin Diamond Jubilee / 2012 50 Cent Uncirculated Coin Diamond Jubilee. 2012 50 Cent Carded Coin Uncirculated Diamond Jubilee Obverse: Elizabeth II to right, legend around Reverse: Crown above denomination, l
-- 17% under | $45 vs usual $54, 2 sales, low | 1975 Proof 10c Coin PCGS PR69DCAM #6877 | shop:Tasmanian Numismatics | read as: coin 1975 10c proof | AI: coin base  (1) 1975 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1975-proof-10c-coin-pcgs-pr69dcam-6877/
-    id: shop:tasmaniannumismatics.com.au:43425 · key: kfzwao · Claude: verified 2026-11-10
-    description read: 1975 Proof 10c Coin PCGS PR69DCAM #6877.. Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
-- 17% under | $40 vs usual $47.95, 2 sales, low | 2026 RAM Uncirculated Six Coin Set - 60th Anniversary of Decimal Currency | shop:Online Coins & Collectables | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 RAM six-coin unc year set, 60th Anniv Decimal | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-ram-uncirculated-six-coin-set-60th-anniversary-of-decimal-currency
-    id: shop:onlinecoinsandcollectables.com.au:47647417925888 · key: 1k2zpyw · Claude: verified 2026-11-10
-    description read: Struck to the Royal Australian Mint's uncirculated finish standard. Australian legal tender. This striking 2026 Six-Coin Uncirculated Year Set celebrates 60 years of Australian decimal currency and the integral part the Royal Australian Mint has played in its story.. Category: Year Sets.
-- 17% under | $40 vs usual $47.99, 2 sales, low | 2026 Mint Set - 60th Anniversary of Decimal Currency | shop:Wynyard Coin Centre | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 RAM six-coin unc mint set, 60th Anniv Decimal | price not confirmed | https://wynyardcoins.com.au/products/2026-mint-set-60th-anniversary-of-decimal-currency
-    id: shop:wynyardcoins.com.au:47758037188825 · key: 1w5l8x5 · Claude: verified 2026-11-10
-    description read: The lead-up to decimalisation took year of planning. This striking 2026 Six Coin Uncirculated Year Set celebrates 60 years of Australian decimal currency and the integral part of the Royal Australian Mint has played in its story. Uncirculated (UNC). Category: 2026, 2026 Year Sets, Australian Decimal Coins, Mint Sets, New Releases, Royal Australian Mint, Royal Australian Mint - New Releases.
-- 16% under | $29.5 vs usual $34.9, 2 sales, low | 50c 2026 HM Queen Elizabeth II Centenary of Birth UNC | shop:Wynyard Coin Centre | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c QEII Centenary of Birth unc | price confirmed | https://wynyardcoins.com.au/products/50c-2026-hm-queen-elizabeth-ii-centenary-of-birth-unc
-    id: shop:wynyardcoins.com.au:47758169145561 · key: 1qsc5rp · Claude: verified 2026-11-10
+- 17% under | $40 vs usual $47.95, 2 sales, low | 2026 RAM Uncirculated Six Coin Set - 60th Anniversary of Decimal Currency | shop:Online Coins & Collectables | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 RAM six-coin unc year set, 60th Anniv Decimal | price confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-ram-uncirculated-six-coin-set-60th-anniversary-of-decimal-currency
+    id: shop:onlinecoinsandcollectables.com.au:47647417925888 · key: 141jlga · Claude: verified 2026-11-10
+    description read: Presented in an six-coin capsule, complete with presentation card and outer carton All coin obverses feature the effigy of King Charles III by designer Daniel Thorne Struck to the Royal Australian Mint's uncirculated finish standard Australian legal tender DETAILS Australia's change to decimal curre This striking 2026 Six-Coin Uncirculated Year Set celebrates 60 years of Australian decimal currency and the integral part the Royal Australian Mint has played in its story. Presented in an six-coin capsule, complete with presentation card and outer carton All coin obverses feature the effigy of King Charles III by designer Daniel Thorne Struck to the Royal Australian Mint's uncirculated finish s
+- 17% under | $40 vs usual $47.99, 2 sales, low | 2026 Mint Set - 60th Anniversary of Decimal Currency | shop:Wynyard Coin Centre | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 RAM six-coin unc mint set, 60th Anniv Decimal | price confirmed | https://wynyardcoins.com.au/products/2026-mint-set-60th-anniversary-of-decimal-currency
+    id: shop:wynyardcoins.com.au:47758037188825 · key: 19q1jwu · Claude: verified 2026-11-10
     description read: Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $1 2023 AFL Individual Team UNC From $1.50 to $20.00 Quick View Add to wishlist View Wishlist Club Adelaide Crows Brisbane Lions Carlton Blues Collingwood Magpies Essendon Bombers Fremantle Dockers Geelong Cat Adelaide Crows Brisbane Lions Carlton Blues Collingwood Magpies Essendon Bombers Fremantle Dockers Geelong Cats Gold Coast Suns GWS Giants Hawthorn Hawks Melbourne Demons North Melbourne Kangaroos Port Adelaide Power Richmond Tigers St Kilda Saints Sydney Swans West Coast Eagles Western Bulldogs Vie Default Title Add To Cart 2022 Australian Commonwealth Games Team 7 Coin Collection Regular Price 
+- 16% under | $29.5 vs usual $34.9, 2 sales, low | 50c 2026 HM Queen Elizabeth II Centenary of Birth UNC | shop:Wynyard Coin Centre | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c QEII Centenary of Birth unc | price confirmed | https://wynyardcoins.com.au/products/50c-2026-hm-queen-elizabeth-ii-centenary-of-birth-unc
+    id: shop:wynyardcoins.com.au:47758169145561 · key: smdwbl · Claude: verified 2026-11-10
+    description read: Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $1 2023 AFL Individual Team UNC From $1.50 to $20.00 Quick View Add to wishlist View Wishlist Club Adelaide Crows Brisbane Lions Carlton Blues Collingwood Magpies Essendon Bombers Fremantle Dockers Geelong Cat Adelaide Crows Brisbane Lions Carlton Blues Collingwood Magpies Essendon Bombers Fremantle Dockers Geelong Cats Gold Coast Suns GWS Giants Hawthorn Hawks Melbourne Demons North Melbourne Kangaroos Port Adelaide Power Richmond Tigers St Kilda Saints Sydney Swans West Coast Eagles Western Bulldogs Vie Default Title Add To Cart 2022 Australian Commonwealth Games Team 7 Coin Collection Regular Price 
+- 13% under | $90 vs usual $103, 2 sales, low | 2001 Australia 10c Coin PCGS PR69DCAM #6707 | shop:Tasmanian Numismatics | read as: coin 2001 10c proof | AI: coin base  (1) 2001 10c proof ex proof set, PCGS PR69DCAM | page/description: {"year":2001,"denom":"10c"} | price confirmed | https://tasmaniannumismatics.com.au/product/2001-australia-10c-coin-pcgs-pr69dcam-6707/
+    id: shop:tasmaniannumismatics.com.au:37067 · key: 1nov9mj · Claude: verified 2026-11-10
+    description read: Face Value: 10c. Region: Australia. Material: Cu/Ni. Grade: PR69DCAM. Year: 2001. Graded by PCGS and is covered by their guarantee of grade and authenticity for life. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary** Description Weight .05 kg Dimensions 8 × 2 × 6 cm Face Value 10c Region Australia Material Cu/Ni Grade PR69DCAM Year 2001 2001 Australia 10 Graded by PCGS and is covered by their guarantee of grade and authenticity for life. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number ma
 - 12% under | $150 vs usual $170.55, 2 sales, low | 2013 Baby Proof Set - Dot & the Kangaroo | shop:Wynyard Coin Centre | read as: proof_set 2013 proof | AI: proof_set base  (1) 2013 baby proof set, Dot & the Kangaroo | price confirmed | https://wynyardcoins.com.au/products/baby-proof-set-2013-dot-the-kangaroo
     id: shop:wynyardcoins.com.au:36528621551784 · key: 1mg0u4m · Claude: verified 2026-11-10
     description read: $1 2007-2018 Australian Lunar Silver Proof 12 Coin Collection Regular Price $1,300.00 SOLD OUT ... Default Title Add To Cart $1 2013 AFL Premiers 1oz Silver Proof Regular Price $84.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $1 2013 Australian Decimal Effigies $1 Silver Gem UNC Regular Price $500.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $1 2013 Australian Decimal Effigies Maklouf Silver Proof Regular Price $550.00 ... Default Title Add To Cart $1 2013 Benevolent Society Al-Bronze UNC Regular Price $20.00 ... Default Title Add To Cart $1 2013 Black Caviar Al-Bronze 
 - 12% under | $30 vs usual $33.99, 2 sales, low | 1987 Royal Australian Mint 7 Coin Mint Set | shop:Wynyard Coin Centre | read as: mint_set 1987 unc | AI: mint_set base  (1) 1987 RAM 7-coin mint set | price confirmed | https://wynyardcoins.com.au/products/mint-set-1987-7
-    id: shop:wynyardcoins.com.au:36529581523112 · key: sxivtq · Claude: verified 2026-11-10
-    description read: $5 1990 ANZAC 75th Anniversary Al/Bronze UNC Regular Price $10.00 ... Default Title Add To Cart $5 1988 Parliament House Al-Bronze Proof Regular Price $40.00 save 50% $20.00 ... Default Title Add To Cart $5 1988 Parliament House Al-Bronze UNC Regular Price $7.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $2 1988 Silver Proof From $55.00 to $65.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Type Capsule ONLY Missing Cardboard Box With original cardboard box & case Type Capsule ONLY Missing Cardboard Box With original cardboard box & case Capsule ONLY Missing Cardboard Box With original cardboard box & case - + SOLD OUT Cap
+    id: shop:wynyardcoins.com.au:36529581523112 · key: 1rs6xko · Claude: verified 2026-11-10
+    description read: $5 1990 ANZAC 75th Anniversary Al/Bronze UNC Regular Price $10.00 ... Default Title Add To Cart $5 1988 Parliament House Al-Bronze Proof Regular Price $40.00 save 50% $20.00 ... Default Title Add To Cart $5 1988 Parliament House Al-Bronze UNC Regular Price $7.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Default Title - + SOLD OUT Default Title SOLD OUT $2 1988 Silver Proof From $55.00 to $70.00 SOLD OUT ... Quick View Add to wishlist View Wishlist Type Capsule ONLY Missing Cardboard Box With original cardboard box & case Type Capsule ONLY Missing Cardboard Box With original cardboard box & case Capsule ONLY Missing Cardboard Box With original cardboard box & case - + SOLD OUT Cap
 - 11% under | $42.5 vs usual $47.95, 2 sales, low | 2026 Royal Australian Mint Coin Set - Decimal Currency 60th Anniversary | ebay | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 RAM coin set, 60th Anniv Decimal | price not confirmed | https://www.ebay.com.au/itm/127969949703
     id: ebay:127969949703 · key: 1tfmyg0 · Claude: verified 2026-11-10
 - 10% under | $60 vs usual $67, 3 sales, low | 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2022 $2 C mintmark unc | AI: coin base  (1) 2022 $2 Honey Bee coloured C mintmark unc in card | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price confirmed | https://coincity.com.au/products/2022-2-australian-honey-bee-coloured-c-mintmark-uncirculated-coin-in-ram-card
     id: shop:coincity.com.au:47817850585409 · key: 1hy3dt · Claude: verified 2026-11-10
     description read: 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card The Royal Australian Mint and the Australian Honey Bee Industry Council proudly present this delightful coin, honouring the small yet mighty honeybee and Australia's honey bee industry.2022 marks the bicentenary of the es Despite their small size and short lifespan, honey bees not only produce delicious honey, they are also regarded as a valuable agricultural commodity of providing free pollination services, resulting in superior quality harvest and increased yield. Across Australia, there are approximately 20,000 registered beekeepers who operate more than 640,000 hives, producing up to 30,000 tonnes of honey eac
 - 10% under | $60 vs usual $67, 3 sales, low | 2022 Coloured 2 Dollar Uncirculated Coin C Mintmark Honey Bee | shop:Sterling & Currency | read as: coin 2022 $2 C mintmark unc | AI: coin base  (1) 2022 $2 Honey Bee coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label"} | price confirmed | https://www.sterlingcurrency.com.au/2022-coloured-2-dollar-uncirculated-coin-c-mintmar
-    id: shop:www.sterlingcurrency.com.au:f72bbf9143cd7506 · key: 1ftvyzj · Claude: verified 2026-11-10
+    id: shop:www.sterlingcurrency.com.au:f72bbf9143cd7506 · key: hn7l9 · Claude: verified 2026-11-10
     description read: 2022 Coloured 2 Dollar Uncirculated Coin C Mintmark Honey Bee Obverse: Elizabeth II to right, legend around Reverse: Golden honeycomb at centre, denomination below Composition: Aluminium Bronze | Weight: 6.60g | Diameter: 20.50mm Mintage: 60,000 The The 2022 mintmark 2 dollar celebrates a vital part The 2022 mintmark 2 dollar celebrates a vital part of our foodchain. Category: Home / Home / / Coins / Coins / / Circulating Decimal Coins / Circulating Decimal Coins / / Two Dollars / Two Dollars / / 2022 Coloured 2 Dollar Uncirculated Coin C Mintmark Honey Bee / 2022 Coloured 2 Dollar Uncirculated Coin C Mintmark Honey Bee. 2022 Coloured 2 Dollar Uncirculated Coin C Mintmark Honey Bee Obverse: 
 - 9% under | $5 vs usual $5.5, 3 sales, low | 2013 20c Centenary of Canberra | shop:Newcastle Coins | read as: coin 2013 20c | AI: coin base  (1) 2013 20c Centenary of Canberra | price not confirmed | http://newcastlecoins.com.au/index.php?route=product/product&path=59_91_144&product_id=954
     id: shop:newcastlecoins.com.au:73a2024b7b294be0 · key: 1il3y34 · Claude: verified 2026-11-10
@@ -349,6 +315,8 @@ ebay_sold: 5/5 worked, 1044 kept
 - 2% under | $55 vs usual $56.03, 2 sales, low | 2026 Baby Mint Set - Aussie Bubs | shop:Wynyard Coin Centre | read as: mint_set 2026 unc | AI: mint_set base  (1) 2026 Aussie Bubs six-coin unc baby set | price not confirmed | https://wynyardcoins.com.au/products/2026-baby-mint-set-aussie-bubs
     id: shop:wynyardcoins.com.au:47554030665945 · key: 19grezp · Claude: verified 2026-11-10
     description read: The 2026 Six Coin Uncirculated Baby Year Set is the latest release in the Royal Australian Mint's long standing annual baby set series. The adorable baby animal designs and 2026 year dates make this set an ideal gift for a baby born in 2026. Category: 2026, 2026 Year Sets, New Releases, Royal Australian Mint, Royal Australian Mint - New Releases.
+- 1% under | $17.76 vs usual $17.95, 2 sales, low | 1989 20c 20 Cent Platypus Coin in 2x2 Holder - Ex Mint Set Unc | ebay | read as: coin 1989 20c unc | AI: coin base  (1) 1989 20c unc ex mint set in 2x2 | price not confirmed | https://www.ebay.com.au/itm/257724515546
+    id: ebay:257724515546 · key: 1tfvkyh · Claude: verified 2026-11-10
 - 1% under | $95 vs usual $96, 5 sales, medium | 1966 Australia 10c Coin PCGS PR68DCAM #6778 | shop:Tasmanian Numismatics | read as: coin 1966 10c proof | AI: coin base  (1) 1966 10c proof ex proof set, PCGS PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1966-australia-10c-coin-pcgs-pr68dcam-6778/
     id: shop:tasmaniannumismatics.com.au:37712 · key: 1st6br0 · Claude: verified 2026-11-10
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
@@ -356,100 +324,78 @@ ebay_sold: 5/5 worked, 1044 kept
     id: shop:tasmaniannumismatics.com.au:37714 · key: 1hszq6v · Claude: verified 2026-11-10
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 
-## Needs checking: 4 listings held back as too cheap to be real
-- 87% under | $27.5 vs usual $209, 2 sales, low | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark AlBr unc – not silver | page/description: {"metal":"silver","metal_by":"label","denom":"$2"} | price confirmed | HELD BACK: 87% under what matching sales went for – probably not the same item | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
-    id: shop:directcoins.com.au:67831090413887 · key: udu04v · Claude: corrected 2026-11-10
-    description read: Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin is the Royal Australian Mint’s tribute to one of the most familiar sounds of Australian remembrance. The coloured reverse carries a ‘C’ mintmark for Canberra, where the coin was struck, and the obverse features Daniel Thorne’s effigy of His Majesty King Charles III. coin material: Silver. country: Australia. denomination: 2 dollars. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Colour
-- 87% under | $27.5 vs usual $209, 2 sales, low | 2026 Royal Australian Mint $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: not read | page/description: {"denom":"$2","finish":"unc"} | price confirmed | HELD BACK: 87% under what matching sales went for – probably not the same item | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-2-c-mintmark-coloured-uncirculated-carded-coin-the-last-post
-    id: shop:onlinecoinsandcollectables.com.au:50827535679744 · key: 149idfv · LOCKED by Rob (his own corrections – leave it)
-    description read: FEATURES: Presented in a beautiful card, Mintage: 100,000 Coin reverse features an artistic representation of the Last Post, including colour print Coin obverse features the Daniel Thorne effigy of His Majesty King Charles III Australian legal tender. Denomination: $2 Metal Content: AlBr Mass: 6.60g Diameter: 20.50mm Finish: Uncirculated DETAILS: Few traditions hold the same emotional weight as the Last Post. The rests also reflect the Last Post’s role in signifying that our fallen soldiers have gone to their final rest.Memorial steps cut across the composition, grounding the design in the physical spaces where remembrance takes place. The central print features dusky oranges and deep purple
-- 87% under | $27.5 vs usual $209, 2 sales, low | 2026 $2 The Last Post 'C' Mintmark Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | HELD BACK: 87% under what matching sales went for – probably not the same item | https://townhallcoins.com/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
-    id: shop:townhallcoins.com:67837005922356 · key: nb4059 · Claude: verified 2026-11-10
-- 86% under | $30 vs usual $209, 2 sales, low | 2026 $2 The Last Post C Mintmark Coloured Coin | shop:Swan Bullion | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc in card | page/description: {"finish":"unc"} | price not confirmed | HELD BACK: 86% under what matching sales went for – probably not the same item | https://swanbullion.com/product/2026-2-the-last-post-c-mintmark-coloured-coin/
-    id: shop:swanbullion.com:583665 · key: o1v6u0 · Claude: verified 2026-11-10
-    description read: 2026 $2 The Last Post ‘C’ Mintmark Coloured Coin in Card. Struck by the Royal Australian Mint from AlBr, these $2 coins are issued as legal tender under the Australian Currency Act 1965 and have a mintage of 100,000.. Parts of the musical score are shown in a radiating pattern in the top half of the design, their arrangement reminiscent of the sun setting over the horizon – as well as the ‘C’ mintmark for Canberra, the place of minting. The coin’s obverse depicts the Dan Thorne effigy of His Majesty King Charles III, the monetary denomination and the 2026 year-date.. Year Date: Denomination (AUD): Metal Content: Diameter (mm): Finish: Uncirculated: Its primary purpose is to produce legal ten
+## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (767 steps)
+## Last 3 days by source (535 steps)
+- 60 shops: every step worked, 69824 kept
+- shop Bullion Money: 0/2 worked, 0 kept
+    2× Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
+- shop The Coin Chest: 0/2 worked, 0 kept
+    2× Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later)
 - claude: 0/1 worked, 0 kept
     1× removed by Claude's check: Looney Tunes trading coins (Niue-type licensed issue), not Australian
-- shop The Coin Chest: 0/1 worked, 0 kept
-    1× Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later)
-- shop Bullion Money: 0/1 worked, 0 kept
-    1× Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
-- shop Coinworks: 2/4 worked, 0 kept
+- shop Coinworks: 2/3 worked, 0 kept
     1× Error: product pages have no readable price data – e.g. https://coinworks.com.au/1930-penny-diamond-eight-pearls: HTTP 200, 129438 chars, ended at https://coinworks.com.au/1930-penny-diamond-eight-pea
-    1× Error: product pages have no readable price data – e.g. https://coinworks.com.au/Unique-1813-Holey-Dollar-created-from-a-Mexico-Mint-Spanish-Silver-Dollar-s: HTTP 200, 103361 chars, ended at https://c
-- ebay_sold: 79/89 worked, 13353 kept
-    10× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- ebay_active: 86/95 worked, 5470 kept
-    5× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-    4× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- facebook: 133/136 worked, 0 kept
-    3× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-- shop Sterling & Currency: 10/10 worked, 29 kept
-- shop Tasmanian Numismatics: 10/10 worked, 23610 kept
-- shop Max Stern & Co: 10/10 worked, 1 kept
-- shop Gold Stackers: 10/10 worked, 259 kept
-- shop Bullionmark: 10/10 worked, 1 kept
-- shop Queensland Mint: 10/10 worked, 0 kept
-- shop Southern Cross Coins: 9/9 worked, 1993 kept
-- shop Coins & Collectables Victoria: 10/10 worked, 440 kept
-- shop Downies: 10/10 worked, 11792 kept
-- shop Wynyard Coin Centre: 10/10 worked, 20511 kept
-- shop Bullion Now: 9/9 worked, 8 kept
-- shop KJC Bullion: 9/9 worked, 105 kept
-- shop Jaggards: 3/3 worked, 3 kept
-- shop City Gold Bullion: 3/3 worked, 9 kept
-- shop Ceylon Exchange: 3/3 worked, 0 kept
-- shop Romanorvm: 3/3 worked, 0 kept
-- shop Bradford Coins: 3/3 worked, 0 kept
-- shop Vintage Coins & Banknotes: 10/10 worked, 230 kept
-- shop Mint Coins: 3/3 worked, 0 kept
-- shop ABC Bullion: 3/3 worked, 0 kept
-- shop Ancient Coin Traders: 3/3 worked, 2 kept
-- shop Royal Bullion: 1/1 worked, 0 kept
-- shop Walter Holt (Old Money): 3/3 worked, 0 kept
-- shop Coin City: 11/11 worked, 10631 kept
-- shop John Platts Stamps & Coins: 10/10 worked, 5 kept
-- shop Direct Coins: 10/10 worked, 1313 kept
-- shop Online Coins & Collectables: 10/10 worked, 3762 kept
-- shop The Purple Penny: 11/11 worked, 5379 kept
-- shop Town Hall Coins: 11/11 worked, 17427 kept
-- shop Swan Bullion: 10/10 worked, 244 kept
-- shop Mint Coin Shop: 10/10 worked, 1410 kept
-- shop Melbourne Coins & Collectables: 10/10 worked, 375 kept
-- shop Loose Change Coins: 10/10 worked, 4791 kept
-- shop Sydney Coins & Jewellery: 10/10 worked, 1330 kept
-- shop Coins Australia: 10/10 worked, 3 kept
-- shop Guardian Gold: 10/10 worked, 176 kept
-- shop Bulk Bullion: 10/10 worked, 319 kept
-- shop The Coin & Stamp Place: 10/10 worked, 0 kept
-- shop Australian Bullion Company: 10/10 worked, 180 kept
-- shop Heritage Numismatics: 10/10 worked, 226 kept
-- shop Great Southland Bullion: 9/9 worked, 215 kept
-- shop Gold Bullion Australia: 9/9 worked, 204 kept
-- shop As Good As Gold: 9/9 worked, 270 kept
-- shop Imperial Bullion: 9/9 worked, 83 kept
-- shop WA Coins: 10/10 worked, 3374 kept
-- shop The Perth Mint: 9/9 worked, 54 kept
-- shop Rainbow Rarities: 3/3 worked, 0 kept
-- shop Drake Sterling Numismatics: 3/3 worked, 0 kept
-- shop The Coin Company: 9/9 worked, 15 kept
-- shop Ainslie Bullion: 8/8 worked, 152 kept
-- shop Imperial Numismatics: 9/9 worked, 330 kept
-- shop Peter Strich Stamps & Coins: 2/2 worked, 0 kept
-- shop The Coin Collection: 2/2 worked, 0 kept
-- shop Prospect Stamps & Coins: 2/2 worked, 0 kept
-- shop Royal Australian Mint eShop: 2/2 worked, 0 kept
-- shop Guy Stuff: 3/3 worked, 0 kept
-- shop Newcastle Coins: 3/3 worked, 18 kept
-- shop Edlins: 3/3 worked, 0 kept
-- shop I.S. Wright: 3/3 worked, 0 kept
-- shop Peter's of Kensington: 2/2 worked, 0 kept
-- collection: 1/1 worked, 0 kept
-- cashconverters: 2/2 worked, 254 kept
+- ebay_active: 66/75 worked, 4141 kept
+    6× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+    3× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- ebay_sold: 64/71 worked, 10625 kept
+    5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+    2× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- facebook: 85/86 worked, 0 kept
+    1× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 
-## Log, newest first (last 300 steps)
+## Log, newest first (last 150 steps)
+2026-11-11T10:57:48Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-11-11T10:57:25Z | facebook | $1 1994 Decade of the Dollar 'M' mintmark Collector issue | 0
+2026-11-11T10:57:04Z | facebook | $1 1994 Five Kangaroos Proof Proof | 0
+2026-11-11T10:56:47Z | shop | Online Coins & Collectables | 383
+2026-11-11T10:56:39Z | facebook | 2006 20c Platypus | 0
+2026-11-11T10:56:17Z | shop | Coin City | 973
+2026-11-11T10:56:17Z | facebook | 2005 20c Platypus | 0
+2026-11-11T10:56:08Z | shop | Town Hall Coins | 1602
+2026-11-11T10:56:08Z | shop | The Purple Penny | 489
+2026-11-11T10:56:06Z | shop | Direct Coins | 132
+2026-11-11T10:56:00Z | shop | The Perth Mint | 11
+2026-11-11T10:56:00Z | shop | Swan Bullion | 22
+2026-11-11T10:56:00Z | shop | Mint Coin Shop | 142
+2026-11-11T10:55:56Z | facebook | 2004 20c Platypus | 0
+2026-11-11T10:55:41Z | shop | Melbourne Coins & Collectables | 39
+2026-11-11T10:55:39Z | shop | Loose Change Coins | 490
+2026-11-11T10:55:31Z | facebook | 2003 20c Platypus | 0
+2026-11-11T10:55:31Z | shop | Guardian Gold | 20
+2026-11-11T10:55:31Z | shop | Sydney Coins & Jewellery | 133
+2026-11-11T10:55:26Z | shop | Bulk Bullion | 34
+2026-11-11T10:55:21Z | shop | Australian Bullion Company | 18
+2026-11-11T10:55:17Z | shop | The Coin & Stamp Place | 0
+2026-11-11T10:55:10Z | facebook | 2002 20c Platypus | 0
+2026-11-11T10:55:10Z | shop | Heritage Numismatics | 26
+2026-11-11T10:55:08Z | shop | WA Coins | 334
+2026-11-11T10:55:03Z | shop | Great Southland Bullion | 27
+2026-11-11T10:55:03Z | shop | Gold Bullion Australia | 23
+2026-11-11T10:54:58Z | shop | As Good As Gold | 31
+2026-11-11T10:54:52Z | shop | Imperial Bullion | 9
+2026-11-11T10:54:46Z | facebook | 2001 20c Platypus | 0
+2026-11-11T10:54:21Z | facebook | 2000 20c Platypus | 0
+2026-11-11T10:54:20Z | shop | Imperial Numismatics | 42
+2026-11-11T10:54:04Z | shop | The Coin Company | 3
+2026-11-11T10:53:51Z | ebay_sold | 2000 20c Platypus | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:24 pm
+2026-11-11T10:53:28Z | facebook | 1999 20c Platypus | 0
+2026-11-11T10:53:15Z | shop | Queensland Mint | 0
+2026-11-11T10:52:52Z | shop | Bullionmark | 0
+2026-11-11T10:52:36Z | ebay_active | 1999 20c Platypus | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-11-11T10:52:33Z | shop | Prospect Stamps & Coins | 0
+2026-11-11T10:52:33Z | shop | Bullion Money | 0 | Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
+2026-11-11T10:48:40Z | ebay_active | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-11-11T07:49:29Z | ebay_sold | 2000 20c Platypus | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:19 pm
+2026-11-11T07:48:50Z | facebook | 1999 20c Platypus | 0
+2026-11-11T07:48:34Z | shop | Bullionmark | 0
+2026-11-11T07:48:00Z | shop | Queensland Mint | 0
+2026-11-11T07:47:43Z | shop | Coins Australia | 0
+2026-11-11T07:47:30Z | ebay_active | 1999 20c Platypus | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-11-11T07:47:09Z | ebay_sold | 1999 20c Platypus | 204
+2026-11-11T07:47:06Z | shop | Royal Australian Mint eShop | 0
+2026-11-11T07:47:06Z | shop | The Coin Chest | 0 | Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later)
 2026-11-11T01:58:42Z | facebook | 1998 20c Platypus | 0
 2026-11-11T01:58:28Z | ebay_active | 1998 20c Platypus | 68
 2026-11-11T01:58:26Z | shop | Sterling & Currency | 0
@@ -550,203 +496,3 @@ ebay_sold: 5/5 worked, 1044 kept
 2026-11-10T01:46:50Z | shop | Drake Sterling Numismatics | 0
 2026-11-09T19:52:24Z | facebook | 2020 10c Lyrebird | 0
 2026-11-09T19:52:11Z | ebay_active | 2020 10c Lyrebird | 61
-2026-11-09T19:51:57Z | shop | The Coin Company | 0
-2026-11-09T19:51:57Z | ebay_sold | 2020 10c Lyrebird | 143
-2026-11-09T19:51:57Z | shop | Ainslie Bullion | 2
-2026-11-09T19:51:47Z | shop | Imperial Numismatics | 42
-2026-11-09T19:51:40Z | shop | Gold Stackers | 26
-2026-11-09T19:51:38Z | shop | Bullionmark | 0
-2026-11-09T19:51:35Z | shop | Queensland Mint | 0
-2026-11-09T19:51:34Z | facebook | 2019 10c Lyrebird | 0
-2026-11-09T19:51:23Z | ebay_active | 2019 10c Lyrebird | 61
-2026-11-09T19:51:04Z | ebay_sold | 2019 10c Lyrebird | 183
-2026-11-09T19:50:43Z | facebook | 2018 10c Lyrebird | 0
-2026-11-09T19:50:28Z | ebay_active | 2018 10c Lyrebird | 65
-2026-11-09T19:50:07Z | ebay_sold | 2018 10c Lyrebird | 156
-2026-11-09T19:49:53Z | shop | Tasmanian Numismatics | 2358
-2026-11-09T19:49:53Z | shop | Max Stern & Co | 0
-2026-11-09T19:49:47Z | shop | Coins & Collectables Victoria | 44
-2026-11-09T19:49:46Z | shop | Sterling & Currency | 1
-2026-11-09T19:49:43Z | shop | Southern Cross Coins | 222
-2026-11-09T19:49:42Z | facebook | 2017 10c Lyrebird | 0
-2026-11-09T19:49:29Z | ebay_active | 2017 10c Lyrebird | 63
-2026-11-09T19:49:04Z | ebay_sold | 2017 10c Lyrebird | 149
-2026-11-09T19:48:41Z | facebook | 2016 10c Lyrebird | 0
-2026-11-09T19:48:28Z | ebay_active | 2016 10c Lyrebird | 62
-2026-11-09T19:48:04Z | ebay_sold | 2016 10c Lyrebird | 229
-2026-11-09T19:47:34Z | facebook | 2015 10c Lyrebird | 0
-2026-11-09T19:47:15Z | ebay_active | 2015 10c Lyrebird | 64
-2026-11-09T19:47:06Z | ebay_sold | 2015 10c Lyrebird | 150
-2026-11-09T19:47:04Z | shop | Peter Strich Stamps & Coins | 0
-2026-11-09T19:47:04Z | shop | The Coin Collection | 0
-2026-11-09T13:55:56Z | facebook | 2014 10c Lyrebird | 0
-2026-11-09T13:55:44Z | ebay_active | 2014 10c Lyrebird | 61
-2026-11-09T13:55:31Z | ebay_sold | 2014 10c Lyrebird | 144
-2026-11-09T13:55:27Z | shop | Bullion Now | 0
-2026-11-09T13:55:23Z | shop | Downies | 1225
-2026-11-09T13:55:13Z | shop | Wynyard Coin Centre | 2046
-2026-11-09T13:55:11Z | shop | John Platts Stamps & Coins | 0
-2026-11-09T13:55:10Z | facebook | 2013 10c Lyrebird | 0
-2026-11-09T13:55:07Z | shop | Vintage Coins & Banknotes | 23
-2026-11-09T13:54:55Z | ebay_active | 2013 10c Lyrebird | 62
-2026-11-09T13:54:53Z | shop | Coin City | 966
-2026-11-09T13:54:53Z | shop | Direct Coins | 131
-2026-11-09T13:54:30Z | ebay_sold | 2013 10c Lyrebird | 151
-2026-11-09T13:54:17Z | shop | KJC Bullion | 10
-2026-11-09T13:54:11Z | shop | Swan Bullion | 23
-2026-11-09T13:54:06Z | facebook | 2012 10c Lyrebird | 0
-2026-11-09T13:54:04Z | shop | The Purple Penny | 489
-2026-11-09T13:54:02Z | shop | Mint Coin Shop | 141
-2026-11-09T13:53:58Z | shop | Online Coins & Collectables | 376
-2026-11-09T13:53:58Z | shop | Town Hall Coins | 1583
-2026-11-09T13:53:48Z | ebay_active | 2012 10c Lyrebird | 61
-2026-11-09T13:53:48Z | shop | Coins Australia | 0
-2026-11-09T13:53:46Z | shop | Melbourne Coins & Collectables | 38
-2026-11-09T13:53:42Z | shop | Loose Change Coins | 478
-2026-11-09T13:53:42Z | shop | Sydney Coins & Jewellery | 133
-2026-11-09T13:53:42Z | shop | Bulk Bullion | 31
-2026-11-09T13:53:30Z | shop | Guardian Gold | 18
-2026-11-09T13:53:30Z | ebay_sold | 2012 10c Lyrebird | 145
-2026-11-09T13:53:30Z | shop | The Coin & Stamp Place | 0
-2026-11-09T13:53:26Z | shop | Heritage Numismatics | 22
-2026-11-09T13:53:25Z | shop | Australian Bullion Company | 18
-2026-11-09T13:53:22Z | shop | Gold Bullion Australia | 22
-2026-11-09T13:53:20Z | shop | Great Southland Bullion | 27
-2026-11-09T13:53:20Z | shop | As Good As Gold | 30
-2026-11-09T13:53:17Z | shop | Imperial Bullion | 10
-2026-11-09T13:53:03Z | facebook | 2011 10c Lyrebird | 0
-2026-11-09T13:52:44Z | ebay_active | 2011 10c Lyrebird | 61
-2026-11-09T13:52:31Z | ebay_sold | 2011 10c Lyrebird | 163
-2026-11-09T13:52:09Z | facebook | 2010 10c Lyrebird | 0
-2026-11-09T13:51:56Z | ebay_active | 2010 10c Lyrebird | 62
-2026-11-09T13:51:44Z | ebay_sold | 2010 10c Lyrebird | 143
-2026-11-09T13:51:15Z | facebook | 2009 10c Lyrebird | 0
-2026-11-09T13:50:59Z | ebay_active | 2009 10c Lyrebird | 64
-2026-11-09T13:50:40Z | ebay_sold | 2009 10c Lyrebird | 145
-2026-11-09T13:50:32Z | shop | Prospect Stamps & Coins | 0
-2026-11-09T13:50:32Z | shop | Royal Australian Mint eShop | 0
-2026-11-09T07:52:20Z | facebook | 2008 10c Lyrebird | 0
-2026-11-09T07:52:06Z | ebay_active | 2008 10c Lyrebird | 65
-2026-11-09T07:51:49Z | ebay_sold | 2008 10c Lyrebird | 143
-2026-11-09T07:51:25Z | facebook | 2007 10c Lyrebird | 0
-2026-11-09T07:51:13Z | ebay_active | 2007 10c Lyrebird | 63
-2026-11-09T07:51:11Z | shop | WA Coins | 338
-2026-11-09T07:50:59Z | ebay_sold | 2007 10c Lyrebird | 137
-2026-11-09T07:50:36Z | facebook | 2006 10c Lyrebird | 0
-2026-11-09T07:50:25Z | ebay_active | 2006 10c Lyrebird | 62
-2026-11-09T07:50:22Z | shop | The Coin Company | 1
-2026-11-09T07:50:09Z | ebay_sold | 2006 10c Lyrebird | 148
-2026-11-09T07:49:55Z | shop | The Perth Mint | 10
-2026-11-09T07:49:49Z | facebook | 2005 10c Lyrebird | 0
-2026-11-09T07:49:47Z | shop | Gold Stackers | 26
-2026-11-09T07:49:46Z | shop | Ainslie Bullion | 38
-2026-11-09T07:49:46Z | shop | Imperial Numismatics | 36
-2026-11-09T07:49:41Z | shop | Bullionmark | 0
-2026-11-09T07:49:40Z | shop | Queensland Mint | 0
-2026-11-09T07:49:36Z | ebay_active | 2005 10c Lyrebird | 62
-2026-11-09T07:49:19Z | ebay_sold | 2005 10c Lyrebird | 142
-2026-11-09T07:49:11Z | shop | Coinworks | 0
-2026-11-09T07:48:57Z | facebook | 2004 10c Lyrebird | 0
-2026-11-09T07:48:45Z | ebay_active | 2004 10c Lyrebird | 63
-2026-11-09T07:48:33Z | ebay_sold | 2004 10c Lyrebird | 140
-2026-11-09T07:48:12Z | facebook | 2003 10c Lyrebird | 0
-2026-11-09T07:48:00Z | ebay_active | 2003 10c Lyrebird | 66
-2026-11-09T07:47:45Z | ebay_sold | 2003 10c Lyrebird | 142
-2026-11-09T07:47:21Z | facebook | 2002 10c Lyrebird | 0
-2026-11-09T07:47:09Z | ebay_active | 2002 10c Lyrebird | 65
-2026-11-09T07:46:54Z | ebay_sold | 2002 10c Lyrebird | 138
-2026-11-09T07:46:51Z | shop | Guy Stuff | 0
-2026-11-09T07:46:51Z | shop | Newcastle Coins | 14
-2026-11-09T01:57:35Z | claude | Looney Tunes Mint Trading Coins | -1 | removed by Claude's check: Looney Tunes trading coins (Niue-type licensed issue), not Australian
-2026-11-09T01:55:11Z | facebook | 2001 10c Lyrebird | 0
-2026-11-09T01:54:50Z | ebay_active | 2001 10c Lyrebird | 64
-2026-11-09T01:54:49Z | shop | Coins & Collectables Victoria | 44
-2026-11-09T01:54:25Z | ebay_sold | 2001 10c Lyrebird | 163
-2026-11-09T01:53:54Z | facebook | 2000 10c Lyrebird | 0
-2026-11-09T01:53:53Z | shop | Tasmanian Numismatics | 2361
-2026-11-09T01:53:35Z | ebay_active | 2000 10c Lyrebird | 65
-2026-11-09T01:53:26Z | shop | Southern Cross Coins | 222
-2026-11-09T01:53:20Z | shop | Max Stern & Co | 1
-2026-11-09T01:52:57Z | ebay_sold | 2000 10c Lyrebird | 151
-2026-11-09T01:52:33Z | shop | Sterling & Currency | 1
-2026-11-09T01:52:20Z | facebook | 1999 10c Lyrebird | 0
-2026-11-09T01:51:43Z | shop | Bullion Now | 0
-2026-11-09T01:51:40Z | ebay_active | 1999 10c Lyrebird | 61
-2026-11-09T01:51:25Z | ebay_sold | 1999 10c Lyrebird | 154
-2026-11-09T01:51:04Z | facebook | 1998 10c Lyrebird | 0
-2026-11-09T01:50:51Z | ebay_active | 1998 10c Lyrebird | 63
-2026-11-09T01:50:36Z | ebay_sold | 1998 10c Lyrebird | 144
-2026-11-09T01:50:13Z | facebook | 1997 10c Lyrebird | 0
-2026-11-09T01:50:06Z | ebay_active | 1997 10c Lyrebird | 61
-2026-11-09T01:49:57Z | ebay_sold | 1997 10c Lyrebird | 151
-2026-11-09T01:49:54Z | shop | Edlins | 0
-2026-11-09T01:49:54Z | shop | The Coin Chest | 0 | Error: 403 from https://the-coin-chest.com/ (the site asked for a bot check – try again later)
-2026-11-08T19:45:31Z | facebook | 1997 10c Lyrebird | 0
-2026-11-08T19:45:04Z | shop | John Platts Stamps & Coins | 0
-2026-11-08T19:45:01Z | shop | Downies | 1168
-2026-11-08T19:44:56Z | shop | Vintage Coins & Banknotes | 23
-2026-11-08T19:44:54Z | ebay_active | 1997 10c Lyrebird | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:15 am
-2026-11-08T19:44:51Z | shop | Wynyard Coin Centre | 2053
-2026-11-08T19:44:46Z | shop | Direct Coins | 131
-2026-11-08T19:44:32Z | shop | Coin City | 966
-2026-11-08T19:44:25Z | shop | Swan Bullion | 25
-2026-11-08T19:44:05Z | shop | Mint Coin Shop | 141
-2026-11-08T19:43:44Z | shop | The Purple Penny | 489
-2026-11-08T19:43:34Z | ebay_sold | 1997 10c Lyrebird | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-08T19:43:22Z | shop | Town Hall Coins | 1584
-2026-11-08T19:43:12Z | facebook | 1994 10c Lyrebird | 0
-2026-11-08T19:43:10Z | shop | Melbourne Coins & Collectables | 37
-2026-11-08T19:42:49Z | shop | Online Coins & Collectables | 376
-2026-11-08T19:42:46Z | shop | KJC Bullion | 15
-2026-11-08T19:42:44Z | shop | Coins Australia | 1
-2026-11-08T19:42:43Z | shop | Bulk Bullion | 31
-2026-11-08T19:42:42Z | shop | Loose Change Coins | 478
-2026-11-08T19:42:40Z | shop | The Coin & Stamp Place | 0
-2026-11-08T19:42:38Z | shop | Sydney Coins & Jewellery | 133
-2026-11-08T19:42:37Z | shop | Guardian Gold | 17
-2026-11-08T19:42:35Z | shop | Heritage Numismatics | 22
-2026-11-08T19:42:33Z | shop | Australian Bullion Company | 18
-2026-11-08T19:42:31Z | shop | Gold Bullion Australia | 23
-2026-11-08T19:42:31Z | shop | As Good As Gold | 30
-2026-11-08T19:42:28Z | shop | Great Southland Bullion | 23
-2026-11-08T19:42:27Z | shop | Imperial Bullion | 9
-2026-11-08T19:41:45Z | ebay_active | 1994 10c Lyrebird | 62
-2026-11-08T19:41:38Z | ebay_sold | 1994 10c Lyrebird | 147
-2026-11-08T19:41:17Z | facebook | 1993 10c Lyrebird | 0
-2026-11-08T19:41:07Z | shop | I.S. Wright | 0
-2026-11-08T19:41:07Z | ebay_active | 1993 10c Lyrebird | 61
-2026-11-08T19:41:07Z | shop | Bullion Money | 0 | Error: 403 from https://bullionmoney.com.au/ (the site asked for a bot check – try again later)
-2026-11-08T18:50:33Z | facebook | 1993 10c Lyrebird | 0
-2026-11-08T18:49:21Z | ebay_active | 1993 10c Lyrebird | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-08T18:48:16Z | shop | WA Coins | 338
-2026-11-08T18:48:11Z | shop | Gold Stackers | 26
-2026-11-08T18:47:52Z | ebay_sold | 1993 10c Lyrebird | 141
-2026-11-08T18:47:30Z | facebook | 1992 10c Lyrebird | 0
-2026-11-08T18:47:28Z | shop | The Perth Mint | 4
-2026-11-08T18:46:58Z | shop | The Coin Company | 4
-2026-11-08T18:46:57Z | shop | Bullionmark | 0
-2026-11-08T18:46:54Z | shop | Imperial Numismatics | 36
-2026-11-08T18:46:52Z | shop | Queensland Mint | 0
-2026-11-08T18:46:47Z | shop | Coins & Collectables Victoria | 44
-2026-11-08T18:46:09Z | shop | Ainslie Bullion | 26
-2026-11-08T18:46:03Z | ebay_active | 1992 10c Lyrebird | 61
-2026-11-08T18:44:54Z | ebay_sold | 1992 10c Lyrebird | 140
-2026-11-08T18:44:31Z | facebook | 1991 10c Lyrebird | 0
-2026-11-08T18:44:13Z | ebay_active | 1991 10c Lyrebird | 64
-2026-11-08T18:43:50Z | ebay_sold | 1991 10c Lyrebird | 160
-2026-11-08T18:43:45Z | shop | Coinworks | 0 | Error: product pages have no readable price data – e.g. https://coinworks.com.au/1930-penny-diamond-eight-pearls: HTTP 200, 129438 chars, ended at https://coinworks.com.au/1930-penny-diamond-eight-pearls · title “1930 Australian Penny Value
-2026-11-08T18:43:45Z | shop | Jaggards | 1
-2026-11-08T17:52:34Z | facebook | 1990 10c Lyrebird | 0
-2026-11-08T17:51:35Z | shop | Max Stern & Co | 0
-2026-11-08T17:51:04Z | ebay_active | 1990 10c Lyrebird | 61
-2026-11-08T17:51:01Z | shop | Sterling & Currency | 1
-2026-11-08T17:50:31Z | shop | Tasmanian Numismatics | 2363
-2026-11-08T17:50:29Z | shop | Southern Cross Coins | 222
-2026-11-08T17:50:21Z | shop | Vintage Coins & Banknotes | 23
-2026-11-08T17:50:20Z | shop | John Platts Stamps & Coins | 5
-2026-11-08T17:50:20Z | ebay_sold | 1990 10c Lyrebird | 144
-2026-11-08T17:49:55Z | facebook | 1989 10c Lyrebird | 0
-2026-11-08T17:49:41Z | shop | Downies | 1168
-2026-11-08T17:49:26Z | ebay_active | 1989 10c Lyrebird | 61
-2026-11-08T17:49:25Z | shop | Direct Coins | 131
-2026-11-08T17:48:46Z | shop | Wynyard Coin Centre | 2053
