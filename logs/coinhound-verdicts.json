@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T19:38:59Z",
+ "updated": "2026-11-18T19:38:22Z",
  "verdicts": {
   "shop:townhallcoins.com:46862549549296": {
    "key": "1l9mneg",
@@ -2411,8 +2411,8 @@
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "ABC Bullion Gold Cast Bar - 1kg",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "ABC Bullion 1kg 99.99% gold cast bar",
+   "at": "2026-11-18T19:38:22Z"
   },
   "shop:www.sterlingcurrency.com.au:3dadb576ebfc53ac": {
    "key": "1qs1cci",
@@ -2578,31 +2578,31 @@
    "metal": "gold",
    "weight_oz": 1.0,
    "mintmark": null,
-   "finish": null,
+   "finish": "unc",
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint Gold Cast Bar - 1oz",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 1oz 99.99% gold cast bar",
+   "at": "2026-11-18T19:38:22Z"
   },
   "shop:goldbullionaustralia.com.au:76822": {
-   "key": "1gc6qix",
-   "verdict": "corrected",
+   "key": "hankon",
+   "verdict": "verified",
    "reason": "",
    "item_type": "bullion_coin",
    "australian": true,
    "country": "Australia",
    "year": null,
-   "denomination": "$200",
+   "denomination": null,
    "metal": "gold",
    "weight_oz": 2.0,
    "mintmark": null,
-   "finish": null,
+   "finish": "unc",
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint 2oz gold bullion coin, random date/design ($200 face)",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 2oz 99.99% gold bullion coin, random year/design, Australian legal tender",
+   "at": "2026-11-18T19:38:22Z"
   },
   "shop:goldstackers.com.au:33077": {
    "key": "1dzdbub",
