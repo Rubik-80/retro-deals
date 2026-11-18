@@ -1,13 +1,40 @@
-# Coin Hound 2.52 refresh report
-Written 2026-11-18T03:03:04Z (18 Nov, 2:03 pm Sydney) · refresh report only started 2026-11-17T21:03:04Z, took 21600 s
-Totals: {"ebay_active":0,"gumtree":21,"shops":26,"facebook":0,"ebay_sold":0,"pages_read":0,"removed_after_reading":0,"ended":0,"alerts":1}
-Stored: 11408 live · 22 sold
+# Coin Hound 2.54 refresh report
+Written 2026-11-18T09:51:09Z (18 Nov, 8:51 pm Sydney) · refresh full started 2026-11-18T08:18:07Z, took 5583 s
+Totals: {"shops":2325,"gumtree":0,"shops_failed":1,"facebook":0,"cashconverters":166,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":102,"claude_removed":0,"alerts":7}
+Time taken (seconds): searching 5574 · pricing 1 · reading pages 1 · checks and alerts 6
+Last problem: gumtree (1988 1c Feather-tailed Glider): Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+Stored: 11366 live · 22 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
+eBay developer keys: none (reading eBay's pages)
+Quick checks: every 30 min · last none yet
+Past-sales scan: 0 of 3558 searches done, 0 sales found (started 2026-11-17T19:39:40.126Z)
+Linked collection: 1851 wanted, 641 owned, catalogue 2594
+Sold prices shared with the collection app: not yet
+Claude's checks: last applied 2026-11-18T09:51:05Z (file from 2026-11-17T19:38:59Z) – 102 applied, 0 removed, 16 corrected, 86 verified
 
-## This refresh: 0 steps, 0 with problems
+## This refresh: 36 steps, 11 with problems
+shops: 12/13 worked, 2325 kept
+cashconverters: 1/1 worked, 166 kept
+facebook: 10/11 worked, 0 kept
+gumtree: 2/7 worked, 0 kept
+ebay_sold: 0/4 worked, 0 kept
 
-## Shops: 68 on · 33 working · 4 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 31 not read yet
+### Problems this refresh
+- facebook | (skipped for the rest of this refresh) | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- gumtree | 1988 1c Feather-tailed Glider | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+- gumtree | 1987 1c Feather-tailed Glider | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+- gumtree | 1985 1c Feather-tailed Glider | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+- gumtree | 1981 1c Feather-tailed Glider Llantrisant | Error: 403 from https://www.gumtree.com.au/s-1981+1c+Feather-tailed+Glider+Llantrisant/k0?sort=d (the site asked for a bot check – try again later)
+- shop | Guy Stuff | Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
+- gumtree | 1966 1c Feather-tailed Glider Melbourne | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
+- ebay_sold | 1984 1c Feather-tailed Glider | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:51 pm
+- ebay_sold | 1981 1c Feather-tailed Glider Llantrisant | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
+- ebay_sold | 1966 1c Feather-tailed Glider | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
+- ebay_sold | 1966 1c Feather-tailed Glider Melbourne | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+
+## Shops: 67 on · 32 working · 4 read but nothing found · 0 no online shop · 1 failing · 0 website gone · 30 not read yet
+- Guy Stuff (guystuff.com.au): FAILING 1× – Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later) · last tried 2026-11-18T08:21:40Z · last worked 2026-11-16T21:20:07Z
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
       page: / 33291ch · h1 “EDLINS” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=476 42910ch · h1 “Auction Catalogue” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 current-menu-item×1 page_item×1
@@ -18,55 +45,53 @@ eBay: not paused
       page: /?page_id=34 34747ch · h1 “Gold and Silver Bullion” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=674 33353ch · h1 “Company Profile” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=42 34180ch · h1 “Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
-      page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-16T21:18:30Z · last worked 2026-11-16T21:18:30Z
+      page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-18T08:18:36Z · last worked 2026-11-18T08:18:36Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
-- Coins Australia (coinsaustralia.com.au): ok – 11 kept of 36 found, read through its site map, page by page (82 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-16T21:22:05Z · last worked 2026-11-16T21:22:05Z
-- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 213532ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 1 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 343818ch · h1 “” · $ amounts 72 · price elements 106 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 347165ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 68 · price elements 98 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
-      page: /product-category/gold/buy-gold-cast-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-17T19:27:21Z · last worked 2026-11-17T19:27:21Z
-- Guy Stuff (guystuff.com.au): ok – 123 kept of 645 found, read through browsing its pages (40 pages) · last tried 2026-11-16T21:20:07Z · last worked 2026-11-16T21:20:07Z
-- Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-16T21:20:20Z · last worked 2026-11-16T21:20:20Z
+- Coins Australia (coinsaustralia.com.au): ok – 4 kept of 9 found, read through its site map, page by page (35 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-18T08:22:38Z · last worked 2026-11-18T08:22:38Z
+- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (10 pages) · read 10 pages but found no priced products · read in the hidden browser
+      page: / 44676ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /shop/ 44691ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /products/ 44703ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /store/ 44715ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /catalog/ 44700ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /?post_type=product 44766ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /index.php?route=product/search&search=coin&limit=100 2327ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /catalogsearch/result/?q=coin 44817ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /search?q=coin 44751ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /?s=coin&post_type=product 44823ch · h1 “guardian-gold.com.au” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-18T08:21:43Z · last worked 2026-11-18T08:21:43Z
+- Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T08:21:53Z · last worked 2026-11-18T08:21:53Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
       page: /?post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
-      page: /?s=coin&post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-16T21:20:40Z · last worked 2026-11-16T21:20:40Z
+      page: /?s=coin&post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-18T08:21:57Z · last worked 2026-11-18T08:21:57Z
 - Newcastle Coins (newcastlecoins.com.au): ok – 243 kept of 252 found, read through browsing its pages (40 pages) · last tried 2026-11-16T21:22:04Z · last worked 2026-11-16T21:22:04Z
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 377 kept of 4481 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-16T21:21:38Z · last worked 2026-11-16T21:21:38Z
-- Peter's of Kensington (petersofkensington.com.au): not read yet
-- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 269599ch · h1 “Categories” · $ amounts 41 · price elements 149 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×50
-      page: /top-menu/help/product-limits.html 70194ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (8 pages) · read 8 pages but found no priced products · read in the hidden browser
+      page: / 268299ch · h1 “Categories” · $ amounts 41 · price elements 149 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×50
+      page: /top-menu/help/product-limits.html 70195ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /top-menu/shop-location.html 69476ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
-      page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
-      page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-17T19:27:07Z · last worked 2026-11-17T19:27:07Z
-- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-16T21:22:02Z · last worked 2026-11-16T21:22:02Z
-- Town Hall Coins (townhallcoins.com): ok – 1597 kept of 2143 found, read through its Shopify product feed · last tried 2026-11-16T21:22:41Z · last worked 2026-11-16T21:22:41Z
+      page: /index.php?dispatch=product_features.compare 67604ch · h1 “Compare” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-cs-controller-product_features×27 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8
+      page: /index.php?dispatch=auth.login_form&return_url=index.php%3Fdispatch%3Dproduct_features.compare 72004ch · h1 “Sign in” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: page took too long to load
+      page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html 2417ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
+      page: /the-perth-mint/2012-products/ 160236ch · h1 “2012 Coin Releases” · $ amounts 18 · price elements 84 · buy buttons 0 · cards read 0 · classes owl-item×48 cm-gallery-item×48 cm-item-gallery×48 ty-scroller__item×48 ty-menu__submenu-item×32 ty-price-num×28
+      page: /index.php?dispatch=auth.login_form&return_url=index.php%3Fdispatch%3Dcategories.view%26category_id%3D359 72081ch · h1 “Sign in” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /the-perth-mint/2012-products/?sort_order=asc&layout=products_multicolumns: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-18T08:21:38Z · last worked 2026-11-18T08:21:38Z
+- Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-18T08:22:02Z · last worked 2026-11-18T08:22:02Z
+- Town Hall Coins (townhallcoins.com): ok – 1594 kept of 2141 found, read through its Shopify product feed · last tried 2026-11-18T08:22:35Z · last worked 2026-11-18T08:22:35Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2025 kept of 4597 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 5 left out until their page is read · last tried 2026-11-16T21:23:56Z · last worked 2026-11-16T21:23:56Z
 - John Platts Stamps & Coins (jpsnc.com.au): not read yet
 - Loose Change Coins (loosechangecoins.com.au): ok – 479 kept of 1033 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 10 left out until their page is read · last tried 2026-11-16T21:24:26Z · last worked 2026-11-16T21:24:26Z
 - Peter Strich Stamps & Coins (peterstrich.com.au): not read yet
 - The Coin Collection (coincollect.com.au): not read yet
 - Adelaide Exchange (adelaide-exchange.com.au): not read yet
-- The Purple Penny (thepurplepenny.com): ok – 489 kept of 1198 found, read through its WooCommerce product feed · moved to https://www.thepurplepenny.com · last tried 2026-11-16T21:23:56Z · last worked 2026-11-16T21:23:56Z
+- The Purple Penny (thepurplepenny.com): ok – 489 kept of 1198 found, read through its WooCommerce product feed · moved to https://www.thepurplepenny.com · last tried 2026-11-18T08:31:45Z · last worked 2026-11-18T08:31:45Z
 - Tasmanian Numismatics (tasmaniannumismatics.com.au): ok – 2333 kept of 2720 found, read through its WooCommerce product feed · last tried 2026-11-16T21:25:32Z · last worked 2026-11-16T21:25:32Z
-- The Coin & Stamp Place (thestampplace.com): ok – 0 kept of 13 found, read through its WooCommerce product feed · 13 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-16T21:24:00Z · last worked 2026-11-16T21:24:00Z
-- Bulk Bullion (bulkbullion.com.au): ok – 34 kept of 92 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-16T21:24:14Z · last worked 2026-11-16T21:24:14Z
+- The Coin & Stamp Place (thestampplace.com): ok – 0 kept of 13 found, read through its WooCommerce product feed · 13 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-18T08:31:39Z · last worked 2026-11-18T08:31:39Z
+- Bulk Bullion (bulkbullion.com.au): ok – 33 kept of 90 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T08:31:53Z · last worked 2026-11-18T08:31:53Z
 - Downies (www.downies.com): ok – 1185 kept of 2783 found, read through its Shopify product feed · last tried 2026-11-16T21:24:59Z · last worked 2026-11-16T21:24:59Z
 - Max Stern & Co (maxstern.com.au): ok – 31 kept of 47 found, read through its site map, page by page (55 pages) · moved to https://www.maxstern.com.au · last tried 2026-11-16T21:28:26Z · last worked 2026-11-16T21:28:26Z
-- Melbourne Coins & Collectables (melbournecoinco.com): ok – 42 kept of 911 found, read through its Shopify product feed · last tried 2026-11-16T21:24:51Z · last worked 2026-11-16T21:24:51Z
+- Melbourne Coins & Collectables (melbournecoinco.com): ok – 47 kept of 917 found, read through its Shopify product feed · last tried 2026-11-18T09:50:18Z · last worked 2026-11-18T09:50:18Z
 - Mint Coin Shop (mintcoinshop.com.au): ok – 140 kept of 255 found, read through its Shopify product feed · last tried 2026-11-16T21:24:59Z · last worked 2026-11-16T21:24:59Z
 - Southern Cross Coins (southerncrosscoins.com.au): ok – 223 kept of 333 found, read through its WooCommerce product feed · last tried 2026-11-16T21:25:39Z · last worked 2026-11-16T21:25:39Z
 - Coin City (coincity.com.au): ok – 967 kept of 1302 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-16T21:25:27Z · last worked 2026-11-16T21:25:27Z
@@ -110,63 +135,72 @@ eBay: not paused
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Why failing shops fail (step-by-step check)
-### Edlins (edlins.com.au) – problem: no product feed and no site map, and browsing its pages found no priced products · platform WordPress
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - Browsing its pages: 8 pages opened, no priced products found
-  - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
-  - raw Platform: WordPress (generator: WordPress 7.1.3) · title “EDLINS &#8211; Coins ,Banknotes and Collectabes”
-  - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://edlins.com.au/robots.txt
-  - raw Site map https://edlins.com.au/index.php?route=extension/feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
-  - raw Site map https://edlins.com.au/index.php?route=feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
-  - raw Site map also tried: /sitemap.xml 404, /sitemap_index.xml 404, /product-sitemap.xml 404, /sitemap_products_1.xml 404, /sitemap-products.xml 404, /store-products-sitemap.xml 404, /xmlsitemap.php 404, /sitemap/products.xml 404, /sitemap/sitemap.xml 404, /sitemap1.xml 404, /pub/media/sitemap.xml 404, /media/sitemap.xml 404, /sitemap.php 404, /wp-sitemap.xml 404, /wp-sitemap-posts-product-1.xml 404, /sitemap.xml.gz 404, /pub/sitemap.xml 404, /sitemap/index.xml 404, /sitemaps/sitemap.xml 404, /product_sitemap.xml 404, /sitemap_products.xml 404
-### Guardian Gold (guardian-gold.com.au) – problem: the website blocks plain requests (a bot check), and browsing its pages found no priced products
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - Browsing its pages: 8 pages opened, no priced products found
-  - raw Website: 403 from https://guardian-gold.com.au/ (the site asked for a bot check – try again later)
-### I.S. Wright (iswright.com.au) – problem: no product feed and no site map, and browsing its pages found no priced products
-  - Website: reachable
-  - Website: moved to https://www.iswright.com.au – read there
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - Browsing its pages: 8 pages opened, no priced products found
-  - raw Website: HTTP 200, ended at https://www.iswright.com.au/, 16412 characters
-  - raw Platform: not recognised · title “I. S. WRIGHT Group -  Coins, Stamps &amp; Collectables”
-  - raw Shopify product feed: HTTP 404 from https://www.iswright.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://www.iswright.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://www.iswright.com.au/robots.txt
-  - raw Site map also tried: /sitemap.xml 404, /sitemap_index.xml 404, /product-sitemap.xml 404, /sitemap_products_1.xml 404, /sitemap-products.xml 404, /store-products-sitemap.xml 404, /xmlsitemap.php 404, /sitemap/products.xml 404, /sitemap/sitemap.xml 404, /sitemap1.xml 404, /pub/media/sitemap.xml 404, /media/sitemap.xml 404, /index.php?route=extension/feed/google_sitemap 404, /sitemap.php 404, /wp-sitemap.xml 404, /wp-sitemap-posts-product-1.xml 404, /index.php?route=feed/google_sitemap 404, /sitemap.xml.gz 404, /pub/sitemap.xml 404, /sitemap/index.xml 404, /sitemaps/sitemap.xml 404, /product_sitemap.xml 404, /sitemap_products.xml 404
-### Prospect Stamps & Coins (prospectstampsandcoins.com.au) – WORKS when checked: the website blocks plain requests (a bot check) – read by browsing its pages
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - Browsing its pages: 4 priced products on 8 pages – e.g. “Home :: Coin Accessories and Catalogues :: Coin Albums and Binders - C” $59.95
-  - raw Website: 403 from https://prospectstampsandcoins.com.au/ (the site asked for a bot check – try again later)
-
-## Top 0 deals as the app shows them (best first)
+## Top 2 deals as the app shows them (best first)
+- 1% under | $184229.73 vs usual $185243.33 (melt $185243.33), 0 sales, melt only | ABC Bullion Gold Cast Bar - 1kg | shop:Bulk Bullion | read as: bar 32.1507oz gold | AI: bar gold 32.1507 (1) ABC Bullion Gold Cast Bar - 1kg | page/description: {"metal":"gold","metal_by":"purity","weight_oz":32.1507} | price not confirmed | https://bulkbullion.com.au/products/abc-bullion-gold-cast-bar-1kg
+    id: shop:bulkbullion.com.au:52237636337895 · key: y7l4yp · Claude: verified 2026-11-08
+    description read: The ABC Bullion 1kg gold cast bar is one of Australia's most recognised and widely traded gold bullion products. Produced by ABC Bullion, one of the country's leading precious metals refiners, the 1kg cast bar is highly regarded among both Australian and international investors for its strong reputation, liquidity and competitive premiums.. Manufactured from 99.99% pure gold, each bar is individually serialised and accompanied by an official assay certificate verifying the bar's weight and purity. The traditional cast finish gives every bar its own unique character, making it a popular choice for investors seeking substantial physical gold ownership in a trusted bullion format.. The 1kg gold
+- 0% under | $5758.44 vs usual $5761.72 (melt $5761.72), 0 sales, melt only | Perth Mint Gold Cast Bar - 1oz | shop:Bulk Bullion | read as: bar 1oz gold unc | AI: bar gold 1 (1) Perth Mint Gold Cast Bar - 1oz | page/description: {"metal":"gold","metal_by":"purity","weight_oz":1,"finish":"unc"} | price not confirmed | https://bulkbullion.com.au/products/perth-mint-gold-cast-bar-1oz
+    id: shop:bulkbullion.com.au:43501875364071 · key: 1gpq8f2 · Claude: verified 2026-11-08
+    description read: The Perth Mint's 99.99% bullion cast bars are offered in a convenient choice of weights and are stamped with The Perth Mint's London Bullion Market Association registered mark, weight and purity.. Contains: 1 oz of .9999 pure gold. Country: Australia. Condition: Uncirculated. Weight (Troy Oz): 1 Category: Bar, Brand_Perth Mint, Condition_Uncirculated, Metal Type_Gold, Product Type_Bar, shopify, Soverign Issuing Country_Australia, Weight_1oz, Year_Mixed.
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (143 steps)
-- 37 shops: every step worked, 11153 kept
+## Last 3 days by source (179 steps)
+- 36 shops: every step worked, 13355 kept
 - ebay_active: 0/5 worked, 0 kept
     5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- ebay_sold: 1/7 worked, 22 kept
-    5× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-    1× Error: couldn't read eBay's results page, even in the browser (it was titled "Sign in or Register | eBay")
-- gumtree: 24/41 worked, 44 kept
+- ebay_sold: 1/11 worked, 22 kept
+    6× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+    2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
+    1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- shop Guy Stuff: 1/2 worked, 123 kept
+    1× Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
+- gumtree: 26/48 worked, 44 kept
+    6× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-    5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
-    2× Error: 403 from https://www.gumtree.com.au/s-1988+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-- facebook: 43/43 worked, 0 kept
-- cashconverters: 1/1 worked, 213 kept
+    3× Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+- facebook: 53/54 worked, 0 kept
+    1× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- cashconverters: 2/2 worked, 379 kept
 - collection: 1/1 worked, 1840 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-18T08:33:12Z | shop | Melbourne Coins & Collectables | 47
+2026-11-18T08:31:46Z | cashconverters | coin categories | 166
+2026-11-18T08:31:44Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+2026-11-18T08:31:39Z | shop | Bulk Bullion | 33
+2026-11-18T08:31:36Z | shop | The Coin & Stamp Place | 0
+2026-11-18T08:31:16Z | facebook | 1991 1c Feather-tailed Glider | 0
+2026-11-18T08:31:14Z | shop | The Purple Penny | 489
+2026-11-18T08:25:45Z | facebook | 1990 1c Feather-tailed Glider | 0
+2026-11-18T08:25:28Z | facebook | 1989 1c Feather-tailed Glider | 0
+2026-11-18T08:25:08Z | facebook | 1988 1c Feather-tailed Glider | 0
+2026-11-18T08:24:57Z | gumtree | 1988 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+2026-11-18T08:23:36Z | facebook | 1987 1c Feather-tailed Glider | 0
+2026-11-18T08:23:24Z | gumtree | 1987 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+2026-11-18T08:23:06Z | facebook | 1985 1c Feather-tailed Glider | 0
+2026-11-18T08:22:54Z | gumtree | 1985 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
+2026-11-18T08:22:35Z | facebook | 1984 1c Feather-tailed Glider | 0
+2026-11-18T08:22:32Z | gumtree | 1984 1c Feather-tailed Glider | 0
+2026-11-18T08:22:13Z | facebook | 1981 1c Feather-tailed Glider Llantrisant | 0
+2026-11-18T08:22:11Z | gumtree | 1981 1c Feather-tailed Glider Llantrisant | 0 | Error: 403 from https://www.gumtree.com.au/s-1981+1c+Feather-tailed+Glider+Llantrisant/k0?sort=d (the site asked for a bot check – try again later)
+2026-11-18T08:22:02Z | shop | Town Hall Coins | 1594
+2026-11-18T08:21:58Z | shop | Sydney Coins & Jewellery | 133
+2026-11-18T08:21:49Z | facebook | 1966 1c Feather-tailed Glider | 0
+2026-11-18T08:21:47Z | gumtree | 1966 1c Feather-tailed Glider | 0
+2026-11-18T08:21:43Z | shop | I.S. Wright | 0
+2026-11-18T08:21:40Z | shop | Heritage Numismatics | 25
+2026-11-18T08:21:38Z | shop | Guy Stuff | 0 | Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
+2026-11-18T08:21:24Z | facebook | 1966 1c Feather-tailed Glider Melbourne | 0
+2026-11-18T08:21:21Z | gumtree | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
+2026-11-18T08:19:53Z | ebay_sold | 1984 1c Feather-tailed Glider | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:51 pm
+2026-11-18T08:19:26Z | ebay_sold | 1981 1c Feather-tailed Glider Llantrisant | 0 | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
+2026-11-18T08:18:57Z | ebay_sold | 1966 1c Feather-tailed Glider | 0 | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
+2026-11-18T08:18:36Z | shop | Coins Australia | 4
+2026-11-18T08:18:09Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-11-18T08:18:07Z | shop | Guardian Gold | 0
+2026-11-18T08:18:07Z | shop | Prospect Stamps & Coins | 0
+2026-11-18T08:18:07Z | shop | Edlins | 0
 2026-11-17T19:42:22Z | facebook | 1989 1c Feather-tailed Glider | 0
 2026-11-17T19:41:57Z | facebook | 1988 1c Feather-tailed Glider | 0
 2026-11-17T19:41:36Z | facebook | 1987 1c Feather-tailed Glider | 0
@@ -281,32 +315,3 @@ eBay: not paused
 2026-11-16T21:27:22Z | shop | Sterling & Currency | 35
 2026-11-16T21:25:58Z | shop | The Perth Mint | 9
 2026-11-16T21:25:39Z | shop | The Coin Company | 5
-2026-11-16T21:25:36Z | shop | Swan Bullion | 17
-2026-11-16T21:25:27Z | shop | Direct Coins | 128
-2026-11-16T21:24:59Z | shop | Southern Cross Coins | 223
-2026-11-16T21:24:59Z | shop | Coin City | 967
-2026-11-16T21:24:51Z | shop | Mint Coin Shop | 140
-2026-11-16T21:24:41Z | shop | Melbourne Coins & Collectables | 42
-2026-11-16T21:24:26Z | shop | Max Stern & Co | 31
-2026-11-16T21:24:14Z | shop | Downies | 1185
-2026-11-16T21:24:00Z | shop | Bulk Bullion | 34
-2026-11-16T21:23:56Z | shop | Tasmanian Numismatics | 2333
-2026-11-16T21:23:56Z | shop | The Coin & Stamp Place | 0
-2026-11-16T21:23:23Z | shop | The Purple Penny | 489
-2026-11-16T21:22:41Z | shop | Loose Change Coins | 479
-2026-11-16T21:22:04Z | shop | Wynyard Coin Centre | 2025
-2026-11-16T21:22:02Z | shop | Town Hall Coins | 1597
-2026-11-16T21:21:58Z | shop | Sydney Coins & Jewellery | 133
-2026-11-16T21:20:40Z | shop | Online Coins & Collectables | 377
-2026-11-16T21:20:32Z | shop | Newcastle Coins | 243
-2026-11-16T21:20:20Z | shop | I.S. Wright | 0
-2026-11-16T21:20:07Z | shop | Heritage Numismatics | 25
-2026-11-16T21:19:14Z | cashconverters | coin categories | 213
-2026-11-16T21:18:56Z | ebay_sold | 1966 1c Feather-tailed Glider | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 8:49 am
-2026-11-16T21:18:30Z | shop | Guy Stuff | 123
-2026-11-16T21:18:12Z | ebay_active | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-16T21:18:03Z | shop | Coins Australia | 11
-2026-11-16T21:18:03Z | shop | Guardian Gold | 2
-2026-11-16T21:18:03Z | shop | Edlins | 0
-2026-11-16T21:18:03Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: couldn't read eBay's results page, even in the browser (it was titled "Sign in or Register | eBay")
-2026-11-16T21:18:00Z | collection | 1840 wanted, 633 owned | 1840
