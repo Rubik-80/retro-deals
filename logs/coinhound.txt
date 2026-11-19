@@ -1,19 +1,19 @@
 # Coin Hound 2.59 refresh report
-Written 2026-11-19T11:11:34Z (19 Nov, 10:11 pm Sydney) · refresh slice started 2026-11-19T11:04:09Z, took 445 s
-Totals: {"ebay_sold":231,"shops":4,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 432 · pricing 2 · reading pages 2 · checks and alerts 9
-Stored: 11480 live · 349 sold
+Written 2026-11-19T15:14:36Z (20 Nov, 2:14 am Sydney) · refresh slice started 2026-11-19T15:07:04Z, took 453 s
+Totals: {"ebay_sold":210,"shops":4,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 438 · pricing 2 · reading pages 2 · checks and alerts 10
+Stored: 11480 live · 479 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Past-sales scan: 13 of 3553 searches done, 2332 sales found (started 2026-11-17T19:39:40.126Z)
-Linked collection: 1851 wanted, 641 owned, catalogue 2587
-Sold prices shared with the collection app: 0 coins, last checked 2026-11-18T23:26:44.426Z
-Claude's checks: last applied 2026-11-19T11:11:27Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Past-sales scan: 26 of 3546 searches done, 2542 sales found (started 2026-11-17T19:39:40.126Z)
+Linked collection: 1844 wanted, 641 owned, catalogue 2587
+Sold prices shared with the collection app: 0 coins, last checked 2026-11-19T11:11:38.424Z
+Claude's checks: last applied 2026-11-19T15:14:29Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## This refresh: 15 steps, 0 with problems
-ebay_sold: 13/13 worked, 231 kept
+ebay_sold: 13/13 worked, 210 kept
 shops: 2/2 worked, 4 kept
 
 ## Shops: 67 on · 41 working · 4 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 22 not read yet
@@ -41,7 +41,7 @@ shops: 2/2 worked, 4 kept
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-19T11:05:54Z · last worked 2026-11-19T11:05:54Z
-- Guy Stuff (guystuff.com.au): ok – 4 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-19T11:06:10Z · last worked 2026-11-19T11:06:10Z
+- Guy Stuff (guystuff.com.au): ok – 4 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-19T15:09:06Z · last worked 2026-11-19T15:09:06Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -49,17 +49,17 @@ shops: 2/2 worked, 4 kept
       page: /?s=coin&post_type=product 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · last tried 2026-11-18T08:21:57Z · last worked 2026-11-18T08:21:57Z
 - Newcastle Coins (newcastlecoins.com.au): ok – 2 kept of 142 found, read through browsing its pages (40 pages) · last tried 2026-11-18T11:45:42Z · last worked 2026-11-18T11:45:42Z
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 380 kept of 4551 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-18T11:44:55Z · last worked 2026-11-18T11:44:55Z
-- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
-      page: / 262355ch · h1 “Categories” · $ amounts 40 · price elements 144 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×48
+- Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
+      page: / 262968ch · h1 “Categories” · $ amounts 40 · price elements 144 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×48
       page: /top-menu/help/product-limits.html 70085ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /top-menu/shop-location.html 69366ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /index.php?dispatch=product_features.compare 67604ch · h1 “Compare” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-cs-controller-product_features×27 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8
-      page: /index.php?dispatch=auth.login_form&return_url=index.php%3Fdispatch%3Dproduct_features.compare: hidden browser: this refresh's pages are used up – more next refresh
+      page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-18T23:20:15Z · last worked 2026-11-18T23:20:15Z
+      page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-19T15:08:49Z · last worked 2026-11-19T15:08:49Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-18T11:45:17Z · last worked 2026-11-18T11:45:17Z
 - Town Hall Coins (townhallcoins.com): ok – 1594 kept of 2141 found, read through its Shopify product feed · last tried 2026-11-18T11:45:53Z · last worked 2026-11-18T11:45:53Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2025 kept of 4604 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 5 left out until their page is read · last tried 2026-11-18T11:48:10Z · last worked 2026-11-18T11:48:10Z
@@ -118,7 +118,10 @@ shops: 2/2 worked, 4 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Top 8 deals as the app shows them (best first)
+## Top 9 deals as the app shows them (best first)
+- 31% under | $2 vs usual $2.9, 2 sales, low | 1983 Australian 1 Cent Coin | shop:Loose Change Coins | read as: coin 1983 1c | AI: not read | page/description: {"year":1983,"denom":"1c"} | price not confirmed | https://loosechangecoins.com.au/products/1983-australian-1-cent-coin-royal-mint-canberra
+    id: shop:loosechangecoins.com.au:31298513305733 · key: ybexy7
+    description read: Year: 1983. Denomination: One Cent. Grade: Very Good.
 - 1% under | $11424 vs usual $11523.44 (melt $11523.44), 0 sales, melt only | *Special* 2oz Perth Mint Gold Coin – Random Dates/Design | shop:Australian Bullion Company | read as: bullion 2oz gold | AI: not read | page/description: {"metal":"gold","metal_by":"label","weight_oz":2} | price not confirmed | https://www.australianbullioncompany.com.au/product/2oz-perth-mint-gold-coin/
     id: shop:www.australianbullioncompany.com.au:1960390 · key: 1f4xq9c
     description read: Please note: Random year Perth Mint 2oz gold bullion coins – these are sourced from the secondary market and may be any date or type. We quality test all items for purity when buying back, the appearance will range from brand new to slightly scuffed. The 2oz Perth Mint Gold Coin – Random Dates/Design contains 62.207 grams (2 Troy Ounces) of 99.99% pure investment-grade gold, making it an excellent choice for investors seeking a larger, internationally recognised bullion coin. Each coin is sourced from the secondary market and may feature a random year or design, while maintaining the same guaranteed weight and purity.. Manufactured by The Perth Mint, these bullion coins are struck to investm
@@ -146,7 +149,7 @@ shops: 2/2 worked, 4 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (332 steps)
+## Last 3 days by source (353 steps)
 - 44 shops: every step worked, 17619 kept
 - ebay_active: 0/5 worked, 0 kept
     5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -154,11 +157,11 @@ shops: 2/2 worked, 4 kept
     9× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
     3× Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold: 83/97 worked, 2709 kept
+- ebay_sold: 102/116 worked, 2988 kept
     8× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
     3× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
-- shop Guy Stuff: 7/8 worked, 149 kept
+- shop Guy Stuff: 8/9 worked, 153 kept
     1× Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
 - facebook: 68/70 worked, 0 kept
     2× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
@@ -166,6 +169,27 @@ shops: 2/2 worked, 4 kept
 - collection: 1/1 worked, 1840 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-19T15:11:56Z | ebay_sold | 1983 1c | 28
+2026-11-19T15:11:33Z | ebay_sold | 1982 1c | 29
+2026-11-19T15:11:11Z | ebay_sold | 1981 1c | 23
+2026-11-19T15:10:46Z | ebay_sold | 1980 1c | 16
+2026-11-19T15:10:27Z | ebay_sold | 1979 1c | 19
+2026-11-19T15:10:06Z | ebay_sold | 1978 1c | 14
+2026-11-19T15:09:44Z | ebay_sold | 1977 1c | 13
+2026-11-19T15:09:25Z | ebay_sold | 1976 1c | 20
+2026-11-19T15:09:07Z | ebay_sold | 1975 1c | 6
+2026-11-19T15:08:41Z | ebay_sold | 1974 1c | 10
+2026-11-19T15:08:14Z | ebay_sold | 1973 1c | 8
+2026-11-19T15:07:47Z | ebay_sold | 1972 1c | 13
+2026-11-19T15:07:15Z | ebay_sold | 1971 1c | 11
+2026-11-19T15:07:09Z | shop | Guy Stuff | 4
+2026-11-19T15:07:09Z | shop | Prospect Stamps & Coins | 0
+2026-11-19T11:45:24Z | ebay_sold | 1976 1c | 21
+2026-11-19T11:36:10Z | ebay_sold | 1975 1c | 6
+2026-11-19T11:34:38Z | ebay_sold | 1974 1c | 10
+2026-11-19T11:33:30Z | ebay_sold | 1973 1c | 8
+2026-11-19T11:33:19Z | ebay_sold | 1972 1c | 13
+2026-11-19T11:33:09Z | ebay_sold | 1971 1c | 11
 2026-11-19T11:08:56Z | ebay_sold | 1970 1c | 12
 2026-11-19T11:08:24Z | ebay_sold | 1969 1c | 11
 2026-11-19T11:07:52Z | ebay_sold | 1986 1c | 14
@@ -295,24 +319,3 @@ shops: 2/2 worked, 4 kept
 2026-11-18T11:05:27Z | ebay_sold | 1966 1c Feather-tailed Glider | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:35 pm
 2026-11-18T11:04:32Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 2026-11-18T11:04:26Z | shop | Guy Stuff | 4
-2026-11-18T11:04:26Z | shop | Guardian Gold | 0
-2026-11-18T10:07:05Z | gumtree | 1986 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1986+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-18T10:07:05Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-2026-11-18T10:06:46Z | facebook | 1991 1c Feather-tailed Glider | 0
-2026-11-18T10:06:43Z | gumtree | 1991 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1991+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-18T10:01:13Z | facebook | 1990 1c Feather-tailed Glider | 0
-2026-11-18T10:01:10Z | gumtree | 1990 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1990+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-18T10:00:50Z | facebook | 1989 1c Feather-tailed Glider | 0
-2026-11-18T10:00:46Z | gumtree | 1989 1c Feather-tailed Glider | 0
-2026-11-18T10:00:23Z | facebook | 1988 1c Feather-tailed Glider | 0
-2026-11-18T10:00:21Z | gumtree | 1988 1c Feather-tailed Glider | 0
-2026-11-18T09:56:17Z | facebook | 1987 1c Feather-tailed Glider | 0
-2026-11-18T09:56:14Z | gumtree | 1987 1c Feather-tailed Glider | 0
-2026-11-18T09:55:21Z | facebook | 1985 1c Feather-tailed Glider | 0
-2026-11-18T09:55:17Z | gumtree | 1985 1c Feather-tailed Glider | 0
-2026-11-18T09:54:57Z | facebook | 1984 1c Feather-tailed Glider | 0
-2026-11-18T09:54:54Z | gumtree | 1984 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-18T09:54:36Z | facebook | 1981 1c Feather-tailed Glider Llantrisant | 0
-2026-11-18T09:54:34Z | gumtree | 1981 1c Feather-tailed Glider Llantrisant | 0
-2026-11-18T09:54:13Z | facebook | 1966 1c Feather-tailed Glider | 0
-2026-11-18T09:54:11Z | gumtree | 1966 1c Feather-tailed Glider | 0
