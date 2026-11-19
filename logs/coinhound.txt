@@ -1,24 +1,20 @@
-# Coin Hound 2.58 refresh report
-Written 2026-11-19T03:12:54Z (19 Nov, 2:12 pm Sydney) · refresh slice started 2026-11-19T03:04:24Z, took 510 s
-Totals: {"shops":4,"ebay_sold":162,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 496 · pricing 2 · reading pages 2 · checks and alerts 10
-Last problem: ebay_sold (1966 2c Frilled-neck Lizard Melbourne): Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Stored: 11480 live · 195 sold
+# Coin Hound 2.59 refresh report
+Written 2026-11-19T11:11:34Z (19 Nov, 10:11 pm Sydney) · refresh slice started 2026-11-19T11:04:09Z, took 445 s
+Totals: {"ebay_sold":231,"shops":4,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 432 · pricing 2 · reading pages 2 · checks and alerts 9
+Stored: 11480 live · 349 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Past-sales scan: 40 of 3558 searches done, 1415 sales found (started 2026-11-17T19:39:40.126Z)
+Past-sales scan: 13 of 3553 searches done, 2332 sales found (started 2026-11-17T19:39:40.126Z)
 Linked collection: 1851 wanted, 641 owned, catalogue 2587
 Sold prices shared with the collection app: 0 coins, last checked 2026-11-18T23:26:44.426Z
-Claude's checks: last applied 2026-11-19T03:12:47Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-19T11:11:27Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## This refresh: 8 steps, 1 with problems
-ebay_sold: 5/6 worked, 162 kept
+## This refresh: 15 steps, 0 with problems
+ebay_sold: 13/13 worked, 231 kept
 shops: 2/2 worked, 4 kept
-
-### Problems this refresh
-- ebay_sold | 1966 2c Frilled-neck Lizard Melbourne | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 
 ## Shops: 67 on · 41 working · 4 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 22 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -34,18 +30,18 @@ shops: 2/2 worked, 4 kept
       page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-18T12:03:40Z · last worked 2026-11-18T12:03:40Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 3 kept of 22 found, read through its site map, page by page (65 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-18T11:47:35Z · last worked 2026-11-18T11:47:35Z
-- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
-      page: / 216006ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 346917ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 344859ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 67 · price elements 98 · buy buttons 48 · cards read 0 · classes menu-item×51 product×48 type-product×48 product_cat-gold×48 has-post-thumbnail×48 product-type-simple×48
-      page: /product-category/gold/buy-gold-cast-bars/ 233991ch · h1 “Buy Gold Cast Bars Online” · $ amounts 20 · price elements 36 · buy buttons 16 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×16
+- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
+      page: / 215900ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346939ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 344294ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 67 · price elements 98 · buy buttons 48 · cards read 0 · classes menu-item×51 product×48 type-product×48 product_cat-gold×48 has-post-thumbnail×48 product-type-simple×48
+      page: /product-category/gold/buy-gold-cast-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-19T03:05:39Z · last worked 2026-11-19T03:05:39Z
-- Guy Stuff (guystuff.com.au): ok – 4 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-19T03:05:47Z · last worked 2026-11-19T03:05:47Z
+      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-19T11:05:54Z · last worked 2026-11-19T11:05:54Z
+- Guy Stuff (guystuff.com.au): ok – 4 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-19T11:06:10Z · last worked 2026-11-19T11:06:10Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -150,7 +146,7 @@ shops: 2/2 worked, 4 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (295 steps)
+## Last 3 days by source (332 steps)
 - 44 shops: every step worked, 17619 kept
 - ebay_active: 0/5 worked, 0 kept
     5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -158,11 +154,11 @@ shops: 2/2 worked, 4 kept
     9× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
     3× Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold: 50/64 worked, 1792 kept
+- ebay_sold: 83/97 worked, 2709 kept
     8× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
     3× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
-- shop Guy Stuff: 5/6 worked, 141 kept
+- shop Guy Stuff: 7/8 worked, 149 kept
     1× Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
 - facebook: 68/70 worked, 0 kept
     2× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
@@ -170,6 +166,43 @@ shops: 2/2 worked, 4 kept
 - collection: 1/1 worked, 1840 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-19T11:08:56Z | ebay_sold | 1970 1c | 12
+2026-11-19T11:08:24Z | ebay_sold | 1969 1c | 11
+2026-11-19T11:07:52Z | ebay_sold | 1986 1c | 14
+2026-11-19T11:07:24Z | ebay_sold | 1991 1c | 34
+2026-11-19T11:07:00Z | ebay_sold | 1990 1c | 23
+2026-11-19T11:06:36Z | ebay_sold | 1989 1c | 19
+2026-11-19T11:06:13Z | ebay_sold | 1988 1c | 20
+2026-11-19T11:05:48Z | ebay_sold | 1987 1c | 12
+2026-11-19T11:05:26Z | ebay_sold | 1985 1c | 12
+2026-11-19T11:05:01Z | ebay_sold | 1984 1c | 13
+2026-11-19T11:04:50Z | ebay_sold | 1981 1c Llantrisant | 0
+2026-11-19T11:04:37Z | ebay_sold | 1966 1c | 60
+2026-11-19T11:04:18Z | ebay_sold | 1966 1c Melbourne | 1
+2026-11-19T11:04:13Z | shop | Guy Stuff | 4
+2026-11-19T11:04:13Z | shop | Guardian Gold | 0
+2026-11-19T07:09:30Z | ebay_sold | 1982 2c Frilled-neck Lizard | 35
+2026-11-19T07:09:15Z | ebay_sold | 1980 2c Frilled-neck Lizard | 37
+2026-11-19T07:08:59Z | ebay_sold | 1979 2c Frilled-neck Lizard | 34
+2026-11-19T07:07:47Z | ebay_sold | 1978 2c Frilled-neck Lizard | 34
+2026-11-19T07:07:38Z | ebay_sold | 1977 2c Frilled-neck Lizard | 35
+2026-11-19T07:07:28Z | ebay_sold | 1976 2c Frilled-neck Lizard | 34
+2026-11-19T07:07:18Z | ebay_sold | 1975 2c Frilled-neck Lizard | 35
+2026-11-19T07:07:08Z | ebay_sold | 1974 2c Frilled-neck Lizard | 36
+2026-11-19T07:06:58Z | ebay_sold | 1973 2c Frilled-neck Lizard | 36
+2026-11-19T07:06:48Z | ebay_sold | 1972 2c Frilled-neck Lizard | 34
+2026-11-19T07:06:37Z | ebay_sold | 1970 2c Frilled-neck Lizard | 34
+2026-11-19T07:06:26Z | ebay_sold | 1969 2c Frilled-neck Lizard | 33
+2026-11-19T07:06:13Z | ebay_sold | 1991 2c Frilled-neck Lizard | 35
+2026-11-19T07:06:01Z | ebay_sold | 1990 2c Frilled-neck Lizard | 39
+2026-11-19T07:05:49Z | ebay_sold | 1987 2c Frilled-neck Lizard | 37
+2026-11-19T07:05:36Z | ebay_sold | 1986 2c Frilled-neck Lizard | 36
+2026-11-19T07:05:24Z | ebay_sold | 1989 2c Frilled-neck Lizard | 36
+2026-11-19T07:05:11Z | ebay_sold | 1988 2c Frilled-neck Lizard | 34
+2026-11-19T07:04:57Z | ebay_sold | 1985 2c Frilled-neck Lizard | 35
+2026-11-19T07:04:40Z | ebay_sold | 1966 2c Frilled-neck Lizard Melbourne | 17
+2026-11-19T07:04:35Z | shop | Guardian Gold | 0
+2026-11-19T07:04:35Z | shop | Guy Stuff | 4
 2026-11-19T03:08:03Z | ebay_sold | 1984 2c Frilled-neck Lizard | 35
 2026-11-19T03:07:34Z | ebay_sold | 1981 2c Frilled-neck Lizard Llantrisant | 16
 2026-11-19T03:07:12Z | ebay_sold | 1981 2c Frilled-neck Lizard | 36
@@ -283,40 +316,3 @@ shops: 2/2 worked, 4 kept
 2026-11-18T09:54:34Z | gumtree | 1981 1c Feather-tailed Glider Llantrisant | 0
 2026-11-18T09:54:13Z | facebook | 1966 1c Feather-tailed Glider | 0
 2026-11-18T09:54:11Z | gumtree | 1966 1c Feather-tailed Glider | 0
-2026-11-18T09:53:50Z | facebook | 1966 1c Feather-tailed Glider Melbourne | 0
-2026-11-18T09:53:48Z | gumtree | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
-2026-11-18T09:53:19Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 9:23 pm
-2026-11-18T08:33:12Z | shop | Melbourne Coins & Collectables | 47
-2026-11-18T08:31:46Z | cashconverters | coin categories | 166
-2026-11-18T08:31:44Z | facebook | (skipped for the rest of this refresh) | 0 | Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
-2026-11-18T08:31:39Z | shop | Bulk Bullion | 33
-2026-11-18T08:31:36Z | shop | The Coin & Stamp Place | 0
-2026-11-18T08:31:16Z | facebook | 1991 1c Feather-tailed Glider | 0
-2026-11-18T08:31:14Z | shop | The Purple Penny | 489
-2026-11-18T08:25:45Z | facebook | 1990 1c Feather-tailed Glider | 0
-2026-11-18T08:25:28Z | facebook | 1989 1c Feather-tailed Glider | 0
-2026-11-18T08:25:08Z | facebook | 1988 1c Feather-tailed Glider | 0
-2026-11-18T08:24:57Z | gumtree | 1988 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
-2026-11-18T08:23:36Z | facebook | 1987 1c Feather-tailed Glider | 0
-2026-11-18T08:23:24Z | gumtree | 1987 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
-2026-11-18T08:23:06Z | facebook | 1985 1c Feather-tailed Glider | 0
-2026-11-18T08:22:54Z | gumtree | 1985 1c Feather-tailed Glider | 0 | Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
-2026-11-18T08:22:35Z | facebook | 1984 1c Feather-tailed Glider | 0
-2026-11-18T08:22:32Z | gumtree | 1984 1c Feather-tailed Glider | 0
-2026-11-18T08:22:13Z | facebook | 1981 1c Feather-tailed Glider Llantrisant | 0
-2026-11-18T08:22:11Z | gumtree | 1981 1c Feather-tailed Glider Llantrisant | 0 | Error: 403 from https://www.gumtree.com.au/s-1981+1c+Feather-tailed+Glider+Llantrisant/k0?sort=d (the site asked for a bot check – try again later)
-2026-11-18T08:22:02Z | shop | Town Hall Coins | 1594
-2026-11-18T08:21:58Z | shop | Sydney Coins & Jewellery | 133
-2026-11-18T08:21:49Z | facebook | 1966 1c Feather-tailed Glider | 0
-2026-11-18T08:21:47Z | gumtree | 1966 1c Feather-tailed Glider | 0
-2026-11-18T08:21:43Z | shop | I.S. Wright | 0
-2026-11-18T08:21:40Z | shop | Heritage Numismatics | 25
-2026-11-18T08:21:38Z | shop | Guy Stuff | 0 | Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
-2026-11-18T08:21:24Z | facebook | 1966 1c Feather-tailed Glider Melbourne | 0
-2026-11-18T08:21:21Z | gumtree | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
-2026-11-18T08:19:53Z | ebay_sold | 1984 1c Feather-tailed Glider | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 7:51 pm
-2026-11-18T08:19:26Z | ebay_sold | 1981 1c Feather-tailed Glider Llantrisant | 0 | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
-2026-11-18T08:18:57Z | ebay_sold | 1966 1c Feather-tailed Glider | 0 | Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
-2026-11-18T08:18:36Z | shop | Coins Australia | 4
-2026-11-18T08:18:09Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-18T08:18:07Z | shop | Guardian Gold | 0
