@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T19:38:22Z",
+ "updated": "2026-11-19T19:38:06Z",
  "verdicts": {
   "shop:townhallcoins.com:46862549549296": {
    "key": "1l9mneg",
@@ -2412,7 +2412,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "ABC Bullion 1kg 99.99% gold cast bar",
-   "at": "2026-11-18T19:38:22Z"
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:www.sterlingcurrency.com.au:3dadb576ebfc53ac": {
    "key": "1qs1cci",
@@ -2576,14 +2576,14 @@
    "year": null,
    "denomination": null,
    "metal": "gold",
-   "weight_oz": 1.0,
+   "weight_oz": 1,
    "mintmark": null,
-   "finish": "unc",
+   "finish": null,
    "coloured": false,
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1oz 99.99% gold cast bar",
-   "at": "2026-11-18T19:38:22Z"
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:goldbullionaustralia.com.au:76822": {
    "key": "hankon",
@@ -2595,14 +2595,14 @@
    "year": null,
    "denomination": null,
    "metal": "gold",
-   "weight_oz": 2.0,
+   "weight_oz": 2,
    "mintmark": null,
-   "finish": "unc",
+   "finish": null,
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint 2oz 99.99% gold bullion coin, random year/design, Australian legal tender",
-   "at": "2026-11-18T19:38:22Z"
+   "note": "Perth Mint 2oz 99.99% gold bullion coin, random year/design",
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:goldstackers.com.au:33077": {
    "key": "1dzdbub",
@@ -2776,23 +2776,23 @@
    "at": "2026-11-08T19:38:15Z"
   },
   "shop:www.australianbullioncompany.com.au:1960390": {
-   "key": "13akzpy",
-   "verdict": "corrected",
+   "key": "1f4xq9c",
+   "verdict": "verified",
    "reason": "",
    "item_type": "bullion_coin",
    "australian": true,
    "country": "Australia",
    "year": null,
-   "denomination": "$200",
+   "denomination": null,
    "metal": "gold",
-   "weight_oz": 2.0,
+   "weight_oz": 2,
    "mintmark": null,
    "finish": null,
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint 2oz gold bullion coin, random date/design ($200 face)",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 2oz 99.99% gold bullion coin, random year/design, secondary market",
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:ainsliebullion.com.au:88ad8dfd3a90a581": {
    "key": "rtronw",
@@ -2943,8 +2943,8 @@
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint 1 kilo Gold Bar",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 1kg 99.99% gold cast bar",
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:goldstackers.com.au:33891": {
    "key": "1ssd492",
@@ -3222,14 +3222,14 @@
    "year": null,
    "denomination": null,
    "metal": "gold",
-   "weight_oz": 1.0,
+   "weight_oz": 1,
    "mintmark": null,
    "finish": null,
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "1oz Perth Mint Kangaroo Gold Minted Bar",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 1oz Kangaroo 99.99% gold minted bar",
+   "at": "2026-11-19T19:38:06Z"
   },
   "shop:ainsliebullion.com.au:c410cea2e447a402": {
    "key": "1t3jdo9",
@@ -4218,6 +4218,63 @@
    "quantity": 1,
    "note": "2003 5c proof, single coin ex RAM proof set",
    "at": "2026-11-10T19:38:32Z"
+  },
+  "shop:loosechangecoins.com.au:31298513305733": {
+   "key": "ybexy7",
+   "verdict": "verified",
+   "reason": "",
+   "item_type": "coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 1983,
+   "denomination": "1c",
+   "metal": "base",
+   "weight_oz": null,
+   "mintmark": null,
+   "finish": "circulated",
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "1983 Australian 1c, circulated (Very Good)",
+   "at": "2026-11-19T19:38:06Z"
+  },
+  "shop:greatsouthlandbullion.com.au:3010": {
+   "key": "1becc7x",
+   "verdict": "verified",
+   "reason": "",
+   "item_type": "bar",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "gold",
+   "weight_oz": 1,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 1oz 99.99% gold cast bar",
+   "at": "2026-11-19T19:38:06Z"
+  },
+  "shop:greatsouthlandbullion.com.au:3025": {
+   "key": "f5d704",
+   "verdict": "verified",
+   "reason": "",
+   "item_type": "bar",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "gold",
+   "weight_oz": 1,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 1oz 99.99% gold minted (Kangaroo) bar",
+   "at": "2026-11-19T19:38:06Z"
   }
  }
 }
