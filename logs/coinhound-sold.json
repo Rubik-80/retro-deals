@@ -1,7 +1,31 @@
 {
  "format": 1,
  "app": "Coin Hound",
- "savedAt": "2026-11-18T09:51:13.230Z",
+ "savedAt": "2026-11-19T18:29:21.777Z",
  "days": 1000,
- "prices": {}
+ "prices": {
+  "sets-1981-proof-year-set": {
+   "median": 34.75,
+   "count": 2,
+   "low": 31.5,
+   "high": 38,
+   "sales": [
+    {
+     "price": 38,
+     "postage": 8.26,
+     "date": "2026-10-29",
+     "title": "1981 Royal Australian Mint Proof Coin Set Complete RAM Vintage Foam COA 6 Coins",
+     "url": "https://www.ebay.com.au/itm/257819824699",
+     "source": "ebay"
+    },
+    {
+     "price": 31.5,
+     "date": "2026-10-04",
+     "title": "1981 Royal Australian Mint Proof Coin Set - 6 Coins & COA Included",
+     "url": "https://www.ebay.com.au/itm/800500036000",
+     "source": "ebay"
+    }
+   ]
+  }
+ }
 }
