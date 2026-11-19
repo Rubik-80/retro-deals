@@ -1,20 +1,19 @@
 # Coin Hound 2.58 refresh report
-Written 2026-11-18T23:25:13Z (19 Nov, 10:25 am Sydney) · refresh slice started 2026-11-18T23:18:45Z, took 388 s
-Totals: {"ebay_sold":419,"shops":67,"pages_read":2,"removed_after_reading":0,"ended":0,"claude_checked":10,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 357 · pricing 2 · reading pages 17 · checks and alerts 12
-Stored: 11480 live · 166 sold
+Written 2026-11-19T01:03:36Z (19 Nov, 12:03 pm Sydney) · refresh want-list search started 2026-11-19T00:27:11Z, took 2186 s
+Totals: {"ebay_sold":154,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 2168 · pricing 2 · reading pages 2 · checks and alerts 13
+Stored: 11480 live · 167 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Past-sales scan: 30 of 3558 searches done, 1099 sales found (started 2026-11-17T19:39:40.126Z)
+Past-sales scan: 35 of 3558 searches done, 1253 sales found (started 2026-11-17T19:39:40.126Z)
 Linked collection: 1851 wanted, 641 owned, catalogue 2594
-Sold prices shared with the collection app: 0 coins, last checked 2026-11-18T09:51:14.732Z
-Claude's checks: last applied 2026-11-18T23:25:04Z (file from 2026-11-18T19:38:22Z) – 10 applied, 0 removed, 0 corrected, 10 verified
+Sold prices shared with the collection app: 0 coins, last checked 2026-11-18T23:26:44.426Z
+Claude's checks: last applied 2026-11-19T01:03:26Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## This refresh: 17 steps, 0 with problems
-ebay_sold: 11/11 worked, 419 kept
-shops: 6/6 worked, 67 kept
+## This refresh: 5 steps, 0 with problems
+ebay_sold: 5/5 worked, 154 kept
 
 ## Shops: 67 on · 41 working · 4 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 22 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -118,26 +117,6 @@ shops: 6/6 worked, 67 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Why failing shops fail (step-by-step check)
-### Edlins (edlins.com.au) – problem: no product feed and no site map, and browsing its pages found no priced products · platform WordPress [checked 2026-11-18T15:14:06Z]
-  - Website: reachable
-  - Shopify product feed: none
-  - WooCommerce product feed: none
-  - Site map: none found
-  - Browsing its pages: 8 pages opened, no priced products found
-  - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
-  - raw Platform: WordPress (generator: WordPress 7.1.3) · title “EDLINS &#8211; Coins ,Banknotes and Collectabes”
-  - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
-  - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
-  - raw Site map robots.txt: HTTP 404 from https://edlins.com.au/robots.txt
-  - raw Site map https://edlins.com.au/index.php?route=extension/feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
-  - raw Site map https://edlins.com.au/index.php?route=feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
-  - raw Site map also tried: /sitemap.xml 404, /sitemap_index.xml 404, /product-sitemap.xml 404, /sitemap_products_1.xml 404, /sitemap-products.xml 404, /store-products-sitemap.xml 404, /xmlsitemap.php 404, /sitemap/products.xml 404, /sitemap/sitemap.xml 404, /sitemap1.xml 404, /pub/media/sitemap.xml 404, /media/sitemap.xml 404, /sitemap.php 404, /wp-sitemap.xml 404, /wp-sitemap-posts-product-1.xml 404, /sitemap.xml.gz 404, /pub/sitemap.xml 404, /sitemap/index.xml 404, /sitemaps/sitemap.xml 404, /product_sitemap.xml 404, /sitemap_products.xml 404
-### Guardian Gold (guardian-gold.com.au) – problem: the website blocks plain requests (a bot check), and browsing its pages found no priced products
-  - Website: the website blocks apps like Coin Hound (bot check)
-  - Browsing its pages: 8 pages opened, no priced products found
-  - raw Website: 403 from https://guardian-gold.com.au/ (the site asked for a bot check – try again later)
-
 ## Top 8 deals as the app shows them (best first)
 - 1% under | $11424 vs usual $11523.44 (melt $11523.44), 0 sales, melt only | *Special* 2oz Perth Mint Gold Coin – Random Dates/Design | shop:Australian Bullion Company | read as: bullion 2oz gold | AI: not read | page/description: {"metal":"gold","metal_by":"label","weight_oz":2} | price not confirmed | https://www.australianbullioncompany.com.au/product/2oz-perth-mint-gold-coin/
     id: shop:www.australianbullioncompany.com.au:1960390 · key: 1f4xq9c
@@ -164,12 +143,9 @@ shops: 6/6 worked, 67 kept
     id: shop:www.australianbullioncompany.com.au:3119673 · key: jramrx · Claude: verified 2026-11-08
     description read: The 1oz Perth Mint Kangaroo Gold Minted Bar contains 31.1035 grams (1 Troy Ounce) of 99.99% pure investment-grade gold, combining the world’s most recognised bullion weight with the global reputation of The Perth Mint.. Manufactured by The Perth Mint, this precision minted gold bar features a premium finish and is supplied in tamper-evident packaging for added security and authenticity. The 1oz denomination offers an excellent balance of affordability, liquidity and long-term investment value for both new and experienced investors.. Why Invest in the 1oz Perth Mint Kangaroo Gold Minted Bar?▾ 99.99% pure investment-grade gold. Contains 31.1035g (1 Troy Ounce) of fine gold. 1oz Perth Mint Kang
 
-## Needs checking: 1 listing held back as too cheap to be real
-- 97% under | $15 vs usual $576.17 (melt $576.17), 0 sales, melt only | 2024 1/10th oz Kangaroo Gold Coin | BULLIONMARK | shop:Bullionmark | read as: bullion 2024 0.1oz gold | AI: not read | page/description: {"metal":"gold","metal_by":"purity","weight_oz":0.1} | price not confirmed | HELD BACK: priced at 3% of the metal value it was read as (0.1 oz gold) – probably not what it was read as | https://bullionmark.com.au/shop/product/2024-1-10th-oz-kangaroo-gold-coin
-    id: shop:bullionmark.com.au:7f7094b86c8c70fd · key: qad3j7
-    description read: Product Description Specifications Own a piece of Australia with the 2024 1/10 oz Kangaroo Gold Coin, struck from 99.99% pure gold by the Perth Mint. Own a piece of Australia with the 2024 1/10 oz Kangaroo Gold Coin, struck from 99.99% pure gold by the Perth Mint. Category: Home / Buy / Bullion / Gold / Gold Coins / 2024 1/10th oz Kangaroo Gold Coin.
+## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (282 steps)
+## Last 3 days by source (287 steps)
 - 44 shops: every step worked, 17619 kept
 - ebay_active: 0/5 worked, 0 kept
     5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -177,7 +153,7 @@ shops: 6/6 worked, 67 kept
     9× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
     3× Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold: 40/53 worked, 1476 kept
+- ebay_sold: 45/58 worked, 1630 kept
     8× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
     2× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
@@ -189,6 +165,11 @@ shops: 6/6 worked, 67 kept
 - collection: 1/1 worked, 1840 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-19T00:30:53Z | ebay_sold | 1978 1c Feather-tailed Glider specimen | 21
+2026-11-19T00:29:34Z | ebay_sold | 2016 1c Feather-tailed Glider | 33
+2026-11-19T00:28:23Z | ebay_sold | 2015 1c Feather-tailed Glider | 33
+2026-11-19T00:27:23Z | ebay_sold | 2014 1c Feather-tailed Glider | 33
+2026-11-19T00:27:15Z | ebay_sold | 2013 1c Feather-tailed Glider | 34
 2026-11-18T23:23:17Z | ebay_sold | 2012 1c Feather-tailed Glider | 33
 2026-11-18T23:23:15Z | shop | Australian Bullion Company | 18
 2026-11-18T23:22:58Z | shop | Great Southland Bullion | 22
@@ -334,8 +315,3 @@ shops: 6/6 worked, 67 kept
 2026-11-17T19:41:16Z | facebook | 1985 1c Feather-tailed Glider | 0
 2026-11-17T19:40:56Z | facebook | 1984 1c Feather-tailed Glider | 0
 2026-11-17T19:40:53Z | gumtree | 1984 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-17T19:40:34Z | facebook | 1981 1c Feather-tailed Glider Llantrisant | 0
-2026-11-17T19:40:31Z | gumtree | 1981 1c Feather-tailed Glider Llantrisant | 0 | Error: 403 from https://www.gumtree.com.au/s-1981+1c+Feather-tailed+Glider+Llantrisant/k0?sort=d (the site asked for a bot check – try again later)
-2026-11-17T19:40:11Z | facebook | 1966 1c Feather-tailed Glider | 0
-2026-11-17T19:40:09Z | gumtree | 1966 1c Feather-tailed Glider | 0 | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-17T19:39:48Z | facebook | 1966 1c Feather-tailed Glider Melbourne | 0
