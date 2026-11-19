@@ -1,19 +1,19 @@
 # Coin Hound 2.59 refresh report
-Written 2026-11-19T15:14:36Z (20 Nov, 2:14 am Sydney) · refresh slice started 2026-11-19T15:07:04Z, took 453 s
-Totals: {"ebay_sold":210,"shops":4,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 438 · pricing 2 · reading pages 2 · checks and alerts 10
+Written 2026-11-19T18:29:18Z (20 Nov, 5:29 am Sydney) · refresh want-list search started 2026-11-19T11:33:07Z, took 24972 s
+Totals: {"ebay_sold":82,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 24966 · pricing 1 · reading pages 1 · checks and alerts 4
 Stored: 11480 live · 479 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Past-sales scan: 26 of 3546 searches done, 2542 sales found (started 2026-11-17T19:39:40.126Z)
+Past-sales scan: 20 of 3546 searches done, 2414 sales found (started 2026-11-17T19:39:40.126Z)
 Linked collection: 1844 wanted, 641 owned, catalogue 2587
 Sold prices shared with the collection app: 0 coins, last checked 2026-11-19T11:11:38.424Z
-Claude's checks: last applied 2026-11-19T15:14:29Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-19T18:29:16Z (file from 2026-11-18T19:38:22Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## This refresh: 15 steps, 0 with problems
-ebay_sold: 13/13 worked, 210 kept
+## This refresh: 22 steps, 0 with problems
+ebay_sold: 20/20 worked, 292 kept
 shops: 2/2 worked, 4 kept
 
 ## Shops: 67 on · 41 working · 4 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 22 not read yet
@@ -149,7 +149,7 @@ shops: 2/2 worked, 4 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (353 steps)
+## Last 3 days by source (354 steps)
 - 44 shops: every step worked, 17619 kept
 - ebay_active: 0/5 worked, 0 kept
     5× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -157,7 +157,7 @@ shops: 2/2 worked, 4 kept
     9× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     5× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
     3× Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold: 102/116 worked, 2988 kept
+- ebay_sold: 103/117 worked, 3001 kept
     8× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
     3× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
@@ -184,6 +184,7 @@ shops: 2/2 worked, 4 kept
 2026-11-19T15:07:15Z | ebay_sold | 1971 1c | 11
 2026-11-19T15:07:09Z | shop | Guy Stuff | 4
 2026-11-19T15:07:09Z | shop | Prospect Stamps & Coins | 0
+2026-11-19T11:46:13Z | ebay_sold | 1977 1c | 13
 2026-11-19T11:45:24Z | ebay_sold | 1976 1c | 21
 2026-11-19T11:36:10Z | ebay_sold | 1975 1c | 6
 2026-11-19T11:34:38Z | ebay_sold | 1974 1c | 10
@@ -318,4 +319,3 @@ shops: 2/2 worked, 4 kept
 2026-11-18T11:05:52Z | gumtree | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
 2026-11-18T11:05:27Z | ebay_sold | 1966 1c Feather-tailed Glider | 0 | Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until 10:35 pm
 2026-11-18T11:04:32Z | ebay_sold | 1966 1c Feather-tailed Glider Melbourne | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-18T11:04:26Z | shop | Guy Stuff | 4
