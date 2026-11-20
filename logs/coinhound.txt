@@ -1,21 +1,21 @@
 # Coin Hound 2.60 refresh report
-Written 2026-11-20T15:12:44Z (21 Nov, 2:12 am Sydney) · refresh slice started 2026-11-20T15:05:14Z, took 450 s
-Totals: {"ebay_sold":249,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 434 · pricing 2 · reading pages 2 · checks and alerts 12
-Stored: 11454 live · 2380 sold
+Written 2026-11-20T19:13:34Z (21 Nov, 6:13 am Sydney) · refresh slice started 2026-11-20T19:05:40Z, took 474 s
+Totals: {"ebay_sold":196,"shops":5,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 453 · pricing 9 · reading pages 2 · checks and alerts 10
+Stored: 11433 live · 2528 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Past-sales scan: 82 of 3546 searches done, 3807 sales found (started 2026-11-17T19:39:40.126Z)
+Past-sales scan: 94 of 3546 searches done, 4003 sales found (started 2026-11-17T19:39:40.126Z)
 Linked collection: 1844 wanted, 641 owned, catalogue 2587
 Sold prices shared with the collection app: 102 coins, last checked 2026-11-20T11:14:06.759Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-20T15:12:35Z (file from 2026-11-19T19:38:06Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-20T19:13:27Z (file from 2026-11-19T19:38:06Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## This refresh: 15 steps, 0 with problems
-ebay_sold: 13/13 worked, 249 kept
-shops: 2/2 worked, 6 kept
+## This refresh: 14 steps, 0 with problems
+ebay_sold: 12/12 worked, 196 kept
+shops: 2/2 worked, 5 kept
 
 ## Shops: 67 on · 41 working · 5 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -31,18 +31,12 @@ shops: 2/2 worked, 6 kept
       page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-19T22:46:21Z · last worked 2026-11-19T22:46:21Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 3 kept of 22 found, read through its site map, page by page (65 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-18T11:47:35Z · last worked 2026-11-18T11:47:35Z
-- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: /product-category/gold/buy-gold-cast-bars/ 234288ch · h1 “Buy Gold Cast Bars Online” · $ amounts 20 · price elements 36 · buy buttons 16 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×16
-      page: /product-category/gold/gold-coins/ 240620ch · h1 “Buy Gold Coins in Sydney & Melbourne” · $ amounts 24 · price elements 43 · buy buttons 17 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×17
-      page: /product-category/gold/buy-gold-minted-bars/ 236759ch · h1 “Buy Gold Minted Bars Online” · $ amounts 26 · price elements 47 · buy buttons 17 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×17
-      page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/specials/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/100g-abc-bullion-minted-gold-bar/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/100g-gold-perth-mint-minted-bar/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-20T11:06:39Z · last worked 2026-11-20T11:06:39Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-20T15:07:15Z · last worked 2026-11-20T15:07:15Z
+- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
+      page: / 216323ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 5 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346765ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 351293ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 70 · price elements 102 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
+      page: /product-category/gold/buy-gold-cast-bars/ 234203ch · h1 “Buy Gold Cast Bars Online” · $ amounts 20 · price elements 36 · buy buttons 16 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×16 · last tried 2026-11-20T19:08:04Z · last worked 2026-11-20T19:08:04Z
+- Guy Stuff (guystuff.com.au): ok – 5 kept of 48 found, read through browsing its pages in the hidden browser (3 pages) · read in the hidden browser · last tried 2026-11-20T19:07:53Z · last worked 2026-11-20T19:07:53Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -119,7 +113,10 @@ shops: 2/2 worked, 6 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Top 32 deals as the app shows them (best first)
+## Top 33 deals as the app shows them (best first)
+- 53% under | $15 vs usual $32, 2 sales, low | 1982 5c Royal Australian Mint Roll | shop:The Purple Penny | read as: roll 1982 5c | AI: not read | price not confirmed | https://www.thepurplepenny.com/product/1982-5c-royal-australian-mint-roll-2/
+    id: shop:thepurplepenny.com:45947 · key: 13z9a5r
+    description read: Brilliant uncirculated coins in original roll from the Mint. May have date written on paper.. Note: Image is a stock photo of one of the coin rolls we have had in stock, we may have multiple rolls available..
 - 47% under | $27.5 vs usual $51.99, 5 sales, low | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 C mintmark unc | AI: not read | price not confirmed | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
     id: shop:directcoins.com.au:67831090413887 · key: 1vy860k
     description read: Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin is the Royal Australian Mint’s tribute to one of the most familiar sounds of Australian remembrance.. The coloured reverse carries a ‘C’ mintmark for Canberra, where the coin was struck, and the obverse features Daniel Thorne’s effigy of His Majesty King Charles III. Category: Collectible Coins, Royal Australian Mint, Uncirculated Coin.
@@ -215,25 +212,39 @@ shops: 2/2 worked, 6 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (365 steps)
-- 27 shops: every step worked, 7082 kept
-- ebay_active: 0/2 worked, 0 kept
-    2× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- gumtree: 24/48 worked, 30 kept
-    7× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
+## Last 3 days by source (355 steps)
+- 25 shops: every step worked, 7056 kept
+- ebay_active: 0/1 worked, 0 kept
+    1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- gumtree: 18/39 worked, 9 kept
+    6× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Feather-tailed+Glider+Melbourne/k0?sort=dat (the site asked for a bot check – try again later)
     3× Error: 403 from https://www.gumtree.com.au/s-1984+1c+Feather-tailed+Glider/k0?sort=date (the site asked for a bot check – try again later)
     3× Error: UnknownHostException: Unable to resolve host "www.gumtree.com.au": No address associated with hostname
-- shop Guy Stuff: 11/12 worked, 46 kept
+- shop Guy Stuff: 12/13 worked, 51 kept
     1× Error: 403 from https://guystuff.com.au/ (the site asked for a bot check – try again later)
-- ebay_sold: 186/196 worked, 4714 kept
-    5× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- facebook: 41/43 worked, 0 kept
+    2× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
+- ebay_sold: 198/207 worked, 4910 kept
+    4× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
     3× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     2× Error: couldn't read eBay's results page, even in the browser (it was titled "Web page not available")
-- facebook: 50/52 worked, 0 kept
-    2× Facebook found nothing for 10 searches in a row – it probably needs logging in again (More → Log in to Facebook)
 - cashconverters: 1/1 worked, 166 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-20T19:10:28Z | ebay_sold | 1994 5c | 11
+2026-11-20T19:10:05Z | ebay_sold | 1993 5c | 9
+2026-11-20T19:09:42Z | ebay_sold | 1992 5c | 11
+2026-11-20T19:09:20Z | ebay_sold | 1991 5c | 19
+2026-11-20T19:08:56Z | ebay_sold | 1990 5c | 15
+2026-11-20T19:08:33Z | ebay_sold | 1989 5c | 6
+2026-11-20T19:08:06Z | ebay_sold | 1988 5c | 19
+2026-11-20T19:07:39Z | ebay_sold | 1987 5c | 17
+2026-11-20T19:07:12Z | ebay_sold | 1984 5c | 15
+2026-11-20T19:06:45Z | ebay_sold | 1983 5c | 15
+2026-11-20T19:06:17Z | ebay_sold | 1982 5c | 33
+2026-11-20T19:05:50Z | ebay_sold | 1981 5c | 26
+2026-11-20T19:05:44Z | shop | Guardian Gold | 0
+2026-11-20T19:05:44Z | shop | Guy Stuff | 5
 2026-11-20T15:10:02Z | ebay_sold | 1980 5c | 29
 2026-11-20T15:09:39Z | ebay_sold | 1979 5c | 17
 2026-11-20T15:09:15Z | ebay_sold | 1978 5c | 20
@@ -370,17 +381,3 @@ shops: 2/2 worked, 6 kept
 2026-11-19T07:09:30Z | ebay_sold | 1982 2c Frilled-neck Lizard | 35
 2026-11-19T07:09:15Z | ebay_sold | 1980 2c Frilled-neck Lizard | 37
 2026-11-19T07:08:59Z | ebay_sold | 1979 2c Frilled-neck Lizard | 34
-2026-11-19T07:07:47Z | ebay_sold | 1978 2c Frilled-neck Lizard | 34
-2026-11-19T07:07:38Z | ebay_sold | 1977 2c Frilled-neck Lizard | 35
-2026-11-19T07:07:28Z | ebay_sold | 1976 2c Frilled-neck Lizard | 34
-2026-11-19T07:07:18Z | ebay_sold | 1975 2c Frilled-neck Lizard | 35
-2026-11-19T07:07:08Z | ebay_sold | 1974 2c Frilled-neck Lizard | 36
-2026-11-19T07:06:58Z | ebay_sold | 1973 2c Frilled-neck Lizard | 36
-2026-11-19T07:06:48Z | ebay_sold | 1972 2c Frilled-neck Lizard | 34
-2026-11-19T07:06:37Z | ebay_sold | 1970 2c Frilled-neck Lizard | 34
-2026-11-19T07:06:26Z | ebay_sold | 1969 2c Frilled-neck Lizard | 33
-2026-11-19T07:06:13Z | ebay_sold | 1991 2c Frilled-neck Lizard | 35
-2026-11-19T07:06:01Z | ebay_sold | 1990 2c Frilled-neck Lizard | 39
-2026-11-19T07:05:49Z | ebay_sold | 1987 2c Frilled-neck Lizard | 37
-2026-11-19T07:05:36Z | ebay_sold | 1986 2c Frilled-neck Lizard | 36
-2026-11-19T07:05:24Z | ebay_sold | 1989 2c Frilled-neck Lizard | 36
