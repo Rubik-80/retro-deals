@@ -1,9 +1,41 @@
 {
  "format": 1,
  "app": "Coin Hound",
- "savedAt": "2026-11-20T11:14:04.167Z",
+ "savedAt": "2026-11-20T19:13:38.879Z",
  "days": 1000,
  "prices": {
+  "5c-1972-echidna": {
+   "median": 5.16,
+   "count": 3,
+   "low": 5.16,
+   "high": 5.16,
+   "sales": [
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-10-21",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1b3]",
+     "url": "https://www.ebay.com.au/itm/307240610747",
+     "source": "ebay"
+    },
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-10-19",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1a3]",
+     "url": "https://www.ebay.com.au/itm/307226801380",
+     "source": "ebay"
+    },
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-09-15",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1b2]",
+     "url": "https://www.ebay.com.au/itm/307169674293",
+     "source": "ebay"
+    }
+   ]
+  },
   "5c-1973-echidna": {
    "median": 3.28,
    "count": 2,
@@ -19,9 +51,31 @@
     },
     {
      "price": 3.3,
-     "date": "2026-11-19",
+     "date": "2026-11-16",
      "title": "1973 5c Coin – Five Cent (Echidna Design) - Very Lightly Circulated – VLC7305-10",
      "url": "https://www.ebay.com.au/itm/178350300238",
+     "source": "ebay"
+    }
+   ]
+  },
+  "5c-1990-echidna": {
+   "median": 5,
+   "count": 2,
+   "low": 5,
+   "high": 5,
+   "sales": [
+    {
+     "price": 5,
+     "date": "2026-11-10",
+     "title": "1990 5c Echidna - Proof Five Cent Coin – Brilliant RAM Proof – PC9005-10",
+     "url": "https://www.ebay.com.au/itm/880046315300",
+     "source": "ebay"
+    },
+    {
+     "price": 5,
+     "date": "2026-08-30",
+     "title": "1990 5c Echidna - Proof Five Cent Coin – Brilliant RAM Proof – PC9005-1",
+     "url": "https://www.ebay.com.au/itm/177997642639",
      "source": "ebay"
     }
    ]
@@ -1209,6 +1263,28 @@
      "date": "2026-08-28",
      "title": "Royal Australian Mint 1980 Proof Set",
      "url": "https://www.ebay.com.au/itm/298586628818",
+     "source": "ebay"
+    }
+   ]
+  },
+  "5c-1990-echidna-proof": {
+   "median": 5,
+   "count": 2,
+   "low": 5,
+   "high": 5,
+   "sales": [
+    {
+     "price": 5,
+     "date": "2026-11-10",
+     "title": "1990 5c Echidna - Proof Five Cent Coin – Brilliant RAM Proof – PC9005-10",
+     "url": "https://www.ebay.com.au/itm/880046315300",
+     "source": "ebay"
+    },
+    {
+     "price": 5,
+     "date": "2026-08-30",
+     "title": "1990 5c Echidna - Proof Five Cent Coin – Brilliant RAM Proof – PC9005-1",
+     "url": "https://www.ebay.com.au/itm/177997642639",
      "source": "ebay"
     }
    ]
@@ -4092,6 +4168,38 @@
      "date": "2026-11-19",
      "title": "2026 $2 Bright Ideas Proof Coin RAM Australian Inventions Changed The World",
      "url": "https://www.ebay.com.au/itm/800818919052",
+     "source": "ebay"
+    }
+   ]
+  },
+  "5c-1972-echidna-low-echidna": {
+   "median": 5.16,
+   "count": 3,
+   "low": 5.16,
+   "high": 5.16,
+   "sales": [
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-10-21",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1b3]",
+     "url": "https://www.ebay.com.au/itm/307240610747",
+     "source": "ebay"
+    },
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-10-19",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1a3]",
+     "url": "https://www.ebay.com.au/itm/307226801380",
+     "source": "ebay"
+    },
+    {
+     "price": 5.16,
+     "postage": 2,
+     "date": "2026-09-15",
+     "title": "Australia 1972 5c Five Cent Echidna 'Key Date' - Circulated [1b2]",
+     "url": "https://www.ebay.com.au/itm/307169674293",
      "source": "ebay"
     }
    ]
