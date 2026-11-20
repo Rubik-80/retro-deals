@@ -1,7 +1,7 @@
 {
  "format": 1,
  "app": "Coin Hound",
- "savedAt": "2026-11-20T03:12:23.540Z",
+ "savedAt": "2026-11-20T11:14:04.167Z",
  "days": 1000,
  "prices": {
   "5c-1973-echidna": {
@@ -1189,6 +1189,30 @@
     }
    ]
   },
+  "sets-1980-proof-year-set": {
+   "median": 25.57,
+   "count": 2,
+   "low": 20.76,
+   "high": 30.38,
+   "sales": [
+    {
+     "price": 20.76,
+     "postage": 9.95,
+     "date": "2026-10-25",
+     "title": "Royal Australian Mint 1980 Australia Proof Coin Set with coa",
+     "url": "https://www.ebay.com.au/itm/237129775297",
+     "source": "ebay"
+    },
+    {
+     "price": 30.38,
+     "postage": 8.26,
+     "date": "2026-08-28",
+     "title": "Royal Australian Mint 1980 Proof Set",
+     "url": "https://www.ebay.com.au/itm/298586628818",
+     "source": "ebay"
+    }
+   ]
+  },
   "20c-2021-animalia-35th-anniversary-coloured": {
    "median": 17.48,
    "count": 2,
@@ -1683,8 +1707,8 @@
    ]
   },
   "d2-2026-dawn-service-coloured": {
-   "median": 22.49,
-   "count": 12,
+   "median": 21.9,
+   "count": 29,
    "low": 7.89,
    "high": 40,
    "sales": [
@@ -1696,62 +1720,6 @@
      "source": "ebay"
     },
     {
-     "price": 22.5,
-     "date": "2026-11-19",
-     "title": "2026 RAM $2 'C' Mintmark Coloured Uncirculated Coin – Dawn Service",
-     "url": "https://www.ebay.com.au/itm/127796510758",
-     "source": "ebay"
-    },
-    {
-     "price": 27.78,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin ✅In-Hand",
-     "url": "https://www.ebay.com.au/itm/188446719881",
-     "source": "ebay"
-    },
-    {
-     "price": 19.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
-     "url": "https://www.ebay.com.au/itm/236729952257",
-     "source": "ebay"
-    },
-    {
-     "price": 40,
-     "date": "2026-11-19",
-     "title": "ANZAC Dawn Service 2026 $2 'C' Mintmark Coloured Uncirculated Coin On Card",
-     "url": "https://www.ebay.com.au/itm/236834451126",
-     "source": "ebay"
-    },
-    {
-     "price": 19.5,
-     "date": "2026-11-19",
-     "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
-     "url": "https://www.ebay.com.au/itm/267827818981",
-     "source": "ebay"
-    },
-    {
-     "price": 30,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
-     "url": "https://www.ebay.com.au/itm/377551749672",
-     "source": "ebay"
-    },
-    {
-     "price": 34.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
-     "url": "https://www.ebay.com.au/itm/389927192651",
-     "source": "ebay"
-    },
-    {
-     "price": 22.49,
-     "date": "2026-11-19",
-     "title": "Australia: 2026 $2 'C' Mintmark Coloured Coin -ANZAC Day Dawn Service, Carded",
-     "url": "https://www.ebay.com.au/itm/407168115215",
-     "source": "ebay"
-    },
-    {
      "price": 11.1,
      "date": "2026-11-19",
      "title": "Royal Australian Mint Australia 2026 $2 Dawn Service Coloured Unc C Mintmark",
@@ -1766,76 +1734,141 @@
      "source": "ebay"
     },
     {
+     "price": 22.5,
+     "postage": 11.95,
+     "date": "2026-11-18",
+     "title": "2026 RAM $2 'C' Mintmark Coloured Uncirculated Coin – Dawn Service",
+     "url": "https://www.ebay.com.au/itm/127796510758",
+     "source": "ebay"
+    },
+    {
+     "price": 30,
+     "date": "2026-11-18",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
+     "url": "https://www.ebay.com.au/itm/377551749672",
+     "source": "ebay"
+    },
+    {
+     "price": 32,
+     "date": "2026-11-15",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/287328516430",
+     "source": "ebay"
+    },
+    {
+     "price": 22.49,
+     "postage": 8,
+     "date": "2026-11-13",
+     "title": "Australia: 2026 $2 'C' Mintmark Coloured Coin -ANZAC Day Dawn Service, Carded",
+     "url": "https://www.ebay.com.au/itm/407168115215",
+     "source": "ebay"
+    },
+    {
+     "price": 19.5,
+     "date": "2026-11-11",
+     "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
+     "url": "https://www.ebay.com.au/itm/267827818981",
+     "source": "ebay"
+    },
+    {
+     "price": 27.78,
+     "date": "2026-11-09",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin ✅In-Hand",
+     "url": "https://www.ebay.com.au/itm/188446719881",
+     "source": "ebay"
+    },
+    {
+     "price": 39.9,
+     "date": "2026-11-09",
+     "title": "2026 $2 C Mint Dawn Service Coin – Coloured Carded ANZAC Two Dollar",
+     "url": "https://www.ebay.com.au/itm/318107245695",
+     "source": "ebay"
+    },
+    {
+     "price": 13.38,
+     "postage": 12,
+     "date": "2026-11-04",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/840068331125",
+     "source": "ebay"
+    },
+    {
+     "price": 34.95,
+     "postage": 3.7,
+     "date": "2026-11-02",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
+     "url": "https://www.ebay.com.au/itm/389927192651",
+     "source": "ebay"
+    },
+    {
      "price": 18.5,
-     "date": "2026-11-19",
+     "date": "2026-11-01",
      "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
      "url": "https://www.ebay.com.au/itm/900028858515",
+     "source": "ebay"
+    },
+    {
+     "price": 14.54,
+     "postage": 12,
+     "date": "2026-10-28",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/840043711184",
+     "source": "ebay"
+    },
+    {
+     "price": 21.9,
+     "postage": 8.26,
+     "date": "2026-10-23",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin Dawn Service Lest We Forget",
+     "url": "https://www.ebay.com.au/itm/257800927383",
+     "source": "ebay"
+    },
+    {
+     "price": 12,
+     "date": "2026-10-20",
+     "title": "2026 $2 C Mintmark DAWN SERVICE Lest We Forget Coloured Uncirculated Coin AU",
+     "url": "https://www.ebay.com.au/itm/940010346703",
+     "source": "ebay"
+    },
+    {
+     "price": 20,
+     "postage": 8.26,
+     "date": "2026-10-19",
+     "title": "2026 $2 C Mint - Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/307165076013",
+     "source": "ebay"
+    },
+    {
+     "price": 19.95,
+     "postage": 9.95,
+     "date": "2026-10-15",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
+     "url": "https://www.ebay.com.au/itm/236729952257",
+     "source": "ebay"
+    },
+    {
+     "price": 18,
+     "postage": 8.26,
+     "date": "2026-10-10",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/287633148020",
+     "source": "ebay"
+    },
+    {
+     "price": 30,
+     "date": "2026-10-03",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
+     "url": "https://www.ebay.com.au/itm/377183488833",
      "source": "ebay"
     }
    ]
   },
   "d2-2026-dawn-service-coloured-c-mintmark": {
-   "median": 22.5,
-   "count": 11,
+   "median": 21.9,
+   "count": 25,
    "low": 11.1,
    "high": 40,
    "sales": [
-    {
-     "price": 22.5,
-     "date": "2026-11-19",
-     "title": "2026 RAM $2 'C' Mintmark Coloured Uncirculated Coin – Dawn Service",
-     "url": "https://www.ebay.com.au/itm/127796510758",
-     "source": "ebay"
-    },
-    {
-     "price": 27.78,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin ✅In-Hand",
-     "url": "https://www.ebay.com.au/itm/188446719881",
-     "source": "ebay"
-    },
-    {
-     "price": 19.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
-     "url": "https://www.ebay.com.au/itm/236729952257",
-     "source": "ebay"
-    },
-    {
-     "price": 40,
-     "date": "2026-11-19",
-     "title": "ANZAC Dawn Service 2026 $2 'C' Mintmark Coloured Uncirculated Coin On Card",
-     "url": "https://www.ebay.com.au/itm/236834451126",
-     "source": "ebay"
-    },
-    {
-     "price": 19.5,
-     "date": "2026-11-19",
-     "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
-     "url": "https://www.ebay.com.au/itm/267827818981",
-     "source": "ebay"
-    },
-    {
-     "price": 30,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
-     "url": "https://www.ebay.com.au/itm/377551749672",
-     "source": "ebay"
-    },
-    {
-     "price": 34.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
-     "url": "https://www.ebay.com.au/itm/389927192651",
-     "source": "ebay"
-    },
-    {
-     "price": 22.49,
-     "date": "2026-11-19",
-     "title": "Australia: 2026 $2 'C' Mintmark Coloured Coin -ANZAC Day Dawn Service, Carded",
-     "url": "https://www.ebay.com.au/itm/407168115215",
-     "source": "ebay"
-    },
     {
      "price": 11.1,
      "date": "2026-11-19",
@@ -1851,32 +1884,163 @@
      "source": "ebay"
     },
     {
+     "price": 22.5,
+     "postage": 11.95,
+     "date": "2026-11-18",
+     "title": "2026 RAM $2 'C' Mintmark Coloured Uncirculated Coin – Dawn Service",
+     "url": "https://www.ebay.com.au/itm/127796510758",
+     "source": "ebay"
+    },
+    {
+     "price": 30,
+     "date": "2026-11-18",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
+     "url": "https://www.ebay.com.au/itm/377551749672",
+     "source": "ebay"
+    },
+    {
+     "price": 32,
+     "date": "2026-11-15",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/287328516430",
+     "source": "ebay"
+    },
+    {
+     "price": 22.49,
+     "postage": 8,
+     "date": "2026-11-13",
+     "title": "Australia: 2026 $2 'C' Mintmark Coloured Coin -ANZAC Day Dawn Service, Carded",
+     "url": "https://www.ebay.com.au/itm/407168115215",
+     "source": "ebay"
+    },
+    {
+     "price": 19.5,
+     "date": "2026-11-11",
+     "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
+     "url": "https://www.ebay.com.au/itm/267827818981",
+     "source": "ebay"
+    },
+    {
+     "price": 27.78,
+     "date": "2026-11-09",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin ✅In-Hand",
+     "url": "https://www.ebay.com.au/itm/188446719881",
+     "source": "ebay"
+    },
+    {
+     "price": 13.38,
+     "postage": 12,
+     "date": "2026-11-04",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/840068331125",
+     "source": "ebay"
+    },
+    {
+     "price": 34.95,
+     "postage": 3.7,
+     "date": "2026-11-02",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
+     "url": "https://www.ebay.com.au/itm/389927192651",
+     "source": "ebay"
+    },
+    {
      "price": 18.5,
-     "date": "2026-11-19",
+     "date": "2026-11-01",
      "title": "2026 DAWN SERVICE LEST WE FORGET $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
      "url": "https://www.ebay.com.au/itm/900028858515",
+     "source": "ebay"
+    },
+    {
+     "price": 14.54,
+     "postage": 12,
+     "date": "2026-10-28",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/840043711184",
+     "source": "ebay"
+    },
+    {
+     "price": 21.9,
+     "postage": 8.26,
+     "date": "2026-10-23",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin Dawn Service Lest We Forget",
+     "url": "https://www.ebay.com.au/itm/257800927383",
+     "source": "ebay"
+    },
+    {
+     "price": 12,
+     "date": "2026-10-20",
+     "title": "2026 $2 C Mintmark DAWN SERVICE Lest We Forget Coloured Uncirculated Coin AU",
+     "url": "https://www.ebay.com.au/itm/940010346703",
+     "source": "ebay"
+    },
+    {
+     "price": 19.95,
+     "postage": 9.95,
+     "date": "2026-10-15",
+     "title": "2026 $2 'C' Mintmark Coloured ANZAC Dawn Service Uncirculated Coin",
+     "url": "https://www.ebay.com.au/itm/236729952257",
+     "source": "ebay"
+    },
+    {
+     "price": 18,
+     "postage": 8.26,
+     "date": "2026-10-10",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/287633148020",
+     "source": "ebay"
+    },
+    {
+     "price": 30,
+     "date": "2026-10-03",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Carded✅in hand✅",
+     "url": "https://www.ebay.com.au/itm/377183488833",
+     "source": "ebay"
+    },
+    {
+     "price": 29.99,
+     "postage": 11.15,
+     "date": "2026-09-27",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service Anzac",
+     "url": "https://www.ebay.com.au/itm/127856665369",
+     "source": "ebay"
+    },
+    {
+     "price": 14.5,
+     "postage": 12,
+     "date": "2026-09-14",
+     "title": "2026 $2 C Mint Mark Dawn Service Lest We Forget Coloured Carded Coin",
+     "url": "https://www.ebay.com.au/itm/188898184483",
+     "source": "ebay"
+    },
+    {
+     "price": 17.54,
+     "postage": 5,
+     "date": "2026-09-04",
+     "title": "2026 Australia $2 “C” Mintmark Dawn Service Coloured Uncirculated AlBr Coin",
+     "url": "https://www.ebay.com.au/itm/227500149388",
      "source": "ebay"
     }
    ]
   },
   "d2-2026-the-last-post-coloured": {
    "median": 39.98,
-   "count": 32,
+   "count": 36,
    "low": 6.75,
    "high": 79,
    "sales": [
-    {
-     "price": 59.9,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PREORDER✅",
-     "url": "https://www.ebay.com.au/itm/117479269795",
-     "source": "ebay"
-    },
     {
      "price": 59.95,
      "date": "2026-11-19",
      "title": "Australia 2026 Remembrance $2 Coloured Coin THE LAST POST ‘C’ Mintmark Choice NC",
      "url": "https://www.ebay.com.au/itm/128186108454",
+     "source": "ebay"
+    },
+    {
+     "price": 27.5,
+     "postage": 11.95,
+     "date": "2026-11-19",
+     "title": "2026 RAM $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/137917355186",
      "source": "ebay"
     },
     {
@@ -1887,38 +2051,10 @@
      "source": "ebay"
     },
     {
-     "price": 34.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post Remembrance Day",
-     "url": "https://www.ebay.com.au/itm/147668522942",
-     "source": "ebay"
-    },
-    {
-     "price": 39,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post - Confirmed ✅",
-     "url": "https://www.ebay.com.au/itm/168809640188",
-     "source": "ebay"
-    },
-    {
      "price": 6.75,
      "date": "2026-11-19",
      "title": "2026 Remembrance Day ~ The Last Post ~ coloured $2 Coin (in stock )",
      "url": "https://www.ebay.com.au/itm/168853132583",
-     "source": "ebay"
-    },
-    {
-     "price": 45,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/198734744641",
-     "source": "ebay"
-    },
-    {
-     "price": 40,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/198784131553",
      "source": "ebay"
     },
     {
@@ -1931,43 +2067,8 @@
     {
      "price": 59.95,
      "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRESALE✅",
-     "url": "https://www.ebay.com.au/itm/206636646695",
-     "source": "ebay"
-    },
-    {
-     "price": 59.95,
-     "date": "2026-11-19",
      "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRE SALE✅",
      "url": "https://www.ebay.com.au/itm/206644336636",
-     "source": "ebay"
-    },
-    {
-     "price": 79,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF In Hand ✅️✅️",
-     "url": "https://www.ebay.com.au/itm/227571302851",
-     "source": "ebay"
-    },
-    {
-     "price": 79,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF PREORDER",
-     "url": "https://www.ebay.com.au/itm/227577549544",
-     "source": "ebay"
-    },
-    {
-     "price": 51.99,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/227580793651",
-     "source": "ebay"
-    },
-    {
-     "price": 51.99,
-     "date": "2026-11-19",
-     "title": "✅In Hand✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/227602044193",
      "source": "ebay"
     },
     {
@@ -1978,48 +2079,107 @@
      "source": "ebay"
     },
     {
-     "price": 49.95,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF Ready To Ship.",
-     "url": "https://www.ebay.com.au/itm/267829967451",
-     "source": "ebay"
-    },
-    {
-     "price": 20.83,
-     "date": "2026-11-19",
-     "title": "2026 THE LAST POST BUGLE CALL $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
-     "url": "https://www.ebay.com.au/itm/267838324758",
-     "source": "ebay"
-    },
-    {
-     "price": 59,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin The Last Post Remembrance",
-     "url": "https://www.ebay.com.au/itm/287708750589",
-     "source": "ebay"
-    },
-    {
      "price": 9.5,
      "date": "2026-11-19",
      "title": "The Last Post Remembrance 2026 Two Dollar Purple Coloured $2 Coin Australia CIRC",
      "url": "https://www.ebay.com.au/itm/287720494965",
      "source": "ebay"
+    },
+    {
+     "price": 27.49,
+     "date": "2026-11-19",
+     "title": "Australia: 2026 $2 The Last Post Remembrance Day 'C' Mintmark Coloured Coin",
+     "url": "https://www.ebay.com.au/itm/407352082970",
+     "source": "ebay"
+    },
+    {
+     "price": 6.95,
+     "date": "2026-11-19",
+     "title": "UNC 2026 THE LAST POST REMEMBERANCE $2 COLOURED COIN",
+     "url": "https://www.ebay.com.au/itm/407356628964",
+     "source": "ebay"
+    },
+    {
+     "price": 34,
+     "date": "2026-11-19",
+     "title": "2026 $2 The Last Post Remembrance Day 'C' Mintmark Coloured Coin",
+     "url": "https://www.ebay.com.au/itm/800929240659",
+     "source": "ebay"
+    },
+    {
+     "price": 45,
+     "date": "2026-11-19",
+     "title": "2026 $2 'C' Mintmark Coloured UNC Carded Coin Last Post ANZAC LWF 🔥PRE ORDER",
+     "url": "https://www.ebay.com.au/itm/820263770725",
+     "source": "ebay"
+    },
+    {
+     "price": 32,
+     "date": "2026-11-19",
+     "title": "2026 Australia The Last Post $2 'C' Mintmark Coloured Uncirculated On Card",
+     "url": "https://www.ebay.com.au/itm/920155634971",
+     "source": "ebay"
+    },
+    {
+     "price": 37.8,
+     "postage": 8.26,
+     "date": "2026-11-15",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin The Last Post Remembrance Card",
+     "url": "https://www.ebay.com.au/itm/407351885854",
+     "source": "ebay"
+    },
+    {
+     "price": 40,
+     "date": "2026-11-11",
+     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/198784131553",
+     "source": "ebay"
+    },
+    {
+     "price": 20.83,
+     "date": "2026-11-11",
+     "title": "2026 THE LAST POST BUGLE CALL $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
+     "url": "https://www.ebay.com.au/itm/267838324758",
+     "source": "ebay"
+    },
+    {
+     "price": 55,
+     "date": "2026-11-11",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin - The Last Post - in hand",
+     "url": "https://www.ebay.com.au/itm/860118119426",
+     "source": "ebay"
+    },
+    {
+     "price": 34.95,
+     "postage": 9.95,
+     "date": "2026-11-10",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post Remembrance Day",
+     "url": "https://www.ebay.com.au/itm/147668522942",
+     "source": "ebay"
+    },
+    {
+     "price": 59.95,
+     "postage": 11.95,
+     "date": "2026-11-10",
+     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRESALE✅",
+     "url": "https://www.ebay.com.au/itm/206636646695",
+     "source": "ebay"
+    },
+    {
+     "price": 51.99,
+     "date": "2026-11-09",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/227580793651",
+     "source": "ebay"
     }
    ]
   },
   "d2-2026-the-last-post-coloured-c-mintmark": {
-   "median": 45,
-   "count": 27,
+   "median": 40,
+   "count": 31,
    "low": 20.83,
    "high": 79,
    "sales": [
-    {
-     "price": 59.9,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PREORDER✅",
-     "url": "https://www.ebay.com.au/itm/117479269795",
-     "source": "ebay"
-    },
     {
      "price": 59.95,
      "date": "2026-11-19",
@@ -2028,31 +2188,11 @@
      "source": "ebay"
     },
     {
-     "price": 34.95,
+     "price": 27.5,
+     "postage": 11.95,
      "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post Remembrance Day",
-     "url": "https://www.ebay.com.au/itm/147668522942",
-     "source": "ebay"
-    },
-    {
-     "price": 39,
-     "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post - Confirmed ✅",
-     "url": "https://www.ebay.com.au/itm/168809640188",
-     "source": "ebay"
-    },
-    {
-     "price": 45,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/198734744641",
-     "source": "ebay"
-    },
-    {
-     "price": 40,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/198784131553",
+     "title": "2026 RAM $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/137917355186",
      "source": "ebay"
     },
     {
@@ -2065,92 +2205,127 @@
     {
      "price": 59.95,
      "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRESALE✅",
-     "url": "https://www.ebay.com.au/itm/206636646695",
-     "source": "ebay"
-    },
-    {
-     "price": 59.95,
-     "date": "2026-11-19",
      "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRE SALE✅",
      "url": "https://www.ebay.com.au/itm/206644336636",
      "source": "ebay"
     },
     {
-     "price": 79,
+     "price": 27.49,
      "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF In Hand ✅️✅️",
-     "url": "https://www.ebay.com.au/itm/227571302851",
+     "title": "Australia: 2026 $2 The Last Post Remembrance Day 'C' Mintmark Coloured Coin",
+     "url": "https://www.ebay.com.au/itm/407352082970",
      "source": "ebay"
     },
     {
-     "price": 79,
+     "price": 34,
      "date": "2026-11-19",
-     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF PREORDER",
-     "url": "https://www.ebay.com.au/itm/227577549544",
+     "title": "2026 $2 The Last Post Remembrance Day 'C' Mintmark Coloured Coin",
+     "url": "https://www.ebay.com.au/itm/800929240659",
+     "source": "ebay"
+    },
+    {
+     "price": 45,
+     "date": "2026-11-19",
+     "title": "2026 $2 'C' Mintmark Coloured UNC Carded Coin Last Post ANZAC LWF 🔥PRE ORDER",
+     "url": "https://www.ebay.com.au/itm/820263770725",
+     "source": "ebay"
+    },
+    {
+     "price": 32,
+     "date": "2026-11-19",
+     "title": "2026 Australia The Last Post $2 'C' Mintmark Coloured Uncirculated On Card",
+     "url": "https://www.ebay.com.au/itm/920155634971",
+     "source": "ebay"
+    },
+    {
+     "price": 37.8,
+     "postage": 8.26,
+     "date": "2026-11-15",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin The Last Post Remembrance Card",
+     "url": "https://www.ebay.com.au/itm/407351885854",
+     "source": "ebay"
+    },
+    {
+     "price": 40,
+     "date": "2026-11-11",
+     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/198784131553",
+     "source": "ebay"
+    },
+    {
+     "price": 20.83,
+     "date": "2026-11-11",
+     "title": "2026 THE LAST POST BUGLE CALL $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
+     "url": "https://www.ebay.com.au/itm/267838324758",
+     "source": "ebay"
+    },
+    {
+     "price": 55,
+     "date": "2026-11-11",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin - The Last Post - in hand",
+     "url": "https://www.ebay.com.au/itm/860118119426",
+     "source": "ebay"
+    },
+    {
+     "price": 34.95,
+     "postage": 9.95,
+     "date": "2026-11-10",
+     "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post Remembrance Day",
+     "url": "https://www.ebay.com.au/itm/147668522942",
+     "source": "ebay"
+    },
+    {
+     "price": 59.95,
+     "postage": 11.95,
+     "date": "2026-11-10",
+     "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF ✅PRESALE✅",
+     "url": "https://www.ebay.com.au/itm/206636646695",
      "source": "ebay"
     },
     {
      "price": 51.99,
-     "date": "2026-11-19",
+     "date": "2026-11-09",
      "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
      "url": "https://www.ebay.com.au/itm/227580793651",
      "source": "ebay"
     },
     {
      "price": 51.99,
-     "date": "2026-11-19",
+     "date": "2026-11-09",
      "title": "✅In Hand✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
      "url": "https://www.ebay.com.au/itm/227602044193",
      "source": "ebay"
     },
     {
      "price": 49.95,
-     "date": "2026-11-19",
+     "postage": 9.95,
+     "date": "2026-11-09",
      "title": "2026 $2 'C' Mintmark Coloured UNC Coin Carded Last Post ANZAC LWF Ready To Ship.",
      "url": "https://www.ebay.com.au/itm/267829967451",
      "source": "ebay"
     },
     {
-     "price": 20.83,
-     "date": "2026-11-19",
-     "title": "2026 THE LAST POST BUGLE CALL $2 'C' MINTMARK COLOURED UNCIRCULATED COIN CARD",
-     "url": "https://www.ebay.com.au/itm/267838324758",
+     "price": 39.98,
+     "postage": 11,
+     "date": "2026-11-09",
+     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/377625309455",
+     "source": "ebay"
+    },
+    {
+     "price": 39.99,
+     "postage": 12,
+     "date": "2026-11-09",
+     "title": "2026 $2 C Mintmark Coloured Uncirculated Coin - The Last Post( Presale )",
+     "url": "https://www.ebay.com.au/itm/407314738702",
      "source": "ebay"
     },
     {
      "price": 59,
-     "date": "2026-11-19",
+     "postage": 11.7,
+     "date": "2026-11-07",
      "title": "2026 $2 'C' Mintmark Coloured Uncirculated Coin The Last Post Remembrance",
      "url": "https://www.ebay.com.au/itm/287708750589",
-     "source": "ebay"
-    },
-    {
-     "price": 39.98,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/377597970363",
-     "source": "ebay"
-    },
-    {
-     "price": 39.98,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/377613918047",
-     "source": "ebay"
-    },
-    {
-     "price": 39.98,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/377616487854",
-     "source": "ebay"
-    },
-    {
-     "price": 39.98,
-     "date": "2026-11-19",
-     "title": "✅PRESALE ✅ 2026 $2 'C' Mintmark Coloured Uncirculated Coin - The Last Post",
-     "url": "https://www.ebay.com.au/itm/377625309455",
      "source": "ebay"
     }
    ]
@@ -2173,6 +2348,164 @@
      "date": "2026-11-19",
      "title": "2018 Anzac Spirit 20c cent Coin DECISIVE",
      "url": "https://www.ebay.com.au/itm/366743724613",
+     "source": "ebay"
+    }
+   ]
+  },
+  "d2-2026-the-last-post-coloured-fine-silver-proof-c-mintmark": {
+   "median": 200,
+   "count": 160,
+   "low": 170.3,
+   "high": 235,
+   "sales": [
+    {
+     "price": 199,
+     "date": "2026-11-19",
+     "title": "2026 $2 C Mintmark Coloured Silver Proof Coin - The Last Post",
+     "url": "https://www.ebay.com.au/itm/880108598089",
+     "source": "ebay"
+    },
+    {
+     "price": 199.99,
+     "date": "2026-11-18",
+     "title": "2026 The Last Post $2 C Mintmark Coloured Silver Proof Coin In Hand ✅",
+     "url": "https://www.ebay.com.au/itm/137941042508",
+     "source": "ebay"
+    },
+    {
+     "price": 202.1,
+     "postage": 8.26,
+     "date": "2026-11-18",
+     "title": "The Last Post 2026 $2 C Mintmark Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/198802136926",
+     "source": "ebay"
+    },
+    {
+     "price": 200,
+     "date": "2026-11-18",
+     "title": "2026 Australia $2 'C' Mintmark The Last Post Coloured Silver Proof Coin 0.999",
+     "url": "https://www.ebay.com.au/itm/366817948055",
+     "source": "ebay"
+    },
+    {
+     "price": 192.64,
+     "postage": 8.26,
+     "date": "2026-11-18",
+     "title": "Royal Aust Mint 2026 $2 C Mintmark Coloured Silver Proof Coin Last Post #05026",
+     "url": "https://www.ebay.com.au/itm/960180431299",
+     "source": "ebay"
+    },
+    {
+     "price": 180.9,
+     "postage": 10.6,
+     "date": "2026-11-17",
+     "title": "Royal Australian Mint 2026 The Last Post $2 'C' Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/960201879294",
+     "source": "ebay"
+    },
+    {
+     "price": 198.92,
+     "date": "2026-11-16",
+     "title": "2026 Australia $2 'C' Mintmark The Last Post Coloured Coin-Silver Proof✅PRESALE✅",
+     "url": "https://www.ebay.com.au/itm/366812984817",
+     "source": "ebay"
+    },
+    {
+     "price": 200,
+     "postage": 17.82,
+     "date": "2026-11-15",
+     "title": "The Last Post 2026 $2 C Mintmark Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/147679048037",
+     "source": "ebay"
+    },
+    {
+     "price": 192.5,
+     "postage": 15,
+     "date": "2026-11-15",
+     "title": "✅In Hand✅ 2026 $2 'C' Mintmark The Last Post Coloured Silver Proof Coin -",
+     "url": "https://www.ebay.com.au/itm/227607139776",
+     "source": "ebay"
+    },
+    {
+     "price": 180,
+     "postage": 8.26,
+     "date": "2026-11-15",
+     "title": "✅IN HAND✅ 2026 $2 'C' Mintmark The Last Post Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/287725736381",
+     "source": "ebay"
+    },
+    {
+     "price": 205,
+     "date": "2026-11-15",
+     "title": "2026 The Last Post $2 'C' Mintmark Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/366807627115",
+     "source": "ebay"
+    },
+    {
+     "price": 203.9,
+     "date": "2026-11-14",
+     "title": "2026 The Last Post $2 'C' Mintmark Coloured Silver Proof Coin - #08393",
+     "url": "https://www.ebay.com.au/itm/117518850415",
+     "source": "ebay"
+    },
+    {
+     "price": 187.5,
+     "date": "2026-11-14",
+     "title": "2026 THE LAST POST BUGLE CALL $2 'C' MINTMARK COLOURED FINE SILVER PROOF COIN",
+     "url": "https://www.ebay.com.au/itm/267842300634",
+     "source": "ebay"
+    },
+    {
+     "price": 210.31,
+     "date": "2026-11-14",
+     "title": "The Last Post 2026 $2 C Mintmark Coloured Silver Proof Coin IN HAND TO SHIP",
+     "url": "https://www.ebay.com.au/itm/407352864946",
+     "source": "ebay"
+    },
+    {
+     "price": 202.1,
+     "postage": 8.26,
+     "date": "2026-11-14",
+     "title": "2026 $2 ‘C’ Mintmark Coloured Silver Proof Coin Last Post ANZAC✅SAME DAY SHIP🚀",
+     "url": "https://www.ebay.com.au/itm/800899149927",
+     "source": "ebay"
+    },
+    {
+     "price": 206,
+     "postage": 8.26,
+     "date": "2026-11-14",
+     "title": "The Last Post 2026 $2 C Mintmark Coloured Silver Proof Coin ✅IN HAND✅",
+     "url": "https://www.ebay.com.au/itm/920136903045",
+     "source": "ebay"
+    },
+    {
+     "price": 199.9,
+     "date": "2026-11-13",
+     "title": "✅️2026 $2 'C' Coloured Silver Proof Coin - The Last Post Remembrance Presale✅️",
+     "url": "https://www.ebay.com.au/itm/147676673275",
+     "source": "ebay"
+    },
+    {
+     "price": 202.1,
+     "postage": 8.26,
+     "date": "2026-11-13",
+     "title": "The Last Post 2026 $2 C Mintmark Coloured Silver Proof Coin ✅PRESALE CONFIRMED✅",
+     "url": "https://www.ebay.com.au/itm/198787563786",
+     "source": "ebay"
+    },
+    {
+     "price": 189.99,
+     "date": "2026-11-13",
+     "title": "2026 $2 'C' Mintmark Coloured Silver Proof Unc Coin The Last Post. Free Shipping",
+     "url": "https://www.ebay.com.au/itm/366807018979",
+     "source": "ebay"
+    },
+    {
+     "price": 200,
+     "postage": 9.6,
+     "date": "2026-11-13",
+     "title": "✅IN HAND✅ 2026 $2 'C' Mintmark The Last Post Coloured Silver Proof Coin",
+     "url": "https://www.ebay.com.au/itm/820344415001",
      "source": "ebay"
     }
    ]
@@ -3629,11 +3962,26 @@
    ]
   },
   "sets-1981-proof-year-set": {
-   "median": 34.75,
-   "count": 2,
-   "low": 31.5,
+   "median": 25.52,
+   "count": 4,
+   "low": 15,
    "high": 38,
    "sales": [
+    {
+     "price": 15,
+     "date": "2026-11-13",
+     "title": "Royal Australian Mint Australia 1981 Proof Decimal Coin Set no foam or coa",
+     "url": "https://www.ebay.com.au/itm/860117552083",
+     "source": "ebay"
+    },
+    {
+     "price": 19.53,
+     "postage": 8.95,
+     "date": "2026-11-01",
+     "title": "Royal Australian Mint Australia 1981 Proof Decimal Coin Set no foam or coa",
+     "url": "https://www.ebay.com.au/itm/237142511010",
+     "source": "ebay"
+    },
     {
      "price": 38,
      "postage": 8.26,
@@ -3647,6 +3995,52 @@
      "date": "2026-10-04",
      "title": "1981 Royal Australian Mint Proof Coin Set - 6 Coins & COA Included",
      "url": "https://www.ebay.com.au/itm/800500036000",
+     "source": "ebay"
+    }
+   ]
+  },
+  "sets-1984-uncirculated-year-set": {
+   "median": 37.84,
+   "count": 2,
+   "low": 35.68,
+   "high": 40,
+   "sales": [
+    {
+     "price": 40,
+     "date": "2026-09-06",
+     "title": "1984 RAM Mint Set CLEAR",
+     "url": "https://www.ebay.com.au/itm/298611382007",
+     "source": "ebay"
+    },
+    {
+     "price": 35.68,
+     "postage": 4,
+     "date": "2026-08-22",
+     "title": "Royal Australian Mint 1984 Mint Set Unc Folder",
+     "url": "https://www.ebay.com.au/itm/188790887854",
+     "source": "ebay"
+    }
+   ]
+  },
+  "sets-1985-uncirculated-year-set": {
+   "median": 38.86,
+   "count": 2,
+   "low": 34.62,
+   "high": 43.1,
+   "sales": [
+    {
+     "price": 43.1,
+     "date": "2026-11-19",
+     "title": "1985 Royal Australian Mint Set Uncirculated 7 Coin Collection RAM Folder",
+     "url": "https://www.ebay.com.au/itm/820366956900",
+     "source": "ebay"
+    },
+    {
+     "price": 34.62,
+     "postage": 8.26,
+     "date": "2026-11-15",
+     "title": "Royal Australian Mint 1985 Uncirculated Set",
+     "url": "https://www.ebay.com.au/itm/287713035070",
      "source": "ebay"
     }
    ]
