@@ -1,22 +1,22 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-21T17:13:34Z (22 Nov, 4:13 am Sydney) · refresh slice started 2026-11-21T17:05:44Z, took 471 s
-Totals: {"ebay_sold_sweep":874,"shops":6,"ebay_active":72,"gumtree":0,"facebook":0,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":4}
-Time taken (seconds): searching 454 · pricing 2 · reading pages 2 · checks and alerts 13
-Last problem: gumtree (1972 1c): Error: 403 from https://www.gumtree.com.au/s-1972+1c/k0?sort=date (the site asked for a bot check – try again later)
-Stored: 11837 live · 11181 sold
+Written 2026-11-21T18:12:58Z (22 Nov, 5:12 am Sydney) · refresh slice started 2026-11-21T18:04:50Z, took 488 s
+Totals: {"ebay_sold_sweep":825,"shops":6,"ebay_active":85,"gumtree":0,"facebook":0,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":3}
+Time taken (seconds): searching 470 · pricing 2 · reading pages 2 · checks and alerts 13
+Last problem: gumtree (1974 1c): Error: 403 from https://www.gumtree.com.au/s-1974+1c/k0?sort=date (the site asked for a bot check – try again later)
+Stored: 11911 live · 11864 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Sold sweep (eBay sold listings, 240 a page): BACKFILL RUNNING; pass 1: 17 of 19 searches done, 2 left · 91 pages read · 13,068 sales found, 8,353 new, 513 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Sold sweep (eBay sold listings, 240 a page): BACKFILL RUNNING; pass 1: 17 of 19 searches done, 2 left · 95 pages read · 13,893 sales found, 9,047 new, 525 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 Past-sales scan: 103 of 3546 searches done, 4078 sales found (started 2026-11-17T19:39:40.126Z) – waiting for the sold sweep's backfill
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 448 coins, 1095 matched sales (150 coins with a confident price), last checked 2026-11-21T14:18:21.771Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-21T17:13:25Z (file from 2026-11-20T19:38:26Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-21T18:12:48Z (file from 2026-11-20T19:38:26Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
-Sold sweep (eBay sold listings, 240 a page): BACKFILL RUNNING; pass 1: 17 of 19 searches done, 2 left · 91 pages read · 13,068 sales found, 8,353 new, 513 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Sold sweep (eBay sold listings, 240 a page): BACKFILL RUNNING; pass 1: 17 of 19 searches done, 2 left · 95 pages read · 13,893 sales found, 9,047 new, 525 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 Fast backfill (charging and on Wi-Fi, app open): not running · last 2026-11-21T14:22:01Z · stopped: conditions · 2 pages this session
 Sales matched to catalogue coins (all sold prices, last 365 days): 448 of 2623 catalogue coins have matched sales (1095 sales); 98 have 3 or more, 150 a confident price
 - Australian decimal coins $0–$1: ? results · 2 pages · 120 sales, 55 new, 4 matched (3%) · eBay repeated the last page (end of results) · newest sale 2026-11-21
@@ -36,19 +36,19 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 448 of 2623 c
 - Mint & proof sets “australian”: 1,100 results · 7 pages · 1071 sales, 418 new, 162 matched (15%) · eBay repeated the last page (end of results) · newest sale 2026-11-21
 - Coins, notes & bullion “australian banknote”: 9,000 results · 38 pages · 7123 sales, 5937 new, 21 matched (0%) · every page read · newest sale 2026-11-21
 - Coins, notes & bullion “australia note polymer”: 916 results · 5 pages · 1008 sales, 103 new, 10 matched (1%) · eBay repeated the last page (end of results) · newest sale 2026-11-21
-- Coins, notes & bullion “perth mint”: 3,700 results · 7 pages · 1431 sales, 1202 new, 17 matched (1%) · next page 8 · newest sale 2026-11-22
+- Coins, notes & bullion “perth mint”: 3,700 results · 11 pages · 2256 sales, 1896 new, 29 matched (1%) · next page 12 · newest sale 2026-11-22
 - Coins, notes & bullion “australian bullion”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1
 Categories eBay offered on these pages: Cointraderjem (3372)
 
 ## This refresh: 12 steps, 1 with problems
 facebook: 2/2 worked, 0 kept
 gumtree: 1/2 worked, 0 kept
-ebay_active: 2/2 worked, 72 kept
-ebay_sold_sweep: 4/4 worked, 751 kept
+ebay_active: 2/2 worked, 85 kept
+ebay_sold_sweep: 4/4 worked, 730 kept
 shops: 2/2 worked, 6 kept
 
 ### Problems this refresh
-- gumtree | 1972 1c | Error: 403 from https://www.gumtree.com.au/s-1972+1c/k0?sort=date (the site asked for a bot check – try again later)
+- gumtree | 1974 1c | Error: 403 from https://www.gumtree.com.au/s-1974+1c/k0?sort=date (the site asked for a bot check – try again later)
 
 ## Shops: 67 on · 41 working · 5 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -75,7 +75,7 @@ shops: 2/2 worked, 6 kept
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-21T14:11:37Z · last worked 2026-11-21T14:11:37Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-21T17:07:19Z · last worked 2026-11-21T17:07:19Z
+- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-21T18:06:21Z · last worked 2026-11-21T18:06:21Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -85,7 +85,7 @@ shops: 2/2 worked, 6 kept
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 380 kept of 4551 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-18T11:44:55Z · last worked 2026-11-18T11:44:55Z
 - Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
       page: / 264794ch · h1 “Categories” · $ amounts 40 · price elements 144 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×48
-      page: /top-menu/help/product-limits.html 70195ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /top-menu/help/product-limits.html 70193ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /top-menu/shop-location.html 69476ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
@@ -93,7 +93,7 @@ shops: 2/2 worked, 6 kept
       page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-21T17:07:03Z · last worked 2026-11-21T17:07:03Z
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-21T18:06:04Z · last worked 2026-11-21T18:06:04Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-18T11:45:17Z · last worked 2026-11-18T11:45:17Z
 - Town Hall Coins (townhallcoins.com): ok – 1594 kept of 2141 found, read through its Shopify product feed · last tried 2026-11-18T11:45:53Z · last worked 2026-11-18T11:45:53Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2025 kept of 4604 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 5 left out until their page is read · last tried 2026-11-18T11:48:10Z · last worked 2026-11-18T11:48:10Z
@@ -152,7 +152,7 @@ shops: 2/2 worked, 6 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Top 53 deals as the app shows them (best first)
+## Top 55 deals as the app shows them (best first)
 - 60% under | $12 vs usual $29.64, 3 sales, low | $1 2022 Dinosaurs 4 Coin UNC Set | shop:Wynyard Coin Centre | read as: mint_set 2022 $1 unc | AI: not read | price not confirmed | https://wynyardcoins.com.au/products/1-2022-dinosaurs-4-coin-unc-set
     id: shop:wynyardcoins.com.au:43300610113753 · key: klzp2d
     description read: Uncirculated (UNC).
@@ -186,9 +186,6 @@ shops: 2/2 worked, 6 kept
 - 41% under | $32 vs usual $54, 3 sales, low | Australia 1977 5c Proof Coin PCGS PR68DCAM #5586 | shop:Tasmanian Numismatics | read as: coin 1977 5c proof | AI: coin base  (1) 1977 5c proof, PCGS graded | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1977-5c-proof-coin-pcgs-pr68dcam-5586/
     id: shop:tasmaniannumismatics.com.au:53051 · key: 1kzkef0 · Claude: verified 2026-11-20
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 40% under | $83.78 vs usual $139 (melt $70.62), 3 sales, low | Perth Mint:  Silver Bullion Coin-1oz (Australian Wedge-tailed Eagle 2026) | shop:Great Southland Bullion | read as: bullion 2026 1oz silver | AI: not read | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://greatsouthlandbullion.au/product/perth-mint-silver-bullion-coin-1oz-australian-wedge-tailed-eagle-2026/
-    id: shop:greatsouthlandbullion.com.au:8963 · key: r0k0gk
-    description read: Perth Mint: Silver Bullion Coin-1oz (Australian Wedge-tailed Eagle 2026). 99.99% pure silver. Australian legal tender. Category: Silver Bullion Coins.
 - 39% under | $15 vs usual $24.68, 10 sales, high | 1984 $1 Proof Coin -First Dollar Coin | shop:The Purple Penny | read as: coin 1984 $1 proof | AI: not read | price not confirmed | https://www.thepurplepenny.com/product/1984-one-dollar-proof-coin/
     id: shop:thepurplepenny.com:6184 · key: f6mz1y
     description read: Issued for the release of the dollar coin in 1984 are these single proof dollars in an attractive case. Category: $1 Coins, Proof Singles and Sets.
@@ -198,9 +195,18 @@ shops: 2/2 worked, 6 kept
 - 34% under | $20 vs usual $30.16, 3 sales, low | 2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service | shop:Sydney Coins & Jewellery | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://sydneycoins.com.au/products/2026-2-c-mintmark-coloured-uncirculated-coin-dawn-service
     id: shop:sydneycoins.com.au:53020498198847 · key: 1kclqd2 · Claude: verified 2026-11-20
     description read: Commemorate the 2026 Dawn Service with this special $2 coloured uncirculated coin from the Royal Australian Mint. Featuring the distinctive 'C' mintmark, this coin celebrates Australia's ANZAC heritage in vibrant colour. Struck to uncirculated quality, it's a premium collectible piece perfect for numismatists and history enthusiasts.
+- 33% under | $83.78 vs usual $125 (melt $70.62), 4 sales, medium | Perth Mint:  Silver Bullion Coin-1oz (Kookaburra 2026) | shop:Great Southland Bullion | read as: bullion 2026 1oz silver | AI: not read | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://greatsouthlandbullion.au/product/perth-mint-1oz-silver-bullion-kookaburra-coin-2026/
+    id: shop:greatsouthlandbullion.com.au:7959 · key: e3911s
+    description read: Perth Mint: Silver Bullion Coin-1oz (Kookaburra 2026). 99.99% pure silver. Australian legal tender. Category: Silver Bullion Coins.
 - 30% under | $32 vs usual $45.6, 2 sales, low | 1984 Australia 2c Coin PCGS PR69DCAM #7079 | shop:Tasmanian Numismatics | read as: coin 1984 2c proof | AI: coin base  (1) 1984 2c proof, PCGS graded | price not confirmed | https://tasmaniannumismatics.com.au/product/1984-australia-2c-coin-pcgs-pr69dcam-7079/
     id: shop:tasmaniannumismatics.com.au:37189 · key: 7nu4c7 · Claude: verified 2026-11-20
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
+- 29% under | $83.78 vs usual $118 (melt $70.62), 4 sales, medium | Perth Mint:  Silver Bullion Coin-1oz (Australian Wedge-tailed Eagle 2026) | shop:Great Southland Bullion | read as: bullion 2026 1oz silver | AI: not read | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://greatsouthlandbullion.au/product/perth-mint-silver-bullion-coin-1oz-australian-wedge-tailed-eagle-2026/
+    id: shop:greatsouthlandbullion.com.au:8963 · key: r0k0gk
+    description read: Perth Mint: Silver Bullion Coin-1oz (Australian Wedge-tailed Eagle 2026). 99.99% pure silver. Australian legal tender. Category: Silver Bullion Coins.
+- 29% under | $81.57 vs usual $114.7 (melt $70.62), 3 sales, low | Perth Mint Kangaroo 1 oz Silver Bar | shop:As Good As Gold | read as: bar 1oz silver | AI: bar silver 1 (1) Perth Mint Kangaroo 1 oz Silver Bar | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/perth-mint-kangaroo-1-oz-silver-bar
+    id: shop:asgoodasgold.com.au:42269765697605 · key: 88kd85 · Claude: verified 2026-11-08
+    description read: The Perth Mint Kangaroo 1 oz Silver Bar offers investors a tangible asset that combines exceptional purity with iconic Australian design. Crafted by the esteemed Perth Mint, renowned for its commitment to quality and security, this silver minted bar is an excellent choice for diversifying your investment portfolio.​. Exceptional Purity. Each bar contains 1 troy oz of .9999 pure silver, ensuring that investors hold a high-quality bullion asset. The bar’s impeccable purity is a testament to the Perth Mint’s world-class manufacturing processes, offering a reliable and trusted option for those investing in physical silver.. To combat counterfeiting and enhance security, the Perth Mint Kangaroo 1
 - 27% under | $45 vs usual $62, 4 sales, medium | 1988 Proof One Cent 1c Australia PCGS PR68RD DCAM. Free postage | ebay | read as: coin 1988 1c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/116452698709
     id: ebay:116452698709 · key: 1g2nhtw
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 $2 Dawn Service C Mintmark Coloured Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2026-2-dawn-service-c-mintmark-coloured-uncirculated-coin-in-ram-card
@@ -295,7 +301,7 @@ shops: 2/2 worked, 6 kept
 - 1% under | $11471 vs usual $11523.44 (melt $11523.44), 0 sales, melt only | Perth Mint 2oz Gold Bullion Coin – Random Dates/Design | shop:Gold Bullion Australia | read as: bullion 2oz gold | AI: bullion_coin gold 2 (1) Perth Mint 2oz gold bullion coin, random year/design | page/description: {"metal":"gold","metal_by":"label","weight_oz":2} | price not confirmed | https://www.goldbullionaustralia.com.au/product/perth-mint-2oz-gold-coin-random-dates-design/
     id: shop:goldbullionaustralia.com.au:76822 · key: hankon · Claude: verified 2026-11-20
     description read: The Perth Mint 2 oz Gold Bullion Coin – Random Dates/Design contains 62.207 grams (2 Troy Ounces) of 99.99% pure investment-grade gold, making it an excellent choice for investors seeking a larger, internationally recognised bullion coin. Each coin is sourced from the secondary market and may feature a random year or design, while maintaining the same guaranteed weight and purity.. Manufactured by The Perth Mint, these bullion coins are struck to investment-grade standards and issued as Australian legal tender. Every coin is quality tested by Gold Bullion Australia before resale, offering investors a trusted and cost-effective way to acquire larger physical gold holdings.. Why Invest in the 
-- 0% under | $5755.92 vs usual $5761.72 (melt $5761.72), 0 sales, melt only | Perth Mint:  Gold Bullion Minted Bar-1oz | shop:Great Southland Bullion | read as: bar 1oz gold | AI: bar gold 1 (1) Perth Mint 1oz gold minted (Kangaroo) bar | page/description: {"metal":"gold","metal_by":"purity","weight_oz":1} | price not confirmed | https://greatsouthlandbullion.au/product/the-perth-mint-1oz-kangaroo-minted-gold-bar/
+- 0% under | $5755.92 vs usual $5761.72 (melt $5761.72), 2 sales, low | Perth Mint:  Gold Bullion Minted Bar-1oz | shop:Great Southland Bullion | read as: bar 1oz gold | AI: bar gold 1 (1) Perth Mint 1oz gold minted (Kangaroo) bar | page/description: {"metal":"gold","metal_by":"purity","weight_oz":1} | price not confirmed | https://greatsouthlandbullion.au/product/the-perth-mint-1oz-kangaroo-minted-gold-bar/
     id: shop:greatsouthlandbullion.com.au:3025 · key: f5d704 · Claude: verified 2026-11-20
     description read: Perth Mint: Gold Bullion Minted Bar-1oz. 99.99% pure gold. Category: Gold Bullion Bars.
 - 0% under | $5754 vs usual $5761.72 (melt $5761.72), 0 sales, melt only | 1oz Perth Mint Kangaroo Gold Minted Bar | shop:Australian Bullion Company | read as: bar 1oz gold | AI: bar gold 1 (1) Perth Mint 1oz gold minted (Kangaroo) bar | page/description: {"metal":"gold","metal_by":"label","weight_oz":1} | price not confirmed | https://www.australianbullioncompany.com.au/product/1oz-perth-mint-gold-minted-bar-2/
@@ -304,20 +310,32 @@ shops: 2/2 worked, 6 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (425 steps)
-- 22 shops: every step worked, 5744 kept
-- gumtree: 7/19 worked, 5 kept
+## Last 3 days by source (437 steps)
+- 22 shops: every step worked, 5750 kept
+- gumtree: 8/21 worked, 5 kept
     3× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Melbourne/k0?sort=date (the site asked for a bot check – try again later)
+    1× Error: 403 from https://www.gumtree.com.au/s-1974+1c/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-1972+1c/k0?sort=date (the site asked for a bot check – try again later)
-    1× Error: 403 from https://www.gumtree.com.au/s-1970+1c/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold_sweep: 91/102 worked, 11273 kept
+- ebay_sold_sweep: 95/106 worked, 12003 kept
     11× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - ebay_sold: 198/199 worked, 4370 kept
     1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- facebook: 19/19 worked, 1 kept
-- ebay_active: 19/19 worked, 710 kept
+- facebook: 21/21 worked, 1 kept
+- ebay_active: 21/21 worked, 795 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-21T18:09:45Z | facebook | 1975 1c | 0 | 7 found, none kept (not coins, or no price)
+2026-11-21T18:09:37Z | gumtree | 1975 1c | 0 | 2 found, none kept (not coins, or no price)
+2026-11-21T18:09:19Z | ebay_active | 1975 1c | 34
+2026-11-21T18:08:54Z | facebook | 1974 1c | 0 | 3 found, none kept (not coins, or no price)
+2026-11-21T18:08:53Z | gumtree | 1974 1c | 0 | Error: 403 from https://www.gumtree.com.au/s-1974+1c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-21T18:08:39Z | ebay_active | 1974 1c | 51
+2026-11-21T18:07:51Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 11 | 186 | 212 on the page, 178 new, 2 matched a catalogue coin
+2026-11-21T18:07:00Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 10 | 195 | 206 on the page, 185 new, 3 matched a catalogue coin
+2026-11-21T18:06:04Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 9 | 167 | 199 on the page, 160 new, 4 matched a catalogue coin
+2026-11-21T18:05:04Z | shop | Guy Stuff | 6
+2026-11-21T18:05:04Z | shop | Prospect Stamps & Coins | 0
+2026-11-21T18:05:04Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 8 | 182 | 208 on the page, 171 new, 3 matched a catalogue coin
 2026-11-21T17:10:50Z | facebook | 1973 1c | 0 | 6 found, none kept (not coins, or no price)
 2026-11-21T17:10:47Z | gumtree | 1973 1c | 0 | 7 found, none kept (not coins, or no price)
 2026-11-21T17:10:31Z | ebay_active | 1973 1c | 30
@@ -456,15 +474,3 @@ shops: 2/2 worked, 6 kept
 2026-11-21T07:54:10Z | ebay_sold_sweep | Australian decimal coins $20–$30 · page 1 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 2026-11-21T07:25:59Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 2 | 53 | 60 on the page, 1 new, 8 matched a catalogue coin · eBay repeated the last page (end of results)
 2026-11-21T07:23:59Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 2 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-21T07:23:21Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 1 | 53 | 60 on the page, 4 new, 8 matched a catalogue coin
-2026-11-21T07:21:10Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 1 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-21T07:15:04Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 2 | 52 | 60 on the page, 1 new, 8 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-21T07:12:18Z | facebook | 1984 1c | 0 | 5 found, none kept (not coins, or no price)
-2026-11-21T07:12:16Z | gumtree | 1984 1c | 1
-2026-11-21T07:12:00Z | shop | Tasmanian Numismatics | 2326
-2026-11-21T07:12:00Z | ebay_active | 1984 1c | 56
-2026-11-21T07:11:37Z | facebook | 1981 1c Llantrisant | 0 | nothing found – page “Facebook”, 3181k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 150 km Sort by: Date listed: N” – says “roups Kialla · 110 km Filters Notify Me No list
-2026-11-21T07:11:34Z | gumtree | 1981 1c Llantrisant | 0 | Error: 403 from https://www.gumtree.com.au/s-1981+1c+Llantrisant/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-21T07:11:24Z | ebay_active | 1981 1c Llantrisant | 0
-2026-11-21T07:11:22Z | shop | Coin City | 964
-2026-11-21T07:10:36Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 1 | 53 | 60 on the page, 1 new, 7 matched a catalogue coin
