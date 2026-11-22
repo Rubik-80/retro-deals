@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T19:38:53Z",
+ "updated": "2026-11-22T19:38:38Z",
  "verdicts": {
   "shop:townhallcoins.com:46862533394672": {
    "key": "1ke2sfj",
@@ -667,9 +667,8 @@
    "at": "2026-11-17T19:38:59Z"
   },
   "shop:tasmaniannumismatics.com.au:37712": {
-   "key": "1st6br0",
+   "key": "5z7k2u",
    "verdict": "verified",
-   "reason": "",
    "item_type": "coin",
    "australian": true,
    "country": "Australia",
@@ -680,15 +679,14 @@
    "mintmark": null,
    "finish": "proof",
    "coloured": false,
-   "from_set": true,
+   "from_set": false,
    "quantity": 1,
-   "note": "1966 10c proof ex proof set, PCGS PR68DCAM",
-   "at": "2026-11-17T19:38:59Z"
+   "note": "1966 10c proof PCGS PR68DCAM",
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:37714": {
-   "key": "1hszq6v",
+   "key": "1h7xpkn",
    "verdict": "verified",
-   "reason": "",
    "item_type": "coin",
    "australian": true,
    "country": "Australia",
@@ -699,10 +697,10 @@
    "mintmark": null,
    "finish": "proof",
    "coloured": false,
-   "from_set": true,
+   "from_set": false,
    "quantity": 1,
-   "note": "1966 10c proof ex proof set, PCGS PR68DCAM",
-   "at": "2026-11-17T19:38:59Z"
+   "note": "1966 10c proof PCGS PR68DCAM",
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:bullionmark.com.au:0b1106f57a356d1b": {
    "key": "1mx51vv",
@@ -2393,7 +2391,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "10 oz – Perth Mint Kangaroo Gold Bar",
-   "at": "2026-11-08T19:38:15Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:ainsliebullion.com.au:a948929104fa8e17": {
    "key": "12wxt89",
@@ -2469,7 +2467,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "100g – Perth Mint Kangaroo Gold Bar",
-   "at": "2026-11-08T19:38:15Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:ainsliebullion.com.au:452693525d182517": {
    "key": "151bppi",
@@ -2605,9 +2603,8 @@
    "at": "2026-11-08T19:38:15Z"
   },
   "shop:goldstackers.com.au:4453": {
-   "key": "1nq8fki",
-   "verdict": "corrected",
-   "reason": "",
+   "key": "1w63dmu",
+   "verdict": "verified",
    "item_type": "bullion_coin",
    "australian": true,
    "country": "Australia",
@@ -2620,8 +2617,8 @@
    "coloured": false,
    "from_set": false,
    "quantity": 1,
-   "note": "Perth Mint 2oz gold bullion coin, random date/design ($200 face)",
-   "at": "2026-11-08T19:38:15Z"
+   "note": "Perth Mint 2oz gold bullion coin, random date",
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:ainsliebullion.com.au:88ad8dfd3a90a581": {
    "key": "rtronw",
@@ -4103,7 +4100,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1991 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:195761246208": {
    "key": "ww2nvw",
@@ -4122,17 +4119,16 @@
    "from_set": false,
    "quantity": 1,
    "note": "1987 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:directcoins.com.au:67831090413887": {
-   "key": "udu04v",
+   "key": "rg6szg",
    "verdict": "corrected",
-   "reason": "",
    "item_type": "coin",
    "australian": true,
    "country": "Australia",
    "year": 2026,
-   "denomination": "$2",
+   "denomination": "",
    "metal": "base",
    "weight_oz": null,
    "mintmark": "C",
@@ -4140,8 +4136,8 @@
    "coloured": true,
    "from_set": false,
    "quantity": 1,
-   "note": "2026 $2 Last Post coloured C mintmark unc – aluminium-bronze, not silver (shop label wrong)",
-   "at": "2026-11-21T19:38:53Z"
+   "note": "2026 $2 Last Post coloured C mintmark unc - Al-Br, not silver",
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:guystuff.com.au:56c25581c62f604c": {
    "key": "k082jw",
@@ -4160,7 +4156,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Last Post coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:onlinecoinsandcollectables.com.au:50827535679744": {
    "key": "1b71bsl",
@@ -4179,7 +4175,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Last Post coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:83363": {
    "key": "1igmppw",
@@ -4198,7 +4194,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Last Post coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:townhallcoins.com:67837005922356": {
    "key": "nb4059",
@@ -4217,7 +4213,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Last Post coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:townhallcoins.com:46862549549296": {
    "key": "1l9mneg",
@@ -4236,7 +4232,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2015 $1 ANZAC Centenary M counterstamp unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:156540714115": {
    "key": "n17q7x",
@@ -4255,7 +4251,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1991 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:37164": {
    "key": "1nsdyhf",
@@ -4274,7 +4270,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1977 2c proof, PCGS graded PR68DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coinsandcollectables.com.au:68006469370101": {
    "key": "fs96m4",
@@ -4293,7 +4289,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Last Post coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:53051": {
    "key": "1kzkef0",
@@ -4312,7 +4308,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1977 5c proof, PCGS graded PR68DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:thepurplepenny.com:6184": {
    "key": "f6mz1y",
@@ -4331,7 +4327,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1984 $1 first-year Al-Br proof coin in case",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:townhallcoins.com:46862419722480": {
    "key": "gr05r",
@@ -4388,7 +4384,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint Kangaroo 1oz silver minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:sydneycoins.com.au:53020498198847": {
    "key": "1kclqd2",
@@ -4407,7 +4403,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:greatsouthlandbullion.com.au:7959": {
    "key": "e3911s",
@@ -4445,7 +4441,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1984 2c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:swanbullion.com:3285": {
    "key": "16k7y1p",
@@ -4464,7 +4460,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1g gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:116452698709": {
    "key": "1g2nhtw",
@@ -4483,7 +4479,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1988 1c proof, PCGS graded PR68RD DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coincity.com.au:51543279272257": {
    "key": "8g6nox",
@@ -4502,7 +4498,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:directcoins.com.au:52447497224511": {
    "key": "1rube3u",
@@ -4521,7 +4517,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:guystuff.com.au:60ff36c703a70119": {
    "key": "m6k2l6",
@@ -4540,7 +4536,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:mintcoinshop.com.au:51955182600493": {
    "key": "1hj18ps",
@@ -4559,7 +4555,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:onlinecoinsandcollectables.com.au:48155234402560": {
    "key": "1l1c8y2",
@@ -4578,7 +4574,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:wynyardcoins.com.au:48441504760025": {
    "key": "rxnj12",
@@ -4597,7 +4593,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:goldbullionaustralia.com.au:80003": {
    "key": "1dbi6ec",
@@ -4654,7 +4650,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1984 $1 first-year Al-Br proof coin",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:greatsouthlandbullion.com.au:8960": {
    "key": "z4nops",
@@ -4692,7 +4688,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1993 $5 Fraser/Evans polymer note, first prefix BA93, PCGS 67 PPQ",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:goldbullionaustralia.com.au:47517": {
    "key": "fmbmpi",
@@ -4711,7 +4707,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1g gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:loosechangecoins.com.au:49475884646647": {
    "key": "wmbkql",
@@ -4730,7 +4726,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1982 $1 paper note Johnston/Stone R78 unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:thepurplepenny.com:12643": {
    "key": "15fc1nd",
@@ -4749,7 +4745,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2009 20c Australia Remembers Service Nurses unc in card",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:directcoins.com.au:52214359851327": {
    "key": "1n8btgz",
@@ -4768,7 +4764,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 50c QEII Centenary of Birth unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:greatsouthlandbullion.com.au:8718": {
    "key": "14d7ozm",
@@ -4787,7 +4783,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1g gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:78445": {
    "key": "fwgynw",
@@ -4806,7 +4802,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2026 $2 Dawn Service coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:227590819305": {
    "key": "1safg38",
@@ -4825,7 +4821,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1987 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coincity.com.au:47817153806657": {
    "key": "lpnj4r",
@@ -4844,7 +4840,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2015 RAM six-coin unc year set (50th anniversary of the Mint) – whole set, not a $2",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:townhallcoins.com:46862504820976": {
    "key": "6z1thg",
@@ -4863,7 +4859,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2006 $1 50 Years of Australian Television silver proof",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coincity.com.au:52176590143809": {
    "key": "okf6p2",
@@ -4882,7 +4878,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2027 $1 Bluey Cricket coloured silver proof",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:37146": {
    "key": "hrr7kv",
@@ -4901,7 +4897,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1974 2c proof, PCGS graded PR68RD DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:37148": {
    "key": "1srorif",
@@ -4920,7 +4916,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1974 2c proof, PCGS graded PR68RD DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:79648": {
    "key": "x7dlr8",
@@ -4939,7 +4935,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1974 2c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:tasmaniannumismatics.com.au:53045": {
    "key": "irvkjn",
@@ -4977,7 +4973,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2017 2c Stuart Devlin Revisiting a Vision unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coincity.com.au:47817850585409": {
    "key": "1vfjjbc",
@@ -4996,7 +4992,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2022 $2 Honey Bee coloured C mintmark unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:southerncrosscoins.com.au:9875": {
    "key": "14fb6ds",
@@ -5015,7 +5011,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2007 50c Royal 60th Wedding Anniversary",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:116452732350": {
    "key": "yhbtt2",
@@ -5034,7 +5030,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1987 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:townhallcoins.com:46862595326192": {
    "key": "b98yng",
@@ -5053,7 +5049,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2005 $1 Gallipoli silver proof",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:156540484581": {
    "key": "qbx9vk",
@@ -5072,7 +5068,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1976 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "ebay:197508561652": {
    "key": "1s8s7yo",
@@ -5091,7 +5087,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "1976 1c proof, PCGS graded PR69DCAM",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:wynyardcoins.com.au:44000272679129": {
    "key": "1tfzb4y",
@@ -5110,7 +5106,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "2023 50c Sydney Opera House 50th Al-Br unc",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:coincity.com.au:51031942857025": {
    "key": "8l9wwx",
@@ -5148,7 +5144,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 5g Kangaroo gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:www.australianbullioncompany.com.au:1960390": {
    "key": "1f4xq9c",
@@ -5167,7 +5163,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 2oz gold bullion coin, random year/design",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:goldbullionaustralia.com.au:76822": {
    "key": "hankon",
@@ -5186,7 +5182,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 2oz gold bullion coin, random year/design",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:greatsouthlandbullion.com.au:3025": {
    "key": "f5d704",
@@ -5205,7 +5201,7 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1oz Kangaroo gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
   },
   "shop:www.australianbullioncompany.com.au:3119673": {
    "key": "jramrx",
@@ -5224,7 +5220,277 @@
    "from_set": false,
    "quantity": 1,
    "note": "Perth Mint 1oz Kangaroo gold minted bar",
-   "at": "2026-11-21T19:38:53Z"
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:www.australianbullioncompany.com.au:890357": {
+   "key": "1s5oivs",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "silver",
+   "weight_oz": 1.0,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "ABC Bullion 1oz silver Eureka round (not legal tender), years vary",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "ebay:900092840053": {
+   "key": "co7nbv",
+   "verdict": "corrected",
+   "item_type": "proof_set",
+   "australian": true,
+   "country": "Australia",
+   "year": 1977,
+   "denomination": null,
+   "metal": "base",
+   "weight_oz": null,
+   "mintmark": null,
+   "finish": "proof",
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "1977 six-coin proof set (Silver Jubilee 50c) - cupronickel/bronze, not silver",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "ebay:267710023541": {
+   "key": "6h0cx7",
+   "verdict": "verified",
+   "item_type": "coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 1988,
+   "denomination": "1c",
+   "metal": "base",
+   "weight_oz": null,
+   "mintmark": null,
+   "finish": "unc",
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "1988 1c unc",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:32914": {
+   "key": "1txiiki",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": "$100",
+   "metal": "gold",
+   "weight_oz": 1.0,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 1oz gold Kangaroo, random date",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:32754": {
+   "key": "uolaz9",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2026,
+   "denomination": "$200",
+   "metal": "gold",
+   "weight_oz": 2.0,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint Lunar III 2026 Horse 2oz gold",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:www.perthmint.com:8e29a89a7dac4a34": {
+   "key": "1ardin8",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2023,
+   "denomination": "$200",
+   "metal": "gold",
+   "weight_oz": 2.0,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint Lunar III 2023 Rabbit 2oz gold",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:33713": {
+   "key": "eo4cv5",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2027,
+   "denomination": "$100",
+   "metal": "gold",
+   "weight_oz": 1.0,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint Lunar III 2027 Goat 1oz gold",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:townhallcoins.com:46862589264112": {
+   "key": "1set34d",
+   "verdict": "verified",
+   "item_type": "coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 1999,
+   "denomination": "$1",
+   "metal": "silver",
+   "weight_oz": null,
+   "mintmark": null,
+   "finish": "proof",
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "1999 $1 Last ANZACs silver proof",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:33068": {
+   "key": "1gzmciu",
+   "verdict": "verified",
+   "item_type": "bar",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "silver",
+   "weight_oz": 32.1507,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 1kg silver cast bar",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:onlinecoinsandcollectables.com.au:49060593959168": {
+   "key": "ehhdqq",
+   "verdict": "corrected",
+   "item_type": "coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2026,
+   "denomination": "$1",
+   "metal": "silver",
+   "weight_oz": 1.0,
+   "mintmark": "P",
+   "finish": "proof",
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "2026 Perth Mint Wonders of Australia The Outback 1oz silver proof - collector proof, not bullion",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:4493": {
+   "key": "2weeea",
+   "verdict": "verified",
+   "item_type": "bar",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "gold",
+   "weight_oz": 0.3215,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 10g gold Kangaroo minted bar",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:32797": {
+   "key": "1ykysv8",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2027,
+   "denomination": "$50",
+   "metal": "gold",
+   "weight_oz": 0.5,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint Lunar III 2027 Goat 1/2oz gold",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:4430": {
+   "key": "tcv55c",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": "$30",
+   "metal": "silver",
+   "weight_oz": 32.1507,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 1kg silver Kookaburra/Koala coin, random date",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:goldstackers.com.au:4492": {
+   "key": "1bq3u69",
+   "verdict": "verified",
+   "item_type": "bar",
+   "australian": true,
+   "country": "Australia",
+   "year": null,
+   "denomination": null,
+   "metal": "gold",
+   "weight_oz": 0.1608,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint 5g gold Kangaroo minted bar",
+   "at": "2026-11-22T19:38:38Z"
+  },
+  "shop:qmint.com:a94da38350e8e0a9": {
+   "key": "zsg9yy",
+   "verdict": "verified",
+   "item_type": "bullion_coin",
+   "australian": true,
+   "country": "Australia",
+   "year": 2012,
+   "denomination": "50c",
+   "metal": "silver",
+   "weight_oz": 0.5,
+   "mintmark": null,
+   "finish": null,
+   "coloured": false,
+   "from_set": false,
+   "quantity": 1,
+   "note": "Perth Mint Lunar II 2012 Dragon 1/2oz silver - $7.50 price looks wrong",
+   "at": "2026-11-22T19:38:38Z"
   }
  }
 }
