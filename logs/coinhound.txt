@@ -1,18 +1,19 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-22T11:14:58Z (22 Nov, 10:14 pm Sydney) · refresh slice started 2026-11-22T11:07:09Z, took 470 s
-Totals: {"ebay_sold":222,"shops":3,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 452 · pricing 2 · reading pages 2 · checks and alerts 13
-Stored: 12145 live · 14374 sold
+Written 2026-11-22T12:14:34Z (22 Nov, 11:14 pm Sydney) · refresh slice started 2026-11-22T12:05:29Z, took 545 s
+Totals: {"ebay_sold":93,"shops":13,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 528 · pricing 2 · reading pages 2 · checks and alerts 13
+Last problem: ebay_sold (2003 5c): Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Stored: 12145 live · 14379 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 1 finished 2026-11-22T01:05:21Z · 128 pages read · 19,197 sales found, 11,428 new, 587 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 92 of 3268 searches done, 1732 sales found (started 2026-11-22T01:05:28.346Z)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 102 of 3268 searches done, 1825 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 461 coins, 1143 matched sales (160 coins with a confident price), last checked 2026-11-22T10:16:23.404Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-22T11:14:49Z (file from 2026-11-21T19:38:53Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-22T12:14:25Z (file from 2026-11-21T19:38:53Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 1 finished 2026-11-22T01:05:21Z · 128 pages read · 19,197 sales found, 11,428 new, 587 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -39,9 +40,12 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 461 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 27 pages · 4189 sales, 1567 new, 45 matched (1%) · eBay repeated the last page (end of results) · newest sale 2026-11-22
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 14 steps, 0 with problems
-ebay_sold: 12/12 worked, 222 kept
-shops: 2/2 worked, 3 kept
+## This refresh: 13 steps, 1 with problems
+ebay_sold: 10/11 worked, 93 kept
+shops: 2/2 worked, 13 kept
+
+### Problems this refresh
+- ebay_sold | 2003 5c | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 
 ## Shops: 67 on · 41 working · 5 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -58,17 +62,10 @@ shops: 2/2 worked, 3 kept
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 3 kept of 22 found, read through its site map, page by page (65 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-18T11:47:35Z · last worked 2026-11-18T11:47:35Z
 - Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: /product-category/silver/silver-buy-silver-bars/ 241491ch · h1 “Buy Silver Bars Online Sydney & Melbourne” · $ amounts 30 · price elements 54 · buy buttons 17 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×18
-      page: /product-category/silver/buy-silver-coins/ 228556ch · h1 “Buy Silver Coins Online” · $ amounts 18 · price elements 35 · buy buttons 13 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×13
-      page: /product-category/platinum/ 200753ch · h1 “Buy Platinum Bullion Online in Australia” · $ amounts 8 · price elements 22 · buy buttons 6 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /product-category/specials/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/100g-platinum-abc-minted-bar-copy/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/1kg-abc-platinum/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/1oz-platinum-abc/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/1oz-platinum-kangaroo-coin-2026/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/1oz-platinum-kangaroo-coin-2027/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product/50g-platinum-abc-minted-bar/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-22T11:09:19Z · last worked 2026-11-22T11:09:19Z
-- Guy Stuff (guystuff.com.au): ok – 3 kept of 96 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-22T11:09:25Z · last worked 2026-11-22T11:09:25Z
+      page: / 216173ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 5 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346609ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 351180ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 70 · price elements 102 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50 · last tried 2026-11-22T12:07:35Z · last worked 2026-11-22T12:07:35Z
+- Guy Stuff (guystuff.com.au): ok – 13 kept of 96 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-22T12:07:46Z · last worked 2026-11-22T12:07:46Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -308,8 +305,8 @@ shops: 2/2 worked, 3 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (568 steps)
-- 20 shops: every step worked, 6064 kept
+## Last 3 days by source (574 steps)
+- 20 shops: every step worked, 6077 kept
 - gumtree: 9/28 worked, 5 kept
     3× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Melbourne/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-1981+1c/k0?sort=date (the site asked for a bot check – try again later)
@@ -318,10 +315,24 @@ shops: 2/2 worked, 3 kept
     11× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - ebay_active: 28/29 worked, 1133 kept
     1× Error: couldn't read the page
-- ebay_sold: 258/258 worked, 4971 kept
+- ebay_sold: 261/262 worked, 4982 kept
+    1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - facebook: 28/28 worked, 2 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-22T12:10:00Z | ebay_sold | 2003 5c | 0 | Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+2026-11-22T12:09:37Z | ebay_sold | 2002 5c | 5
+2026-11-22T12:09:12Z | ebay_sold | 2001 5c | 12
+2026-11-22T12:08:50Z | ebay_sold | 2000 5c | 14
+2026-11-22T12:08:26Z | ebay_sold | 1999 5c | 9
+2026-11-22T12:08:03Z | ebay_sold | 1998 5c | 8
+2026-11-22T12:07:37Z | ebay_sold | 1997 5c | 5
+2026-11-22T12:07:07Z | ebay_sold | 1996 5c | 7
+2026-11-22T12:06:40Z | ebay_sold | 1995 5c | 11
+2026-11-22T12:06:09Z | ebay_sold | 1994 5c | 11
+2026-11-22T12:05:41Z | ebay_sold | 1993 5c | 11
+2026-11-22T12:05:34Z | shop | Guy Stuff | 13
+2026-11-22T12:05:34Z | shop | Guardian Gold | 0
 2026-11-22T11:12:05Z | ebay_sold | 1992 5c | 10
 2026-11-22T11:11:43Z | ebay_sold | 1991 5c | 18
 2026-11-22T11:11:22Z | ebay_sold | 1990 5c | 15
@@ -459,16 +470,3 @@ shops: 2/2 worked, 3 kept
 2026-11-21T23:09:53Z | ebay_sold | 2019 5c | 59
 2026-11-21T23:09:40Z | ebay_sold | 2018 5c | 14
 2026-11-21T23:09:26Z | ebay_sold | 2017 5c | 13
-2026-11-21T23:09:15Z | ebay_sold | 2016 5c | 128
-2026-11-21T23:09:02Z | ebay_sold | 2015 5c | 19
-2026-11-21T23:08:50Z | ebay_sold | 2014 5c | 5
-2026-11-21T23:08:36Z | ebay_sold | 2013 5c | 6
-2026-11-21T23:08:23Z | ebay_sold | 2012 5c | 8
-2026-11-21T23:08:09Z | ebay_sold | 2011 5c | 8
-2026-11-21T23:07:53Z | ebay_sold | 2010 5c | 8
-2026-11-21T23:07:35Z | ebay_sold | 2009 5c | 9
-2026-11-21T23:07:20Z | ebay_sold | 2008 5c | 11
-2026-11-21T23:07:02Z | ebay_sold | 2007 5c | 14
-2026-11-21T23:06:47Z | ebay_sold | 2006 5c | 12
-2026-11-21T23:06:30Z | ebay_sold | 2005 5c | 10
-2026-11-21T23:06:10Z | ebay_sold | 2004 5c | 19
