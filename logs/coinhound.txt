@@ -1,18 +1,18 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-22T08:14:26Z (22 Nov, 7:14 pm Sydney) · refresh slice started 2026-11-22T08:05:22Z, took 545 s
-Totals: {"ebay_sold":276,"shops":339,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 527 · pricing 2 · reading pages 2 · checks and alerts 13
-Stored: 12145 live · 14359 sold
+Written 2026-11-22T09:19:22Z (22 Nov, 8:19 pm Sydney) · refresh slice started 2026-11-22T09:10:04Z, took 559 s
+Totals: {"ebay_sold":630,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 531 · pricing 3 · reading pages 3 · checks and alerts 22
+Stored: 12145 live · 14372 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 1 finished 2026-11-22T01:05:21Z · 128 pages read · 19,197 sales found, 11,428 new, 587 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 52 of 3268 searches done, 759 sales found (started 2026-11-22T01:05:28.346Z)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 71 of 3268 searches done, 1389 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 460 coins, 1140 matched sales (160 coins with a confident price), last checked 2026-11-22T04:14:36.181Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-22T08:14:17Z (file from 2026-11-21T19:38:53Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-22T09:19:06Z (file from 2026-11-21T19:38:53Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 1 finished 2026-11-22T01:05:21Z · 128 pages read · 19,197 sales found, 11,428 new, 587 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -39,9 +39,9 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 460 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 27 pages · 4189 sales, 1567 new, 45 matched (1%) · eBay repeated the last page (end of results) · newest sale 2026-11-22
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 19 steps, 0 with problems
-shops: 3/3 worked, 339 kept
-ebay_sold: 16/16 worked, 276 kept
+## This refresh: 21 steps, 0 with problems
+ebay_sold: 19/19 worked, 630 kept
+shops: 2/2 worked, 6 kept
 
 ## Shops: 67 on · 41 working · 5 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -62,7 +62,7 @@ ebay_sold: 16/16 worked, 276 kept
       page: /shop/ 346474ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
       page: /product-category/gold/ 351112ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 70 · price elements 102 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
       page: /product-category/gold/buy-gold-cast-bars/ 234076ch · h1 “Buy Gold Cast Bars Online” · $ amounts 20 · price elements 36 · buy buttons 16 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×16 · last tried 2026-11-22T04:09:12Z · last worked 2026-11-22T04:09:12Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-22T08:07:06Z · last worked 2026-11-22T08:07:06Z
+- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-22T09:11:58Z · last worked 2026-11-22T09:11:58Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-18T11:43:49Z · last worked 2026-11-18T11:43:49Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -71,16 +71,16 @@ ebay_sold: 16/16 worked, 276 kept
 - Newcastle Coins (newcastlecoins.com.au): ok – 2 kept of 142 found, read through browsing its pages (40 pages) · last tried 2026-11-18T11:45:42Z · last worked 2026-11-18T11:45:42Z
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 380 kept of 4551 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-18T11:44:55Z · last worked 2026-11-18T11:44:55Z
 - Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 265514ch · h1 “Categories” · $ amounts 40 · price elements 144 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×48
-      page: /top-menu/help/product-limits.html 69103ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /top-menu/shop-location.html 69476ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: / 265422ch · h1 “Categories” · $ amounts 40 · price elements 144 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×48
+      page: /top-menu/help/product-limits.html 70085ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /top-menu/shop-location.html 68274ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-22T08:06:49Z · last worked 2026-11-22T08:06:49Z
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-22T09:11:46Z · last worked 2026-11-22T09:11:46Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 133 kept of 169 found, read through its Shopify product feed · last tried 2026-11-18T11:45:17Z · last worked 2026-11-18T11:45:17Z
 - Town Hall Coins (townhallcoins.com): ok – 1594 kept of 2141 found, read through its Shopify product feed · last tried 2026-11-18T11:45:53Z · last worked 2026-11-18T11:45:53Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2025 kept of 4604 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 5 left out until their page is read · last tried 2026-11-18T11:48:10Z · last worked 2026-11-18T11:48:10Z
@@ -139,16 +139,13 @@ ebay_sold: 16/16 worked, 276 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Top 60 deals as the app shows them (best first)
+## Top 59 deals as the app shows them (best first)
 - 52% under | $35 vs usual $73, 3 sales, low | 1987 Australian 1c Proof Coin PCGS PR69DCAM | ebay | read as: coin 1987 1c proof | AI: coin base  (1) 1987 1c proof, PCGS graded PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/195761246208
     id: ebay:195761246208 · key: ww2nvw · Claude: verified 2026-11-21
 - 48% under | $42.04 vs usual $81, 4 sales, medium | 1991 Australia 1C PCGS - PR69DCAM | ebay | read as: coin 1991 1c proof | AI: coin base  (1) 1991 1c proof, PCGS graded PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/267110093280
     id: ebay:267110093280 · key: 1b61nf1 · Claude: verified 2026-11-21
 - 47% under | $12 vs usual $22.5, 2 sales, low | 2015 $1 ANZAC Centenary 'M' Counterstamp Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 M mintmark unc | AI: coin base  (1) 2015 $1 ANZAC Centenary M counterstamp unc | price confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-m-counterstamp-uncirculated-coin
     id: shop:townhallcoins.com:46862549549296 · key: 1l9mneg · Claude: verified 2026-11-21
-- 42% under | $32 vs usual $55.51, 2 sales, low | 1977 Australia 2c Coin PCGS PR68DCAM #7054 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1977-australia-2c-coin-pcgs-pr68dcam-7054/
-    id: shop:tasmaniannumismatics.com.au:37164 · key: 1nsdyhf · Claude: verified 2026-11-21
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 41% under | $32 vs usual $54, 3 sales, low | Australia 1977 5c Proof Coin PCGS PR68DCAM #5586 | shop:Tasmanian Numismatics | read as: coin 1977 5c proof | AI: coin base  (1) 1977 5c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1977-5c-proof-coin-pcgs-pr68dcam-5586/
     id: shop:tasmaniannumismatics.com.au:53051 · key: 1kzkef0 · Claude: verified 2026-11-21
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
@@ -174,6 +171,9 @@ ebay_sold: 16/16 worked, 276 kept
     description read: Perth Mint 1g Gold Minted Bar. Produced in eight sizes, gold bullion minted bars portray a struck version of The Perth Mint’s LBMA registered mark on the front and kangaroo-shaped motifs on the back. Gold Content: (Troy oz): Fineness: (% purity): It was established in 1899 as a branch of Britain’s Royal Mint in response to the discovery of rich gold deposits in Western Australia. Its primary purpose was to refine gold mined in the region and to mint gold sovereigns and half sovereigns for use throughout the British Empire.. The Perth Mint played a crucial role in the development of Western Australia’s gold industry, providing a local facility for gold refining and coin production that signif
 - 27% under | $45 vs usual $62, 4 sales, medium | 1988 Proof One Cent 1c Australia PCGS PR68RD DCAM. Free postage | ebay | read as: coin 1988 1c proof | AI: coin base  (1) 1988 1c proof, PCGS graded PR68RD DCAM | price not confirmed | https://www.ebay.com.au/itm/116452698709
     id: ebay:116452698709 · key: 1g2nhtw · Claude: verified 2026-11-21
+- 27% under | $32 vs usual $43.51, 2 sales, low | 1977 Australia 2c Coin PCGS PR68DCAM #7054 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1977-australia-2c-coin-pcgs-pr68dcam-7054/
+    id: shop:tasmaniannumismatics.com.au:37164 · key: 1nsdyhf · Claude: verified 2026-11-21
+    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 $2 Dawn Service C Mintmark Coloured Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2026-2-dawn-service-c-mintmark-coloured-uncirculated-coin-in-ram-card
     id: shop:coincity.com.au:51543279272257 · key: 8g6nox · Claude: verified 2026-11-21
     description read: 2026 $2 Dawn Service C Mintmark Coloured Uncirculated Coin in RAM Card . It has become an integral part of Anzac Day in Australia, with tens of thousands of people - service personnel and civilians alike - attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully compliments the aluminum bronze background.. The coin reverse features a striking representation fo the dawn service, including colour print - as well as the 'C' Mintmark for Canberra, the place of minting.. Struck to the Mint' uncirculated finish.. Each coin is issued as Australian Legal Tender.. Denomination : $2. Quality : Uncirculated. Metal 
@@ -217,18 +217,18 @@ ebay_sold: 16/16 worked, 276 kept
     description read: Australia 2026 Dawn Service $2 ‘C’ Mintmark Coloured Uncirculated Coin on Card. • Coin reverse features a striking representation of the dawn service, including colour print – as well as a ‘C’ mintmark for Canberra, the place of minting. • Struck to the Mint’s uncirculated finish. It has become an integral part of Anzac Day in Australia, with tens of thousands of people – service personnel and civilians alike – attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully complements the aluminium bronze background..
 - 16% under | $61.35 vs usual $73, 3 sales, low | 1987 1c Australian PCGS PR69DCAM a rare grade PROOF 1c coin, | ebay | read as: coin 1987 1c proof | AI: coin base  (1) 1987 1c proof, PCGS graded PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/227590819305
     id: ebay:227590819305 · key: 1safg38 · Claude: verified 2026-11-21
-- 14% under | $27.5 vs usual $32, 3 sales, low | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 silver C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc – aluminium-bronze, not silver (shop label wrong) | page/description: {"metal":"silver","metal_by":"label","denom":"$2"} | price confirmed | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
+- 14% under | $27.5 vs usual $32, 4 sales, medium | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 silver C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc – aluminium-bronze, not silver (shop label wrong) | page/description: {"metal":"silver","metal_by":"label","denom":"$2"} | price confirmed | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
     id: shop:directcoins.com.au:67831090413887 · key: rg6szg · Claude: corrected 2026-11-21
     description read: Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin is the Royal Australian Mint’s tribute to one of the most familiar sounds of Australian remembrance. The coloured reverse carries a ‘C’ mintmark for Canberra, where the coin was struck, and the obverse features Daniel Thorne’s effigy of His Majesty King Charles III. coin material: Silver. country: Australia. denomination: 2 dollars. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Colour
-- 14% under | $27.5 vs usual $32, 3 sales, low | 2026 The Last Post 'C' Mintmark $2 Coloured Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://guystuff.com.au/2026-the-last-post-c-mintmark-2-coloured-uncirculated-coin-royal-australian-mint-ram.html
+- 14% under | $27.5 vs usual $32, 4 sales, medium | 2026 The Last Post 'C' Mintmark $2 Coloured Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://guystuff.com.au/2026-the-last-post-c-mintmark-2-coloured-uncirculated-coin-royal-australian-mint-ram.html
     id: shop:guystuff.com.au:56c25581c62f604c · key: k082jw · Claude: verified 2026-11-21
-- 14% under | $27.5 vs usual $32, 3 sales, low | 2026 Royal Australian Mint $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-2-c-mintmark-coloured-uncirculated-carded-coin-the-last-post
+- 14% under | $27.5 vs usual $32, 4 sales, medium | 2026 Royal Australian Mint $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-2-c-mintmark-coloured-uncirculated-carded-coin-the-last-post
     id: shop:onlinecoinsandcollectables.com.au:50827535679744 · key: 1b71bsl · Claude: verified 2026-11-21
     description read: Australian legal tender.. Denomination: $2. Metal Content: AlBr. Diameter: 20.50mm. Finish: Uncirculated. Few traditions hold the same emotional weight as the Last Post. Memorial steps cut across the composition, grounding the design in the physical spaces where remembrance takes place. Subtle details complete the piece, including the designer’s initials 'LA' (Lydia Ashe) near the rim, and the 'C' mintmark featured on the uncirculated and proof editions..
-- 14% under | $27.5 vs usual $32, 3 sales, low | Australia 2026 The Last Post $2 C Mintmark Coloured Uncirculated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2026-the-last-post-2-c-mintmark-coloured-uncirculated-coin-on-card-copy/
+- 14% under | $27.5 vs usual $32, 4 sales, medium | Australia 2026 The Last Post $2 C Mintmark Coloured Uncirculated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2026-the-last-post-2-c-mintmark-coloured-uncirculated-coin-on-card-copy/
     id: shop:tasmaniannumismatics.com.au:83363 · key: 1igmppw · Claude: verified 2026-11-21
     description read: The Australia The Last Post 2026 $2 C Mintmark Colour Uncirculated Coin combines a powerful remembrance theme with an official Royal Australian Mint release, making it a standout collectable coin for Australian collectors. Featuring a stunning coloured design and desirable Canberra Mintmark, this limited-edition issue offers lasting appeal for both collectors and gift buyers.. Popular Canberra “C” Mintmark. Premium Uncirculated finish. Australian legal tender $2 coin. Highly sought-after addition to the $2 Mintmark series. Metal: Aluminium-Bronze. Finish: Uncirculated. Legal Tender: $2. Mintmark: Canberra “C” Mintmark. Pay tribute to one of Australia’s most powerful symbols of remembrance wi
-- 14% under | $27.5 vs usual $32, 3 sales, low | 2026 $2 The Last Post 'C' Mintmark Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://townhallcoins.com/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
+- 14% under | $27.5 vs usual $32, 4 sales, medium | 2026 $2 The Last Post 'C' Mintmark Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://townhallcoins.com/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
     id: shop:townhallcoins.com:67837005922356 · key: nb4059 · Claude: verified 2026-11-21
 - 14% under | $60 vs usual $69.6, 3 sales, low | 2015 Mint Set - 50th Anniversary of the Royal Australian Mint | shop:Coin City | read as: mint_set 2015 $2 unc | AI: mint_set base  (1) 2015 RAM six-coin unc year set (50th anniversary of the Mint) – whole set, not a $2 | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2015-mint-set-50th-anniversary-of-the-royal-australian-mint
     id: shop:coincity.com.au:47817153806657 · key: lpnj4r · Claude: corrected 2026-11-21
@@ -250,9 +250,6 @@ ebay_sold: 16/16 worked, 276 kept
 - 13% under | $55 vs usual $63, 3 sales, low | Australia 1974 Proof 2c Coin PCGS PR69DCAM #2840 | shop:Tasmanian Numismatics | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof, PCGS graded PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1974-proof-2c-coin-pcgs-pr69dcam-2840/
     id: shop:tasmaniannumismatics.com.au:79648 · key: x7dlr8 · Claude: verified 2026-11-21
     description read: *PCGS guarantees the grade and authenticity for life.. *PCGS Gold Shield holder is protected by NFC anti-counterfeiting technology.
-- 10% under | $50 vs usual $55.51, 2 sales, low | Australia 1977 2c Proof Coin PCGS PR69DCAM #5583 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1977-2c-proof-coin-pcgs-pr69dcam-5583/
-    id: shop:tasmaniannumismatics.com.au:53045 · key: irvkjn · Claude: verified 2026-11-21
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 10% under | $22.5 vs usual $24.95, 4 sales, medium | 2c 2017 Stuart Devlin - Revisiting A Vision UNC | shop:Wynyard Coin Centre | read as: coin 2017 2c unc | AI: coin base  (1) 2017 2c Stuart Devlin Revisiting a Vision unc | price not confirmed | https://wynyardcoins.com.au/products/2c-2017-stuart-devlin-unc
     id: shop:wynyardcoins.com.au:36538870464680 · key: cfvhx9 · Claude: verified 2026-11-21
     description read: This never before struck Australian 2017 bronze 21mm two cent "Kangaroo and Joey" is based on Mr Stuart Devlin's original 1966 design concept and this unique type has been issued by the Royal Australian Mint.. Available only in uncirculated quality in original Royal Australian Mint packaging..
@@ -263,7 +260,7 @@ ebay_sold: 16/16 worked, 276 kept
 - 7% under | $60 vs usual $64.3, 8 sales, high | 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2022 $2 C mintmark unc | AI: coin base  (1) 2022 $2 Honey Bee coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2022-2-australian-honey-bee-coloured-c-mintmark-uncirculated-coin-in-ram-card
     id: shop:coincity.com.au:47817850585409 · key: 1vfjjbc · Claude: verified 2026-11-21
     description read: 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card. Despite their small size and short lifespan, honey bees not only produce delicious honey, they are also regarded as a valuable agricultural commodity of providing free pollination services, resulting in superior quality harvest and increased yield. Across Australia, there are approximately 20,000 registered beekeepers who operate more than 640,000 hives, producing up to 30,000 tonnes of honey each year.. Australian Legal Tender Each coin's obverse features the effigy of Her Majesty Queen Elizabeth II designed by Jody Clark.. Features a 'C' Mintmark to denote Canberra, the place of minting.. Denomination : $2. Qua
-- 6% under | $30 vs usual $32, 3 sales, low | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
+- 6% under | $30 vs usual $32, 4 sales, medium | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
     id: shop:coinsandcollectables.com.au:68006469370101 · key: fs96m4 · Claude: verified 2026-11-21
     description read: This striking $2 coloured coin commemorates the Last Post, and the Australian soldiers who have made the ultimate sacrifice in service of their country.
 - 6% under | $20 vs usual $21.21, 2 sales, low | 2007 50c Royal 60th Wedding Anniversary | shop:Southern Cross Coins | read as: coin 2007 50c | AI: coin base  (1) 2007 50c Royal 60th Wedding Anniversary | price not confirmed | https://southerncrosscoins.com.au/product/2007-50c-royal-60th-wedding-anniversary/
@@ -307,8 +304,8 @@ ebay_sold: 16/16 worked, 276 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (537 steps)
-- 20 shops: every step worked, 6054 kept
+## Last 3 days by source (558 steps)
+- 20 shops: every step worked, 6060 kept
 - gumtree: 9/28 worked, 5 kept
     3× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Melbourne/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-1981+1c/k0?sort=date (the site asked for a bot check – try again later)
@@ -317,10 +314,31 @@ ebay_sold: 16/16 worked, 276 kept
     11× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - ebay_active: 28/29 worked, 1133 kept
     1× Error: couldn't read the page
-- ebay_sold: 231/231 worked, 4229 kept
+- ebay_sold: 250/250 worked, 4859 kept
 - facebook: 28/28 worked, 2 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-22T09:14:53Z | ebay_sold | 1969 5c | 14
+2026-11-22T09:14:32Z | ebay_sold | 1966 5c | 64
+2026-11-22T09:14:16Z | ebay_sold | 1986 5c | 15
+2026-11-22T09:14:03Z | ebay_sold | 1985 5c | 26
+2026-11-22T09:13:54Z | ebay_sold | 2026 5c | 52
+2026-11-22T09:13:40Z | ebay_sold | 2025 5c | 53
+2026-11-22T09:13:17Z | ebay_sold | 2023 5c | 40
+2026-11-22T09:13:03Z | ebay_sold | 2026 2c | 185
+2026-11-22T09:12:51Z | ebay_sold | 2016 2c | 6
+2026-11-22T09:12:39Z | ebay_sold | 2006 2c | 26
+2026-11-22T09:12:24Z | ebay_sold | 1983 2c | 23
+2026-11-22T09:12:12Z | ebay_sold | 1982 2c | 23
+2026-11-22T09:12:00Z | ebay_sold | 1980 2c | 25
+2026-11-22T09:11:48Z | ebay_sold | 1979 2c | 13
+2026-11-22T09:11:33Z | ebay_sold | 1978 2c | 16
+2026-11-22T09:11:19Z | ebay_sold | 1977 2c | 12
+2026-11-22T09:11:05Z | ebay_sold | 1976 2c | 17
+2026-11-22T09:10:44Z | ebay_sold | 1975 2c | 8
+2026-11-22T09:10:22Z | ebay_sold | 1974 2c | 12
+2026-11-22T09:10:09Z | shop | Guy Stuff | 6
+2026-11-22T09:10:09Z | shop | Prospect Stamps & Coins | 0
 2026-11-22T08:10:26Z | shop | WA Coins | 333
 2026-11-22T08:10:25Z | ebay_sold | 1973 2c | 11
 2026-11-22T08:10:01Z | ebay_sold | 1972 2c | 8
@@ -450,24 +468,3 @@ ebay_sold: 16/16 worked, 276 kept
 2026-11-21T21:09:28Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 8 | 186 | 215 on the page, 99 new, 3 matched a catalogue coin
 2026-11-21T21:08:34Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 7 | 207 | 222 on the page, 106 new, 2 matched a catalogue coin
 2026-11-21T21:07:48Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 6 | 185 | 218 on the page, 97 new, 4 matched a catalogue coin
-2026-11-21T21:06:53Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 5 | 180 | 211 on the page, 92 new, 2 matched a catalogue coin
-2026-11-21T21:06:00Z | shop | Guy Stuff | 6
-2026-11-21T21:06:00Z | shop | Prospect Stamps & Coins | 0
-2026-11-21T21:06:00Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 4 | 174 | 209 on the page, 72 new, 5 matched a catalogue coin
-2026-11-21T20:11:03Z | facebook | 1977 1c | 0 | 6 found, none kept (not coins, or no price)
-2026-11-21T20:11:01Z | gumtree | 1977 1c | 0 | Error: 403 from https://www.gumtree.com.au/s-1977+1c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-21T20:10:47Z | ebay_active | 1977 1c | 58
-2026-11-21T20:09:55Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 3 | 182 | 209 on the page, 129 new, 3 matched a catalogue coin
-2026-11-21T20:09:01Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 2 | 152 | 223 on the page, 78 new, 6 matched a catalogue coin
-2026-11-21T20:08:14Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 1 | 185 | 217 on the page, 106 new, 2 matched a catalogue coin
-2026-11-21T20:07:25Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 17 | 133 | 145 on the page, 0 new, 3 matched a catalogue coin · every page read
-2026-11-21T20:06:26Z | shop | Guy Stuff | 6
-2026-11-21T20:06:26Z | shop | Prospect Stamps & Coins | 0
-2026-11-21T20:06:26Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 16 | 134 | 146 on the page, 121 new, 3 matched a catalogue coin
-2026-11-21T19:10:36Z | facebook | 1976 1c | 0 | 4 found, none kept (not coins, or no price)
-2026-11-21T19:10:34Z | gumtree | 1976 1c | 0 | Error: 403 from https://www.gumtree.com.au/s-1976+1c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-21T19:09:29Z | ebay_active | 1976 1c | 56
-2026-11-21T19:08:39Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 15 | 189 | 215 on the page, 183 new, 4 matched a catalogue coin
-2026-11-21T19:07:49Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 14 | 175 | 208 on the page, 167 new, 2 matched a catalogue coin
-2026-11-21T19:06:53Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 13 | 190 | 214 on the page, 178 new, 2 matched a catalogue coin
-2026-11-21T19:05:54Z | shop | Guy Stuff | 6
