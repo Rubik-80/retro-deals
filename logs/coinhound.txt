@@ -1,18 +1,18 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-23T09:14:30Z (23 Nov, 8:14 pm Sydney) · refresh slice started 2026-11-23T09:05:22Z, took 549 s
-Totals: {"ebay_sold":1717,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
-Time taken (seconds): searching 531 · pricing 2 · reading pages 2 · checks and alerts 13
-Stored: 12121 live · 18870 sold
+Written 2026-11-23T10:03:46Z (23 Nov, 9:03 pm Sydney) · refresh slice started 2026-11-23T09:56:39Z, took 428 s
+Totals: {"ebay_sold":226,"shops":2018,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":2}
+Time taken (seconds): searching 409 · pricing 2 · reading pages 2 · checks and alerts 14
+Stored: 12108 live · 19029 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 2 finished 2026-11-23T01:07:42Z · 163 pages read · 22,243 sales found, 11,826 new, 1,060 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 293 of 3250 searches done, 8505 sales found (started 2026-11-22T01:05:28.346Z)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 299 of 3240 searches done, 8731 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 573 coins, 1607 matched sales (218 coins with a confident price), last checked 2026-11-23T07:14:11.795Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-23T09:14:21Z (file from 2026-11-22T19:38:38Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-23T10:03:37Z (file from 2026-11-22T19:38:38Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 2 finished 2026-11-23T01:07:42Z · 163 pages read · 22,243 sales found, 11,826 new, 1,060 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -39,9 +39,9 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 573 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 1 pages · 218 sales, 48 new, 2 matched (1%) · reached sales already stored (before 2026-11-21) · newest sale 2026-11-23
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 14 steps, 0 with problems
-ebay_sold: 12/12 worked, 1717 kept
-shops: 2/2 worked, 6 kept
+## This refresh: 9 steps, 0 with problems
+shops: 3/3 worked, 2018 kept
+ebay_sold: 6/6 worked, 226 kept
 
 ## Shops: 67 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -68,7 +68,7 @@ shops: 2/2 worked, 6 kept
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-23T09:07:01Z · last worked 2026-11-23T09:07:01Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-23T09:07:17Z · last worked 2026-11-23T09:07:17Z
+- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-23T09:57:33Z · last worked 2026-11-23T09:57:33Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-23T00:11:08Z · last worked 2026-11-23T00:11:08Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -77,19 +77,19 @@ shops: 2/2 worked, 6 kept
 - Newcastle Coins (newcastlecoins.com.au): ok – 2 kept of 142 found, read through browsing its pages (40 pages) · last tried 2026-11-18T11:45:42Z · last worked 2026-11-18T11:45:42Z
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 377 kept of 4536 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-23T03:10:35Z · last worked 2026-11-23T03:10:35Z
 - Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 269696ch · h1 “Categories” · $ amounts 42 · price elements 149 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×50
-      page: /top-menu/help/product-limits.html 72315ch · h1 “Product Limits” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /top-menu/shop-location.html 71596ch · h1 “Shop Location” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: / 269594ch · h1 “Categories” · $ amounts 42 · price elements 149 · buy buttons 0 · cards read 0 · classes ty-menu__item×140 ty-menu__item-link×140 cm-menu-item-responsive×138 ty-menu__submenu-item-header×130 ty-menu__item-link--vertical×130 ty-price-num×50
+      page: /top-menu/help/product-limits.html 72425ch · h1 “Product Limits” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /top-menu/shop-location.html 71705ch · h1 “Shop Location” · $ amounts 1 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
       page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
       page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
       page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-23T07:06:47Z · last worked 2026-11-23T07:06:47Z
+      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-23T09:57:26Z · last worked 2026-11-23T09:57:26Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 128 kept of 164 found, read through its Shopify product feed · last tried 2026-11-23T05:10:07Z · last worked 2026-11-23T05:10:07Z
 - Town Hall Coins (townhallcoins.com): ok – 1573 kept of 2134 found, read through its Shopify product feed · last tried 2026-11-23T06:10:42Z · last worked 2026-11-23T06:10:42Z
-- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2025 kept of 4604 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 5 left out until their page is read · last tried 2026-11-18T11:48:10Z · last worked 2026-11-18T11:48:10Z
+- Wynyard Coin Centre (wynyardcoins.com.au): ok – 2012 kept of 4575 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 6 left out until their page is read · last tried 2026-11-23T10:02:27Z · last worked 2026-11-23T10:02:27Z
 - John Platts Stamps & Coins (jpsnc.com.au): not read yet
 - Loose Change Coins (loosechangecoins.com.au): ok – 467 kept of 1017 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 10 left out until their page is read · last tried 2026-11-20T11:10:00Z · last worked 2026-11-20T11:10:00Z
 - Peter Strich Stamps & Coins (peterstrich.com.au): not read yet
@@ -151,9 +151,9 @@ shops: 2/2 worked, 6 kept
 - 50% under | $20 vs usual $40, 2 sales, low | His Majesty King Charles III 2025 50c PNC (RAM) | shop:Coins & Collectables Victoria | read as: pnc 2025 50c | AI: pnc base  (1) His Majesty King Charles III 2025 50c PNC (RAM) | price not confirmed | https://collectablesemporium.au/products/his-majesty-king-charles-iii-2025-50c-pnc-ram
     id: shop:coinsandcollectables.com.au:46879883362549 · key: alpzr5 · Claude: verified 2026-11-08
     description read: This Postal Numismatic Cover is highly collectable, featuring a pictorial envelope with 2025 Circulating CuNi 50c coin.. The stamp was issued in 2023 and features the official coronation portrait of King Charles III, who is wearing St Edward's crown.. Stamp design Sharon Rodziewicz, Australia Post Design Studio. Cover design: Jo Mure. Stamp photograph Hugo Burmand/Buckingham Palace via Getty Images. Cover photograph. Category: PNC, *A, AP_Aug25, Q1-26, Q2-26, ST_Q3_26.
-- 50% under | $12 vs usual $23.95, 4 sales, medium | 2022 20c Coloured Uncirculated Coin - 20th Anniversary of Diary of a Wombat | shop:Loose Change Coins | read as: coin 2022 20c unc | AI: not read | page/description: {"metal":null,"metal_by":"label","year":2022,"denom":"20c"} | price not confirmed | https://loosechangecoins.com.au/products/2022-20th-anniversary-of-diary-of-a-wombat-20c-cuni-coloured-uncirculated-coin
-    id: shop:loosechangecoins.com.au:43139569254647 · key: eysloa
-    description read: 2022 20c Diary of a Wombat: 20th Anniversary – Coloured Uncirculated. Year of Issue: 2022. Denomination: 20c. Composition: Cupro-Nickel. Finish: Coloured Uncirculated. Legal Tender: Official Australian 20c coin.. Condition Note:. Uncirculated Quality: The coin is in pristine uncirculated condition, featuring bright colours and sharp struck details.. Category: NCLT (Collector Coins), 20 Cent Coin, 2022, Diary of a Wombat, NCLT, Uncirculated, WOMBAT.
+- 50% under | $12 vs usual $23.95, 4 sales, medium | 2022 20c Coloured Uncirculated Coin - 20th Anniversary of Diary of a Wombat | shop:Loose Change Coins | read as: coin 2022 20c unc | AI: not read | page/description: {"metal":null,"metal_by":"label","year":2022,"denom":"20c"} | price confirmed | https://loosechangecoins.com.au/products/2022-20th-anniversary-of-diary-of-a-wombat-20c-cuni-coloured-uncirculated-coin
+    id: shop:loosechangecoins.com.au:43139569254647 · key: 1y7w44a
+    description read: 2022 20c Diary of a Wombat: 20th Anniversary – Coloured Uncirculated Celebrate 20 years of one of Australia’s most cherished children’s stories with the 2022 "Diary of a Wombat" commemorative coin. Key Features and Specifications Year of Issue: 2022 Theme: 20th Anniversary of Diary of a Wombat Denomination: 20c Design: Features a vibrant coloured illustration of Mothball the wombat from the original book. Composition: Cupro-Nickel Finish: Coloured Uncirculated Legal Tender: Official Australian 20c coin. Condition Note: Uncirculated Quality: The coin is in pristine uncirculated condition, featuring bright colours and sharp struck details. 2022 20c Diary of a Wombat: 20th Anniversary – Coloure
 - 48% under | $42.04 vs usual $81, 4 sales, medium | 1991 Australia 1C PCGS - PR69DCAM | ebay | read as: coin 1991 1c proof | AI: coin base  (1) 1991 1c proof, PCGS graded PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/267110093280
     id: ebay:267110093280 · key: 1b61nf1 · Claude: verified 2026-11-22
 - 48% under | $55 vs usual $105.95, 2 sales, low | 2021 Australia 10 Cent Coin PCGS PR69DCAM #8212 | shop:Tasmanian Numismatics | read as: coin 2021 10c proof | AI: coin base  (1) 2021 10c proof ex proof set, PCGS PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/2021-australia-10-cent-coin-pcgs-pr69dcam-8212/
@@ -557,8 +557,8 @@ shops: 2/2 worked, 6 kept
     id: shop:qmint.com:a94da38350e8e0a9 · key: zsg9yy · Claude: verified 2026-11-22
     description read: Product Description Specifications Discover the 2012 1/2oz Lunar Series II Dragon Silver Coin by The Perth Mint. Discover the 2012 1/2oz Lunar Series II Dragon Silver Coin by The Perth Mint. Category: Home / Shop / Elements / Silver / 2012 1/2oz Lunar Dragon Silver Coin.
 
-## Last 3 days by source (798 steps)
-- 32 shops: every step worked, 8850 kept
+## Last 3 days by source (807 steps)
+- 33 shops: every step worked, 10868 kept
 - gumtree: 13/34 worked, 5 kept
     3× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Melbourne/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-2011+1c/k0?sort=date (the site asked for a bot check – try again later)
@@ -567,13 +567,22 @@ shops: 2/2 worked, 6 kept
     11× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - ebay_active: 28/29 worked, 1133 kept
     1× Error: couldn't read the page
-- ebay_sold: 385/392 worked, 10642 kept
+- ebay_sold: 391/398 worked, 10868 kept
     4× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     3× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
 - collection: 1/1 worked, 0 kept
 - facebook: 34/34 worked, 2 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-23T10:01:39Z | shop | Wynyard Coin Centre | 2012
+2026-11-23T10:00:51Z | ebay_sold | 1977 50c | 62
+2026-11-23T09:59:21Z | ebay_sold | 1976 50c | 38
+2026-11-23T09:58:10Z | ebay_sold | 1975 50c | 16
+2026-11-23T09:57:53Z | ebay_sold | 1974 50c | 28
+2026-11-23T09:56:53Z | ebay_sold | 1973 50c | 40
+2026-11-23T09:56:43Z | ebay_sold | 1972 50c | 42
+2026-11-23T09:56:41Z | shop | Guy Stuff | 6
+2026-11-23T09:56:41Z | shop | Prospect Stamps & Coins | 0
 2026-11-23T09:10:16Z | ebay_sold | 1971 50c | 36
 2026-11-23T09:10:04Z | ebay_sold | 1970 50c | 92
 2026-11-23T09:09:40Z | ebay_sold | 1969 50c | 36
@@ -715,12 +724,3 @@ shops: 2/2 worked, 6 kept
 2026-11-23T03:04:57Z | shop | Prospect Stamps & Coins | 0
 2026-11-23T03:04:57Z | shop | Guy Stuff | 5
 2026-11-23T02:13:02Z | ebay_sold | 2013 10c | 23
-2026-11-23T02:12:45Z | ebay_sold | 2012 10c | 12
-2026-11-23T02:12:21Z | ebay_sold | 2011 10c | 22
-2026-11-23T02:12:01Z | ebay_sold | 2010 10c | 4
-2026-11-23T02:11:40Z | ebay_sold | 2009 10c | 11
-2026-11-23T02:11:18Z | ebay_sold | 2008 10c | 6
-2026-11-23T02:11:00Z | ebay_sold | 2007 10c | 10
-2026-11-23T02:10:39Z | ebay_sold | 2006 10c | 10
-2026-11-23T02:09:55Z | ebay_sold | 2005 10c | 13
-2026-11-23T02:09:18Z | ebay_sold | 2004 10c | 15
