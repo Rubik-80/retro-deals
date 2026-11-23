@@ -1,5 +1,5 @@
 {
- "savedAt": "2026-11-19T07:42:26.560Z",
+ "savedAt": "2026-11-23T06:01:05.000Z",
  "checkedAt": "2026-11-19T07:46:34.709Z",
  "prices": {
   "10c-1966-lyrebird-canberra": {
@@ -6314,7 +6314,7 @@
   },
   "d2-2012-remembrance-day-red-poppy-coloured-c-mintmark": {
    "median": 500,
-   "count": 6,
+   "count": 7,
    "sales": [
     {
      "price": 499,
@@ -6345,6 +6345,11 @@
      "price": 595,
      "title": "2012 $2 REMEMBRANCE DAY RED POPPY C MINTMARK COIN IN RAM TRI-FOLD",
      "url": "https://www.ebay.com.au/itm/227551234023"
+    },
+    {
+     "price": 550,
+     "title": "2012 $2 Remembrance Red Poppy C Mintmark Folder (Sterling & Currency, sold 20/11/2026)",
+     "url": "https://www.sterlingcurrency.com.au/2012-2-dollar-remembrance-red-poppy-c-mintmark-fol"
     }
    ]
   },
@@ -8246,6 +8251,32 @@
      "price": 24.71,
      "title": "2016 5 Dollar Uncirculated Coin 50th Anniversary of the Battle of Long Tan",
      "url": "https://www.ebay.com.au/itm/287581988231"
+    }
+   ]
+  },
+  "d2-2012-remembrance-day-red-poppy-coloured": {
+   "median": 199.62,
+   "count": 4,
+   "sales": [
+    {
+     "price": 175,
+     "title": "2012 $2 Remembrance Red Poppy Extremely Fine (Sterling & Currency, sold 19/12/2024)",
+     "url": "https://www.sterlingcurrency.com.au/2012-2-dollar-coin-remembrance-red-poppy-extremely"
+    },
+    {
+     "price": 130,
+     "title": "2012 $2 Remembrance Red Poppy Very Fine (Sterling & Currency, sold 25/11/2023)",
+     "url": "https://www.sterlingcurrency.com.au/2012-2-dollar-coin-remembrance-red-poppy-very-fine"
+    },
+    {
+     "price": 224.25,
+     "title": "2012 $2 Remembrance Red Poppy About Unc (Sterling & Currency, sold 7/12/2024)",
+     "url": "https://www.sterlingcurrency.com.au/2012-2-dollar-coin-remembrance-red-poppy-about-unc"
+    },
+    {
+     "price": 275,
+     "title": "2012 $2 Remembrance Red Poppy Uncirculated on RSL Card (Sterling & Currency, sold 18/11/2026)",
+     "url": "https://www.sterlingcurrency.com.au/2012-2-dollar-coin-remembrance-red-poppy-uncircula~207842"
     }
    ]
   }
