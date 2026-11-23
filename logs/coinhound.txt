@@ -1,18 +1,18 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-23T07:14:11Z (23 Nov, 6:14 pm Sydney) · refresh slice started 2026-11-23T07:05:07Z, took 545 s
-Totals: {"ebay_sold":353,"shops":0,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0,"sold_prices":"573 coins, 1607 sales"}
-Time taken (seconds): searching 519 · pricing 2 · reading pages 2 · checks and alerts 14
-Stored: 12121 live · 17360 sold
+Written 2026-11-23T08:13:09Z (23 Nov, 7:13 pm Sydney) · refresh slice started 2026-11-23T08:04:55Z, took 494 s
+Totals: {"ebay_sold":349,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 475 · pricing 2 · reading pages 2 · checks and alerts 14
+Stored: 12121 live · 17578 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 2 finished 2026-11-23T01:07:42Z · 163 pages read · 22,243 sales found, 11,826 new, 1,060 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 252 of 3251 searches done, 6439 sales found (started 2026-11-22T01:05:28.346Z)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 281 of 3251 searches done, 6788 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 573 coins, 1607 matched sales (218 coins with a confident price), last checked 2026-11-23T07:14:11.795Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-19T07:42:26.560Z), 1011 added
-Claude's checks: last applied 2026-11-23T07:13:54Z (file from 2026-11-22T19:38:38Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-23T08:12:59Z (file from 2026-11-22T19:38:38Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 2 finished 2026-11-23T01:07:42Z · 163 pages read · 22,243 sales found, 11,826 new, 1,060 matched a catalogue coin · last error 2026-11-21T08:06:11Z: Australian decimal coins $50–$100 · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -39,9 +39,9 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 573 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 1 pages · 218 sales, 48 new, 2 matched (1%) · reached sales already stored (before 2026-11-21) · newest sale 2026-11-23
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 23 steps, 0 with problems
-ebay_sold: 21/21 worked, 353 kept
-shops: 2/2 worked, 0 kept
+## This refresh: 31 steps, 0 with problems
+ebay_sold: 29/29 worked, 349 kept
+shops: 2/2 worked, 6 kept
 
 ## Shops: 67 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -57,18 +57,18 @@ shops: 2/2 worked, 0 kept
       page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-19T22:46:21Z · last worked 2026-11-19T22:46:21Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 3 kept of 22 found, read through its site map, page by page (65 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-18T11:47:35Z · last worked 2026-11-18T11:47:35Z
-- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
-      page: / 216130ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 6 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 345787ch · h1 “” · $ amounts 71 · price elements 104 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 351225ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 67 · price elements 96 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
-      page: /product-category/gold/buy-gold-cast-bars/ 241250ch · h1 “Buy Gold Cast Bars Online” · $ amounts 22 · price elements 38 · buy buttons 18 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×18
+- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
+      page: / 216108ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 6 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 345429ch · h1 “” · $ amounts 71 · price elements 104 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 351011ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 67 · price elements 96 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
+      page: /product-category/gold/buy-gold-cast-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-23T07:07:05Z · last worked 2026-11-23T07:07:05Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-23T06:07:15Z · last worked 2026-11-23T06:07:15Z
+      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-23T08:06:23Z · last worked 2026-11-23T08:06:23Z
+- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-23T08:06:32Z · last worked 2026-11-23T08:06:32Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-23T00:11:08Z · last worked 2026-11-23T00:11:08Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -145,7 +145,7 @@ shops: 2/2 worked, 0 kept
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
 
-## Top 125 deals as the app shows them (best first)
+## Top 131 deals as the app shows them (best first)
 - 52% under | $35 vs usual $73, 3 sales, low | 1987 Australian 1c Proof Coin PCGS PR69DCAM | ebay | read as: coin 1987 1c proof | AI: coin base  (1) 1987 1c proof, PCGS graded PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/195761246208
     id: ebay:195761246208 · key: ww2nvw · Claude: verified 2026-11-22
 - 50% under | $12 vs usual $23.95, 4 sales, medium | 2022 20c Coloured Uncirculated Coin - 20th Anniversary of Diary of a Wombat | shop:Loose Change Coins | read as: coin 2022 20c unc | AI: not read | page/description: {"metal":null,"metal_by":"label","year":2022,"denom":"20c"} | price not confirmed | https://loosechangecoins.com.au/products/2022-20th-anniversary-of-diary-of-a-wombat-20c-cuni-coloured-uncirculated-coin
@@ -210,6 +210,8 @@ shops: 2/2 worked, 0 kept
 - 32% under | $14.5 vs usual $21.41, 5 sales, medium | 2010 20c Australia Remembers - Lost Soldiers of Fromelles Coin in Card | shop:Coin City | read as: coin 2010 20c | AI: not read | price not confirmed | https://coincity.com.au/products/2010-20c-australia-remembers-lost-soldiers-of-fromelles-coin-in-card
     id: shop:coincity.com.au:47817450979649 · key: gs4wlt
     description read: Speculation for many years suggested the existence of an unmarked and forgotten mass grave near Fromelles, containing the remains of Allied soldiers killed during the battle and buried by the Germans.This latest cupro-nickel 20c commemorative coin design is based on the Cobbers statue which stands i
+- 32% under | $19.99 vs usual $29.5, 7 sales, medium | 2017 Richie Benaud The Voice of Cricket 1930-2015 50c Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2017 50c unc | AI: not read | price not confirmed | https://guystuff.com.au/2017-richie-benaud-the-voice-of-cricket-1930-2015-50c-uncirculated-coin-royal-australian-mint-ram.html
+    id: shop:guystuff.com.au:3a664273b719b956 · key: hea9mg
 - 32% under | $20 vs usual $29.5, 8 sales, high | 20c 2015 800th Anniversary of Magna Carta Carded UNC | shop:Wynyard Coin Centre | read as: coin 2015 20c unc | AI: not read | price not confirmed | https://wynyardcoins.com.au/products/20c-2015-800th-anniversary-of-magna-carta-carded-unc
     id: shop:wynyardcoins.com.au:36528393388200 · key: 7dmaam
     description read: The justice system that we hold dear today with fair trials and juries owes its existence to this historical artefact.. The Royal Australian Mint has struck a cupro-nickel uncirculated 20 cent featuring a representation of King John I original seal on the 1215 Magna Carta with a mintage of 30 000..
@@ -221,6 +223,9 @@ shops: 2/2 worked, 0 kept
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 30% under | $40 vs usual $56.89, 4 sales, medium | Australia 2026 20c 1941: Service Amid Strife Coloured Uncirculated 3 Coin Set | shop:The Purple Penny | read as: mint_set 1941 20c unc | AI: not read | price not confirmed | https://www.thepurplepenny.com/product/australia-2026-20c-1941-service-amid-strife-uncirculated-3-coin-set/
     id: shop:thepurplepenny.com:46224 · key: icwtmw
+- 30% under | $7 vs usual $9.95, 3 sales, low | 2017 50c Pride and Passion Eddie Mabo Uncirculated coin | shop:Southern Cross Coins | read as: coin 2017 50c unc | AI: not read | price not confirmed | https://southerncrosscoins.com.au/product/2017-50c-pride-and-passion-eddie-mabo-uncirculated-coin/
+    id: shop:southerncrosscoins.com.au:7711 · key: 15ppei0
+    description read: It is in uncirculated condition..
 - 28% under | $20 vs usual $27.9, 3 sales, low | 2015 20c Australia Remembers - Coo-ee March Unc Coin in Card | shop:Coin City | read as: coin 2015 20c unc | AI: not read | price not confirmed | https://coincity.com.au/products/2015-20c-australia-remembers-coo-ee-march-unc-coin-in-card
     id: shop:coincity.com.au:47817403334977 · key: 3zw0r2
     description read: 2015 20c Australia Remembers Coo-ee March Uncirculated Coin in CardThe Coo-ee March was the first of many snowballing recruitment marches to enlist men to join the Australian Imperial Forces in 1915.The Royal Australian Mint has worked with Gilgandra Shire Council to commemorate a centenary of the C News spread quickly and subsequent snowball marches started soon after all over Australia, the Coo-ees were joined in history by the Kookaburras, Kurrajongs and Boomerangs to name just a few.The Royal Australian Mint shares the spirit of the Coo-ees 100 years on with our annual Australia Remembers r
@@ -307,6 +312,8 @@ shops: 2/2 worked, 0 kept
     id: ebay:227590819305 · key: 1safg38 · Claude: verified 2026-11-22
 - 15% under | $19 vs usual $22.45, 4 sales, medium | 2012 20c Australia Remembers Merchant Navy Uncirculated Coin | shop:Town Hall Coins | read as: coin 2012 20c unc | AI: not read | price not confirmed | https://townhallcoins.com/products/2012-20c-australia-remembers-merchant-navy-uncirculated-coin
     id: shop:townhallcoins.com:46862524907760 · key: 19w0f9f
+- 15% under | $25 vs usual $29.5, 7 sales, medium | 2017 50c Richie Benaud The Voice of Cricket Uncirculated Coin | shop:Town Hall Coins | read as: coin 2017 50c unc | AI: not read | price not confirmed | https://townhallcoins.com/products/2017-50c-richie-benaud-the-voice-of-cricket-uncirculated-coin
+    id: shop:townhallcoins.com:46862372700400 · key: 1cuxpuf
 - 15% under | $8.5 vs usual $10, 6 sales, medium | 2013 20c Coin - Centenary of Canberra - Uncirculated | shop:Loose Change Coins | read as: coin 2013 20c unc | AI: not read | price not confirmed | https://loosechangecoins.com.au/products/2013-australian-20-cent-coin-the-centenary-of-canberra-low-mintage-1
     id: shop:loosechangecoins.com.au:31312790290565 · key: 11lol00
     description read: 2013 20c "Centenary of Canberra" — Uncirculated (Ex-Security Bag). Single Uncirculated 20c coin struck to circulating standard by the Royal Australian Mint. Technical Specs: Cupronickel (75% Copper, 25% Nickel), 11.30g weight, 28.52mm diameter, reeded edge.. Please Note:. Package Contents: This listing is for a single uncirculated coin only, supplied in a protective Mylar flip.. Condition Detail: Retains uncirculated details and full original mint bloom. Image Note: All available coins remain in excellent condition for their age and will be in a similar condition to that shown.. Issued in 2013 to celebrate the centenary of Australia's capital, this one-year-only 20c coin features a architect
@@ -378,6 +385,14 @@ shops: 2/2 worked, 0 kept
     id: shop:townhallcoins.com:49685153054960 · key: efzpg4
 - 7% under | $3.25 vs usual $3.49, 2 sales, low | 1988 1c One Cent Uncirculated Australian Coin | ebay | read as: coin 1988 1c unc | AI: coin base  (1) 1988 1c unc | price not confirmed | https://www.ebay.com.au/itm/267710023541
     id: ebay:267710023541 · key: 6h0cx7 · Claude: verified 2026-11-22
+- 7% under | $27.5 vs usual $29.5, 7 sales, medium | 2017 50c Richie Benaud - The Voice of Cricket 1930 - 2015 Uncirculated Coin in Card | shop:Coin City | read as: coin 2017 50c unc | AI: not read | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2017-50c-richie-benaud-the-voice-of-cricket-1930-2015-uncirculated-coin-in-card
+    id: shop:coincity.com.au:47817506292033 · key: 6de2i8
+    description read: 2017 50c Rickie Benaud - The Voice of Cricket 1930 - 2015 Uncirculated Coin in CardDebuting for Australia in 1952, Richie Benaud OBE would become one of Australia's great all-rounders.Leading fellow players as captain from 1958 this consistent leg spin bowler and explosive batsman guided the Austral As an Australian inspiration Benaud was revered for his passion and commitment to cricket, his life now proudly commemorated on this uncirculated coin.. Each coin is finished to the Royal Australian Mint's high uncirculated standard.. Denomination : 50c. Quality : Uncirculated. Metal : Cupro Nickel. Diameter : 31.51 mm. Category: 2017 50c Richie Benaud - The Voice of Cricket 1930 - 2015 Uncircula
+- 7% under | $35 vs usual $37.5, 2 sales, low | 2017 50c Queen Elizabeth II 70th Wedding Anniversary Uncirculated Coin | shop:Sydney Coins & Jewellery | read as: coin 2017 50c unc | AI: not read | price not confirmed | https://sydneycoins.com.au/products/2017-50c-queen-elizabeth-ii-70th-wedding-anniversary-uncirculated-coin
+    id: shop:sydneycoins.com.au:50597951930687 · key: c0gpkm
+    description read: Celebrate the royal love story with the 2017 50c Queen Elizabeth II 70th Wedding Anniversary Uncirculated Coin.
+- 7% under | $35 vs usual $37.5, 2 sales, low | 2017 50c Royal 70th Wedding Anniversary Uncirculated Coin | shop:Town Hall Coins | read as: coin 2017 50c unc | AI: not read | price not confirmed | https://townhallcoins.com/products/2017-50c-royal-70th-wedding-anniversary-uncirculated-coin
+    id: shop:townhallcoins.com:46862555185392 · key: 1t7g8t5
 - 6% under | $30 vs usual $32, 4 sales, medium | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
     id: shop:coinsandcollectables.com.au:68006469370101 · key: fs96m4 · Claude: verified 2026-11-22
     description read: This striking $2 coloured coin commemorates the Last Post, and the Australian soldiers who have made the ultimate sacrifice in service of their country.
@@ -499,8 +514,8 @@ shops: 2/2 worked, 0 kept
     id: shop:qmint.com:a94da38350e8e0a9 · key: zsg9yy · Claude: verified 2026-11-22
     description read: Product Description Specifications Discover the 2012 1/2oz Lunar Series II Dragon Silver Coin by The Perth Mint. Discover the 2012 1/2oz Lunar Series II Dragon Silver Coin by The Perth Mint. Category: Home / Shop / Elements / Silver / 2012 1/2oz Lunar Dragon Silver Coin.
 
-## Last 3 days by source (759 steps)
-- 32 shops: every step worked, 8838 kept
+## Last 3 days by source (790 steps)
+- 32 shops: every step worked, 8844 kept
 - gumtree: 13/34 worked, 5 kept
     3× Error: 403 from https://www.gumtree.com.au/s-1966+1c+Melbourne/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-2011+1c/k0?sort=date (the site asked for a bot check – try again later)
@@ -509,13 +524,44 @@ shops: 2/2 worked, 0 kept
     11× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - ebay_active: 28/29 worked, 1133 kept
     1× Error: couldn't read the page
-- ebay_sold: 350/357 worked, 8664 kept
+- ebay_sold: 379/386 worked, 9013 kept
     4× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
     3× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
 - collection: 1/1 worked, 0 kept
 - facebook: 34/34 worked, 2 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-23T08:09:55Z | ebay_sold | 2019 50c Jody Clark effigy | 5
+2026-11-23T08:09:43Z | ebay_sold | 2017 50c | 182
+2026-11-23T08:09:28Z | ebay_sold | 1985 50c | 40
+2026-11-23T08:09:17Z | ebay_sold | 2023 20c AC Powerage | 6
+2026-11-23T08:09:07Z | ebay_sold | 2023 20c AC Flick Switch | 9
+2026-11-23T08:08:57Z | ebay_sold | 2022 20c Diary Wombat | 25
+2026-11-23T08:08:48Z | ebay_sold | 2022 20c AC Let There Rock | 12
+2026-11-23T08:08:37Z | ebay_sold | 2020 20c AC Ballbreaker | 7
+2026-11-23T08:08:26Z | ebay_sold | 2020 20c AC TNT | 1
+2026-11-23T08:08:14Z | ebay_sold | 2020 20c AC Voltage | 5
+2026-11-23T08:08:05Z | ebay_sold | 2017 20c Bananas Pyjamas | 9
+2026-11-23T08:07:56Z | ebay_sold | 2017 20c International Day People Disability | 1
+2026-11-23T08:07:47Z | ebay_sold | 2017 20c Sinking SS Vyner Brooke | 1
+2026-11-23T08:07:38Z | ebay_sold | 2026 20c Service Amid Strife | 43
+2026-11-23T08:07:29Z | ebay_sold | 2017 25c ANZACs Medals Honour Medal Gallantry | 0
+2026-11-23T08:07:19Z | ebay_sold | 2017 25c ANZACs Medals Honour Distinguished Flying | 0
+2026-11-23T08:07:09Z | ebay_sold | 2017 25c ANZACs Medals Honour George Cross | 0
+2026-11-23T08:07:01Z | ebay_sold | 2017 25c ANZACs Medals Honour Victoria Cross | 0
+2026-11-23T08:06:52Z | ebay_sold | 2015 20c ANZACs Remembered Gallipoli Landing | 0
+2026-11-23T08:06:43Z | ebay_sold | 2015 20c ANZACs Remembered Unknown Soldier | 0
+2026-11-23T08:06:34Z | ebay_sold | 2015 20c ANZACs Remembered Imperial Force | 1
+2026-11-23T08:06:26Z | ebay_sold | 2015 20c ANZACs Remembered Flying Corps | 0
+2026-11-23T08:06:14Z | ebay_sold | 2015 20c ANZACs Remembered War Correspondents | 1
+2026-11-23T08:06:03Z | ebay_sold | 2015 20c ANZACs Remembered Last | 0
+2026-11-23T08:05:51Z | ebay_sold | 2015 20c ANZACs Remembered Nurses | 0
+2026-11-23T08:05:40Z | ebay_sold | 2015 20c ANZACs Remembered Remembrance Day | 1
+2026-11-23T08:05:28Z | ebay_sold | 2015 20c ANZACs Remembered Navy | 0
+2026-11-23T08:05:18Z | ebay_sold | 2015 20c ANZACs Remembered Home Front | 0
+2026-11-23T08:05:06Z | ebay_sold | 2015 20c ANZACs Remembered Light Horsemen | 0
+2026-11-23T08:04:58Z | shop | Guy Stuff | 6
+2026-11-23T08:04:58Z | shop | Guardian Gold | 0
 2026-11-23T07:10:11Z | ebay_sold | 2015 20c ANZACs Remembered Mateship | 1
 2026-11-23T07:10:00Z | ebay_sold | 2015 20c ANZACs Remembered WWI | 9
 2026-11-23T07:09:49Z | ebay_sold | 1981 20c claw | 4
@@ -635,34 +681,3 @@ shops: 2/2 worked, 0 kept
 2026-11-23T01:07:49Z | ebay_sold | 1993 10c | 15
 2026-11-23T01:07:19Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 1 | 187 | 218 on the page, 48 new, 2 matched a catalogue coin · reached sales already stored (before 2026-11-21)
 2026-11-23T01:06:08Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 1 | 193 | 214 on the page, 43 new, 1 matched a catalogue coin · reached sales already stored (before 2026-11-21)
-2026-11-23T01:05:15Z | shop | Guardian Gold | 0
-2026-11-23T01:05:15Z | shop | Prospect Stamps & Coins | 0
-2026-11-23T01:05:15Z | ebay_sold_sweep | Coins, notes & bullion “australia note polymer” · page 1 | 198 | 207 on the page, 1 new, 1 matched a catalogue coin · reached sales already stored (before 2026-11-20)
-2026-11-23T00:10:45Z | ebay_sold | 1992 10c | 7
-2026-11-23T00:10:39Z | shop | Heritage Numismatics | 25
-2026-11-23T00:10:17Z | ebay_sold | 1991 10c | 24
-2026-11-23T00:08:53Z | ebay_sold | 1990 10c | 9
-2026-11-23T00:07:45Z | ebay_sold_sweep | Coins, notes & bullion “australian banknote” · page 1 | 195 | 231 on the page, 160 new, 1 matched a catalogue coin · reached sales already stored (before 2026-11-20)
-2026-11-23T00:06:51Z | ebay_sold_sweep | Mint & proof sets “australian” · page 1 | 174 | 198 on the page, 11 new, 31 matched a catalogue coin · reached sales already stored (before 2026-11-20)
-2026-11-23T00:05:59Z | shop | Guardian Gold | 0
-2026-11-23T00:05:59Z | shop | Prospect Stamps & Coins | 0
-2026-11-23T00:05:59Z | ebay_sold_sweep | Mint & proof sets “australia” · page 1 | 181 | 213 on the page, 16 new, 39 matched a catalogue coin · reached sales already stored (before 2026-11-20)
-2026-11-22T23:10:26Z | ebay_sold | 1989 10c | 5
-2026-11-22T23:09:53Z | ebay_sold | 1988 10c | 20
-2026-11-22T23:09:32Z | ebay_sold | 1984 10c | 12
-2026-11-22T23:09:01Z | ebay_sold | 1983 10c | 19
-2026-11-22T23:08:27Z | ebay_sold | 1982 10c | 15
-2026-11-22T23:07:19Z | ebay_sold_sweep | Australian decimal coins $250+ · page 4 | 55 | 59 on the page, 1 new, 11 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-22T23:06:26Z | ebay_sold_sweep | Australian decimal coins $250+ · page 3 | 55 | 59 on the page, 1 new, 11 matched a catalogue coin
-2026-11-22T23:05:32Z | shop | Prospect Stamps & Coins | 0
-2026-11-22T23:05:32Z | shop | Guy Stuff | 5
-2026-11-22T23:05:32Z | ebay_sold_sweep | Australian decimal coins $250+ · page 2 | 55 | 59 on the page, 11 new, 11 matched a catalogue coin
-2026-11-22T22:10:14Z | ebay_sold | 1981 10c | 19
-2026-11-22T22:09:50Z | ebay_sold | 1980 10c | 14
-2026-11-22T22:09:20Z | ebay_sold | 1979 10c | 16
-2026-11-22T22:08:50Z | ebay_sold | 1978 10c | 14
-2026-11-22T22:07:18Z | ebay_sold_sweep | Australian decimal coins $250+ · page 1 | 55 | 59 on the page, 2 new, 12 matched a catalogue coin
-2026-11-22T22:06:22Z | ebay_sold_sweep | Australian decimal coins $100–$250 · page 2 | 63 | 65 on the page, 0 new, 17 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-22T22:05:27Z | shop | Prospect Stamps & Coins | 0
-2026-11-22T22:05:27Z | shop | Guardian Gold | 0
-2026-11-22T22:05:27Z | ebay_sold_sweep | Australian decimal coins $100–$250 · page 1 | 63 | 65 on the page, 3 new, 17 matched a catalogue coin
