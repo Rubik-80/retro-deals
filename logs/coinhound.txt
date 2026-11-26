@@ -1,18 +1,18 @@
 # Coin Hound 2.61 refresh report
-Written 2026-11-26T06:06:09Z (26 Nov, 5:06 pm Sydney) · refresh slice started 2026-11-26T05:56:53Z, took 557 s
-Totals: {"ebay_sold_sweep":217,"ebay_sold":1285,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":150,"claude_removed":0,"alerts":3,"sold_prices":"754 coins, 2999 sales"}
-Time taken (seconds): searching 525 · pricing 2 · reading pages 2 · checks and alerts 17
-Stored: 11246 live · 24620 sold
+Written 2026-11-26T10:06:26Z (26 Nov, 9:06 pm Sydney) · refresh slice started 2026-11-26T09:57:14Z, took 553 s
+Totals: {"ebay_sold":1421,"shops":6,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":0}
+Time taken (seconds): searching 532 · pricing 2 · reading pages 2 · checks and alerts 16
+Stored: 11246 live · 25667 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 3 finished 2026-11-26T05:57:21Z · 202 pages read · 25,485 sales found, 12,467 new, 1,370 matched a catalogue coin · last error 2026-11-25T20:22:26Z: Coins, notes & bullion “australian banknote” · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 381 of 3194 searches done, 15440 sales found (started 2026-11-22T01:05:28.346Z)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 395 of 3187 searches done, 16861 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 754 coins, 2999 matched sales (344 coins with a confident price), last checked 2026-11-26T06:06:09.730Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-23T06:01:05.000Z), 1011 added
-Claude's checks: last applied 2026-11-26T06:05:48Z (file from 2026-11-25T19:39:31Z) – 150 applied, 0 removed, 7 corrected, 143 verified
+Claude's checks: last applied 2026-11-26T10:06:16Z (file from 2026-11-25T19:39:31Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
 ## Sold sweep
 Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 3 finished 2026-11-26T05:57:21Z · 202 pages read · 25,485 sales found, 12,467 new, 1,370 matched a catalogue coin · last error 2026-11-25T20:22:26Z: Coins, notes & bullion “australian banknote” · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
@@ -39,10 +39,9 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 754 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 1 pages · 217 sales, 55 new, 4 matched (2%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 16 steps, 0 with problems
-ebay_sold: 13/13 worked, 1285 kept
+## This refresh: 17 steps, 0 with problems
+ebay_sold: 15/15 worked, 1421 kept
 shops: 2/2 worked, 6 kept
-ebay_sold_sweep: 1/1 worked, 171 kept
 
 ## Shops: 67 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -59,17 +58,17 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 7 kept of 23 found, read through its site map, page by page (77 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-25T20:27:33Z · last worked 2026-11-25T20:27:33Z
 - Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 216483ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 1 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 347565ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 353615ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
+      page: / 216233ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 1 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346443ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 352269ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
       page: /product-category/gold/buy-gold-cast-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-26T05:58:36Z · last worked 2026-11-26T05:58:36Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-26T05:58:56Z · last worked 2026-11-26T05:58:56Z
+      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-26T09:59:15Z · last worked 2026-11-26T09:59:15Z
+- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-26T09:59:32Z · last worked 2026-11-26T09:59:32Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 25 kept of 56 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-25T20:23:39Z · last worked 2026-11-25T20:23:39Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -150,6 +149,9 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 - 66% under | $5 vs usual $14.5, 9 sales, high | 2001 50c Centenary of Federation Uncirculated Coin in Pack | shop:Coin City | read as: coin 2001 50c unc | AI: coin base  (1) 2001 50c Centenary of Federation unc | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2001-50c-centenary-of-federation-uncirculated-coin-in-pack
     id: shop:coincity.com.au:47817503572289 · key: ms1z5o · Claude: verified 2026-11-25
     description read: 2001 50c Centenary of Federation Uncirculated Coin in Pack. Honouring 100 years of nationhood, Australia celebrates the Centenary of Federation in 2001.Uniting the colonies as one country, and confirming a growing sense of national identity, the official ceremony was held in Sydney's Centennial Park on January 1st 1901.. Celebrating the most important milestone on the road to independence, the 100th anniversary of Federation has been recognised with the approval of an official legal tender commemorative.. In strictly uncirculated condition, the 2001 Centenary of Federation 50c is struck by the Royal Australian Mint, Canberra.. Denomination : 50c. Finish : Uncirculated. Metal : Cupro Nickel. 
+- 60% under | $3 vs usual $7.45, 3 sales, low | 1993 $1 Australian LandCare No Mint Mark Uncirculated Coin | shop:Sydney Coins & Jewellery | read as: coin 1993 $1 unc | AI: not read | price not confirmed | https://sydneycoins.com.au/products/1993-1-australian-landcare-no-mint-mark-uncirculated-coin
+    id: shop:sydneycoins.com.au:50598671352127 · key: 16s8ptj
+    description read: This 1993 $1 Australian LandCare No Mint Mark Uncirculated Coin is a must-have for any coin collector or fan of Australian history.
 - 58% under | $5 vs usual $11.9, 6 sales, medium | 50c 2019 International Year of Indigenous Languages UNC | shop:Wynyard Coin Centre | read as: coin 2019 50c unc | AI: coin base  (1) 50c 2019 International Year of Indigenous Languages UNC | price not confirmed | https://wynyardcoins.com.au/products/50c-2019-international-year-of-indigenous-languages-unc-1
     id: shop:wynyardcoins.com.au:40816849518760 · key: 1srqch9 · Claude: verified 2026-11-25
     description read: Uncirculated condition.
@@ -416,6 +418,9 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 - 15% under | $20 vs usual $23.5, 3 sales, low | 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2019 50c unc | AI: coin base  (1) 2019 50c Indigenous Languages frosted unc in card | price not confirmed | https://coincity.com.au/products/2019-50c-international-year-of-indigenous-languages-frosted-uncirculated-coin-in-ram-card
     id: shop:coincity.com.au:47817689727297 · key: 1jb4rut · Claude: verified 2026-11-25
     description read: 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in RAM CardTo recognize 2019 as the International Year of Indigenous Languages, the Royal Australian Mint has issued a Frosted Uncirculated 50 cent Coin in collaboration with the Australian Institute of Aboriginal and Torr This coin acknowledges Australia's unique Indigenous languages, and the efforts being undertaken to preserve these important parts of Australian Indigenous culture.The United Nations General Assembly proclaimed 2019 as the International Year of Indigenous Languages. Languages are crucial to the identity of Indigenous Australians as well as being an important part of Australia's history and cultur
+- 15% under | $6.8 vs usual $7.99, 5 sales, medium | 1988 $1 Coin - Australian Bicentenary - Uncirculated | shop:Loose Change Coins | read as: coin 1988 $1 unc | AI: coin base  (1) 1988 $1 Coin - Australian Bicentenary - Uncirculated | price not confirmed | https://loosechangecoins.com.au/products/1988-australian-1-dollar-coin-australian-bicentenary-aunc-with-2x2-holder-1
+    id: shop:loosechangecoins.com.au:31703558520965 · key: 12s2t86 · Claude: verified 2026-11-08
+    description read: Single uncirculated coin sourced from a Royal Australian Mint (RAM) roll. Struck to uncirculated standard in Aluminium-Bronze.. Please Note:. This coin is in uncirculated condition, meaning it has never been used in general commerce and retains its original mint lustre.. As is common with uncirculated coins, minor "bag marks" (surface nicks from contact with other coins during the minting process) may be present.. the coin you receive will be in a similar high-grade state to the one pictured.. With a mintage of 21.6 million, while common in circulation, examples preserved in this uncirculated condition are essential for collectors looking to represent the Bicentenary year in its best possibl
 - 14% under | $29.5 vs usual $34.5, 7 sales, medium | 50c 2026 HM Queen Elizabeth II Centenary of Birth UNC | shop:Wynyard Coin Centre | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c QEII Centenary of Birth unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2026-hm-queen-elizabeth-ii-centenary-of-birth-unc
     id: shop:wynyardcoins.com.au:47758169145561 · key: o7nshw · Claude: verified 2026-11-25
     description read: The Royal Australian Mint is proud to announce the release of this beautiful 2026 $5 Silver Proof Coin to mark the centenary of the birth of Her Majesty Queen Elizabeth II. Uncirculated (UNC).
@@ -438,6 +443,8 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 - 14% under | $60 vs usual $69.6, 3 sales, low | 2015 Mint Set - 50th Anniversary of the Royal Australian Mint | shop:Coin City | read as: mint_set 2015 $2 unc | AI: mint_set base  (1) 2015 RAM six-coin unc year set (50th anniversary of the Mint) – whole set, not a $2 | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2015-mint-set-50th-anniversary-of-the-royal-australian-mint
     id: shop:coincity.com.au:47817153806657 · key: lpnj4r · Claude: corrected 2026-11-25
     description read: The annual tradition of year sets of Australian coins continues and in 2015 marks a very special milestone for the Mint. The golden anniversary, this uncirculated set celebrates 50 years of producing coins which have been collected and cherished by generations of Australians.. Since that day over 14 billion circulating coins have been produced at the Mint, becoming iconic works of art which have traversed the entire country. In this year of celebrating the Mint’s 50th anniversary, these coin sets will become treasured by casual and serious coin collectors who will appreciate the significance of this milestone. Issued as Australian Legal Tender.. Denomination : $2, $1, 50c, 20c, 10c, 5c. Qual
+- 13% under | $65 vs usual $75, 8 sales, high | 2023 $2 ‘C’ Mintmark Coloured Uncirculated Vietnam War 50th Anniversary | shop:WA Coins | read as: coin 2023 $2 C mintmark unc | AI: not read | price not confirmed | https://www.wacoins.com.au/shop/2023-2-c-mintmark-coloured-uncirculated-vietnam-war-50th-anniversary/
+    id: shop:wacoins.com.au:18609 · key: 14sj1p
 - 13% under | $19 vs usual $21.9, 6 sales, medium | 2022 $1 Australian Dinosaurs Uncirculated 4 Coin Set | shop:Town Hall Coins | read as: set 2022 $1 unc | AI: set base  (1) 2022 RAM Australian Dinosaurs four $1 Al-Br unc coin set (themed set, not a year mint set) | price not confirmed | https://townhallcoins.com/products/2022-australian-dinosaurs-1-uncirculated-four-coin-collection
     id: shop:townhallcoins.com:46862419722480 · key: gr05r · Claude: corrected 2026-11-21
     description read: Captured in these four aluminium bronze coins is a slice of Australia's dinosaur history dating back to the Cretaceous Period - an epic 145 million to 66 million years ago!
@@ -554,27 +561,36 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 - 5% under | $35 vs usual $36.81, 13 sales, high | 2024 50c 50th Anniversary of Countdown Coloured Uncirculated Coin in Card | shop:Coin City | read as: coin 2024 50c unc | AI: coin base  (1) 2024 50c Countdown 50th coloured unc in card | page/description: {"metal":null,"metal_by":"label","denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2024-50c-50th-anniversary-of-countdown-coloured-uncirculated-coin-in-card
     id: shop:coincity.com.au:49457416372545 · key: hrxemt · Claude: verified 2026-11-25
     description read: The reverse features the iconic Countdown logo on a retro television set, with stars and music notes, surrounded by a tunnel of multicoloured shapes.. Each coin is issued as Australian Legal Tender.. Denomination : 50c. Quality : Uncirculated. Metal : Aluminium Bronze. Diameter : 31.51 mm.
-- 5% under | $19 vs usual $19.95, 4 sales, low | 2022 20c AC/DC Let There Be Rock PNC | shop:Town Hall Coins | read as: pnc 2022 20c | AI: pnc base  (1) 2022 AC/DC Let There Be Rock 45th anniversary stamp & 20c coin cover | price not confirmed | https://townhallcoins.com/products/2022-20c-ac-dc-let-there-be-rock-pnc
-    id: shop:townhallcoins.com:47788801949936 · key: 5gskku · Claude: verified 2026-11-25
-- 5% under | $25 vs usual $26.19, 4 sales, medium | 2015 50c Australia At War El Alamein Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 50c unc | AI: coin base  (1) 2015 50c Australia at War El Alamein unc | price not confirmed | https://townhallcoins.com/products/2015-50c-australia-at-war-el-alamein-uncirculated-coin
-    id: shop:townhallcoins.com:46862554661104 · key: cuprui · Claude: verified 2026-11-25
-- 4% under | $55 vs usual $57.55, 6 sales, low | 1991 Australia 20c Coin PCGS PR69DCAM #6532 | shop:Tasmanian Numismatics | read as: coin 1991 20c proof | AI: coin base  (1) 1991 Australia 20c Coin PCGS PR69DCAM #6532 | price not confirmed | https://tasmaniannumismatics.com.au/product/1991-australia-20c-coin-pcgs-pr69dcam-6532/
-    id: shop:tasmaniannumismatics.com.au:37396 · key: 1gp6yd9 · Claude: verified 2026-11-25
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (326 steps)
-- 17 shops: every step worked, 14258 kept
+## Last 3 days by source (255 steps)
+- 17 shops: every step worked, 10661 kept
 - claude: 0/1 worked, 0 kept
     1× removed by Claude's check: Cook Islands issue, not Australian
 - ebay_sold_sweep: 39/42 worked, 2938 kept
     3× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- ebay_sold: 208/211 worked, 12379 kept
-    2× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-    1× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
+- ebay_sold: 147/148 worked, 10575 kept
+    1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 
 ## Log, newest first (last 150 steps)
+2026-11-26T10:01:56Z | ebay_sold | 1993 $2 | 117
+2026-11-26T10:01:42Z | ebay_sold | 1992 $2 | 72
+2026-11-26T10:01:25Z | ebay_sold | 1990 $2 | 134
+2026-11-26T10:01:09Z | ebay_sold | 1989 $2 | 151
+2026-11-26T10:00:30Z | ebay_sold | 1988 $2 | 403
+2026-11-26T09:59:45Z | ebay_sold | 2023 $2 | 418
+2026-11-26T09:59:34Z | ebay_sold | 2018 $1 Convict Era Map | 1
+2026-11-26T09:59:22Z | ebay_sold | 2018 $1 Convict Era S mintmark | 4
+2026-11-26T09:59:10Z | ebay_sold | 2018 $1 Convict Era M mintmark | 5
+2026-11-26T09:58:55Z | ebay_sold | 2018 $1 Convict Era B mintmark | 0
+2026-11-26T09:58:37Z | ebay_sold | 1999 $1 Last Anzacs | 98
+2026-11-26T09:58:21Z | ebay_sold | 1995 $1 Waltzing Matilda S mintmark | 10
+2026-11-26T09:58:06Z | ebay_sold | 1995 $1 Waltzing Matilda M mintmark | 7
+2026-11-26T09:57:46Z | ebay_sold | 2026 $1 60th Anniversary of Decimal Currency Mintmark privy set | 0
+2026-11-26T09:57:28Z | ebay_sold | 2000 $1 mule Double rim | 1
+2026-11-26T09:57:18Z | shop | Guy Stuff | 6
+2026-11-26T09:57:18Z | shop | Guardian Gold | 0
 2026-11-26T06:01:45Z | ebay_sold | 2025 $1 Big Things two-coin | 8
 2026-11-26T06:01:28Z | ebay_sold | 2023 $1 Big Things Giant Murray Cod | 40
 2026-11-26T06:00:53Z | ebay_sold | 2022 $1 | 432
@@ -708,20 +724,3 @@ ebay_sold_sweep: 1/1 worked, 171 kept
 2026-11-24T10:02:02Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 1 | 59 | 60 on the page, 0 new, 4 matched a catalogue coin
 2026-11-24T10:01:10Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 3 | 59 | 60 on the page, 0 new, 4 matched a catalogue coin · eBay repeated the last page (end of results)
 2026-11-24T10:00:14Z | shop | Guardian Gold | 0
-2026-11-24T10:00:14Z | shop | Prospect Stamps & Coins | 0
-2026-11-24T10:00:14Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 2 | 59 | 60 on the page, 32 new, 4 matched a catalogue coin
-2026-11-24T06:01:43Z | ebay_sold | 2021 50c | 143
-2026-11-24T06:00:57Z | ebay_sold | 2019 50c | 420
-2026-11-24T06:00:22Z | ebay_sold | 2018 50c | 274
-2026-11-24T05:59:43Z | ebay_sold | 2016 50c | 313
-2026-11-24T05:59:28Z | ebay_sold | 2015 50c | 122
-2026-11-24T05:59:11Z | ebay_sold | 2014 50c | 170
-2026-11-24T05:58:50Z | ebay_sold | 2013 50c | 103
-2026-11-24T05:58:19Z | ebay_sold | 2012 50c | 165
-2026-11-24T05:58:02Z | ebay_sold | 2011 50c | 82
-2026-11-24T05:57:39Z | ebay_sold | 2010 50c | 119
-2026-11-24T05:57:16Z | ebay_sold | 2009 50c | 32
-2026-11-24T05:56:51Z | shop | Guy Stuff | 6
-2026-11-24T05:56:51Z | shop | Guardian Gold | 0
-2026-11-24T05:56:51Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 2 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-24T04:27:47Z | ebay_sold | 2015 50c | 122
