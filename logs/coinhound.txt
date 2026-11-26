@@ -1,56 +1,24 @@
-# Coin Hound 2.62 refresh report
-Written 2026-11-26T18:05:16Z (27 Nov, 5:05 am Sydney) · refresh slice started 2026-11-26T17:57:04Z, took 492 s
+# Coin Hound 2.63 refresh report
+Written 2026-11-26T19:48:47Z (27 Nov, 6:48 am Sydney) · refresh report only started 2026-11-26T13:48:47Z, took 21600 s
 Totals: {"ebay_sold":7,"ebay_active":12,"shops":6,"gumtree":0,"facebook":0,"cashconverters":56,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":1}
-Time taken (seconds): searching 463 · pricing 3 · reading pages 3 · checks and alerts 24
-Last problem: gumtree (1978 1c specimen): Error: 403 from https://www.gumtree.com.au/s-1978+1c+specimen/k0?sort=date (the site asked for a bot check – try again later)
-Stored: 11583 live · 25658 sold
-Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops
+Stored: 11583 live · 25705 sold
+Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops, auction_houses, lloyds
 eBay: not paused
-eBay developer keys: none (reading eBay's pages)
-Quick checks: every 30 min · last none yet
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 3 finished 2026-11-26T05:57:21Z · 202 pages read · 25,485 sales found, 12,467 new, 1,370 matched a catalogue coin · last error 2026-11-25T20:22:26Z: Coins, notes & bullion “australian banknote” · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 386 of 3174 searches done, 16861 sales found (started 2026-11-22T01:05:28.346Z)
-Linked collection: 1981 wanted, 642 owned, catalogue 2978
-Sold prices shared with the collection app: 790 coins, 3216 matched sales (372 coins with a confident price), last checked 2026-11-26T14:12:37.525Z
-eBay sales from the collection app: 1041 sales in its file (saved 2026-11-23T06:01:05.000Z), 1011 added
 Claude's checks: last applied 2026-11-26T18:04:59Z (file from 2026-11-25T19:39:31Z) – 0 applied, 0 removed, 0 corrected, 0 verified
 
-## Sold sweep
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 3 finished 2026-11-26T05:57:21Z · 202 pages read · 25,485 sales found, 12,467 new, 1,370 matched a catalogue coin · last error 2026-11-25T20:22:26Z: Coins, notes & bullion “australian banknote” · page 1: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Fast backfill (charging and on Wi-Fi, app open): not running · last 2026-11-21T23:40:40Z · stopped: conditions · 4 pages this session
-Sales matched to catalogue coins (all sold prices, last 365 days): 790 of 2623 catalogue coins have matched sales (3216 sales); 291 have 3 or more, 372 a confident price
-- Australian decimal coins $0–$1: ? results · 2 pages · 120 sales, 32 new, 16 matched (13%) · eBay repeated the last page (end of results) · newest sale 2026-11-23
-- Australian decimal coins $1–$2: ? results · 2 pages · 120 sales, 0 new, 16 matched (13%) · eBay repeated the last page (end of results) · newest sale 2026-11-23
-- Australian decimal coins $2–$3: ? results · 2 pages · 120 sales, 31 new, 25 matched (21%) · eBay repeated the last page (end of results) · newest sale 2026-11-23
-- Australian decimal coins $3–$5: ? results · 2 pages · 120 sales, 0 new, 18 matched (15%) · eBay repeated the last page (end of results) · newest sale 2026-11-23
-- Australian decimal coins $5–$7.50: ? results · 2 pages · 120 sales, 19 new, 16 matched (13%) · eBay repeated the last page (end of results) · newest sale 2026-11-23
-- Australian decimal coins $7.50–$10: ? results · 3 pages · 180 sales, 32 new, 18 matched (10%) · eBay repeated the last page (end of results) · newest sale 2026-11-24
-- Australian decimal coins $10–$15: ? results · 3 pages · 180 sales, 33 new, 13 matched (7%) · eBay repeated the last page (end of results) · newest sale 2026-11-24
-- Australian decimal coins $15–$20: ? results · 3 pages · 180 sales, 38 new, 22 matched (12%) · eBay repeated the last page (end of results) · newest sale 2026-11-24
-- Australian decimal coins $20–$30: ? results · 2 pages · 120 sales, 3 new, 20 matched (17%) · eBay repeated the last page (end of results) · newest sale 2026-11-24
-- Australian decimal coins $30–$50: ? results · 2 pages · 120 sales, 28 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-25
-- Australian decimal coins $50–$100: ? results · 2 pages · 120 sales, 3 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-25
-- Australian decimal coins $100–$250: ? results · 2 pages · 120 sales, 35 new, 14 matched (12%) · eBay repeated the last page (end of results) · newest sale 2026-11-25
-- Australian decimal coins $250+: ? results · 6 pages · 360 sales, 50 new, 40 matched (11%) · eBay repeated the last page (end of results) · newest sale 2026-11-25
-- Mint & proof sets “australia”: 841 results · 1 pages · 207 sales, 16 new, 37 matched (18%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-25
-- Mint & proof sets “australian”: ? results · 1 pages · 200 sales, 16 new, 30 matched (15%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
-- Coins, notes & bullion “australian banknote”: ? results · 1 pages · 220 sales, 155 new, 0 matched (0%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
-- Coins, notes & bullion “australia note polymer”: 897 results · 1 pages · 212 sales, 5 new, 0 matched (0%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
-- Coins, notes & bullion “perth mint”: ? results · 1 pages · 206 sales, 90 new, 1 matched (0%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
-- Coins, notes & bullion “australian bullion”: ? results · 1 pages · 217 sales, 55 new, 4 matched (2%) · reached sales already stored (before 2026-11-22) · newest sale 2026-11-26
-Categories eBay offered on these pages: Cointraderjem (3372)
-
-## This refresh: 15 steps, 2 with problems
-cashconverters: 1/1 worked, 56 kept
-facebook: 2/2 worked, 0 kept
-gumtree: 0/2 worked, 0 kept
-ebay_active: 4/4 worked, 12 kept
-ebay_sold: 4/4 worked, 7 kept
-shops: 2/2 worked, 6 kept
+## This refresh: 33 steps, 3 with problems
+shops: 5/5 worked, 12 kept
+ebay_sold_sweep: 1/1 worked, 59 kept
+cashconverters: 2/2 worked, 185 kept
+facebook: 4/4 worked, 0 kept
+gumtree: 1/4 worked, 0 kept
+ebay_active: 10/10 worked, 180 kept
+ebay_sold: 7/7 worked, 30 kept
 
 ### Problems this refresh
 - gumtree | 1978 1c specimen | Error: 403 from https://www.gumtree.com.au/s-1978+1c+specimen/k0?sort=date (the site asked for a bot check – try again later)
 - gumtree | 2016 1c | Error: 403 from https://www.gumtree.com.au/s-2016+1c/k0?sort=date (the site asked for a bot check – try again later)
+- gumtree | 2014 1c | Error: 403 from https://www.gumtree.com.au/s-2014+1c/k0?sort=date (the site asked for a bot check – try again later)
 
 ## Shops: 67 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 21 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -63,7 +31,7 @@ shops: 2/2 worked, 6 kept
       page: /?page_id=34 34747ch · h1 “Gold and Silver Bullion” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=674 33353ch · h1 “Company Profile” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
       page: /?page_id=42 34180ch · h1 “Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1
-      page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-26T11:37:04Z · last worked 2026-11-26T11:37:04Z
+      page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-26T19:48:46Z · last worked 2026-11-26T19:48:46Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 7 kept of 23 found, read through its site map, page by page (77 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-25T20:27:33Z · last worked 2026-11-25T20:27:33Z
 - Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
@@ -146,6 +114,58 @@ shops: 2/2 worked, 6 kept
 - Bullion Money (bullionmoney.com.au): not read yet
 - Ceylon Exchange (ceylonexchange.com.au): not read yet
 - SA Gold Traders (sagoldtraders.com.au): not read yet
+
+## Why failing shops fail (step-by-step check)
+### Edlins (edlins.com.au) – problem: no product feed and no site map, and browsing its pages found no priced products · platform WordPress
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - Browsing its pages: 8 pages opened, no priced products found
+  - raw Website: HTTP 200, ended at https://edlins.com.au/, 33291 characters
+  - raw Platform: WordPress (generator: WordPress 7.1.3) · title “EDLINS &#8211; Coins ,Banknotes and Collectabes”
+  - raw Shopify product feed: HTTP 404 from https://edlins.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://edlins.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://edlins.com.au/robots.txt
+  - raw Site map https://edlins.com.au/index.php?route=extension/feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
+  - raw Site map https://edlins.com.au/index.php?route=feed/google_sitemap: <html> (33291 characters, starts “<!DOCTYPE html> <html lang="en-AU"> <head> <meta”)
+  - raw Site map also tried: /sitemap.xml 404, /sitemap_index.xml 404, /product-sitemap.xml 404, /sitemap_products_1.xml 404, /sitemap-products.xml 404, /store-products-sitemap.xml 404, /xmlsitemap.php 404, /sitemap/products.xml 404, /sitemap/sitemap.xml 404, /sitemap1.xml 404, /pub/media/sitemap.xml 404, /media/sitemap.xml 404, /sitemap.php 404, /wp-sitemap.xml 404, /wp-sitemap-posts-product-1.xml 404, /sitemap.xml.gz 404, /pub/sitemap.xml 404, /sitemap/index.xml 404, /sitemaps/sitemap.xml 404, /product_sitemap.xml 404, /sitemap_products.xml 404
+### Guardian Gold (guardian-gold.com.au) – problem: the website blocks plain requests (a bot check), and browsing its pages found no priced products
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - Browsing its pages: 3 pages opened, no priced products found
+  - raw Website: 403 from https://guardian-gold.com.au/ (the site asked for a bot check – try again later)
+### I.S. Wright (iswright.com.au) – problem: no product feed and no site map, and browsing its pages found no priced products
+  - Website: reachable
+  - Website: moved to https://www.iswright.com.au – read there
+  - Shopify product feed: none
+  - WooCommerce product feed: none
+  - Site map: none found
+  - Browsing its pages: 8 pages opened, no priced products found
+  - raw Website: HTTP 200, ended at https://www.iswright.com.au/, 16412 characters
+  - raw Platform: not recognised · title “I. S. WRIGHT Group -  Coins, Stamps &amp; Collectables”
+  - raw Shopify product feed: HTTP 404 from https://www.iswright.com.au/products.json?limit=5
+  - raw WooCommerce product feed: HTTP 404 from https://www.iswright.com.au/wp-json/wc/store/v1/products?per_page=5
+  - raw Site map robots.txt: HTTP 404 from https://www.iswright.com.au/robots.txt
+  - raw Site map also tried: /sitemap.xml 404, /sitemap_index.xml 404, /product-sitemap.xml 404, /sitemap_products_1.xml 404, /sitemap-products.xml 404, /store-products-sitemap.xml 404, /xmlsitemap.php 404, /sitemap/products.xml 404, /sitemap/sitemap.xml 404, /sitemap1.xml 404, /pub/media/sitemap.xml 404, /media/sitemap.xml 404, /index.php?route=extension/feed/google_sitemap 404, /sitemap.php 404, /wp-sitemap.xml 404, /wp-sitemap-posts-product-1.xml 404, /index.php?route=feed/google_sitemap 404, /sitemap.xml.gz 404, /pub/sitemap.xml 404, /sitemap/index.xml 404, /sitemaps/sitemap.xml 404, /product_sitemap.xml 404, /sitemap_products.xml 404
+### Prospect Stamps & Coins (prospectstampsandcoins.com.au) – WORKS when checked: the website blocks plain requests (a bot check) – read by browsing its pages
+  - Website: the website blocks apps like Coin Hound (bot check)
+  - Browsing its pages: 4 priced products on 8 pages – e.g. “Renniks Premier Australia Two Dollar ($2) Coin Album” $2
+  - raw Website: 403 from https://prospectstampsandcoins.com.au/ (the site asked for a bot check – try again later)
+### Bullion Now (bullionnow.com.au) – WORKS when checked: read through its WooCommerce product feed · platform WooCommerce + WordPress + Magento
+  - Website: reachable
+  - Shopify product feed: none
+  - WooCommerce product feed: works – e.g. “2026 NZ Mint Silver Niue Toy Story Coin 1oz” $77.77
+  - raw Website: HTTP 200, ended at https://bullionnow.com.au/, 277245 characters
+  - raw Platform: WooCommerce + WordPress + Magento (generator: WordPress 6.8.5) · title “Bullion Now”
+  - raw Shopify product feed: HTTP 404 from https://bullionnow.com.au/products.json?limit=5
+### Royal Bullion (royalbullion.com.au) – WORKS when checked: read through its WooCommerce product feed · platform WooCommerce + WordPress
+  - Website: reachable
+  - Website: moved to https://www.royalbullion.com.au – read there
+  - Shopify product feed: none
+  - WooCommerce product feed: works – e.g. “2026 Year of the Horse 1oz Silver Bullion Coin” $77.76
+  - raw Website: HTTP 200, ended at https://www.royalbullion.com.au/, 199584 characters
+  - raw Platform: WooCommerce + WordPress (generator: WordPress 7.1.5) · title “Royal Bullion | Buy &amp; Sell Gold, Silver &amp; Other Metals”
+  - raw Shopify product feed: HTTP 404 from https://www.royalbullion.com.au/products.json?limit=5
 
 ## Top 150 deals as the app shows them (best first)
 - 66% under | $10 vs usual $29, 2 sales, low | Australia 1983 1c, 2c, 5c, 10c, 50c UNC from a RAM set | ebay | read as: mint_set 1983 50c unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/325997244970
@@ -565,7 +585,7 @@ shops: 2/2 worked, 6 kept
 
 ## Needs checking: 0 listings held back as too cheap to be real
 
-## Last 3 days by source (238 steps)
+## Last 3 days by source (234 steps)
 - 17 shops: every step worked, 5364 kept
 - claude: 0/1 worked, 0 kept
     1× removed by Claude's check: Cook Islands issue, not Australian
@@ -573,14 +593,16 @@ shops: 2/2 worked, 6 kept
     1× Error: 403 from https://www.gumtree.com.au/s-1978+1c+specimen/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-2016+1c/k0?sort=date (the site asked for a bot check – try again later)
     1× Error: 403 from https://www.gumtree.com.au/s-2014+1c/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold_sweep: 31/33 worked, 2481 kept
+- ebay_sold_sweep: 32/34 worked, 2540 kept
     2× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 - cashconverters: 2/2 worked, 185 kept
 - facebook: 4/4 worked, 0 kept
 - ebay_active: 12/12 worked, 268 kept
-- ebay_sold: 132/132 worked, 9331 kept
+- ebay_sold: 126/126 worked, 9030 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-26T19:48:16Z | shop | Edlins | 0
+2026-11-26T19:48:16Z | ebay_sold_sweep | Australian decimal coins $0–$1 · page 1 | 59 | 60 on the page, 47 new, 6 matched a catalogue coin
 2026-11-26T18:00:51Z | cashconverters | coin categories | 56
 2026-11-26T18:00:24Z | facebook | 1978 1c specimen | 0 | nothing found – page “(1) Facebook”, 3356k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “1 unread chats 1 Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 150 km Sort b” – says “groups Kialla · 40 km Filters Notify Me No 
 2026-11-26T18:00:22Z | gumtree | 1978 1c specimen | 0 | Error: 403 from https://www.gumtree.com.au/s-1978+1c+specimen/k0?sort=date (the site asked for a bot check – try again later)
@@ -729,5 +751,3 @@ shops: 2/2 worked, 6 kept
 2026-11-25T06:27:38Z | ebay_sold | 1995 $1 Kangaroos | 20
 2026-11-25T06:26:28Z | ebay_sold_sweep | Australian decimal coins $250+ · page 1 | 56 | 60 on the page, 2 new, 7 matched a catalogue coin
 2026-11-25T06:25:29Z | ebay_sold_sweep | Australian decimal coins $100–$250 · page 2 | 56 | 60 on the page, 2 new, 7 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-25T06:24:23Z | shop | Guy Stuff | 6
-2026-11-25T06:24:23Z | shop | Guardian Gold | 0
