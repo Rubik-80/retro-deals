@@ -1,24 +1,24 @@
 # Coin Hound 2.63 refresh report
-Written 2026-11-27T09:58:10Z (27 Nov, 8:58 pm Sydney) · refresh slice started 2026-11-27T09:50:03Z, took 487 s
-Totals: {"ebay_sold_sweep":330,"shops":6,"ebay_sold":46,"ebay_active":129,"gumtree":0,"facebook":1,"cashconverters":176,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":1}
-Time taken (seconds): searching 465 · pricing 3 · reading pages 2 · checks and alerts 17
-Last problem: gumtree (1980 2c): Error: 403 from https://www.gumtree.com.au/s-1980+2c/k0?sort=date (the site asked for a bot check – try again later)
-Stored: 12789 live · 25824 sold
+Written 2026-11-27T22:01:30Z (28 Nov, 9:01 am Sydney) · refresh slice started 2026-11-27T21:52:08Z, took 563 s
+Totals: {"ebay_sold":35,"ebay_active":124,"gumtree":0,"facebook":0,"shops":0,"cashconverters":32,"auction_houses":0,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":152,"claude_removed":0,"alerts":7,"sold_prices":"800 coins, 3269 sales"}
+Time taken (seconds): searching 526 · pricing 2 · reading pages 2 · checks and alerts 22
+Last problem: auction:downies (Downies Auctions): Error: page took too long to load
+Stored: 14057 live · 26032 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops, auction_houses, lloyds
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 4: 14 of 19 searches done, 5 left · 233 pages read · 27,495 sales found, 12,648 new, 1,611 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 385 of 3171 searches done, 16861 sales found (started 2026-11-22T01:05:28.346Z)
+Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 4 finished 2026-11-27T12:51:56Z · 238 pages read · 28,556 sales found, 12,896 new, 1,660 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 385 of 3170 searches done, 16947 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
-Sold prices shared with the collection app: 798 coins, 3248 matched sales (377 coins with a confident price), last checked 2026-11-27T05:57:53.602Z
+Sold prices shared with the collection app: 800 coins, 3269 matched sales (379 coins with a confident price), last checked 2026-11-27T22:01:30.583Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-23T06:01:05.000Z), 1011 added
-Claude's checks: last applied 2026-11-27T09:57:58Z (file from 2026-11-26T19:39:35Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-27T22:01:06Z (file from 2026-11-27T19:39:16Z) – 152 applied, 0 removed, 15 corrected, 137 verified
 
 ## Sold sweep
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 4: 14 of 19 searches done, 5 left · 233 pages read · 27,495 sales found, 12,648 new, 1,611 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 4 finished 2026-11-27T12:51:56Z · 238 pages read · 28,556 sales found, 12,896 new, 1,660 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 Fast backfill (charging and on Wi-Fi, app open): not running · last 2026-11-21T23:40:40Z · stopped: conditions · 4 pages this session
-Sales matched to catalogue coins (all sold prices, last 365 days): 798 of 2623 catalogue coins have matched sales (3248 sales); 294 have 3 or more, 377 a confident price
+Sales matched to catalogue coins (all sold prices, last 365 days): 800 of 2623 catalogue coins have matched sales (3269 sales); 295 have 3 or more, 379 a confident price
 - Australian decimal coins $0–$1: ? results · 3 pages · 180 sales, 66 new, 16 matched (9%) · eBay repeated the last page (end of results) · newest sale 2026-11-26
 - Australian decimal coins $1–$2: ? results · 2 pages · 120 sales, 2 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-26
 - Australian decimal coins $2–$3: ? results · 2 pages · 120 sales, 4 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-26
@@ -33,24 +33,26 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 798 of 2623 c
 - Australian decimal coins $100–$250: ? results · 2 pages · 120 sales, 2 new, 25 matched (21%) · eBay repeated the last page (end of results) · newest sale 2026-11-27
 - Australian decimal coins $250+: ? results · 2 pages · 120 sales, 10 new, 20 matched (17%) · eBay repeated the last page (end of results) · newest sale 2026-11-27
 - Mint & proof sets “australia”: 854 results · 1 pages · 210 sales, 15 new, 40 matched (19%) · reached sales already stored (before 2026-11-24) · newest sale 2026-11-27
-- Mint & proof sets “australian”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-26
-- Coins, notes & bullion “australian banknote”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-26
-- Coins, notes & bullion “australia note polymer”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-26
-- Coins, notes & bullion “perth mint”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-26
-- Coins, notes & bullion “australian bullion”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-26
+- Mint & proof sets “australian”: ? results · 1 pages · 201 sales, 9 new, 33 matched (16%) · reached sales already stored (before 2026-11-25) · newest sale 2026-11-27
+- Coins, notes & bullion “australian banknote”: ? results · 1 pages · 228 sales, 191 new, 3 matched (1%) · reached sales already stored (before 2026-11-25) · newest sale 2026-11-27
+- Coins, notes & bullion “australia note polymer”: 893 results · 1 pages · 214 sales, 2 new, 2 matched (1%) · reached sales already stored (before 2026-11-25) · newest sale 2026-11-27
+- Coins, notes & bullion “perth mint”: ? results · 1 pages · 205 sales, 34 new, 5 matched (2%) · reached sales already stored (before 2026-11-25) · newest sale 2026-11-27
+- Coins, notes & bullion “australian bullion”: ? results · 1 pages · 213 sales, 12 new, 6 matched (3%) · reached sales already stored (before 2026-11-25) · newest sale 2026-11-27
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 15 steps, 1 with problems
-cashconverters: 1/1 worked, 176 kept
-shops: 3/3 worked, 6 kept
-facebook: 2/2 worked, 1 kept
-gumtree: 1/2 worked, 0 kept
-ebay_active: 2/2 worked, 129 kept
-ebay_sold: 2/2 worked, 46 kept
-ebay_sold_sweep: 3/3 worked, 293 kept
+## This refresh: 12 steps, 3 with problems
+auction:downies: 0/1 worked, 0 kept
+cashconverters: 1/1 worked, 32 kept
+facebook: 2/2 worked, 0 kept
+gumtree: 0/2 worked, 0 kept
+ebay_active: 2/2 worked, 124 kept
+ebay_sold: 2/2 worked, 35 kept
+shops: 2/2 worked, 0 kept
 
 ### Problems this refresh
-- gumtree | 1980 2c | Error: 403 from https://www.gumtree.com.au/s-1980+2c/k0?sort=date (the site asked for a bot check – try again later)
+- auction:downies | Downies Auctions | Error: page took too long to load
+- gumtree | 1988 5c | Error: 403 from https://www.gumtree.com.au/s-1988+5c/k0?sort=date (the site asked for a bot check – try again later)
+- gumtree | 1987 5c | Error: 403 from https://www.gumtree.com.au/s-1987+5c/k0?sort=date (the site asked for a bot check – try again later)
 
 ## Shops: 66 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 20 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -67,17 +69,11 @@ ebay_sold_sweep: 3/3 worked, 293 kept
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 7 kept of 27 found, read through its site map, page by page (76 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-26T19:55:28Z · last worked 2026-11-26T19:55:28Z
 - Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
-      page: / 216259ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 346311ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 353818ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
-      page: /product-category/gold/buy-gold-cast-bars/ 240461ch · h1 “Buy Gold Cast Bars Online” · $ amounts 22 · price elements 38 · buy buttons 18 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×18
-      page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-27T07:51:19Z · last worked 2026-11-27T07:51:19Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-27T09:51:26Z · last worked 2026-11-27T09:51:26Z
+      page: / 216451ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346061ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 353797ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
+      page: /product-category/gold/buy-gold-cast-bars/ 240515ch · h1 “Buy Gold Cast Bars Online” · $ amounts 22 · price elements 38 · buy buttons 18 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×18 · last tried 2026-11-27T21:54:46Z · last worked 2026-11-27T21:54:46Z
+- Guy Stuff (guystuff.com.au): ok – 4 kept of 96 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-27T20:52:03Z · last worked 2026-11-27T20:52:03Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 27 kept of 58 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-26T19:51:45Z · last worked 2026-11-26T19:51:45Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -86,16 +82,9 @@ ebay_sold_sweep: 3/3 worked, 293 kept
 - Newcastle Coins (newcastlecoins.com.au): ok – 0 kept of 55 found, read through browsing its pages (40 pages) · 55 priced products found, none kept (not Australian coins, or filtered out) · last tried 2026-11-26T19:53:06Z · last worked 2026-11-26T19:53:06Z
 - Online Coins & Collectables (onlinecoinsandcollectables.com.au): ok – 382 kept of 4518 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · moved to https://www.onlinecoinsandcollectables.com.au · last tried 2026-11-26T19:52:47Z · last worked 2026-11-26T19:52:47Z
 - Prospect Stamps & Coins (prospectstampsandcoins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 283341ch · h1 “Categories” · $ amounts 46 · price elements 164 · buy buttons 0 · cards read 0 · classes ty-menu__item×138 ty-menu__item-link×138 cm-menu-item-responsive×136 ty-menu__submenu-item-header×128 ty-menu__item-link--vertical×128 ty-price-num×56
-      page: /top-menu/help/product-limits.html 70195ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /top-menu/shop-location.html 69474ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
-      page: /index.php?dispatch=product_features.compare: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/renniks-premier-australia-two-dollar-2-coin-album.html: hidden browser: this refresh's pages are used up – more next refresh
-      page: /stamp-accessories-and-catalogues/stamp-catalogues/renniks-stamps-of-australia-18th-edition-the-stamp-collector-reference-stamp-catalogue.html: hidden browser: this refresh's pages are used up – more next refresh
-      page: /the-perth-mint/2012-products/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/australian-coin-size-guide/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /coin-accessories-and-catalogues/album-and-binder-pages/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-27T09:51:09Z · last worked 2026-11-27T09:51:09Z
+      page: / 283173ch · h1 “Categories” · $ amounts 46 · price elements 164 · buy buttons 0 · cards read 0 · classes ty-menu__item×138 ty-menu__item-link×138 cm-menu-item-responsive×136 ty-menu__submenu-item-header×128 ty-menu__item-link--vertical×128 ty-price-num×56
+      page: /top-menu/help/product-limits.html 69103ch · h1 “Product Limits” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7
+      page: /top-menu/shop-location.html 68384ch · h1 “Shop Location” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes ty-menu__submenu-item×32 ty-text-links__item×9 ty-menu__item×9 ty-menu__item-link×9 cm-menu-item-responsive×8 ty-footer-menu__item×7 · last tried 2026-11-27T21:54:31Z · last worked 2026-11-27T21:54:31Z
 - Sydney Coins & Jewellery (sydneycoins.com.au): ok – 128 kept of 164 found, read through its Shopify product feed · last tried 2026-11-26T19:52:59Z · last worked 2026-11-26T19:52:59Z
 - Town Hall Coins (townhallcoins.com): ok – 1567 kept of 2121 found, read through its Shopify product feed · last tried 2026-11-26T19:53:35Z · last worked 2026-11-26T19:53:35Z
 - Wynyard Coin Centre (wynyardcoins.com.au): ok – 2020 kept of 4586 found, read through its Shopify product feed · 1 stand-in price replaced from the product page, 4 left out until their page is read · last tried 2026-11-26T19:54:43Z · last worked 2026-11-26T19:54:43Z
@@ -155,593 +144,587 @@ ebay_sold_sweep: 3/3 worked, 293 kept
 
 ## Top 150 deals as the app shows them (best first)
 - 66% under | $5 vs usual $14.5, 9 sales, high | 2001 50c Centenary of Federation Uncirculated Coin in Pack | shop:Coin City | read as: coin 2001 50c unc | AI: coin base  (1) 2001 50c Centenary of Federation unc | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2001-50c-centenary-of-federation-uncirculated-coin-in-pack
-    id: shop:coincity.com.au:47817503572289 · key: ms1z5o · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817503572289 · key: ms1z5o · Claude: verified 2026-11-27
     description read: 2001 50c Centenary of Federation Uncirculated Coin in Pack. Honouring 100 years of nationhood, Australia celebrates the Centenary of Federation in 2001.Uniting the colonies as one country, and confirming a growing sense of national identity, the official ceremony was held in Sydney's Centennial Park on January 1st 1901.. Celebrating the most important milestone on the road to independence, the 100th anniversary of Federation has been recognised with the approval of an official legal tender commemorative.. In strictly uncirculated condition, the 2001 Centenary of Federation 50c is struck by the Royal Australian Mint, Canberra.. Denomination : 50c. Finish : Uncirculated. Metal : Cupro Nickel. 
-- 60% under | $16 vs usual $40, 2 sales, low | His Majesty King Charles III 2025 50c PNC (RAM) | shop:Coins & Collectables Victoria | read as: pnc 2025 50c | AI: pnc base  (1) His Majesty King Charles III 2025 50c PNC (RAM) | price not confirmed | https://collectablesemporium.au/products/his-majesty-king-charles-iii-2025-50c-pnc-ram
-    id: shop:coinsandcollectables.com.au:46879883362549 · key: z3sja1 · Claude: verified 2026-11-25
+- 60% under | $16 vs usual $40, 2 sales, low | His Majesty King Charles III 2025 50c PNC (RAM) | shop:Coins & Collectables Victoria | read as: pnc 2025 50c | AI: pnc base  (1) 2025 King Charles III 50c PNC | price not confirmed | https://collectablesemporium.au/products/his-majesty-king-charles-iii-2025-50c-pnc-ram
+    id: shop:coinsandcollectables.com.au:46879883362549 · key: z3sja1 · Claude: verified 2026-11-27
     description read: This Postal Numismatic Cover is highly collectable, featuring a pictorial envelope with 2025 Circulating CuNi 50c coin.. The stamp was issued in 2023 and features the official coronation portrait of King Charles III, who is wearing St Edward's crown.. Stamp design Sharon Rodziewicz, Australia Post Design Studio. Cover design: Jo Mure. Stamp photograph Hugo Burmand/Buckingham Palace via Getty Images. Cover photograph. Category: PNC, *A, AP_Aug25, BF26-COIN, Q1-26, Q2-26, ST_Q3_26.
 - 60% under | $3 vs usual $7.45, 3 sales, low | 1993 $1 Australian LandCare No Mint Mark Uncirculated Coin | shop:Sydney Coins & Jewellery | read as: coin 1993 $1 unc | AI: coin base  (1) 1993 $1 Landcare, no mint mark, unc | price not confirmed | https://sydneycoins.com.au/products/1993-1-australian-landcare-no-mint-mark-uncirculated-coin
-    id: shop:sydneycoins.com.au:50598671352127 · key: 16s8ptj · Claude: verified 2026-11-26
+    id: shop:sydneycoins.com.au:50598671352127 · key: 16s8ptj · Claude: verified 2026-11-27
     description read: This 1993 $1 Australian LandCare No Mint Mark Uncirculated Coin is a must-have for any coin collector or fan of Australian history.
 - 58% under | $5 vs usual $11.9, 6 sales, medium | 50c 2019 International Year of Indigenous Languages UNC | shop:Wynyard Coin Centre | read as: coin 2019 50c unc | AI: coin base  (1) 50c 2019 International Year of Indigenous Languages UNC | price not confirmed | https://wynyardcoins.com.au/products/50c-2019-international-year-of-indigenous-languages-unc-1
-    id: shop:wynyardcoins.com.au:40816849518760 · key: 1srqch9 · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:40816849518760 · key: 1srqch9 · Claude: verified 2026-11-27
     description read: Uncirculated condition.
 - 54% under | $5.5 vs usual $11.9, 6 sales, medium | 2019 50c International Year of Indigenous Languages Uncirculated Coin | shop:Southern Cross Coins | read as: coin 2019 50c unc | AI: coin base  (1) 2019 50c Indigenous Languages unc | price not confirmed | https://southerncrosscoins.com.au/product/2019-50c-international-year-of-indigenous-languages-uncirculated-coin/
-    id: shop:southerncrosscoins.com.au:1986 · key: 1n87kh6 · Claude: verified 2026-11-26
+    id: shop:southerncrosscoins.com.au:1986 · key: 1n87kh6 · Claude: verified 2026-11-27
     description read: This Australian legal tender 50c acknowledges Australia’s unique Indigenous languages, and the efforts being undertaken to preserve these important parts of Australian Indigenous culture.. This coin has been struck by the Royal Australian Mint in collaboration with the Australian Institute of Aboriginal and Torres Strait Islander Studies (AIATSIS), and is uncirculated quality (ex-mint roll).. This Australian legal tender 50c acknowledges Australia’s unique Indigenous languages, and the efforts being undertaken to preserve these important parts of Australian Indigenous culture.. This coin has been struck by the Royal Australian Mint in collaboration with the Australian Institute of Aboriginal
-- 51% under | $8.5 vs usual $17.5, 4 sales, medium | 2026 20c 1941: Service Amid Strife - Women’s Services Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 20c unc | AI: not read | price not confirmed | https://directcoins.com.au/products/2026-20c-1941-strife-amid-service-women-s-services-coloured-uncirculated-coin
-    id: shop:directcoins.com.au:52905955983679 · key: 1dxj1bv
+- 51% under | $8.5 vs usual $17.5, 4 sales, medium | 2026 20c 1941: Service Amid Strife - Women’s Services Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 20c unc | AI: coin base  (1) 2026 20c Service Amid Strife Women's Services coloured unc | price not confirmed | https://directcoins.com.au/products/2026-20c-1941-strife-amid-service-women-s-services-coloured-uncirculated-coin
+    id: shop:directcoins.com.au:52905955983679 · key: 1dxj1bv · Claude: verified 2026-11-27
     description read: This 2026 20c Coloured Uncirculated Coin commemorates this significant milestone in Australian military history..
 - 50% under | $12 vs usual $23.95, 4 sales, medium | 2022 20c Coloured Uncirculated Coin - 20th Anniversary of Diary of a Wombat | shop:Loose Change Coins | read as: coin 2022 20c unc | AI: coin base  (1) 2022 20c Coloured Uncirculated Coin - 20th Anniversary of Diary of a Wombat | page/description: {"metal":null,"metal_by":"label","year":2022,"denom":"20c"} | price confirmed | https://loosechangecoins.com.au/products/2022-20th-anniversary-of-diary-of-a-wombat-20c-cuni-coloured-uncirculated-coin
-    id: shop:loosechangecoins.com.au:43139569254647 · key: j6tdvi · Claude: verified 2026-11-26
+    id: shop:loosechangecoins.com.au:43139569254647 · key: j6tdvi · Claude: verified 2026-11-27
     description read: 2022 20c Diary of a Wombat: 20th Anniversary – Coloured Uncirculated Celebrate 20 years of one of Australia’s most cherished children’s stories with the 2022 "Diary of a Wombat" commemorative coin. Key Features and Specifications Year of Issue: 2022 Theme: 20th Anniversary of Diary of a Wombat Denomination: 20c Design: Features a vibrant coloured illustration of Mothball the wombat from the original book. Composition: Cupro-Nickel Finish: Coloured Uncirculated Legal Tender: Official Australian 20c coin. Condition Note: Uncirculated Quality: The coin is in pristine uncirculated condition, featuring bright colours and sharp struck details. 2022 20c Diary of a Wombat: 20th Anniversary – Coloure
-- 48% under | $27.5 vs usual $53.17, 8 sales, high | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc - Al-Br, not silver | page/description: {"metal":"silver","metal_by":"label","denom":"$2"} | price confirmed | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
-    id: shop:directcoins.com.au:67831090413887 · key: rg6szg · Claude: corrected 2026-11-26
-    description read: Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin is the Royal Australian Mint’s tribute to one of the most familiar sounds of Australian remembrance. The coloured reverse carries a ‘C’ mintmark for Canberra, where the coin was struck, and the obverse features Daniel Thorne’s effigy of His Majesty King Charles III. coin material: Silver. country: Australia. denomination: 2 dollars. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Colour
-- 48% under | $27.5 vs usual $53.17, 8 sales, high | 2026 The Last Post 'C' Mintmark $2 Coloured Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://guystuff.com.au/2026-the-last-post-c-mintmark-2-coloured-uncirculated-coin-royal-australian-mint-ram.html
-    id: shop:guystuff.com.au:56c25581c62f604c · key: k082jw · Claude: verified 2026-11-26
-- 48% under | $27.5 vs usual $53.17, 8 sales, high | 2026 Royal Australian Mint $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-2-c-mintmark-coloured-uncirculated-carded-coin-the-last-post
-    id: shop:onlinecoinsandcollectables.com.au:50827535679744 · key: 1b71bsl · Claude: verified 2026-11-26
-    description read: Australian legal tender.. Denomination: $2. Metal Content: AlBr. Diameter: 20.50mm. Finish: Uncirculated. Few traditions hold the same emotional weight as the Last Post. Memorial steps cut across the composition, grounding the design in the physical spaces where remembrance takes place. Subtle details complete the piece, including the designer’s initials 'LA' (Lydia Ashe) near the rim, and the 'C' mintmark featured on the uncirculated and proof editions..
-- 48% under | $27.5 vs usual $53.17, 8 sales, high | Australia 2026 The Last Post $2 C Mintmark Coloured Uncirculated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2026-the-last-post-2-c-mintmark-coloured-uncirculated-coin-on-card/
-    id: shop:tasmaniannumismatics.com.au:83363 · key: 1igmppw · Claude: verified 2026-11-26
-    description read: The Australia The Last Post 2026 $2 C Mintmark Colour Uncirculated Coin combines a powerful remembrance theme with an official Royal Australian Mint release, making it a standout collectable coin for Australian collectors. Featuring a stunning coloured design and desirable Canberra Mintmark, this limited-edition issue offers lasting appeal for both collectors and gift buyers.. Popular Canberra “C” Mintmark. Premium Uncirculated finish. Australian legal tender $2 coin. Highly sought-after addition to the $2 Mintmark series. Metal: Aluminium-Bronze. Finish: Uncirculated. Legal Tender: $2. Mintmark: Canberra “C” Mintmark. Pay tribute to one of Australia’s most powerful symbols of remembrance wi
-- 48% under | $27.5 vs usual $53.17, 8 sales, high | 2026 $2 The Last Post 'C' Mintmark Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://townhallcoins.com/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
-    id: shop:townhallcoins.com:67837005922356 · key: nb4059 · Claude: verified 2026-11-26
 - 48% under | $55 vs usual $105.95, 2 sales, low | 2021 Australia 10 Cent Coin PCGS PR69DCAM #8212 | shop:Tasmanian Numismatics | read as: coin 2021 10c proof | AI: coin base  (1) 2021 Australia 10 Cent Coin PCGS PR69DCAM #8212 | price not confirmed | https://tasmaniannumismatics.com.au/product/2021-australia-10-cent-coin-pcgs-pr69dcam-8212/
-    id: shop:tasmaniannumismatics.com.au:39289 · key: 1uxuifa · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:39289 · key: 1uxuifa · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 47% under | $10 vs usual $19, 3 sales, low | 2007 20c Year of The Surf Lifesaver PNC | shop:Town Hall Coins | read as: pnc 2007 20c | AI: pnc base  (1) 2007 20c Year of The Surf Lifesaver PNC | price not confirmed | https://townhallcoins.com/products/2007-20c-year-of-the-surf-lifesaver-pnc
-    id: shop:townhallcoins.com:46862596866288 · key: 1ou00o8 · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862596866288 · key: 1ou00o8 · Claude: verified 2026-11-27
 - 47% under | $12 vs usual $22.5, 2 sales, low | 2015 $1 ANZAC Centenary 'M' Counterstamp Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 $1 M mintmark unc | AI: coin base  (1) 2015 $1 ANZAC Centenary M counterstamp unc | price confirmed | https://townhallcoins.com/products/2015-1-anzac-centenary-m-counterstamp-uncirculated-coin
-    id: shop:townhallcoins.com:46862549549296 · key: 1l9mneg · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862549549296 · key: 1l9mneg · Claude: verified 2026-11-27
 - 46% under | $16 vs usual $29.5, 2 sales, low | Australia 2022 50c Aluminium Bronze Henry Lawson -On the Edge of a Plain Uncirculated | shop:The Purple Penny | read as: coin 2022 50c unc | AI: coin base  (1) 2022 50c Al-Br Henry Lawson On the Edge of a Plain unc | price not confirmed | https://www.thepurplepenny.com/product/2022-50c-albr-on-the-edge-of-a-plain-carded-coin/
-    id: shop:thepurplepenny.com:21388 · key: 1xgha3n · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:21388 · key: 1xgha3n · Claude: verified 2026-11-27
     description read: Struck to Uncirculated quality in aluminium bronze (the same metal used in dollar coins) this 50 cent coin celebrates On the Edge of a Plain, one of Australia’s most beloved poems by Australian poet Henry Lawson.
 - 45% under | $12 vs usual $21.9, 6 sales, medium | 2022 $1 Australian Dinosaurs - Uncirculated Four Coin Collection | shop:Coin City | read as: set 2022 $1 unc | AI: set base  (1) 2022 RAM Australian Dinosaurs four x $1 unc set in folder, Al-Br | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2022-1-australian-dinosaurs-uncirculated-four-coin-collection
-    id: shop:coincity.com.au:47817864184129 · key: 1dom6xy · Claude: corrected 2026-11-26
+    id: shop:coincity.com.au:47817864184129 · key: 1dom6xy · Claude: corrected 2026-11-27
     description read: 2022 $1 Australian Dinosaurs - Uncirculated Four-Coin Collection. The Australian Dinosaurs 2022 uncirculated Four-Coin Collection is housed in a folder featuring four Australian Dinosaur $1 coins produced in aluminium bronze.. Captured in these four aluminium bronze coins is a slice of Australia's dinosaur history dating back to the Cretaceous Period - an epic 66 million to 143 million years ago!. Each coin is issued as Australian legal tender.. Denomination : 4 x $1. Quality : Uncirculated. Metal : Aluminium Bronze. Diameter : 25 mm. Category: 2022 $1 Australian Dinosaurs - Uncirculated Four Coin Collection, 2022 Decimal Coin, Decimal Coins.
 - 45% under | $12 vs usual $21.9, 6 sales, medium | $1 2022 Dinosaurs 4 Coin UNC Set | shop:Wynyard Coin Centre | read as: set 2022 $1 unc | AI: set base  (1) 2022 RAM Australian Dinosaurs four $1 Al-Br unc coin set (themed set, not a year mint set) | price not confirmed | https://wynyardcoins.com.au/products/1-2022-dinosaurs-4-coin-unc-set
-    id: shop:wynyardcoins.com.au:43300610113753 · key: klzp2d · Claude: corrected 2026-11-26
+    id: shop:wynyardcoins.com.au:43300610113753 · key: klzp2d · Claude: corrected 2026-11-27
     description read: Uncirculated (UNC).
 - 45% under | $13 vs usual $23.5, 3 sales, low | 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in Pack | shop:Coin City | read as: coin 2019 50c unc | AI: coin base  (1) 2019 50c Indigenous Languages frosted unc | price not confirmed | https://coincity.com.au/products/2019-50c-international-year-of-indigenous-languages-frosted-uncirculated-coin-in-pack
-    id: shop:coincity.com.au:47817689760065 · key: ptq2wo · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817689760065 · key: ptq2wo · Claude: verified 2026-11-27
     description read: 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in PackTo recognize 2019 as the International Year of Indigenous Languages, the Royal Australian Mint has issued a Frosted Uncirculated 50 cent Coin in collaboration with the Australian Institute of Aboriginal and Torres S This coin acknowledges Australia's unique Indigenous languages, and the efforts being undertaken to preserve these important parts of Australian Indigenous culture.The United Nations General Assembly proclaimed 2019 as the International Year of Indigenous Languages. Languages are crucial to the identity of Indigenous Australians as well as being an important part of Australia's history and cultur
-- 44% under | $25 vs usual $45, 5 sales, medium | 2026 20c 1941: Service Amid Strife Coloured Uncirculated Three-Coin Set | shop:Direct Coins | read as: mint_set 1941 20c unc | AI: not read | price not confirmed | https://directcoins.com.au/products/2026-20c-1941-strife-amid-service-coloured-uncirculated-three-coin-set
-    id: shop:directcoins.com.au:52908486885695 · key: 1c8sep4
-    description read: The Royal Australian Mint presents this 2026 Three-Coin Coloured Uncirculated Set to mark the 85th anniversary of three key chapters of Australia’s military involvement in 1941..
-- 44% under | $30 vs usual $53.17, 8 sales, high | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
-    id: shop:coinsandcollectables.com.au:68006469370101 · key: fs96m4 · Claude: verified 2026-11-26
-    description read: This striking $2 coloured coin commemorates the Last Post, and the Australian soldiers who have made the ultimate sacrifice in service of their country.
-- 43% under | $20 vs usual $34.95, 4 sales, medium | 2025 50c Celebrations Coloured Uncirculated Coin | shop:Coins & Collectables Victoria | read as: coin 2025 50c unc | AI: coin base  (1) 2025 50c Celebrations Coloured Uncirculated Coin | price not confirmed | https://collectablesemporium.au/products/2025-50c-celebrations-coloured-uncirculated-coin
-    id: shop:coinsandcollectables.com.au:46222149583093 · key: 1r47bk4 · Claude: verified 2026-11-25
+- 43% under | $20 vs usual $34.95, 4 sales, medium | 2025 50c Celebrations Coloured Uncirculated Coin | shop:Coins & Collectables Victoria | read as: coin 2025 50c unc | AI: coin base  (1) 2025 50c Celebrations coloured unc | price not confirmed | https://collectablesemporium.au/products/2025-50c-celebrations-coloured-uncirculated-coin
+    id: shop:coinsandcollectables.com.au:46222149583093 · key: 1r47bk4 · Claude: verified 2026-11-27
     description read: This colourful uncirculated coin is a playful modern twist on Stuart Delvin's iconic 50c design bearing the Australian Coat of Arms. Category: Base Metal Coin, *A, 2025, BF26-COIN, Last One, Q4-25, ST_Q3_26.
+- 42% under | $32 vs usual $55.51, 2 sales, low | 1977 Australia 2c Coin PCGS PR68DCAM #7054 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1977-australia-2c-coin-pcgs-pr68dcam-7054/
+    id: shop:tasmaniannumismatics.com.au:37164 · key: 1nsdyhf · Claude: verified 2026-11-27
+    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 42% under | $17 vs usual $29.45, 2 sales, low | 2025 Australia 50c Christmas Festive Florals Uncirculated Coloured Coin – Yellow | shop:Tasmanian Numismatics | read as: coin 2025 50c unc | AI: coin base  (1) 2025 Australia 50c Christmas Festive Florals Uncirculated Coloured Coin – Yellow | price not confirmed | https://tasmaniannumismatics.com.au/product/2025-australia-50c-christmas-festive-florals-uncirculated-coloured-coin-yellow/
-    id: shop:tasmaniannumismatics.com.au:74466 · key: 37hxdt · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:74466 · key: 37hxdt · Claude: verified 2026-11-27
     description read: 2025 Australia 50c Christmas Festive Florals Uncirculated Coloured Coin – Yellow. A number of native Australian plants that flower in December each year have traditionally been seen as heralds of the Christmas season. One of these is the elegant Queensland Christmas orchid – Calanthe triplicata, which the Royal Australian Mint celebrates with this stunning 2025 50c Coloured Uncirculated Coin, the seventh release in the Mint’s ongoing Christmas coin program.. Australian legal tender.. Minted in CuNi to uncirculated finish..
-- 42% under | $10 vs usual $17.23, 3 sales, low | Australia 2013 Parliament House 25th Anniversary 20c UNC Coin Carded | shop:Max Stern & Co | read as: coin 2013 20c unc | AI: not read | price not confirmed | https://www.maxstern.com.au/australia-2013-parliament-house-25th-anniversary-2
-    id: shop:maxstern.com.au:bf5e24a6c3f56dfa · key: w8l6yw
+- 42% under | $10 vs usual $17.23, 3 sales, low | Australia 2013 Parliament House 25th Anniversary 20c UNC Coin Carded | shop:Max Stern & Co | read as: coin 2013 20c unc | AI: coin base  (1) 2013 20c Parliament House 25th anniversary carded unc | price not confirmed | https://www.maxstern.com.au/australia-2013-parliament-house-25th-anniversary-2
+    id: shop:maxstern.com.au:bf5e24a6c3f56dfa · key: w8l6yw · Claude: verified 2026-11-27
 - 42% under | $55 vs usual $94, 3 sales, low | 2000 Australia 20c Coin PCGS PR69DCAM #6380 | shop:Tasmanian Numismatics | read as: coin 2000 20c proof | AI: coin base  (1) 2000 Australia 20c Coin PCGS PR69DCAM #6380 | price not confirmed | https://tasmaniannumismatics.com.au/product/2000-australia-20c-coin-pcgs-pr69dcam-6380/
-    id: shop:tasmaniannumismatics.com.au:38055 · key: m43mpa · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:38055 · key: m43mpa · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 42% under | $55 vs usual $94, 3 sales, low | Australia 2000 Twenty Cents 20C Proof Coin PCGS PR69DCAM #8548 | shop:Tasmanian Numismatics | read as: coin 2000 20c proof | AI: coin base  (1) Australia 2000 Twenty Cents 20C Proof Coin PCGS PR69DCAM #8548 | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2000-twenty-cents-20c-proof-coin-pcgs-pr69dcam-8548/
-    id: shop:tasmaniannumismatics.com.au:59700 · key: 47gs37 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:59700 · key: 47gs37 · Claude: verified 2026-11-27
     description read: *Graded by PCGS and is covered by their guarantee of grade and authenticity for life.*.
 - 41% under | $15 vs usual $25.45, 2 sales, low | 50c 2024 Year of the Dragon UNC | shop:Wynyard Coin Centre | read as: coin 2024 50c unc | AI: coin base  (1) 2024 50c Year of the Dragon unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2024-year-of-the-dragon-unc
-    id: shop:wynyardcoins.com.au:44716044648665 · key: 1h87nhv · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:44716044648665 · key: 1h87nhv · Claude: verified 2026-11-27
     description read: In 2024 we celebrate the fifth of the twelve-year cycle in the Lunar Calendar, with the Year of the Dragon. This 2024 tetra-decagon shaped 50 cent, with its traditional and auspicious design, will make an honored and traditional gift for Chinese New Year. Uncirculated (UNC). Category: $0.50 Coin, 2024, 2024 Year of the Dragon, Australian Decimal Coins, Gift Ideas, Royal Australian Mint.
 - 41% under | $17.5 vs usual $29.5, 8 sales, high | 2015 20c 800th Anniversary of the Magna Carta Unc Coin in Card | shop:Coin City | read as: coin 2015 20c unc | AI: coin base  (1) 2015 20c 800th Anniversary of the Magna Carta Unc Coin in Card | price not confirmed | https://coincity.com.au/products/2015-20c-800th-anniversary-of-the-magna-carta-unc-coin-in-card
-    id: shop:coincity.com.au:47817328034113 · key: mvsi44 · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817328034113 · key: mvsi44 · Claude: verified 2026-11-27
     description read: 2015 20c 800th Anniversary of the Magna Carta Uncirculated Coin in Card.Eight hundred years ago the Magna Carta was given the royal seal to establish it as the quintessential source for justice and human rights.To mark the anniversary of this revolutionary document, this uncirculated coin will be po The Magna Carta (Great Charter) was a revolutionary declaration, ensuring that any future rulers were also bound by laws.This justice system that we hold dear today, with fair trails an juries, owes its existence to this historical artefact.The Magna Carta has been reissued by Monarchs throughout hi It can also be regarded as a forerunner to the UN Universal Declaration of Human rights.Uncirculat
 - 41% under | $32 vs usual $54, 2 sales, low | 1975 Australia 10c Coin PCGS PR68DCAM #6794 | shop:Tasmanian Numismatics | read as: coin 1975 10c proof | AI: coin base  (1) 1975 Australia 10c Coin PCGS PR68DCAM #6794 | price not confirmed | https://tasmaniannumismatics.com.au/product/1975-australia-10c-coin-pcgs-pr68dcam-6794/
-    id: shop:tasmaniannumismatics.com.au:37749 · key: 2nipjz · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37749 · key: 2nipjz · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 41% under | $32 vs usual $54, 3 sales, low | Australia 1977 5c Proof Coin PCGS PR68DCAM #5586 | shop:Tasmanian Numismatics | read as: coin 1977 5c proof | AI: coin base  (1) 1977 5c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1977-5c-proof-coin-pcgs-pr68dcam-5586/
-    id: shop:tasmaniannumismatics.com.au:53051 · key: 1kzkef0 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:53051 · key: 1kzkef0 · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 41% under | $17.5 vs usual $29.45, 2 sales, low | 2026 50c Lunar Series - Year Of The Horse Uncirculated Tetradecagon Coin | shop:Direct Coins | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Year of the Horse tetradecagon unc | price not confirmed | https://directcoins.com.au/products/2026-50c-lunar-series-year-of-the-horse-uncirculated-tetradecagon-coin
-    id: shop:directcoins.com.au:51306014048575 · key: 198n9o2 · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:51306014048575 · key: 198n9o2 · Claude: verified 2026-11-27
     description read: In 2026, we celebrate the Lunar Year of the Horse. This 2026 50c Uncirculated Tetradecagon Coin celebrates the Year of the Horse and all who are born under its sign. Each year of Sheng Xiao, the Chinese Zodiac, is represented by one of twelve animals. People born in the Year of the Horse are believed to be passionate, independent, and filled with energy. The Chinese calendar also rotates through the elements of earth, fire, water, metal and wood as part of a larger 60-year cycle. 2026 is the Year of the Fire Horse;
 - 41% under | $17.5 vs usual $29.45, 2 sales, low | 2026 RAM 50c Uncirculated Tetradecagon Coin - Lunar Series - Year of the Horse | shop:Online Coins & Collectables | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Year of the Horse tetradecagon unc | page/description: {"year":2026,"denom":"50c","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2025-ram-50c-coloured-uncirculated-coin-coin-set-christmas-festive-florals-yellow-packaging
-    id: shop:onlinecoinsandcollectables.com.au:46970401227008 · key: 2islea · Claude: verified 2026-11-26
+    id: shop:onlinecoinsandcollectables.com.au:46970401227008 · key: 2islea · Claude: verified 2026-11-27
     description read: Australian legal tender.. In 2026, we celebrate the Lunar Year of the Horse. This 2026 50c Uncirculated Tetradecagon Coin celebrates the Year of the Horse and all who are born under its sign.. Each year of Sheng Xiao, the Chinese Zodiac, is represented by one of twelve animals. People born in the Year of the Horse are believed to be passionate, independent, and filled with energy. The Chinese calendar also rotates through the elements of earth, fire, water, metal and wood as part of a larger 60-year cycle. 2026 is the Year of the Fire Horse; This splendid 2026 50c Uncirculated Tetradecagon Coin is the third release in the Royal Australian Mint's reimagined Tetradecagon Lunar Series. It will 
 - 40% under | $4.95 vs usual $8.25, 2 sales, low | 2010 20c Centenary of The Australian Taxation Office Uncirculated Coin | shop:Coin City | read as: coin 2010 20c unc | AI: coin base  (1) 2010 20c Centenary of The Australian Taxation Office Uncirculated Coin | price not confirmed | https://coincity.com.au/products/2010-20c-centenary-of-the-australian-taxation-office-uncirculated-coin
-    id: shop:coincity.com.au:47817419489601 · key: 1es7d1w · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817419489601 · key: 1es7d1w · Claude: verified 2026-11-27
     description read: 2010 20c Australian Tax Office Centenary Uncirculated Coin.The Australian Taxation Office will celebrate it’s Centenary on 12th November 2010.One hundred years ago on 11th November 1910, the Federal Land Tax Branch of the Department of Treasury came into existence and was the forerunner to the Tax O Providing fundamental service to the nation, it funds a variety of community assets and services for the benefit of all Australians.The Royal Australian Mint have released this commemorative 20c – Centenary of Australian Tax Office circulating coin available in pristine uncirculated condition presen
 - 40% under | $12 vs usual $20, 2 sales, low | Australia 2009 20c Australia Remembers Service Nurses Uncirculated in Card | shop:The Purple Penny | read as: coin 2009 20c unc | AI: coin base  (1) 2009 20c Australia Remembers Service Nurses unc in card | price not confirmed | https://www.thepurplepenny.com/product/2009-australia-remembers-service-nurses-20c-uncirculated/
-    id: shop:thepurplepenny.com:12643 · key: 15fc1nd · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:12643 · key: 15fc1nd · Claude: verified 2026-11-27
     description read: *Note this is a stock image of this product from the Royal Australian Mint, we may have multiples available..
 - 40% under | $15 vs usual $24.9, 3 sales, low | 2026 50c Koala Series Uncirculated Coin | shop:Direct Coins | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Koala Series unc | price not confirmed | https://directcoins.com.au/products/2026-50c-koala-series-uncirculated-coin
-    id: shop:directcoins.com.au:51739263533375 · key: 8zw2ao · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:51739263533375 · key: 8zw2ao · Claude: verified 2026-11-27
     description read: The third release in the series and for the second time will include the 50c Uncirculated Coin, which will be sold predominately in Australia.. Discover the quiet charm of one of Australia’s most iconic native animals with this exquisitely designed uncirculated coin, featuring three koalas in their natural eucalyptus sanctuary.
 - 40% under | $70.6 vs usual $117.3 (melt $70.62), 2 sales, low | 1oz ABC Bullion Eureka Silver Coin | shop:Australian Bullion Company | read as: bullion 1oz silver | AI: bullion_coin silver 1 (1) ABC Bullion 1oz silver Eureka round (not legal tender), years vary | page/description: {"metal":"silver","metal_by":"label","weight_oz":1} | price not confirmed | https://www.australianbullioncompany.com.au/product/1oz-abc-bullion-eureka-silver-coin/
-    id: shop:www.australianbullioncompany.com.au:890357 · key: 1s5oivs · Claude: verified 2026-11-26
+    id: shop:www.australianbullioncompany.com.au:890357 · key: 1s5oivs · Claude: verified 2026-11-27
     description read: The 1oz ABC Bullion Eureka Silver Coin contains 1 Troy Ounce of 99.95% pure investment-grade silver, offering investors a distinctly Australian silver bullion product from ABC Bullion’s signature Eureka collection.. Produced by ABC Refinery, the Eureka range captures the spirit of the Eureka Rebellion, a defining moment in Australian gold mining history. The coin features the Eureka Digger standing proudly with his newly discovered nugget, and is struck to an exceptionally high finish from silver sourced wholly within Australia. Please note that coins are not individually encapsulated, and years and designs vary depending on available stock.. Why Invest in the 1oz ABC Bullion Eureka Silver C
 - 40% under | $15 vs usual $24.9, 3 sales, low | 50c 2026 Koala Series UNC | shop:Wynyard Coin Centre | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Koala Series unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2026-koala-series-unc
-    id: shop:wynyardcoins.com.au:47742148509913 · key: j6f0i · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:47742148509913 · key: j6f0i · Claude: verified 2026-11-27
     description read: Uncirculated (UNC).
 - 40% under | $6 vs usual $9.95, 2 sales, low | 2016 50c Changeover Uncirculated coin | shop:Southern Cross Coins | read as: coin 2016 50c unc | AI: coin base  (1) 2016 50c Changeover unc | price not confirmed | https://southerncrosscoins.com.au/product/2016-50c-changeover-uncirculated-coin/
-    id: shop:southerncrosscoins.com.au:7436 · key: q7h31t · Claude: verified 2026-11-26
+    id: shop:southerncrosscoins.com.au:7436 · key: q7h31t · Claude: verified 2026-11-27
 - 39% under | $15 vs usual $24.68, 10 sales, high | 1984 $1 Proof Coin -First Dollar Coin | shop:The Purple Penny | read as: coin 1984 $1 proof | AI: coin base  (1) 1984 $1 first-year Al-Br proof coin in case | price not confirmed | https://www.thepurplepenny.com/product/1984-one-dollar-proof-coin/
-    id: shop:thepurplepenny.com:6184 · key: f6mz1y · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:6184 · key: f6mz1y · Claude: verified 2026-11-27
     description read: Issued for the release of the dollar coin in 1984 are these single proof dollars in an attractive case. Category: $1 Coins, Proof Singles and Sets.
 - 37% under | $76.53 vs usual $120.99 (melt $70.62), 8 sales, high | Perth Mint Kangaroo 1 oz Silver Bar | shop:As Good As Gold | read as: bar 1oz silver | AI: bar silver 1 (1) Perth Mint Kangaroo 1oz silver minted bar | page/description: {"metal":"silver","metal_by":"purity","weight_oz":1} | price not confirmed | https://asgoodasgold.com.au/products/perth-mint-kangaroo-1-oz-silver-bar
-    id: shop:asgoodasgold.com.au:42269765697605 · key: 88kd85 · Claude: verified 2026-11-26
+    id: shop:asgoodasgold.com.au:42269765697605 · key: 88kd85 · Claude: verified 2026-11-27
     description read: The Perth Mint Kangaroo 1 oz Silver Bar offers investors a tangible asset that combines exceptional purity with iconic Australian design. Crafted by the esteemed Perth Mint, renowned for its commitment to quality and security, this silver minted bar is an excellent choice for diversifying your investment portfolio.​. Exceptional Purity. Each bar contains 1 troy oz of .9999 pure silver, ensuring that investors hold a high-quality bullion asset. The bar’s impeccable purity is a testament to the Perth Mint’s world-class manufacturing processes, offering a reliable and trusted option for those investing in physical silver.. To combat counterfeiting and enhance security, the Perth Mint Kangaroo 1
-- 36% under | $32 vs usual $50, 3 sales, low | 1981 2c Australian Proof Coin PCGS PR69DCAM | ebay | read as: coin 1981 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/156507398553
-    id: ebay:156507398553 · key: jf5cap
+- 36% under | $32 vs usual $50, 3 sales, low | 1981 2c Australian Proof Coin PCGS PR69DCAM | ebay | read as: coin 1981 2c proof | AI: coin base  (1) 1981 2c proof PCGS PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/156507398553
+    id: ebay:156507398553 · key: jf5cap · Claude: verified 2026-11-27
 - 36% under | $18 vs usual $27.95, 4 sales, medium | Australia 2012 50th Anniversary of the Australian Ballet 50c Uncirculated in Card | shop:The Purple Penny | read as: coin 2012 50c unc | AI: coin base  (1) 2012 50c Australian Ballet 50th unc in card | price not confirmed | https://www.thepurplepenny.com/product/2012-50th-anniversary-of-the-australian-ballet-50c-uncirculated-in-card/
-    id: shop:thepurplepenny.com:17130 · key: 3hvwg3 · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:17130 · key: 3hvwg3 · Claude: verified 2026-11-27
     description read: *Note this is a stock image of this product from the Royal Australian Mint, we may have multiples available..
-- 36% under | $5.45 vs usual $8.45, 3 sales, low | 1988 2c 2 Cent Coin in 2x2 Holder - Proof | ebay | read as: coin 1988 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/206452241466
-    id: ebay:206452241466 · key: 188u81d
+- 36% under | $5.45 vs usual $8.45, 3 sales, low | 1988 2c 2 Cent Coin in 2x2 Holder - Proof | ebay | read as: coin 1988 2c proof | AI: coin base  (1) 1988 2c proof in 2x2 holder | price not confirmed | https://www.ebay.com.au/itm/206452241466
+    id: ebay:206452241466 · key: 188u81d · Claude: verified 2026-11-27
 - 35% under | $55 vs usual $85, 2 sales, low | 1998 Australia 20c Coin PCGS PR69DCAM #6359 | shop:Tasmanian Numismatics | read as: coin 1998 20c proof | AI: coin base  (1) 1998 Australia 20c Coin PCGS PR69DCAM #6359 | price not confirmed | https://tasmaniannumismatics.com.au/product/1998-australia-20c-coin-pcgs-pr69dcam-6359/
-    id: shop:tasmaniannumismatics.com.au:38018 · key: 18bdr0e · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:38018 · key: 18bdr0e · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 34% under | $17.5 vs usual $26.39, 4 sales, medium | 2026 20c ANDA Money Expo 'WA' Privy Mark Uncirculated Coin | shop:Direct Coins | read as: coin 2026 20c unc | AI: coin base  (1) 2026 20c ANDA Money Expo 'WA' privy unc in card | price not confirmed | https://directcoins.com.au/products/2026-20c-anda-money-expo-wa-privy-mark-uncirculated-coin
-    id: shop:directcoins.com.au:55281109074239 · key: mnclx7 · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:55281109074239 · key: mnclx7 · Claude: verified 2026-11-27
     description read: Featuring a unique Western Australia "WA" privy mark and presented in an exclusive ANDA Money Expo collector card, this limited-edition release has a strict issue limit of just 4,000.
 - 34% under | $17.5 vs usual $26.39, 4 sales, medium | 2026 20c ANDA Money Expo 'NSW' Privy Mark Uncirculated Coin | shop:Direct Coins | read as: coin 2026 20c unc | AI: coin base  (1) 2026 20c ANDA Money Expo 'NSW' privy unc in card | price not confirmed | https://directcoins.com.au/products/2026-20c-anda-money-expo-nsw-privy-mark-uncirculated-coin
-    id: shop:directcoins.com.au:68087183212863 · key: 16tbs6a · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:68087183212863 · key: 16tbs6a · Claude: verified 2026-11-27
     description read: The Royal Australian Mint struck a 20c privy mark coin for each state that hosted an ANDA Money Expo in 2026, with the abbreviated letters of the state on each one.. Featuring a unique New South Wales "NSW" privy mark and presented in an exclusive ANDA Money Expo collector card, this limited-edition release has a strict issue limit of just 4,000. The 2026 20c ANDA Money Expo ‘NSW’ Privy Mark Uncirculated Coin is available in Australia from Direct Coins.
 - 34% under | $20 vs usual $30.16, 3 sales, low | 2026 $2 'C' Mintmark Coloured Uncirculated Coin - Dawn Service | shop:Sydney Coins & Jewellery | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://sydneycoins.com.au/products/2026-2-c-mintmark-coloured-uncirculated-coin-dawn-service
-    id: shop:sydneycoins.com.au:53020498198847 · key: 1kclqd2 · Claude: verified 2026-11-26
+    id: shop:sydneycoins.com.au:53020498198847 · key: 1kclqd2 · Claude: verified 2026-11-27
     description read: Commemorate the 2026 Dawn Service with this special $2 coloured uncirculated coin from the Royal Australian Mint. Featuring the distinctive 'C' mintmark, this coin celebrates Australia's ANZAC heritage in vibrant colour. Struck to uncirculated quality, it's a premium collectible piece perfect for numismatists and history enthusiasts.
-- 33% under | $4.5 vs usual $6.75, 3 sales, low | 1988 Australia 2c Uncirculated Two Cent Coin - Elizabeth II - from Mint Set | ebay | read as: coin 1988 2c unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/304685938229
-    id: ebay:304685938229 · key: t0foig
+- 33% under | $4.5 vs usual $6.75, 3 sales, low | 1988 Australia 2c Uncirculated Two Cent Coin - Elizabeth II - from Mint Set | ebay | read as: coin 1988 2c unc | AI: coin base  (1) 1988 2c unc ex mint set | price not confirmed | https://www.ebay.com.au/itm/304685938229
+    id: ebay:304685938229 · key: t0foig · Claude: verified 2026-11-27
 - 33% under | $55 vs usual $82, 2 sales, low | 1986 Australia 20c Coin PCGS PR69DCAM #6505 | shop:Tasmanian Numismatics | read as: coin 1986 20c proof | AI: coin base  (1) 1986 Australia 20c Coin PCGS PR69DCAM #6505 | price not confirmed | https://tasmaniannumismatics.com.au/product/1986-australia-20c-coin-pcgs-pr69dcam-6505/
-    id: shop:tasmaniannumismatics.com.au:37367 · key: hxgx9j · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37367 · key: hxgx9j · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 32% under | $20 vs usual $29.5, 2 sales, low | 2022 On The Edge Of A Plain By Henry Lawson 50c Uncirculated Coin RAM | shop:Guy Stuff | read as: coin 2022 50c unc | AI: coin base  (1) 2022 50c Henry Lawson On the Edge of a Plain unc | price not confirmed | https://guystuff.com.au/2022-on-the-edge-of-a-plain-by-henry-lawson-50c-uncirculated-coin-ram.html
-    id: shop:guystuff.com.au:79641d20a1b92149 · key: 1l2mmxj · Claude: verified 2026-11-26
+    id: shop:guystuff.com.au:79641d20a1b92149 · key: 1l2mmxj · Claude: verified 2026-11-27
 - 32% under | $20 vs usual $29.5, 8 sales, high | 20c 2015 800th Anniversary of Magna Carta Carded UNC | shop:Wynyard Coin Centre | read as: coin 2015 20c unc | AI: coin base  (1) 20c 2015 800th Anniversary of Magna Carta Carded UNC | price not confirmed | https://wynyardcoins.com.au/products/20c-2015-800th-anniversary-of-magna-carta-carded-unc
-    id: shop:wynyardcoins.com.au:36528393388200 · key: 7dmaam · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36528393388200 · key: 7dmaam · Claude: verified 2026-11-27
     description read: The justice system that we hold dear today with fair trials and juries owes its existence to this historical artefact.. The Royal Australian Mint has struck a cupro-nickel uncirculated 20 cent featuring a representation of King John I original seal on the 1215 Magna Carta with a mintage of 30 000..
 - 32% under | $55 vs usual $81, 2 sales, low | 2001 Australia 20c Coin PCGS PR69DCAM #6397 | shop:Tasmanian Numismatics | read as: coin 2001 20c proof | AI: coin base  (1) 2001 Australia 20c Coin PCGS PR69DCAM #6397 | price not confirmed | https://tasmaniannumismatics.com.au/product/2001-australia-20c-coin-pcgs-pr69dcam-6397/
-    id: shop:tasmaniannumismatics.com.au:38057 · key: 1891evl · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:38057 · key: 1891evl · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 32% under | $19 vs usual $27.95, 4 sales, medium | 2012 50c 50th Anniversary of The Australian Ballet Uncirculated Coin | shop:Town Hall Coins | read as: coin 2012 50c unc | AI: coin base  (1) 2012 50c Australian Ballet 50th unc | price not confirmed | https://townhallcoins.com/products/2012-50c-50th-anniversary-of-the-australian-ballet-uncirculated-coin
-    id: shop:townhallcoins.com:46862555250928 · key: 1mqpejz · Claude: verified 2026-11-26
-- 31% under | $19.99 vs usual $29, 2 sales, low | Australia 1983 & 1984 50c Brilliant Uncirculated Pair (ex. Mint Set) | shop:Downies | read as: mint_set 1983 50c unc | AI: not read | price not confirmed | https://www.downies.com/products/1983-1984-50c-specimen-coin-pair
-    id: shop:www.downies.com:47792765993268 · key: 15xssw7
-- 31% under | $82.29 vs usual $118.4 (melt $70.62), 2 sales, low | 1 oz 2027 Australian Lunar Year of the Goat Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2027 1oz silver | AI: not read | page/description: {"metal":"silver","metal_by":"label"} | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2027-australian-lunar-year-of-the-goat-silver-bullion-coin/3003954
-    id: shop:www.kjc-gold-silver-bullion.com.au:761d79cbd5d1b5d1 · key: 88pzal
-    description read: The Perth Mint is proud to present these magnificent silver bullion coins to celebrate the Year of the Goat, the eighth of twelve animals associated with the Chinese lunar calendar. As they approached the finish line, the trio worked together to cross a wide river. Those born under the sign of the Chinese Lunar Goat in 2027, 2015, 2003, 1991, 1979 and every 12th preceding year are said to be gentle, creative, and compassionate. Featured in the design is a plum blossom tree representing purity, resilience and hope. mintmark. material: Silver. The Perth Mint is proud to present these magnificent silver bullion coins to celebrate the Year of the Goat, the eighth of twelve animals associated wit
+    id: shop:townhallcoins.com:46862555250928 · key: 1mqpejz · Claude: verified 2026-11-27
+- 30% under | $27.5 vs usual $39.45, 3 sales, low | 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc - Al-Br, not silver | page/description: {"metal":"silver","metal_by":"label","denom":"$2"} | price confirmed | https://directcoins.com.au/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
+    id: shop:directcoins.com.au:67831090413887 · key: rg6szg · Claude: corrected 2026-11-27
+    description read: Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Coloured Uncirculated Coin is the Royal Australian Mint’s tribute to one of the most familiar sounds of Australian remembrance. The coloured reverse carries a ‘C’ mintmark for Canberra, where the coin was struck, and the obverse features Daniel Thorne’s effigy of His Majesty King Charles III. coin material: Silver. country: Australia. denomination: 2 dollars. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Royal Australian Mint 2026 $2 Last Post coloured coin with C mintmark, in capsule and card. Released ahead of Remembrance Day, the 2026 $2 The Last Post ‘C’ Mintmark Colour
+- 30% under | $27.5 vs usual $39.45, 3 sales, low | 2026 The Last Post 'C' Mintmark $2 Coloured Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://guystuff.com.au/2026-the-last-post-c-mintmark-2-coloured-uncirculated-coin-royal-australian-mint-ram.html
+    id: shop:guystuff.com.au:56c25581c62f604c · key: k082jw · Claude: verified 2026-11-27
+- 30% under | $27.5 vs usual $39.45, 3 sales, low | 2026 Royal Australian Mint $2 C Mintmark Coloured Uncirculated Carded Coin - The Last Post | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-royal-australian-mint-2-c-mintmark-coloured-uncirculated-carded-coin-the-last-post
+    id: shop:onlinecoinsandcollectables.com.au:50827535679744 · key: 1b71bsl · Claude: verified 2026-11-27
+    description read: Australian legal tender.. Denomination: $2. Metal Content: AlBr. Diameter: 20.50mm. Finish: Uncirculated. Few traditions hold the same emotional weight as the Last Post. Memorial steps cut across the composition, grounding the design in the physical spaces where remembrance takes place. Subtle details complete the piece, including the designer’s initials 'LA' (Lydia Ashe) near the rim, and the 'C' mintmark featured on the uncirculated and proof editions..
+- 30% under | $27.5 vs usual $39.45, 3 sales, low | Australia 2026 The Last Post $2 C Mintmark Coloured Uncirculated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","finish":"unc"} | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2026-the-last-post-2-c-mintmark-coloured-uncirculated-coin-on-card/
+    id: shop:tasmaniannumismatics.com.au:83363 · key: 1igmppw · Claude: verified 2026-11-27
+    description read: The Australia The Last Post 2026 $2 C Mintmark Colour Uncirculated Coin combines a powerful remembrance theme with an official Royal Australian Mint release, making it a standout collectable coin for Australian collectors. Featuring a stunning coloured design and desirable Canberra Mintmark, this limited-edition issue offers lasting appeal for both collectors and gift buyers.. Popular Canberra “C” Mintmark. Premium Uncirculated finish. Australian legal tender $2 coin. Highly sought-after addition to the $2 Mintmark series. Metal: Aluminium-Bronze. Finish: Uncirculated. Legal Tender: $2. Mintmark: Canberra “C” Mintmark. Pay tribute to one of Australia’s most powerful symbols of remembrance wi
+- 30% under | $27.5 vs usual $39.45, 3 sales, low | 2026 $2 The Last Post 'C' Mintmark Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://townhallcoins.com/products/2026-2-the-last-post-c-mintmark-coloured-uncirculated-coin
+    id: shop:townhallcoins.com:67837005922356 · key: nb4059 · Claude: verified 2026-11-27
 - 30% under | $32 vs usual $45.6, 2 sales, low | 1984 Australia 2c Coin PCGS PR69DCAM #7079 | shop:Tasmanian Numismatics | read as: coin 1984 2c proof | AI: coin base  (1) 1984 2c proof, PCGS graded PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1984-australia-2c-coin-pcgs-pr69dcam-7079/
-    id: shop:tasmaniannumismatics.com.au:37189 · key: 7nu4c7 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37189 · key: 7nu4c7 · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 30% under | $17.5 vs usual $24.9, 3 sales, low | 2026 50c Koala Series Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Koala Series unc in card | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2025-50c-koala-series-uncirculated-coin-in-ram-card-copy
-    id: shop:coincity.com.au:51310898086209 · key: jbuc74 · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:51310898086209 · key: jbuc74 · Claude: verified 2026-11-27
     description read: 2026 50c Koala Series Uncirculated Coin in RAM Card. The Royal Australian Mint's 2026 Koala Series celebrates one of the country's most loved and recognisable species.. Featuring four coin products, the third release in the Koala Series includes a 50c uncirculated coin for the second time, which will be sold predominately in Australia.. The $1 Fine Silver Investment Coin is accompanied by a $100 Gold Investment Coin featuring the same koala design.. Discover the quiet charm of one of Australia's most iconic native animals with this exquisitely designed uncirculated coin, featuring three koalas in their natural eucalyptus sanctuary.. Minted to an uncirculated finish.. Issued as Australian Leg
 - 30% under | $7 vs usual $9.95, 3 sales, low | 2017 50c Pride and Passion Eddie Mabo Uncirculated coin | shop:Southern Cross Coins | read as: coin 2017 50c unc | AI: coin base  (1) 2017 50c Pride and Passion Eddie Mabo Uncirculated coin | price not confirmed | https://southerncrosscoins.com.au/product/2017-50c-pride-and-passion-eddie-mabo-uncirculated-coin/
-    id: shop:southerncrosscoins.com.au:7711 · key: 15ppei0 · Claude: verified 2026-11-26
+    id: shop:southerncrosscoins.com.au:7711 · key: 15ppei0 · Claude: verified 2026-11-27
     description read: It is in uncirculated condition..
 - 29% under | $15 vs usual $21, 2 sales, low | 2020 50c Afghan Cameleers - Pioneers of Inland Transport Uncirculated Coin in Card | shop:Coin City | read as: coin 2020 50c unc | AI: coin base  (1) 2020 50c Afghan Cameleers - Pioneers of Inland Transport Uncirculated Coin in Card | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2020-50c-afghan-cameleers-pioneers-of-inland-transport-uncirculated-coin-in-card
-    id: shop:coincity.com.au:47817771942209 · key: 14805q7 · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817771942209 · key: 14805q7 · Claude: verified 2026-11-27
     description read: 2020 50c Afghan Cameleers - Pioneers of Inland Transport Uncirculated Coin in Card.. To commemorate their work, the Royal Australian Mint has released a special 50 cent uncirculated coin.. Australian Legal tender.. Denomination : 50c. Quality : Uncirculated. Metal : Cupro Nickel. Diameter : 31.51 mm. Category: 2020 50c Afghan Cameleers - Pioneers of Inland Transport Silver Proof Coin, 2020 50c Afghan Cameleers - Pioneers of Inland Transport Uncirculated Coin in Card, 2020 Decimal Coins, 50c Coins, Afghan Cameleers Coins, Decimal Coins.
 - 28% under | $20 vs usual $27.9, 3 sales, low | 2015 20c Australia Remembers - Coo-ee March Unc Coin in Card | shop:Coin City | read as: coin 2015 20c unc | AI: coin base  (1) 2015 20c Australia Remembers - Coo-ee March Unc Coin in Card | price not confirmed | https://coincity.com.au/products/2015-20c-australia-remembers-coo-ee-march-unc-coin-in-card
-    id: shop:coincity.com.au:47817403334977 · key: 3zw0r2 · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817403334977 · key: 3zw0r2 · Claude: verified 2026-11-27
     description read: 2015 20c Australia Remembers Coo-ee March Uncirculated Coin in CardThe Coo-ee March was the first of many snowballing recruitment marches to enlist men to join the Australian Imperial Forces in 1915.The Royal Australian Mint has worked with Gilgandra Shire Council to commemorate a centenary of the C News spread quickly and subsequent snowball marches started soon after all over Australia, the Coo-ees were joined in history by the Kookaburras, Kurrajongs and Boomerangs to name just a few.The Royal Australian Mint shares the spirit of the Coo-ees 100 years on with our annual Australia Remembers r
 - 28% under | $15 vs usual $20.91, 3 sales, low | 2008 50c 25th Anniversary of America's Cup Victory Australia II Uncirculated Coin | shop:Town Hall Coins | read as: coin 2008 50c unc | AI: coin base  (1) 2008 50c America's Cup Australia II 25th anniversary, unc | price not confirmed | https://townhallcoins.com/products/2008-50c-25th-anniversary-of-americas-cup-victory-australia-ii-uncirculated-coin
-    id: shop:townhallcoins.com:46862436729072 · key: 15b7d3m · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862436729072 · key: 15b7d3m · Claude: verified 2026-11-27
     description read: Marking the Silver anniversary of Australia II’s 1983 America’s Cup victory, this coin commemorates one of our country’s greatest sporting moments. After weeks of speculation and controversy, Australia II finally crossed the finish line in the closing race of the series. Skippered by John Bertrand and with its famous Lexcen-designed winged keel, the yacht ended the United States’ 132-year winning streak - the longest in modern sports history..
-- 27% under | $144 vs usual $197 (melt $70.62), 2 sales, low | 2026 1oz Sundowner Red Kangaroo Silver Coloured Coin Card | shop:Coins & Collectables Victoria | read as: bullion 2026 1oz silver | AI: not read | price not confirmed | https://collectablesemporium.au/products/2026-1oz-sundowner-red-kangaroo-silver-coloured-coin-card
-    id: shop:coinsandcollectables.com.au:48474647658741 · key: 1izt3dm
-    description read: The Perth Mint is delighted to present the Sundowner Red Kangaroo 2026 1oz Silver Coloured Coin.. The design includes The Perth Mint’s ‘P’ mintmark, the inscription ‘AUSTRALIAN KANGAROO’, along with the coin’s weight, purity and 2026 year-date featured on a pattern of undulating lines.. Category: Silver Coin, *A, 1oz, 2026, BF26-COIN, New release, PM Loyalty, PM_Aug26.
-- 27% under | $79.64 vs usual $109 (melt $70.62), 7 sales, medium | 1 oz Perth Mint Kangaroo Silver Bullion Minted Bar | shop:KJC Bullion | read as: bar 1oz silver | AI: not read | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-perth-mint-kangaroo-silver-bullion-minted-bar/2207724
-    id: shop:www.kjc-gold-silver-bullion.com.au:7268d2196ed8667f · key: 1om0vgz
+- 28% under | $39.07 vs usual $54, 3 sales, low | 1977 Australia 5c Proof Coin PCGS PR68DCAM | ebay | read as: coin 1977 5c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/364491082123
+    id: ebay:364491082123 · key: jlzjdm
+- 27% under | $79.64 vs usual $109 (melt $70.62), 7 sales, medium | 1 oz Perth Mint Kangaroo Silver Bullion Minted Bar | shop:KJC Bullion | read as: bar 1oz silver | AI: bar silver 1 (1) Perth Mint Kangaroo 1oz silver minted bar | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-perth-mint-kangaroo-silver-bullion-minted-bar/2207724
+    id: shop:www.kjc-gold-silver-bullion.com.au:7268d2196ed8667f · key: 1om0vgz · Claude: verified 2026-11-27
     description read: This silver bullion minted bar features a struck version of The Perth Mints LBMA registered mark on a table of radiating circles. High quality minted finish, Internationally recognised and Highly liquid.It is incorporates a tiny P mintmark within the last nine. This authentication feature is designed to make it significantly more difficult for the bar to be counterfeited.* 99.99% pure silver* Rarely in production* Internationally recognised* Convenient size and packagingAll bars come in tubes of 20, with 10 tubes to a monster box (200oz). material: Silver. This silver bullion minted bar features a struck version of The Perth Mints LBMA registered mark on a table of radiating circles. High qu
 - 27% under | $15 vs usual $20.45, 6 sales, medium | 2020 The Afghan Cameleers 50c Uncirculated Coin | shop:Sydney Coins & Jewellery | read as: coin 2020 50c unc | AI: coin base  (1) 2020 The Afghan Cameleers 50c Uncirculated Coin | price not confirmed | https://sydneycoins.com.au/products/2020-the-afghan-cameleers-50c-uncirculated-coin
-    id: shop:sydneycoins.com.au:50380982124863 · key: 183gzw5 · Claude: verified 2026-11-26
+    id: shop:sydneycoins.com.au:50380982124863 · key: 183gzw5 · Claude: verified 2026-11-27
     description read: Struck with precision, this uncirculated coin is a unique addition to any collection.
 - 27% under | $55 vs usual $74.98, 2 sales, low | 1981 Australia 50 Cent Coin PCGS PR69DCAM #8253 | shop:Tasmanian Numismatics | read as: coin 1981 50c proof | AI: coin base  (1) 1981 Australia 50 Cent Coin PCGS PR69DCAM #8253 | price not confirmed | https://tasmaniannumismatics.com.au/product/1981-australia-50-cent-coin-pcgs-pr69dcam-8253/
-    id: shop:tasmaniannumismatics.com.au:39358 · key: 12ip2oz · Claude: verified 2026-11-26
-    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
-- 27% under | $32 vs usual $43.51, 2 sales, low | 1977 Australia 2c Coin PCGS PR68DCAM #7054 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1977-australia-2c-coin-pcgs-pr68dcam-7054/
-    id: shop:tasmaniannumismatics.com.au:37164 · key: 1nsdyhf · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:39358 · key: 12ip2oz · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 26% under | $205.45 vs usual $279 (melt $185.53), 2 sales, low | Perth Mint 1g Gold Minted Bar | shop:Swan Bullion | read as: bar 0.0322oz gold | AI: bar gold 0.0322 (1) Perth Mint 1g gold minted bar | price not confirmed | https://swanbullion.com/product/perth-mint-1g-gold-minted-bar/
-    id: shop:swanbullion.com:3285 · key: 16k7y1p · Claude: verified 2026-11-26
+    id: shop:swanbullion.com:3285 · key: 16k7y1p · Claude: verified 2026-11-27
     description read: Perth Mint 1g Gold Minted Bar. Produced in eight sizes, gold bullion minted bars portray a struck version of The Perth Mint’s LBMA registered mark on the front and kangaroo-shaped motifs on the back. Gold Content: (Troy oz): Fineness: (% purity): It was established in 1899 as a branch of Britain’s Royal Mint in response to the discovery of rich gold deposits in Western Australia. Its primary purpose was to refine gold mined in the region and to mint gold sovereigns and half sovereigns for use throughout the British Empire.. The Perth Mint played a crucial role in the development of Western Australia’s gold industry, providing a local facility for gold refining and coin production that signif
 - 26% under | $40 vs usual $54, 2 sales, low | Australia 2026 20c 1941: Service Amid Strife Coloured Uncirculated 3 Coin Set | shop:The Purple Penny | read as: set 2026 20c unc | AI: set base  (1) 2026 RAM 1941 Service Amid Strife three-coin 20c coloured unc set – 2026 issue, not 1941 | price not confirmed | https://www.thepurplepenny.com/product/australia-2026-20c-1941-service-amid-strife-uncirculated-3-coin-set/
-    id: shop:thepurplepenny.com:46224 · key: icwtmw · Claude: corrected 2026-11-26
+    id: shop:thepurplepenny.com:46224 · key: icwtmw · Claude: corrected 2026-11-27
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 $2 Dawn Service C Mintmark Coloured Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2026-2-dawn-service-c-mintmark-coloured-uncirculated-coin-in-ram-card
-    id: shop:coincity.com.au:51543279272257 · key: 8g6nox · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:51543279272257 · key: 8g6nox · Claude: verified 2026-11-27
     description read: 2026 $2 Dawn Service C Mintmark Coloured Uncirculated Coin in RAM Card . It has become an integral part of Anzac Day in Australia, with tens of thousands of people - service personnel and civilians alike - attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully compliments the aluminum bronze background.. The coin reverse features a striking representation fo the dawn service, including colour print - as well as the 'C' Mintmark for Canberra, the place of minting.. Struck to the Mint' uncirculated finish.. Each coin is issued as Australian Legal Tender.. Denomination : $2. Quality : Uncirculated. Metal 
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 $2 Dawn Service 'C' Mintmark Coloured Uncirculated Coin | shop:Direct Coins | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://directcoins.com.au/products/2026-2-dawn-service-c-mintmark-coloured-uncirculated-coin
-    id: shop:directcoins.com.au:52447497224511 · key: 1rube3u · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:52447497224511 · key: 1rube3u · Claude: verified 2026-11-27
     description read: It has become an integral part of Anzac Day in Australia, with tens of thousands of people – service personnel and civilians alike – attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully complements the aluminium bronze background..
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 Dawn Service 'C' Mintmark $2 Coloured Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://guystuff.com.au/2026-dawn-service-c-mintmark-2-coloured-uncirculated-coin-royal-australian-mint-ram1.html
-    id: shop:guystuff.com.au:60ff36c703a70119 · key: m6k2l6 · Claude: verified 2026-11-26
+    id: shop:guystuff.com.au:60ff36c703a70119 · key: m6k2l6 · Claude: verified 2026-11-27
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | Dawn Service 2026 $2 C Mintmark Coloured Uncirculated Coin in Card | shop:Mint Coin Shop | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | page/description: {"denom":"$2","mintmark":"C","finish":"unc"} | price not confirmed | https://mintcoinshop.com.au/products/dawn-service-2026-2-c-mintmark-coloured-uncirculated-coin-in-card
-    id: shop:mintcoinshop.com.au:51955182600493 · key: 1hj18ps · Claude: verified 2026-11-26
+    id: shop:mintcoinshop.com.au:51955182600493 · key: 1hj18ps · Claude: verified 2026-11-27
     description read: Dawn Service 2026 $2 C Mintmark Coloured Uncirculated Coin in Card may appeal for its theme, its year or simply the pleasure of finding something that feels right for you. The coin’s reverse features a striking representation of the sun rising over the ocean, colour printed to beautifully complement the aluminium bronze background. The design also incorporates a 'C' mintmark for Canberra, the place of minting. Denomination: $2. Metal Content: AlBr (Aluminium Bronze). Diameter: 20.50mm. Finish: Uncirculated. Mintmark: 'C' (Canberra). Category: Royal Australian Mint, $2 coin, 2026, Anzac Day, Australian coins, C Mintmark, coin in card, collectibles, coloured coin, Dawn Service, military histor
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | 2026 RAM $2 'C' Mintmark Coloured Uncirculated Coin – Dawn Service | shop:Online Coins & Collectables | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | page/description: {"mintmark":"C","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-ram-2-c-mintmark-coloured-uncirculated-coin-dawn-service
-    id: shop:onlinecoinsandcollectables.com.au:48155234402560 · key: 1l1c8y2 · Claude: verified 2026-11-26
+    id: shop:onlinecoinsandcollectables.com.au:48155234402560 · key: 1l1c8y2 · Claude: verified 2026-11-27
     description read: Coin reverse features a striking representation of the dawn service, including colour print - as well as a 'C' mintmark for Canberra, the place of minting. Struck to the Mint's uncirculated finish. It has become an integral part of Anzac Day in Australia, with tens of thousands of people - service personnel and civilians alike – attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully complements the aluminium bronze background.. Denomination - 2 AUD. Mintmark - "C". Metal Content - AlBr. Diameter - 20.50mm. Finish - Uncirculated.
 - 25% under | $22.5 vs usual $30.16, 3 sales, low | $2 2026 Dawn Service 'C' Mintmark Coloured UNC | shop:Wynyard Coin Centre | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://wynyardcoins.com.au/products/2-2026-dawn-service-c-mintmark-coloured-unc
-    id: shop:wynyardcoins.com.au:48441504760025 · key: rxnj12 · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:48441504760025 · key: rxnj12 · Claude: verified 2026-11-27
     description read: On Anzac Day each year, Australians gather in the quiet hours before sunrise to honour those who have served. The Royal Australian Mint commemorates this time-honoured occasion with the 2026 $2 Dawn Service ‘C’ Mintmark Coloured Uncirculated coin. The reverse design captures the solemn atmosphere of a dawn service, with a crowd gathered in reflection — a powerful representation of the thousands who come together each year to remember.. Struck to the Mint’s uncirculated standard and featuring selective colour, this release offers an accessible and meaningful tribute to one of Australia’s most important national commemorations.. 'C' Mintmark . Uncirculated (UNC).
 - 25% under | $19 vs usual $25.45, 3 sales, low | 2014 20c Australia Remembers Australian Comfort Funds Uncirculated Coin | shop:Town Hall Coins | read as: coin 2014 20c unc | AI: coin base  (1) 2014 20c Australia Remembers Australian Comfort Funds Uncirculated Coin | price not confirmed | https://townhallcoins.com/products/2014-20c-australia-remembers-australian-comfort-funds-uncirculated-coin
-    id: shop:townhallcoins.com:46862524973296 · key: n96pzz · Claude: verified 2026-11-26
-- 25% under | $15 vs usual $19.99, 2 sales, low | 2026 50c 75th Anniversary Battle Of Kapyong Uncirculated Coin | shop:Direct Coins | read as: coin 2026 50c unc | AI: not read | price not confirmed | https://directcoins.com.au/products/2026-50c-75th-anniversary-battle-of-kapyong-uncirculated-coin
-    id: shop:directcoins.com.au:52480050889023 · key: 1lityrd
+    id: shop:townhallcoins.com:46862524973296 · key: n96pzz · Claude: verified 2026-11-27
+- 25% under | $15 vs usual $19.99, 2 sales, low | 2026 50c 75th Anniversary Battle Of Kapyong Uncirculated Coin | shop:Direct Coins | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c Battle of Kapyong 75th anniversary unc | price not confirmed | https://directcoins.com.au/products/2026-50c-75th-anniversary-battle-of-kapyong-uncirculated-coin
+    id: shop:directcoins.com.au:52480050889023 · key: 1lityrd · Claude: verified 2026-11-27
     description read: The Royal Australian Mint presents this 2026 50c Uncirculated Coin to commemorate the 75th anniversary of the Battle of Kapyong (22-27 April 1951).
 - 25% under | $15 vs usual $20, 2 sales, low | 20c 2009 Australia Remembers - Service Nurses UNC | shop:Wynyard Coin Centre | read as: coin 2009 20c unc | AI: coin base  (1) 20c 2009 Australia Remembers - Service Nurses UNC | price not confirmed | https://wynyardcoins.com.au/products/20c-2009-service-nurses-carded
-    id: shop:wynyardcoins.com.au:36528966566056 · key: 108ajrb · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36528966566056 · key: 108ajrb · Claude: verified 2026-11-27
     description read: Uncirculated (UNC).
 - 25% under | $17.5 vs usual $23.26, 13 sales, high | 50c 2023 Sydney Opera House 50th Anniversary - Al/Bronze UNC | shop:Wynyard Coin Centre | read as: coin 2023 50c unc | AI: coin base  (1) 2023 50c Sydney Opera House 50th Al-Br unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2023-sydney-opera-house-50th-anniversary-unc
-    id: shop:wynyardcoins.com.au:44000272679129 · key: 1tfzb4y · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:44000272679129 · key: 1tfzb4y · Claude: verified 2026-11-27
     description read: Al/Bronze . Uncirculated (UNC).
 - 25% under | $29 vs usual $38.5 (melt $7.06), 3 sales, low | 2015 10c Australian Koala 1/10oz Silver Coin | shop:Town Hall Coins | read as: coin 2015 10c 0.1oz silver | AI: bullion_coin silver 0.1 (1) 2015 Perth Mint Koala 1/10oz silver bullion coin | price not confirmed | https://townhallcoins.com/products/2015-10c-australian-koala-1-10oz-silver-coin
-    id: shop:townhallcoins.com:46862555939056 · key: fu8ond · Claude: corrected 2026-11-26
+    id: shop:townhallcoins.com:46862555939056 · key: fu8ond · Claude: corrected 2026-11-27
 - 25% under | $165 vs usual $218.4 (melt $70.62), 4 sales, medium | 2026 $1 Kangaroo Series - Mob Of Six Roos 1oz Silver Proof Coin | shop:Direct Coins | read as: coin 2026 $1 1oz silver proof | AI: coin silver 1 (1) 2026 RAM $1 Kangaroo Mob of Six 1oz silver proof | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://directcoins.com.au/products/2026-1-kangaroo-series-mob-of-six-roos-1oz-silver-proof-coin
-    id: shop:directcoins.com.au:54139598537023 · key: z5ytpc · Claude: verified 2026-11-26
+    id: shop:directcoins.com.au:54139598537023 · key: z5ytpc · Claude: verified 2026-11-27
     description read: The 2026 $1 Kangaroo Series – Mob of Six 1oz Silver Proof Coin marks six decades of Australian decimal currency with a landmark addition to one of numismatics' most beloved designs. Struck in 99.9% pure silver to proof quality, this coin honours Australia's enduring relationship with the kangaroo, an icon that has graced the nation's coinage since 1910.. The result is a visually stunning coin that rewards close inspection, rendered with exceptional clarity on the coin's mirror-polished proof fields.. Category: Collectible Coins, 1oz silver, 2026 coin, Australian decimal currency, kangaroo series, numismatics, Royal Australian Mint, silver proof coin, Stuart Devlin.
-- 24% under | $80.89 vs usual $105.92 (melt $70.62), 11 sales, high | 1 oz 2026 Australian Kookaburra Silver Bullion Coin | shop:KJC Bullion | read as: bullion 2026 1oz silver | AI: not read | price not confirmed | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-kookaburra-silver-bullion-coin/3003919
-    id: shop:www.kjc-gold-silver-bullion.com.au:4153869d5b9614e0 · key: xxjre0
-    description read: The Perth Mint is pleased to present three bullion coins featuring the kookaburra, meticulously struck from 99.99% pure silver in 1 kilo, 10oz and 1oz sizes. Having first heard the call of the Australian Kookaburra in 1990, investors have been faithful to the iconic silver series for more than three decades. Each coin in this program is issued as legal tender under the Australian Currency Act 1965. material: Silver. The Perth Mint is pleased to present three bullion coins featuring the kookaburra, meticulously struck from 99.99% pure silver in 1 kilo, 10oz and 1oz sizes. Having first heard the call of the Australian Kookaburra in 1990, investors have been faithful to the iconic silver series
+- 24% under | $30 vs usual $39.45, 3 sales, low | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
+    id: shop:coinsandcollectables.com.au:68006469370101 · key: fs96m4 · Claude: verified 2026-11-27
+    description read: This striking $2 coloured coin commemorates the Last Post, and the Australian soldiers who have made the ultimate sacrifice in service of their country.
 - 23% under | $19.5 vs usual $25.45, 3 sales, low | 2014 20c Australia Remembers Comfort Funds Unc Coin in Card | shop:Coin City | read as: coin 2014 20c unc | AI: coin base  (1) 2014 20c Australia Remembers Comfort Funds Unc Coin in Card | price not confirmed | https://coincity.com.au/products/2014-20c-australia-remembers-comfort-funds-unc-coin-in-card
-    id: shop:coincity.com.au:47817411789121 · key: fby3wn · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817411789121 · key: fby3wn · Claude: verified 2026-11-27
     description read: 2014 20c Australia Remembers - Australian Comfort Funds Uncirculated Coin in CardIn 2014, the Royal Australian Mint pays tribute to the Australian Comforts Fund, a group set up here at home to 'support the boys overseas' - and the next release in the highly popular Australia Remembers Series.Formed  The organisation quickly grew into a fundraising, collecting, sorting and distributing machine.Each coin is housed in a full colour illustrated card.Denomination : 20cQuality : UncirculatedMetal : Cupro NickelWeight : 11.30 gramsDiameter : 28.50 mmMintage : 30,000Certificate of Authenticity : Royal 
 - 23% under | $213.8 vs usual $279 (melt $185.53), 2 sales, low | Perth Mint 1g Minted Gold Bar | shop:Gold Bullion Australia | read as: bar 0.0322oz gold | AI: bar gold 0.0322 (1) Perth Mint 1g gold minted bar | page/description: {"metal":"gold","metal_by":"label","weight_oz":0.0322} | price not confirmed | https://www.goldbullionaustralia.com.au/product/perth-mint-1g-minted-gold-bar/
-    id: shop:goldbullionaustralia.com.au:47517 · key: fmbmpi · Claude: verified 2026-11-26
+    id: shop:goldbullionaustralia.com.au:47517 · key: fmbmpi · Claude: verified 2026-11-27
     description read: The Perth Mint 1g Minted Gold Bar contains 1 gram of 99.99% pure investment-grade gold, making it an ideal entry point for investors looking to begin building a physical gold portfolio or purchase gold in smaller, more affordable increments.. Manufactured by The Perth Mint, one of the world’s most recognised precious metals refiners, this minted gold bar is precision struck and presented in tamper-evident packaging for added security and authenticity. Its compact size makes it a popular choice for first-time investors, regular gold buyers and those looking for a meaningful gift.. Why Invest in the Perth Mint 1g Minted Gold Bar?▾ 99.99% pure investment-grade gold. Contains 1 gram of fine gold
 - 23% under | $60 vs usual $78, 6 sales, medium | Australia 2018 50 Cents AC/DC 45 Years of Thunder Coloured Uncirculated Coin in Card | shop:The Purple Penny | read as: coin 2018 50c unc | AI: coin base  (1) 2018 50c AC/DC 45 Years coloured unc in card | price not confirmed | https://www.thepurplepenny.com/product/2018-50-cents-ac-dc-45-years-of-thunder-coloured-uncirculated-coin-in-card/
-    id: shop:thepurplepenny.com:16741 · key: 15z0xgq · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:16741 · key: 15z0xgq · Claude: verified 2026-11-27
     description read: *Note this is a stock image of this product from the Royal Australian Mint, we may have multiples available..
 - 23% under | $19 vs usual $24.68, 10 sales, high | 1984 $1 First Year of Issue Al/Bronze Proof Coin | shop:Town Hall Coins | read as: coin 1984 $1 proof | AI: coin base  (1) 1984 $1 first-year Al-Br proof coin | price not confirmed | https://townhallcoins.com/products/1984-1-first-year-of-issue-albronze-proof-coin
-    id: shop:townhallcoins.com:46862442692848 · key: tn0w86 · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862442692848 · key: tn0w86 · Claude: verified 2026-11-27
     description read: Replacing the traditional $1 banknote due to its greater durability and cost-effectiveness, and the first Australian coin struck from aluminium-bronze, the $1 was graced with a Mob of Kangaroos design by iconic numismatic master craftsman, Stuart Devlin.
-- 23% under | $4.45 vs usual $5.75, 5 sales, medium | 1989 2c 2 Cent Coin in 2x2 Holder - Ex Mint Set Choice Unc | ebay | read as: coin 1989 2c unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/195261779377
-    id: ebay:195261779377 · key: x77qhk
+- 23% under | $4.45 vs usual $5.75, 5 sales, medium | 1989 2c 2 Cent Coin in 2x2 Holder - Ex Mint Set Choice Unc | ebay | read as: coin 1989 2c unc | AI: coin base  (1) 1989 2c unc ex mint set in 2x2 | price not confirmed | https://www.ebay.com.au/itm/195261779377
+    id: ebay:195261779377 · key: x77qhk · Claude: verified 2026-11-27
 - 22% under | $217.62 vs usual $279 (melt $185.53), 2 sales, low | Perth Mint:  Gold Bullion Minted Bar-1g | shop:Great Southland Bullion | read as: bar 0.0322oz gold | AI: bar gold 0.0322 (1) Perth Mint 1g gold minted bar | page/description: {"metal":"gold","metal_by":"purity","weight_oz":0.0322} | price not confirmed | https://greatsouthlandbullion.au/product/perth-mint-gold-bullion-minted-bar-1g/
-    id: shop:greatsouthlandbullion.com.au:8718 · key: 14d7ozm · Claude: verified 2026-11-26
+    id: shop:greatsouthlandbullion.com.au:8718 · key: 14d7ozm · Claude: verified 2026-11-27
     description read: Perth Mint: Gold Bullion Minted Bar-1g. 99.99% pure gold. Category: Gold Bullion Bars.
 - 22% under | $19.99 vs usual $25.5, 8 sales, low | 2017 Richie Benaud The Voice of Cricket 1930-2015 50c Uncirculated Coin Royal Australian Mint RAM | shop:Guy Stuff | read as: coin 2017 50c unc | AI: coin base  (1) 2017 Richie Benaud The Voice of Cricket 1930-2015 50c Uncirculated Coin Royal Australian M | price not confirmed | https://guystuff.com.au/2017-richie-benaud-the-voice-of-cricket-1930-2015-50c-uncirculated-coin-royal-australian-mint-ram.html
-    id: shop:guystuff.com.au:3a664273b719b956 · key: hea9mg · Claude: verified 2026-11-26
+    id: shop:guystuff.com.au:3a664273b719b956 · key: hea9mg · Claude: verified 2026-11-27
 - 21% under | $125 vs usual $158.95, 2 sales, low | First Prefix BA93 1993 Fraser Evans $5 Banknote PCGS 67 PPQ #5001 | shop:Tasmanian Numismatics | read as: note 1993 $5 | AI: banknote   (1) 1993 $5 Fraser/Evans polymer note, first prefix BA93, PCGS 67 PPQ | page/description: {"banknote":true} | price not confirmed | https://tasmaniannumismatics.com.au/product/first-prefix-ba93-1993-fraser-evans-5-banknote-pcgs-67-ppq-5001/
-    id: shop:tasmaniannumismatics.com.au:64326 · key: 1vwjjrj · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:64326 · key: 1vwjjrj · Claude: verified 2026-11-27
     description read: **Graded by PCGS and is covered by their guarantee of grade and authenticity for life. The PCGS holder may have a fine protective layer of film, which can be removed if desired.**. Category: Australian Banknotes, Decimal, Five Dollars.
 - 21% under | $17 vs usual $21.59, 4 sales, medium | 2026 20c Coloured Uncirculated - 1941 Service Amid Strife - Greece and Crete | shop:Online Coins & Collectables | read as: coin 2026 20c unc | AI: coin base  (1) 2026 20c Coloured Uncirculated - 1941 Service Amid Strife - Greece and Crete | page/description: {"denom":"20c","finish":"unc"} | price not confirmed | https://www.onlinecoinsandcollectables.com.au/products/2026-20c-coloured-uncirculated-1941-service-amid-strife-greece-and-crete
-    id: shop:onlinecoinsandcollectables.com.au:49036933923072 · key: 10cv7bo · Claude: verified 2026-11-26
+    id: shop:onlinecoinsandcollectables.com.au:49036933923072 · key: 10cv7bo · Claude: verified 2026-11-27
     description read: Struck to the Mint's uncirculated finish. Denomination - 20c . Metal Content - CuNi. Diameter - 28.52mm. Finish - Uncirculated.
 - 20% under | $9.5 vs usual $11.93, 3 sales, low | 1982 Australian 1 Dollar Note - Johnston/Stone - R78 - Uncirculated | shop:Loose Change Coins | read as: note 1982 $1 unc | AI: banknote   (1) 1982 $1 paper note Johnston/Stone R78 unc | page/description: {"year":1982,"finish":"unc","banknote":true} | price not confirmed | https://loosechangecoins.com.au/products/1982-australian-1-dollar-note-johnston-stone-r78-uncirculated-multiple-prefix-numbers-available
-    id: shop:loosechangecoins.com.au:49475884646647 · key: wmbkql · Claude: verified 2026-11-26
+    id: shop:loosechangecoins.com.au:49475884646647 · key: wmbkql · Claude: verified 2026-11-27
     description read: 1982 Australian $1 Note - Johnston/Stone - R78 - Uncirculated. Own a crisp piece of Australian history with this Uncirculated 1982 $1 note featuring the signatures of R.A. This is the final paper one dollar note issue, making it a highly collectible piece of currency history.. Year: 1982 (Final Paper $1 Note Issue). Condition: Uncirculated.. Presentation: Supplied in a brand-new Lighthouse Basic Bank Note Sleeve for protection.. Category: Banknotes, 1 Dollar Note, 1982, Australian Paper Banknote, Paper Note.
 - 20% under | $20 vs usual $24.95, 2 sales, low | 2020 Waltzing Matilda By Banjo Paterson 50c Uncirculated Coin RAM | shop:Guy Stuff | read as: coin 2020 50c unc | AI: coin base  (1) 2020 Waltzing Matilda By Banjo Paterson 50c Uncirculated Coin RAM | price not confirmed | https://guystuff.com.au/2020-waltzing-matilda-by-banjo-paterson-50c-uncirculated-coin-ram.html
-    id: shop:guystuff.com.au:cdf643b2d90b5b59 · key: c7yk22 · Claude: verified 2026-11-26
-- 19% under | $5.45 vs usual $6.75, 3 sales, low | 1988 2c 2 Cent Coin in 2x2 Holder - Ex mint Set Choice Unc | ebay | read as: coin 1988 2c unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/203541997416
-    id: ebay:203541997416 · key: nqe7br
+    id: shop:guystuff.com.au:cdf643b2d90b5b59 · key: c7yk22 · Claude: verified 2026-11-27
+- 19% under | $5.45 vs usual $6.75, 3 sales, low | 1988 2c 2 Cent Coin in 2x2 Holder - Ex mint Set Choice Unc | ebay | read as: coin 1988 2c unc | AI: coin base  (1) 1988 2c unc ex mint set in 2x2 | price not confirmed | https://www.ebay.com.au/itm/203541997416
+    id: ebay:203541997416 · key: nqe7br · Claude: verified 2026-11-27
 - 19% under | $4 vs usual $4.95, 3 sales, low | 50c 1981 Royal Wedding - Diana & Charles UNC | shop:Wynyard Coin Centre | read as: coin 1981 50c unc | AI: coin base  (1) 50c 1981 Royal Wedding - Diana & Charles UNC | price not confirmed | https://wynyardcoins.com.au/products/50c-1981-royal-wedding-diana-charles-unc
-    id: shop:wynyardcoins.com.au:36529607147688 · key: tw254h · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36529607147688 · key: tw254h · Claude: verified 2026-11-27
 - 19% under | $25 vs usual $30.85, 3 sales, low | 2023 20c 35th Anniversary of Edward The Emu Coloured Uncirculated Coin | shop:Town Hall Coins | read as: coin 2023 20c unc | AI: coin base  (1) 2023 20c 35th Anniversary of Edward The Emu Coloured Uncirculated Coin | price not confirmed | https://townhallcoins.com/products/2023-20c-35th-anniversary-of-edward-the-emu-coloured-uncirculated-coin
-    id: shop:townhallcoins.com:46862583693552 · key: 2bce9s · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862583693552 · key: 2bce9s · Claude: verified 2026-11-27
 - 19% under | $17.5 vs usual $21.59, 4 sales, medium | 2026 20c Service Amid Strife - Greece & Crete Coloured Uncirculated Coin in Card | shop:Coin City | read as: coin 2026 20c unc | AI: coin base  (1) 2026 20c Service Amid Strife - Greece & Crete Coloured Uncirculated Coin in Card | page/description: {"denom":"20c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2026-20c-service-amid-strife-greece-crete-coloured-uncirculated-coin-in-card
-    id: shop:coincity.com.au:51700515995969 · key: rv6o0q · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:51700515995969 · key: rv6o0q · Claude: verified 2026-11-27
     description read: 2026 20c Service Amid Strife - Greece & Crete Coloured Uncirculated Coin in Card. Commonwealth troops were deployed, including the 6th Division of the Australian Imperial Force, but after a series of defeats it became clear that the Allies could not hold back the German invasion, and they withdrew south to the island of Crete.. The Allies lacked the heavy weaponry and air support necessary to hold the island and were forced to evacuate. This 2026 20c Coloured Uncirculated Coin commemorates this arduous chapter of Australian involvement in the Second World War.. Struck to the Mint' uncirculated finish.. Each coin is issued as Australian Legal Tender.. Denomination : 20c. Quality : Uncirculate
 - 18% under | $20 vs usual $24.5, 4 sales, medium | 2014 50c Australia At War Australian Flying Corps Uncirculated Coin | shop:Town Hall Coins | read as: coin 2014 50c unc | AI: coin base  (1) 2014 50c Australia at War Flying Corps unc | price not confirmed | https://townhallcoins.com/products/2014-50c-australia-at-war-australian-flying-corps-uncirculated-coin
-    id: shop:townhallcoins.com:46862554497264 · key: zcj3y1 · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862554497264 · key: zcj3y1 · Claude: verified 2026-11-27
 - 18% under | $20 vs usual $24.5, 5 sales, medium | 2020 50c Banjo Patterson The Man From Snowy River Uncirculated Coin | shop:Town Hall Coins | read as: coin 2020 50c unc | AI: coin base  (1) 2020 50c Banjo Patterson The Man From Snowy River Uncirculated Coin | price not confirmed | https://townhallcoins.com/products/2020-50c-banjo-patterson-the-man-from-snowy-river-uncirculated-coin
-    id: shop:townhallcoins.com:47788800147696 · key: 11xcusc · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:47788800147696 · key: 11xcusc · Claude: verified 2026-11-27
 - 18% under | $45 vs usual $55, 4 sales, medium | 1975 Australia 20c Coin PCGS PR68DCAM #6463 | shop:Tasmanian Numismatics | read as: coin 1975 20c proof | AI: coin base  (1) 1975 Australia 20c Coin PCGS PR68DCAM #6463 | price not confirmed | https://tasmaniannumismatics.com.au/product/1975-australia-20c-coin-pcgs-pr68dcam-6463/
-    id: shop:tasmaniannumismatics.com.au:37324 · key: 45c0p6 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37324 · key: 45c0p6 · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 18% under | $45 vs usual $55, 2 sales, low | 1980 Australia 20c Proof Coin PCGS PR69DCAM #4983 | shop:Tasmanian Numismatics | read as: coin 1980 20c proof | AI: coin base  (1) 1980 Australia 20c Proof Coin PCGS PR69DCAM #4983 | price not confirmed | https://tasmaniannumismatics.com.au/product/1980-australia-20c-proof-coin-pcgs-pr69dcam-4983/
-    id: shop:tasmaniannumismatics.com.au:45536 · key: xsy9ks · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:45536 · key: xsy9ks · Claude: verified 2026-11-27
     description read: 1980 Australia 20c Proof Coin PCGS PR69DCAM #4983.. Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
-- 18% under | $40.96 vs usual $49.95, 2 sales, low | 2022 RAM Henry Lawson 50c Uncirculated 3 Coin Set | shop:Tasmanian Numismatics | read as: mint_set 2022 50c unc | AI: not read | price not confirmed | https://tasmaniannumismatics.com.au/product/2022-ram-henry-lawson-50c-uncirculated-3-coin-set/
-    id: shop:tasmaniannumismatics.com.au:42776 · key: 9f7kac
-    description read: 2022 RAM Henry Lawson 50c Uncirculated 3 Coin Set. Three of Lawson’s renowned literary pieces – The Drover’s Wife, The Loaded Dog and On the Edge of Plain are celebrated in this 50c aluminium bronze coin collection.. All coins created in a unique aluminium bronze decagon design.. Struck to the Mint’s uncirculated standard.. Australian legal tender..
-- 18% under | $16 vs usual $19.5, 6 sales, medium | Australian 1990 1c and 2c Choice Uncirculated Coins - Ex Mint Set | ebay | read as: coin 1990 2c unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/840166680498
-    id: ebay:840166680498 · key: 1fpkufa
 - 18% under | $16 vs usual $19.5, 6 sales, medium | Australia 2022 50c Aluminium Bronze Henry Lawson -The Drover’s Wife Uncirculated | shop:The Purple Penny | read as: coin 2022 50c unc | AI: coin base  (1) 2022 50c Al-Br Henry Lawson The Drover's Wife unc | price not confirmed | https://www.thepurplepenny.com/product/2022-50c-albr-the-drovers-wife-carded-coin/
-    id: shop:thepurplepenny.com:21386 · key: b2bcl5 · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:21386 · key: b2bcl5 · Claude: verified 2026-11-27
     description read: Struck to Uncirculated quality in aluminium bronze (the same metal used in dollar coins) this 50 cent coin celebrates The Drover’s Wife, one of Australia’s most beloved poems by Australian poet Henry Lawson.
 - 17% under | $20 vs usual $24.2, 9 sales, high | 2011 50c 60th Anniversary of National Service Uncirculated Coin | shop:Town Hall Coins | read as: coin 2011 50c unc | AI: coin base  (1) 2011 50c National Service 60th Anniv unc | price not confirmed | https://townhallcoins.com/products/2011-50c-60th-anniversary-of-national-service-uncirculated-coin
-    id: shop:townhallcoins.com:46862523367664 · key: 1uuzg6l · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862523367664 · key: 1uuzg6l · Claude: verified 2026-11-27
 - 17% under | $25 vs usual $30.16, 3 sales, low | Australia 2026 Dawn Service $2 ‘C’ Mintmark Coloured Uncirculated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Dawn Service coloured C mintmark unc | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2026-dawn-service-2-c-mintmark-coloured-uncirculated-coin-on-card/
-    id: shop:tasmaniannumismatics.com.au:78445 · key: fwgynw · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:78445 · key: fwgynw · Claude: verified 2026-11-27
     description read: Australia 2026 Dawn Service $2 ‘C’ Mintmark Coloured Uncirculated Coin on Card. • Coin reverse features a striking representation of the dawn service, including colour print – as well as a ‘C’ mintmark for Canberra, the place of minting. • Struck to the Mint’s uncirculated finish. It has become an integral part of Anzac Day in Australia, with tens of thousands of people – service personnel and civilians alike – attending services across the country in a spirit of remembrance and reflection.. The sun rising over the ocean is colour printed and beautifully complements the aluminium bronze background..
 - 17% under | $17 vs usual $20.45, 6 sales, medium | 50c 2020 Afghan Cameleers UNC | shop:Wynyard Coin Centre | read as: coin 2020 50c unc | AI: coin base  (1) 50c 2020 Afghan Cameleers UNC | price not confirmed | https://wynyardcoins.com.au/products/50c-2020-afghan-cameleers-unc
-    id: shop:wynyardcoins.com.au:36527422767272 · key: 1s21yxd · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36527422767272 · key: 1s21yxd · Claude: verified 2026-11-27
     description read: To commemorate their work the Royal Australian Mint has released a special 50 cent uncirculated coin.. Uncirculated.
+- 17% under | $44.95 vs usual $54, 3 sales, low | 1977 5c Australian Proof Coin PCGS PR68DCAM | ebay | read as: coin 1977 5c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/357065411271
+    id: ebay:357065411271 · key: 1vuaiy6
 - 17% under | $45 vs usual $54, 2 sales, low | 1975 Proof 10c Coin PCGS PR69DCAM #6877 | shop:Tasmanian Numismatics | read as: coin 1975 10c proof | AI: coin base  (1) 1975 Proof 10c Coin PCGS PR69DCAM #6877 | price not confirmed | https://tasmaniannumismatics.com.au/product/1975-proof-10c-coin-pcgs-pr69dcam-6877/
-    id: shop:tasmaniannumismatics.com.au:43425 · key: vuuf16 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:43425 · key: vuuf16 · Claude: verified 2026-11-27
     description read: 1975 Proof 10c Coin PCGS PR69DCAM #6877.. Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 16% under | $29 vs usual $34.7, 3 sales, low | 2016 50c Australia At War Malayan Emergency Uncirculated Coin | shop:Town Hall Coins | read as: coin 2016 50c unc | AI: coin base  (1) 2016 50c Australia at War Malayan Emergency unc | price not confirmed | https://townhallcoins.com/products/2016-50c-australia-at-war-malayan-emergency-uncirculated-coin
-    id: shop:townhallcoins.com:46862554824944 · key: rhssw3 · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862554824944 · key: rhssw3 · Claude: verified 2026-11-27
 - 16% under | $5 vs usual $5.95, 4 sales, medium | 2024 $1 AFL North Melbourne Kangaroos Collectible Uncirculated Coin in Card | shop:Coin City | read as: coin 2024 $1 unc | AI: coin base  (1) 2024 $1 AFL North Melbourne unc in card, Al-Br | page/description: {"metal":null,"metal_by":"label","denom":"$1","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2024-1-afl-north-melbourne-kangaroos-collectible-uncirculated-coin-in-card
-    id: shop:coincity.com.au:48338165760321 · key: 1woukmk · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:48338165760321 · key: 1woukmk · Claude: verified 2026-11-27
     description read: 2024 $1 AFL North Melbourne Kangaroos Collectible Uncirculated Coin in Card. Denomination : $1. Quality : Uncirculated. Metal : Aluminium Bronze. Diameter : 25 mm.
-- 16% under | $26.5 vs usual $31.5, 6 sales, medium | 1981 RAM 1c, 2c, 5c, 10c, 20c, & 50c 6 Coin Mint Set - Red Wallet | ebay | read as: mint_set 1981 50c unc | AI: mint_set base  (1) 1981 RAM six-coin unc mint set (1c–50c) – whole set, not a 50c | price not confirmed | https://www.ebay.com.au/itm/397866263440
-    id: ebay:397866263440 · key: 1mmhuh0 · Claude: corrected 2026-11-24
 - 16% under | $22.5 vs usual $26.75, 4 sales, medium | 50c 2025 Koala Series UNC | shop:Wynyard Coin Centre | read as: coin 2025 50c unc | AI: coin base  (1) 50c 2025 Koala Series UNC | price not confirmed | https://wynyardcoins.com.au/products/50c-2025-koala-series-unc
-    id: shop:wynyardcoins.com.au:46405451186393 · key: azu4b3 · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:46405451186393 · key: azu4b3 · Claude: verified 2026-11-27
     description read: The Royal Australian Mint's 2025 Koala Series celebrates one of the country's most loved and recognisable species. For the first time, the Koala Series includes a 50c Uncirculated Coin, only available within Australia.. Uncirculated (UNC).
 - 16% under | $19.95 vs usual $23.7, 2 sales, low | 2018 50c Battles of Coral and Balmoral 50 Years PNC | shop:Town Hall Coins | read as: pnc 2018 50c | AI: pnc base  (1) 2018 50c Coral and Balmoral PNC | price not confirmed | https://townhallcoins.com/products/2018-50c-battles-of-coral-and-balmoral-50-years-pnc
-    id: shop:townhallcoins.com:46862376894704 · key: 17q1jdl · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862376894704 · key: 17q1jdl · Claude: verified 2026-11-27
     description read: In May 1968, Coral was established 20 km north of Bien Hoa to cover foot patrols and to intercept the enemy withdrawing from their assaults on Saigon.
 - 16% under | $12 vs usual $14.2, 11 sales, high | Australia 2008 Centenary of Scouts Uncirculated 50 Cent in Card | shop:The Purple Penny | read as: coin 2008 50c unc | AI: coin base  (1) 2008 50c Centenary of Scouts unc in RAM card | price not confirmed | https://www.thepurplepenny.com/product/australia-2008-centenary-of-scouts-uncirculated-50-cent-in-card/
-    id: shop:thepurplepenny.com:32804 · key: 1yk6xl8 · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:32804 · key: 1yk6xl8 · Claude: verified 2026-11-27
     description read: *Note this is a stock image of this product from the Royal Australian Mint, we may have multiples available..
 - 15% under | $19 vs usual $22.45, 4 sales, medium | 2012 20c Australia Remembers Merchant Navy Uncirculated Coin | shop:Town Hall Coins | read as: coin 2012 20c unc | AI: coin base  (1) 2012 20c Australia Remembers Merchant Navy Uncirculated Coin | price not confirmed | https://townhallcoins.com/products/2012-20c-australia-remembers-merchant-navy-uncirculated-coin
-    id: shop:townhallcoins.com:46862524907760 · key: 19w0f9f · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862524907760 · key: 19w0f9f · Claude: verified 2026-11-27
 - 15% under | $30 vs usual $35.46, 2 sales, low | 2015 50c Australia At War Crete Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 50c unc | AI: coin base  (1) 2015 50c Australia at War Crete unc | price not confirmed | https://townhallcoins.com/products/2015-50c-australia-at-war-crete-uncirculated-coin
-    id: shop:townhallcoins.com:46862554628336 · key: epqkbd · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862554628336 · key: epqkbd · Claude: verified 2026-11-27
 - 15% under | $14 vs usual $16.5, 3 sales, low | 2006 50c Coin - XVIII Commonwealth Games - Athletics | shop:Loose Change Coins | read as: coin 2006 50c unc | AI: coin base  (1) 2006 50c Commonwealth Games Athletics unc | page/description: {"metal":null,"metal_by":"label","year":2006,"denom":"50c","finish":"unc"} | price not confirmed | https://loosechangecoins.com.au/products/2006-australian-fifty-cent-coin-xviii-commonwealth-games-athletics
-    id: shop:loosechangecoins.com.au:42822400049399 · key: 1d129iu · Claude: verified 2026-11-26
+    id: shop:loosechangecoins.com.au:42822400049399 · key: 1d129iu · Claude: verified 2026-11-27
     description read: 2006 50c Uncirculated Coin – XVIII Commonwealth Games: Athletics. The reverse design captures the peak of athletic motion, depicting a runner in a powerful stride towards the finish line.. Uncirculated Finish: Struck in cupro-nickel to the Mint’s high uncirculated standard.. Year of Issue: 2006. Denomination: 50c. Metal: Cupro-Nickel. Diameter: 31.51mm (Dodecagonal). Finish: Uncirculated. Condition: This coin is in uncirculated condition.. Condition Note: While the coin itself is in uncirculated condition, please note that minor scuffing may be present on the protective coin capsule, and the card may show minor wear consistent with its age and long-term storage.. Category: NCLT (Collector Co
 - 15% under | $8.5 vs usual $10, 6 sales, medium | 2013 20c Coin - Centenary of Canberra - Uncirculated | shop:Loose Change Coins | read as: coin 2013 20c unc | AI: coin base  (1) 2013 20c Centenary of Canberra unc, single coin in flip | price not confirmed | https://loosechangecoins.com.au/products/2013-australian-20-cent-coin-the-centenary-of-canberra-low-mintage-1
-    id: shop:loosechangecoins.com.au:31312790290565 · key: 11lol00 · Claude: verified 2026-11-26
+    id: shop:loosechangecoins.com.au:31312790290565 · key: 11lol00 · Claude: verified 2026-11-27
     description read: 2013 20c "Centenary of Canberra" — Uncirculated (Ex-Security Bag). Single Uncirculated 20c coin struck to circulating standard by the Royal Australian Mint. Technical Specs: Cupronickel (75% Copper, 25% Nickel), 11.30g weight, 28.52mm diameter, reeded edge.. Please Note:. Package Contents: This listing is for a single uncirculated coin only, supplied in a protective Mylar flip.. Condition Detail: Retains uncirculated details and full original mint bloom. Image Note: All available coins remain in excellent condition for their age and will be in a similar condition to that shown.. Issued in 2013 to celebrate the centenary of Australia's capital, this one-year-only 20c coin features a architect
 - 15% under | $20 vs usual $23.5, 3 sales, low | 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2019 50c unc | AI: coin base  (1) 2019 50c Indigenous Languages frosted unc in card | price not confirmed | https://coincity.com.au/products/2019-50c-international-year-of-indigenous-languages-frosted-uncirculated-coin-in-ram-card
-    id: shop:coincity.com.au:47817689727297 · key: 1jb4rut · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817689727297 · key: 1jb4rut · Claude: verified 2026-11-27
     description read: 2019 50c International Year of Indigenous Languages Frosted Uncirculated Coin in RAM CardTo recognize 2019 as the International Year of Indigenous Languages, the Royal Australian Mint has issued a Frosted Uncirculated 50 cent Coin in collaboration with the Australian Institute of Aboriginal and Torr This coin acknowledges Australia's unique Indigenous languages, and the efforts being undertaken to preserve these important parts of Australian Indigenous culture.The United Nations General Assembly proclaimed 2019 as the International Year of Indigenous Languages. Languages are crucial to the identity of Indigenous Australians as well as being an important part of Australia's history and cultur
 - 15% under | $6.8 vs usual $7.99, 5 sales, medium | 1988 $1 Coin - Australian Bicentenary - Uncirculated | shop:Loose Change Coins | read as: coin 1988 $1 unc | AI: coin base  (1) 1988 $1 Bicentenary unc, ex RAM roll | price not confirmed | https://loosechangecoins.com.au/products/1988-australian-1-dollar-coin-australian-bicentenary-aunc-with-2x2-holder-1
-    id: shop:loosechangecoins.com.au:31703558520965 · key: 12s2t86 · Claude: verified 2026-11-26
+    id: shop:loosechangecoins.com.au:31703558520965 · key: 12s2t86 · Claude: verified 2026-11-27
     description read: Single uncirculated coin sourced from a Royal Australian Mint (RAM) roll. Struck to uncirculated standard in Aluminium-Bronze.. Please Note:. This coin is in uncirculated condition, meaning it has never been used in general commerce and retains its original mint lustre.. As is common with uncirculated coins, minor "bag marks" (surface nicks from contact with other coins during the minting process) may be present.. the coin you receive will be in a similar high-grade state to the one pictured.. With a mintage of 21.6 million, while common in circulation, examples preserved in this uncirculated condition are essential for collectors looking to represent the Bicentenary year in its best possibl
 - 14% under | $29.5 vs usual $34.5, 7 sales, medium | 50c 2026 HM Queen Elizabeth II Centenary of Birth UNC | shop:Wynyard Coin Centre | read as: coin 2026 50c unc | AI: coin base  (1) 2026 50c QEII Centenary of Birth unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2026-hm-queen-elizabeth-ii-centenary-of-birth-unc
-    id: shop:wynyardcoins.com.au:47758169145561 · key: o7nshw · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:47758169145561 · key: o7nshw · Claude: verified 2026-11-27
     description read: The Royal Australian Mint is proud to announce the release of this beautiful 2026 $5 Silver Proof Coin to mark the centenary of the birth of Her Majesty Queen Elizabeth II. Uncirculated (UNC).
 - 14% under | $2297.9 vs usual $2683.5 (melt $2270.48), 2 sales, low | 1kg – Perth Mint Silver Cast Bar | shop:Gold Stackers | read as: bar 32.1507oz silver | AI: bar silver 32.1507 (1) Perth Mint 1kg silver cast bar | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://www.goldstackers.com.au/product/1kg-perth-mint-silver-cast-bar/
-    id: shop:goldstackers.com.au:33068 · key: 1gzmciu · Claude: verified 2026-11-26
+    id: shop:goldstackers.com.au:33068 · key: 1gzmciu · Claude: verified 2026-11-27
     description read: 99.9% pure silver. Weight and purity guaranteed. Metal Content – 1000g. Fineness (% purity) – 99.99 %. Silver cast bar. These 99.99% bullion cast bars are stamped with The Perth Mint’s London Bullion Market Association registered mark, a symbol of international tradability.. As of May 2023, the 1 kilo silver cast bar will feature as re-styled identification stamp. For additional clarity, the bar’s weight and purity are stated in larger letters which now read ‘1 KILO FINE SILVER 9999’.. The 1 kilo silver cast bars can be purchased individually and are also available in securely fastened monster boxes of 10 bars per box.. Silver bars are traditionally the most popular forms of precious metal p
 - 14% under | $35 vs usual $40.76, 4 sales, medium | 2023 50c 50th Anniversary of AC/DC Cu/Ni Coloured Uncirculated Coin in Card | shop:Coin City | read as: coin 2023 50c unc | AI: coin base  (1) 2023 50c 50th Anniversary of AC/DC Cu/Ni Coloured Uncirculated Coin in Card | page/description: {"denom":"50c","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2023-50c-50th-anniversary-of-acdc-cuni-coloured-uncirculated-coin-in-card
-    id: shop:coincity.com.au:47817898426689 · key: y3lbig · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817898426689 · key: y3lbig · Claude: verified 2026-11-27
     description read: 2023 50c 50th Anniversary of AC/DC Cu/Ni Coloured Uncirculated Coin in Card.. AC/DC is an Australian music icon and this year celebrates 50 years since forming in 1973. Denomination : 50c. Quality : Uncirculated. Metal : Cupro Nickel. Diameter : 31.51 mm.
 - 14% under | $60 vs usual $69.6, 3 sales, low | 2015 Mint Set - 50th Anniversary of the Royal Australian Mint | shop:Coin City | read as: mint_set 2015 $2 unc | AI: mint_set base  (1) 2015 RAM six-coin unc year set (50th anniversary of the Mint) – whole set, not a $2 | page/description: {"denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2015-mint-set-50th-anniversary-of-the-royal-australian-mint
-    id: shop:coincity.com.au:47817153806657 · key: lpnj4r · Claude: corrected 2026-11-26
+    id: shop:coincity.com.au:47817153806657 · key: lpnj4r · Claude: corrected 2026-11-27
     description read: The annual tradition of year sets of Australian coins continues and in 2015 marks a very special milestone for the Mint. The golden anniversary, this uncirculated set celebrates 50 years of producing coins which have been collected and cherished by generations of Australians.. Since that day over 14 billion circulating coins have been produced at the Mint, becoming iconic works of art which have traversed the entire country. In this year of celebrating the Mint’s 50th anniversary, these coin sets will become treasured by casual and serious coin collectors who will appreciate the significance of this milestone. Issued as Australian Legal Tender.. Denomination : $2, $1, 50c, 20c, 10c, 5c. Qual
 - 14% under | $2319.08 vs usual $2683.5 (melt $2270.48), 2 sales, low | Perth Mint:  Silver Bullion Cast Bar-1kg | shop:Great Southland Bullion | read as: bar 32.1507oz silver | AI: bar silver 32.1507 (1) Perth Mint 1kg silver cast bar | page/description: {"metal":"silver","metal_by":"purity","weight_oz":32.1507} | price not confirmed | https://greatsouthlandbullion.au/product/the-perth-mint-1-kilo-silver-cast-bar/
-    id: shop:greatsouthlandbullion.com.au:4684 · key: 1sm1nrd · Claude: verified 2026-11-26
+    id: shop:greatsouthlandbullion.com.au:4684 · key: 1sm1nrd · Claude: verified 2026-11-27
     description read: Perth Mint: Silver Bullion Cast Bar-1kg. 99.99% pure silver. Category: Silver Bullion Bars.
 - 13% under | $65 vs usual $75, 8 sales, high | 2023 $2 ‘C’ Mintmark Coloured Uncirculated Vietnam War 50th Anniversary | shop:WA Coins | read as: coin 2023 $2 C mintmark unc | AI: coin base  (1) 2023 $2 Vietnam War 50th coloured C mintmark unc | price not confirmed | https://www.wacoins.com.au/shop/2023-2-c-mintmark-coloured-uncirculated-vietnam-war-50th-anniversary/
-    id: shop:wacoins.com.au:18609 · key: 14sj1p · Claude: verified 2026-11-26
+    id: shop:wacoins.com.au:18609 · key: 14sj1p · Claude: verified 2026-11-27
 - 13% under | $19 vs usual $21.9, 6 sales, medium | 2022 $1 Australian Dinosaurs Uncirculated 4 Coin Set | shop:Town Hall Coins | read as: set 2022 $1 unc | AI: set base  (1) 2022 RAM Australian Dinosaurs four $1 Al-Br unc coin set (themed set, not a year mint set) | price not confirmed | https://townhallcoins.com/products/2022-australian-dinosaurs-1-uncirculated-four-coin-collection
-    id: shop:townhallcoins.com:46862419722480 · key: gr05r · Claude: corrected 2026-11-26
+    id: shop:townhallcoins.com:46862419722480 · key: gr05r · Claude: corrected 2026-11-27
     description read: Captured in these four aluminium bronze coins is a slice of Australia's dinosaur history dating back to the Cretaceous Period - an epic 145 million to 66 million years ago!
 - 13% under | $29.5 vs usual $34, 3 sales, low | 50c 2024 NAIDOC Week Coloured Frosted UNC | shop:Wynyard Coin Centre | read as: coin 2024 50c unc | AI: coin base  (1) 2024 50c NAIDOC coloured frosted unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2024-naidoc-week-coloured-frosted-unc
-    id: shop:wynyardcoins.com.au:45621692367065 · key: 1jp6rhe · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:45621692367065 · key: 1jp6rhe · Claude: verified 2026-11-27
     description read: The Royal Australian Mint honours this historic milestone and the rich cultural heritage and achievements of Aboriginal and Torres Strait Islander peoples with this 2024 50c Coloured Frosted Uncirculated Coin designed by Dagoman, Wardaman, Gurindji artist Cortney Glass.. Frosted Uncirculated (UNC).
+- 13% under | $26.5 vs usual $30.5, 7 sales, medium | 1981 RAM 1c, 2c, 5c, 10c, 20c, & 50c 6 Coin Mint Set - Red Wallet | ebay | read as: mint_set 1981 50c unc | AI: mint_set base  (1) 1981 RAM six-coin unc mint set (1c–50c) – whole set, not a 50c | price not confirmed | https://www.ebay.com.au/itm/397866263440
+    id: ebay:397866263440 · key: 1mmhuh0 · Claude: corrected 2026-11-27
 - 13% under | $60 vs usual $69, 10 sales, high | 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2022 $2 C mintmark unc | AI: coin base  (1) 2022 $2 Honey Bee coloured C mintmark unc | page/description: {"metal":null,"metal_by":"label","denom":"$2","finish":"unc"} | price not confirmed | https://coincity.com.au/products/2022-2-australian-honey-bee-coloured-c-mintmark-uncirculated-coin-in-ram-card
-    id: shop:coincity.com.au:47817850585409 · key: 1vfjjbc · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817850585409 · key: 1vfjjbc · Claude: verified 2026-11-27
     description read: 2022 $2 Australian Honey Bee Coloured C Mintmark Uncirculated Coin in RAM Card. Despite their small size and short lifespan, honey bees not only produce delicious honey, they are also regarded as a valuable agricultural commodity of providing free pollination services, resulting in superior quality harvest and increased yield. Across Australia, there are approximately 20,000 registered beekeepers who operate more than 640,000 hives, producing up to 30,000 tonnes of honey each year.. Australian Legal Tender Each coin's obverse features the effigy of Her Majesty Queen Elizabeth II designed by Jody Clark.. Features a 'C' Mintmark to denote Canberra, the place of minting.. Denomination : $2. Qua
 - 13% under | $165 vs usual $189.15, 7 sales, medium | 2027 $1 Bluey Cricket Coloured Silver Proof Coin | shop:Coin City | read as: coin 2027 $1 silver proof | AI: coin silver  (1) 2027 $1 Bluey Cricket coloured silver proof | page/description: {"metal":"silver","metal_by":"label","denom":"$1","finish":"proof"} | price not confirmed | https://coincity.com.au/products/2027-1-bluey-cricket-coloured-silver-proof-coin
-    id: shop:coincity.com.au:52176590143809 · key: okf6p2 · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:52176590143809 · key: okf6p2 · Claude: verified 2026-11-27
     description read: 2027 $1 Bluey Cricket Coloured Silver Proof Coin. Mirroring the Bluey Christmas program, the product range with include a $1 coloured uncirculated coin and $1 coloured silver proof coin.. Each coin is issued as Australian Legal Tender.. Denomination : $1. Quality : Proof. Metal : Silver. Diameter : 25 mm. Category: 2024 $1 Bluey Coins, 2024 $1 Bluey Dollarbucks Al/Br Coloured Uncirculated Three Coin Set, 2024 $1 Bluey Dollarbucks Coins, 2024 $1 Bluey Uncirculated Coin in Card, 2024 $1 The Grannies Uncirculated Coin in Card, 2024 $1 The Heelers Uncirculated Coin in Card, 2025 $1 Bluey Christmas Colour
-- 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7041 | ebay | read as: coin 1974 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/334179490276
-    id: ebay:334179490276 · key: 1r994uv
-- 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7042 | ebay | read as: coin 1974 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/334179513932
-    id: ebay:334179513932 · key: nksn4q
-- 13% under | $55 vs usual $63, 3 sales, low | Australia 1974 Proof 2c Coin PCGS PR69DCAM #2840 | ebay | read as: coin 1974 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/336675796383
-    id: ebay:336675796383 · key: 17sk9i6
+- 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7041 | ebay | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof PCGS PR68RD DCAM | price not confirmed | https://www.ebay.com.au/itm/334179490276
+    id: ebay:334179490276 · key: 1r994uv · Claude: verified 2026-11-27
+- 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7042 | ebay | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof PCGS PR68RD DCAM | price not confirmed | https://www.ebay.com.au/itm/334179513932
+    id: ebay:334179513932 · key: nksn4q · Claude: verified 2026-11-27
+- 13% under | $55 vs usual $63, 3 sales, low | Australia 1974 Proof 2c Coin PCGS PR69DCAM #2840 | ebay | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof PCGS PR69DCAM | price not confirmed | https://www.ebay.com.au/itm/336675796383
+    id: ebay:336675796383 · key: 17sk9i6 · Claude: verified 2026-11-27
 - 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7041 | shop:Tasmanian Numismatics | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof, PCGS graded PR68RD DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1974-australia-2c-proof-coin-pcgs-pr68rd-dcam-7041/
-    id: shop:tasmaniannumismatics.com.au:37146 · key: hrr7kv · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37146 · key: hrr7kv · Claude: verified 2026-11-27
     description read: 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7041.. Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 13% under | $55 vs usual $63, 3 sales, low | 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7042 | shop:Tasmanian Numismatics | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof, PCGS graded PR68RD DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1974-australia-2c-proof-coin-pcgs-pr68rd-dcam-7042/
-    id: shop:tasmaniannumismatics.com.au:37148 · key: 1srorif · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37148 · key: 1srorif · Claude: verified 2026-11-27
     description read: 1974 Australia 2c Proof Coin PCGS PR68RD DCAM #7042.. Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 13% under | $55 vs usual $63, 3 sales, low | Australia 1974 Proof 2c Coin PCGS PR69DCAM #2840 | shop:Tasmanian Numismatics | read as: coin 1974 2c proof | AI: coin base  (1) 1974 2c proof, PCGS graded PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1974-proof-2c-coin-pcgs-pr69dcam-2840/
-    id: shop:tasmaniannumismatics.com.au:79648 · key: x7dlr8 · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:79648 · key: x7dlr8 · Claude: verified 2026-11-27
     description read: *PCGS guarantees the grade and authenticity for life.. *PCGS Gold Shield holder is protected by NFC anti-counterfeiting technology.
-- 13% under | $34.95 vs usual $40, 2 sales, low | 2009 Australia International Year of Astronomy 6 Coin Uncirculated RAM Mint Set | shop:Tasmanian Numismatics | read as: mint_set 2009 unc | AI: not read | price not confirmed | https://tasmaniannumismatics.com.au/product/2009-australia-international-year-of-astronomy-6-coin-uncirculated-ram-year-set/
-    id: shop:tasmaniannumismatics.com.au:11777 · key: t2b0cs
+- 13% under | $34.95 vs usual $40, 2 sales, low | 2009 Australia International Year of Astronomy 6 Coin Uncirculated RAM Mint Set | shop:Tasmanian Numismatics | read as: mint_set 2009 unc | AI: mint_set base  (1) 2009 RAM 6-coin unc mint set, Year of Astronomy | price not confirmed | https://tasmaniannumismatics.com.au/product/2009-australia-international-year-of-astronomy-6-coin-uncirculated-ram-year-set/
+    id: shop:tasmaniannumismatics.com.au:11777 · key: t2b0cs · Claude: verified 2026-11-27
     description read: 2009 Australia International Year of Astronomy 6 Coin Uncirculated RAM Year Set. Category: Year Sets.
 - 13% under | $17.5 vs usual $20, 2 sales, low | 2009 20c Australia Remembers - Australian Service Nurses Unc Coin in Card | shop:Coin City | read as: coin 2009 20c unc | AI: coin base  (1) 2009 20c Australia Remembers - Australian Service Nurses Unc Coin in Card | price not confirmed | https://coincity.com.au/products/2009-20c-australia-remembers-australian-service-nurses-unc-coin-in-card
-    id: shop:coincity.com.au:47817455042881 · key: wbov0p · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817455042881 · key: wbov0p · Claude: verified 2026-11-27
 - 12% under | $12.5 vs usual $14.2, 11 sales, high | 2008 50c Centenary fo Scouts in Australian Uncirculated Coin in RAM Card | shop:Coin City | read as: coin 2008 50c unc | AI: coin base  (1) 2008 50c Centenary of Scouts unc in RAM card | price not confirmed | https://coincity.com.au/products/2008-50c-centenary-fo-scouts-in-australian-uncirculated-coin-in-ram-card
-    id: shop:coincity.com.au:47817467101505 · key: 1n7wmii · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817467101505 · key: 1n7wmii · Claude: verified 2026-11-27
     description read: 2008 50c Centenary of Scouts in Australia Uncirculated Coin in RAM Card. 2008 has been declared the 'Year of the Scout' and the Royal Australian Mint has release three coins to commemorative this event.. Category: 1966 - 2009 Decimal Coins, 2008 50c Centenary fo Scouts in Australian Uncirculated Coin in RAM Card, Decimal Coins.
-- 12% under | $149.8 vs usual $169.99, 2 sales, low | Australia 1966 2c Two Cents PCGS Graded, PR68DCAM | ebay | read as: coin 1966 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/307238390422
-    id: ebay:307238390422 · key: y6j76m
+- 12% under | $149.8 vs usual $169.99, 2 sales, low | Australia 1966 2c Two Cents PCGS Graded, PR68DCAM | ebay | read as: coin 1966 2c proof | AI: coin base  (1) 1966 2c proof PCGS PR68DCAM | price not confirmed | https://www.ebay.com.au/itm/307238390422
+    id: ebay:307238390422 · key: y6j76m · Claude: verified 2026-11-27
 - 11% under | $95 vs usual $106.95, 4 sales, medium | 1966 Australia 10c Coin PCGS PR68DCAM #6778 | shop:Tasmanian Numismatics | read as: coin 1966 10c proof | AI: coin base  (1) 1966 10c proof PCGS PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1966-australia-10c-coin-pcgs-pr68dcam-6778/
-    id: shop:tasmaniannumismatics.com.au:37712 · key: 5z7k2u · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37712 · key: 5z7k2u · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 11% under | $95 vs usual $106.95, 4 sales, medium | 1966 Australia 10c Coin PCGS PR68DCAM #6777 | shop:Tasmanian Numismatics | read as: coin 1966 10c proof | AI: coin base  (1) 1966 10c proof PCGS PR68DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/1966-australia-10c-coin-pcgs-pr68dcam-6777/
-    id: shop:tasmaniannumismatics.com.au:37714 · key: 1h7xpkn · Claude: verified 2026-11-26
+    id: shop:tasmaniannumismatics.com.au:37714 · key: 1h7xpkn · Claude: verified 2026-11-27
     description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life..
 - 11% under | $20 vs usual $22.45, 4 sales, medium | 2012 20c Australia Remembers Merchant Navy Uncirculated Coin | shop:Coin City | read as: coin 2012 20c unc | AI: coin base  (1) 2012 20c Australia Remembers Merchant Navy Uncirculated Coin | price not confirmed | https://coincity.com.au/products/2012-20c-australia-remembers-merchant-navy-uncirculated-coin
-    id: shop:coincity.com.au:47817426534721 · key: r7gmeg · Claude: verified 2026-11-26
+    id: shop:coincity.com.au:47817426534721 · key: r7gmeg · Claude: verified 2026-11-27
     description read: 2012 20c Australia Remembers – Merchant Navy Unc Coin in CardThe Australia Remembers series recognises those who made beyond the battlefields in 2012, it pays tribute to the Australian Merchant Navy who have played an essential role in supporting Australian forces.Merchant mariners are a country’s l This ship was one of 6 River Class Vessels to serve from 1943 to 1947.This coin is presented in a blister with the now traditional poppy adorned card.The Merchant Mariners have similar numbers to the Nursing and National Serviceman and are equally passionate about their history.Denomination : 20cFin
 - 11% under | $20 vs usual $22.45, 4 sales, medium | 20c 2012 Australia Remembers - Merchant Navy UNC | shop:Wynyard Coin Centre | read as: coin 2012 20c unc | AI: coin base  (1) 20c 2012 Australia Remembers - Merchant Navy UNC | price not confirmed | https://wynyardcoins.com.au/products/20c-2012-merchant-navy-carded-unc
-    id: shop:wynyardcoins.com.au:37234062229672 · key: 1xksd80 · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:37234062229672 · key: 1xksd80 · Claude: verified 2026-11-27
     description read: Uncirculated (UNC).
 - 11% under | $29 vs usual $32.5, 2 sales, low | 2007 $1 Bounding Kangaroos PNC | shop:Town Hall Coins | read as: pnc 2007 $1 | AI: pnc base  (1) 2007 $1 Bounding Kangaroos PNC | price not confirmed | https://townhallcoins.com/products/2007-1-bounding-kangaroos-pnc
-    id: shop:townhallcoins.com:46862597292272 · key: 1di66mr · Claude: verified 2026-11-26
-- 11% under | $169 vs usual $189.15, 7 sales, medium | Australia Bluey Cricket 2027 $1 Colour Silver Proof Coin | shop:Downies | read as: coin 2027 $1 silver proof | AI: not read | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://www.downies.com/products/bluey-cricket-2027-1-coloured-silver-proof-coin
-    id: shop:www.downies.com:49284003856692 · key: 12mx1mx
+    id: shop:townhallcoins.com:46862597292272 · key: 1di66mr · Claude: verified 2026-11-27
+- 11% under | $169 vs usual $189.15, 7 sales, medium | Australia Bluey Cricket 2027 $1 Colour Silver Proof Coin | shop:Downies | read as: coin 2027 $1 silver proof | AI: coin silver  (1) 2027 RAM Bluey Cricket $1 coloured silver proof | page/description: {"metal":"silver","metal_by":"purity"} | price not confirmed | https://www.downies.com/products/bluey-cricket-2027-1-coloured-silver-proof-coin
+    id: shop:www.downies.com:49284003856692 · key: 12mx1mx · Claude: verified 2026-11-27
     description read: A compelling combination of pure silver, vivid colour, strictly limited availability and sensational presentation, we are delighted to present the Royal Australian Mint’s Bluey Cricket 2027 $1 Colour Silver Proof Coin!. Struck to immaculate Proof quality from 99.9% pure silver, this Australian legal tender issue honours everyone’s favourite blue heeler, Bluey, and Australia’s number one national sport, cricket. An officially licensed product, the Bluey Cricket 2027 $1 Colour Silver Proof Coin is simply a must-have for anyone devoted to this global TV phenomenon or any Aussie cricket fan – especially considering the presentation! Given the overwhelming demand of all previous Bluey Dollarbucks
 - 11% under | $25 vs usual $27.95, 4 sales, medium | 50c 2012 Ballet 50th Anniversary Carded UNC | shop:Wynyard Coin Centre | read as: coin 2012 50c unc | AI: coin base  (1) 2012 50c Australian Ballet 50th unc in card | price not confirmed | https://wynyardcoins.com.au/products/50c-2012-ballet-50th-anniversary-carded-unc
-    id: shop:wynyardcoins.com.au:36528766353576 · key: qv2w3j · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36528766353576 · key: qv2w3j · Claude: verified 2026-11-27
+- 10% under | $50 vs usual $55.51, 2 sales, low | Australia 1977 2c Proof Coin PCGS PR69DCAM #5583 | ebay | read as: coin 1977 2c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/334937675318
+    id: ebay:334937675318 · key: 1bfhgrm
+- 10% under | $50 vs usual $55.51, 2 sales, low | Australia 1977 2c Proof Coin PCGS PR69DCAM #5583 | shop:Tasmanian Numismatics | read as: coin 1977 2c proof | AI: coin base  (1) 1977 2c proof, PCGS graded PR69DCAM | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-1977-2c-proof-coin-pcgs-pr69dcam-5583/
+    id: shop:tasmaniannumismatics.com.au:53045 · key: irvkjn · Claude: verified 2026-11-21
+    description read: Graded by PCGS and is covered by their guarantee of grade and authenticity for life.. ** Please note that the image is for illustration purposes as there may be more than one coin available at this grade and the coin serial number may also vary**.
 - 10% under | $45 vs usual $49.95, 2 sales, low | 2019 50c Australian Spies & Spooks 70 Years of ASIO Uncirculated Coin | shop:Town Hall Coins | read as: coin 2019 50c unc | AI: coin base  (1) 2019 50c ASIO 70 Years unc | price not confirmed | https://townhallcoins.com/products/2019-50c-australian-spies-spooks-70-years-of-asio-uncirculated-coin
-    id: shop:townhallcoins.com:46862453047536 · key: je61yk · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862453047536 · key: je61yk · Claude: verified 2026-11-27
 - 10% under | $22.5 vs usual $24.95, 4 sales, medium | 2c 2017 Stuart Devlin - Revisiting A Vision UNC | shop:Wynyard Coin Centre | read as: coin 2017 2c unc | AI: coin base  (1) 2017 2c Stuart Devlin Revisiting a Vision unc | price not confirmed | https://wynyardcoins.com.au/products/2c-2017-stuart-devlin-unc
-    id: shop:wynyardcoins.com.au:36538870464680 · key: cfvhx9 · Claude: verified 2026-11-26
+    id: shop:wynyardcoins.com.au:36538870464680 · key: cfvhx9 · Claude: verified 2026-11-27
     description read: This never before struck Australian 2017 bronze 21mm two cent "Kangaroo and Joey" is based on Mr Stuart Devlin's original 1966 design concept and this unique type has been issued by the Royal Australian Mint.. Available only in uncirculated quality in original Royal Australian Mint packaging..
 - 10% under | $19 vs usual $21, 2 sales, low | 2020 50c The Afghan Cameleers Pioneers of Inland Transport Uncirculated Coin | shop:Town Hall Coins | read as: coin 2020 50c unc | AI: coin base  (1) 2020 50c The Afghan Cameleers Pioneers of Inland Transport Uncirculated Coin | price not confirmed | https://townhallcoins.com/products/2020-50c-the-afghan-cameleers-pioneers-of-inland-transport-uncirculated-coin
-    id: shop:townhallcoins.com:46862399275248 · key: k2rl31 · Claude: verified 2026-11-26
+    id: shop:townhallcoins.com:46862399275248 · key: k2rl31 · Claude: verified 2026-11-27
     description read: Struck to rigorous Uncirculated standard from copper-nickel.. Official Australian legal tender – spans 31.50mm in diameter..
 - 9% under | $25 vs usual $27.5, 4 sales, medium | Australia 2010 Royal Engagement William and Catherine Uncirculated 50 Cent in Card | shop:The Purple Penny | read as: coin 2010 50c unc | AI: coin base  (1) 2010 50c Royal Engagement unc in card | price not confirmed | https://www.thepurplepenny.com/product/2010-royal-engagement-william-and-catherine-50-cent-in-card/
-    id: shop:thepurplepenny.com:14677 · key: 1vcskoz · Claude: verified 2026-11-26
+    id: shop:thepurplepenny.com:14677 · key: 1vcskoz · Claude: verified 2026-11-27
     description read: *Note this is a stock image of this product from the Royal Australian Mint, we may have multiples available..
+- 9% under | $20 vs usual $21.85, 5 sales, medium | 2014 50c Australia At War Battle of Cocos Uncirculated Coin | shop:Town Hall Coins | read as: coin 2014 50c unc | AI: coin base  (1) 2014 50c Australia at War Battle of Cocos unc | price not confirmed | https://townhallcoins.com/products/2014-50c-australia-at-war-battle-of-cocos-uncirculated-coin
+    id: shop:townhallcoins.com:46862554530032 · key: 11pliy9 · Claude: verified 2026-11-26
+- 9% under | $20 vs usual $21.85, 6 sales, medium | 2015 50c Australia At War Greece Uncirculated Coin | shop:Town Hall Coins | read as: coin 2015 50c unc | AI: coin base  (1) 2015 50c Australia at War Greece unc | price not confirmed | https://townhallcoins.com/products/2015-50c-australia-at-war-greece-uncirculated-coin
+    id: shop:townhallcoins.com:46862554726640 · key: cbheel · Claude: verified 2026-11-26
+- 8% under | $105.6 vs usual $115, 2 sales, low | Australia 2016 Decimal Currency 50th Anniversary Uncirculated 50c Gold-Plated Coin on Card | shop:Tasmanian Numismatics | read as: coin 2016 50c unc | AI: not read | price not confirmed | https://tasmaniannumismatics.com.au/product/australia-2016-decimal-currency-50th-anniversary-uncirculated-50c-gold-plated-coin-on-card/
+    id: shop:tasmaniannumismatics.com.au:67630 · key: vtj07r
+    description read: Australia 2016 Decimal Currency 50th Anniversary Uncirculated 50c Gold-Plated Coin on Card.
 
-## Needs checking: 2 listings held back as too cheap to be real
-- 97% under | $5798.33 vs usual $185243.33 (melt $185243.33), 0 sales, melt only | 1 oz 2026 Australian Swan Gold Bullion Minted Bar | shop:KJC Bullion | read as: bar 2026 32.1507oz gold | AI: not read | page/description: {"metal":"gold","metal_by":"purity","weight_oz":32.1507} | price not confirmed | HELD BACK: priced at 3% of the metal value it was read as (32.1507 oz gold) – probably not what it was read as | https://www.kjc-gold-silver-bullion.com.au/PD/1-oz-2026-australian-swan-gold-bullion-minted-bar/3003947
-    id: shop:www.kjc-gold-silver-bullion.com.au:b75c9b47eaeeb33c · key: 1wa7a5o
-    description read: The Perth Mint is delighted to present The Australian Swan 1oz Gold Bullion Minted Bar. Commemorating the first Australian Swan design released by The Perth Mint in 2017, this beautifully crafted gold bar is a limited mintage bar featuring an elegant swan gliding serenely across the water. mintmark. The back of the bar is stamped with The Perth Mint's London Bullion Market Association registered mark, a stylised swan symbolising our 125 year-old reputation for quality. The bar&rsquo;s weight, purity and fineness are also included in the design. Category: Online Shop / Online Shop / Gold / Gold / 99.99% Gold Bars 1/100th to 1 Kilo (Full Range) / 99.99% Gold Bars 1/100th to 1 Kilo (Full Range)
-- 92% under | $150 vs usual $1852.39 (melt $1852.39), 0 sales, melt only | 1990 10g $200 Pride of Australia Platypus Gold Proof Coin - Limited Edition Collectible | BULLIONMARK | shop:Bullionmark | read as: coin 1990 $200 0.3215oz gold proof | AI: not read | price not confirmed | HELD BACK: priced at 8% of the metal value it was read as (0.3215 oz gold) – probably not what it was read as | https://bullionmark.com.au/shop/product/1990-australian-10g-gold-200-the-pride-of-australia-platypus-proof-coin-in-box
-    id: shop:bullionmark.com.au:bcb420c496bc8e90 · key: 11fqljk
+## Needs checking: 1 listing held back as too cheap to be real
+- 91% under | $150 vs usual $1697.98 (melt $1697.98), 0 sales, melt only | 1990 10g $200 Pride of Australia Platypus Gold Proof Coin - Limited Edition Collectible | BULLIONMARK | shop:Bullionmark | read as: coin 1990 $200 0.2947oz gold proof | AI: coin gold 0.2947 (1) 1990 $200 Pride of Australia Platypus 10g 22ct gold proof (0.2947oz fine); $150 price looks wrong | price not confirmed | HELD BACK: priced at 9% of the metal value it was read as (0.2947 oz gold) – probably not what it was read as | https://bullionmark.com.au/shop/product/1990-australian-10g-gold-200-the-pride-of-australia-platypus-proof-coin-in-box
+    id: shop:bullionmark.com.au:bcb420c496bc8e90 · key: 11fqljk · Claude: corrected 2026-11-27
     description read: Product Description Specifications Celebrate Australian wildlife with the 1990 10g $200 Pride of Australia Platypus Gold Proof Coin, elegantly presented in a beautiful box. Celebrate Australian wildlife with the 1990 10g $200 Pride of Australia Platypus Gold Proof Coin, elegantly presented in a beautiful box. Category: Home / Mates Rates / 1990 10g $200 Pride of Australia Platypus Gold Proof Coin (Boxed).
 
-## Last 3 days by source (414 steps)
-- 44 shops: every step worked, 16316 kept
-- auction:downies: 0/2 worked, 0 kept
-    2× Error: page took too long to load
+## Last 3 days by source (545 steps)
+- 44 shops: every step worked, 16372 kept
+- auction:downies: 0/3 worked, 0 kept
+    3× Error: page took too long to load
 - claude: 0/1 worked, 0 kept
     1× removed by Claude's check: Cook Islands issue, not Australian
-- gumtree: 7/29 worked, 0 kept
+- gumtree: 13/58 worked, 7 kept
+    2× Error: 403 from https://www.gumtree.com.au/s-1983+2c/k0?sort=date (the site asked for a bot check – try again later)
     2× Error: 403 from https://www.gumtree.com.au/s-1975+2c/k0?sort=date (the site asked for a bot check – try again later)
     2× Error: 403 from https://www.gumtree.com.au/s-1969+2c/k0?sort=date (the site asked for a bot check – try again later)
-    1× Error: 403 from https://www.gumtree.com.au/s-1980+2c/k0?sort=date (the site asked for a bot check – try again later)
-- ebay_sold_sweep: 56/60 worked, 4063 kept
+- ebay_sold_sweep: 54/58 worked, 4580 kept
     4× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- cashconverters: 12/12 worked, 1522 kept
-- facebook: 32/32 worked, 19 kept
-- ebay_active: 40/40 worked, 1519 kept
-- ebay_sold: 124/124 worked, 5443 kept
-- lloyds: 2/2 worked, 0 kept
-- auction:noble: 2/2 worked, 0 kept
-- auction:leski: 1/1 worked, 0 kept
+- cashconverters: 22/22 worked, 2967 kept
+- facebook: 60/60 worked, 19 kept
+- ebay_active: 69/69 worked, 3015 kept
+- ebay_sold: 139/139 worked, 5176 kept
+- lloyds: 3/3 worked, 0 kept
+- auction:noble: 3/3 worked, 0 kept
+- auction:leski: 2/2 worked, 67 kept
 
 ## Log, newest first (last 150 steps)
-2026-11-27T09:54:49Z | cashconverters | coin categories | 176
-2026-11-27T09:54:44Z | shop | Bullion Now | 0
-2026-11-27T09:54:24Z | facebook | 1982 2c | 0 | 11 found, none kept (not coins, or no price)
-2026-11-27T09:54:21Z | gumtree | 1982 2c | 0 | 7 found, none kept (not coins, or no price)
-2026-11-27T09:54:08Z | ebay_active | 1982 2c | 65
-2026-11-27T09:53:52Z | ebay_sold | 1982 2c | 23
-2026-11-27T09:53:27Z | facebook | 1980 2c | 1
-2026-11-27T09:53:25Z | gumtree | 1980 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1980+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T09:53:10Z | ebay_active | 1980 2c | 64
-2026-11-27T09:52:54Z | ebay_sold | 1980 2c | 23
-2026-11-27T09:52:03Z | ebay_sold_sweep | Mint & proof sets “australia” · page 1 | 181 | 210 on the page, 15 new, 40 matched a catalogue coin · reached sales already stored (before 2026-11-24)
-2026-11-27T09:51:06Z | ebay_sold_sweep | Australian decimal coins $250+ · page 2 | 56 | 60 on the page, 1 new, 10 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T09:50:07Z | shop | Guy Stuff | 6
-2026-11-27T09:50:07Z | shop | Prospect Stamps & Coins | 0
-2026-11-27T09:50:07Z | ebay_sold_sweep | Australian decimal coins $250+ · page 1 | 56 | 60 on the page, 9 new, 10 matched a catalogue coin
-2026-11-27T08:54:43Z | cashconverters | coin categories | 173
-2026-11-27T08:54:37Z | shop | Royal Bullion | 0
-2026-11-27T08:54:18Z | facebook | 1979 2c | 0 | 18 found, none kept (not coins, or no price)
-2026-11-27T08:54:16Z | gumtree | 1979 2c | 0
-2026-11-27T08:54:01Z | ebay_active | 1979 2c | 65
-2026-11-27T08:53:45Z | ebay_sold | 1979 2c | 14
-2026-11-27T08:53:18Z | facebook | 1978 2c | 1
-2026-11-27T08:53:16Z | gumtree | 1978 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1978+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T08:53:02Z | ebay_active | 1978 2c | 64
-2026-11-27T08:52:45Z | ebay_sold | 1978 2c | 17
-2026-11-27T08:51:45Z | ebay_sold_sweep | Australian decimal coins $100–$250 · page 2 | 57 | 60 on the page, 1 new, 13 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T08:50:50Z | ebay_sold_sweep | Australian decimal coins $100–$250 · page 1 | 57 | 60 on the page, 1 new, 12 matched a catalogue coin
-2026-11-27T08:49:50Z | shop | Guy Stuff | 6
-2026-11-27T08:49:50Z | shop | Prospect Stamps & Coins | 0
-2026-11-27T08:49:50Z | ebay_sold_sweep | Australian decimal coins $50–$100 · page 2 | 57 | 60 on the page, 10 new, 13 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T07:53:57Z | cashconverters | coin categories | 79
-2026-11-27T07:53:24Z | facebook | 1977 2c | 0 | 24 found, none kept (not coins, or no price)
-2026-11-27T07:53:22Z | gumtree | 1977 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1977+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T07:53:08Z | ebay_active | 1977 2c | 60
-2026-11-27T07:52:47Z | ebay_sold | 1977 2c | 13
-2026-11-27T07:51:38Z | ebay_sold_sweep | Australian decimal coins $50–$100 · page 1 | 57 | 60 on the page, 1 new, 13 matched a catalogue coin
-2026-11-27T07:50:43Z | ebay_sold_sweep | Australian decimal coins $30–$50 · page 3 | 57 | 60 on the page, 1 new, 13 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T07:49:37Z | shop | Guardian Gold | 0
-2026-11-27T07:49:37Z | shop | Prospect Stamps & Coins | 0
-2026-11-27T07:49:37Z | ebay_sold_sweep | Australian decimal coins $30–$50 · page 2 | 57 | 60 on the page, 13 new, 13 matched a catalogue coin
-2026-11-27T06:55:20Z | auction:downies | Downies Auctions | 0 | Error: page took too long to load
-2026-11-27T06:54:53Z | shop | Bullionmark | 1
-2026-11-27T06:53:38Z | cashconverters | coin categories | 157
-2026-11-27T06:53:07Z | facebook | 1976 2c | 0 | 18 found, none kept (not coins, or no price)
-2026-11-27T06:53:04Z | gumtree | 1976 2c | 0 | 4 found, none kept (not coins, or no price)
-2026-11-27T06:52:41Z | ebay_active | 1976 2c | 41
-2026-11-27T06:52:15Z | ebay_sold | 1976 2c | 15
-2026-11-27T06:51:47Z | facebook | 1975 2c | 0 | 19 found, none kept (not coins, or no price)
-2026-11-27T06:51:45Z | gumtree | 1975 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1975+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T06:50:39Z | ebay_active | 1975 2c | 66
-2026-11-27T06:50:20Z | shop | Guy Stuff | 6
-2026-11-27T06:50:20Z | shop | Prospect Stamps & Coins | 0
-2026-11-27T06:50:20Z | ebay_sold_sweep | Australian decimal coins $30–$50 · page 2 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-27T06:27:00Z | facebook | 1975 2c | 0 | 15 found, none kept (not coins, or no price)
-2026-11-27T06:26:58Z | gumtree | 1975 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1975+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T06:26:48Z | ebay_active | 1975 2c | 66
-2026-11-27T06:26:39Z | ebay_sold | 1975 2c | 8
-2026-11-27T05:54:22Z | cashconverters | coin categories | 172
-2026-11-27T05:53:56Z | facebook | 1974 2c | 0 | 10 found, none kept (not coins, or no price)
-2026-11-27T05:53:53Z | gumtree | 1974 2c | 0 | 3 found, none kept (not coins, or no price)
-2026-11-27T05:53:40Z | ebay_active | 1974 2c | 63
-2026-11-27T05:53:25Z | ebay_sold | 1974 2c | 13
-2026-11-27T05:53:04Z | facebook | 1973 2c | 0 | 19 found, none kept (not coins, or no price)
-2026-11-27T05:53:02Z | gumtree | 1973 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1973+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T05:52:49Z | ebay_active | 1973 2c | 41
-2026-11-27T05:52:32Z | ebay_sold | 1973 2c | 9
-2026-11-27T05:51:35Z | ebay_sold_sweep | Australian decimal coins $30–$50 · page 1 | 56 | 60 on the page, 2 new, 8 matched a catalogue coin
-2026-11-27T05:50:46Z | ebay_sold_sweep | Australian decimal coins $20–$30 · page 3 | 57 | 60 on the page, 3 new, 8 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T05:49:48Z | shop | Guy Stuff | 6
-2026-11-27T05:49:48Z | shop | Guardian Gold | 0
-2026-11-27T05:49:48Z | ebay_sold_sweep | Australian decimal coins $20–$30 · page 2 | 55 | 60 on the page, 27 new, 7 matched a catalogue coin
-2026-11-27T04:54:29Z | lloyds | coin lots | 0 | no coin lots – page “Lloyds Auctioneers and Valuers - Auction Lots”, 745k characters, 110 lot links
-2026-11-27T04:54:14Z | auction:noble | Noble Numismatics | 0 | 2 found, none kept (not coins, or no price)
-2026-11-27T04:53:08Z | cashconverters | coin categories | 62
-2026-11-27T04:52:45Z | facebook | 1972 2c | 0 | 20 found, none kept (not coins, or no price)
-2026-11-27T04:52:43Z | gumtree | 1972 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1972+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T04:52:27Z | ebay_active | 1972 2c | 40
-2026-11-27T04:52:05Z | ebay_sold | 1972 2c | 10
-2026-11-27T04:51:32Z | facebook | 1970 2c | 2
-2026-11-27T04:51:27Z | gumtree | 1970 2c | 0 | 9 found, none kept (not coins, or no price)
-2026-11-27T04:51:08Z | ebay_active | 1970 2c | 35
-2026-11-27T04:50:34Z | facebook | 1969 2c | 0 | 43 found, none kept (not coins, or no price)
-2026-11-27T04:50:31Z | gumtree | 1969 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1969+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T04:50:13Z | ebay_active | 1969 2c | 26
-2026-11-27T04:49:54Z | shop | Guardian Gold | 0
-2026-11-27T04:49:54Z | shop | Guy Stuff | 5
-2026-11-27T04:49:54Z | ebay_sold_sweep | Australian decimal coins $20–$30 · page 2 | -1 | eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-2026-11-27T04:36:44Z | facebook | 1970 2c | 1
-2026-11-27T04:36:42Z | gumtree | 1970 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1970+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T04:36:34Z | ebay_active | 1970 2c | 35
-2026-11-27T04:36:25Z | ebay_sold | 1970 2c | 15
-2026-11-27T04:35:57Z | facebook | 1969 2c | 0 | 18 found, none kept (not coins, or no price)
-2026-11-27T04:35:55Z | gumtree | 1969 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1969+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T04:35:45Z | ebay_active | 1969 2c | 26
-2026-11-27T04:35:34Z | ebay_sold | 1969 2c | 15
-2026-11-27T02:57:41Z | cashconverters | coin categories | 51
-2026-11-27T02:57:10Z | facebook | 1991 2c | 0 | 24 found, none kept (not coins, or no price)
-2026-11-27T02:57:08Z | gumtree | 1991 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1991+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T02:56:53Z | ebay_active | 1991 2c | 36
-2026-11-27T02:56:28Z | ebay_sold | 1991 2c | 34
-2026-11-27T02:55:23Z | ebay_sold_sweep | Australian decimal coins $20–$30 · page 1 | 59 | 60 on the page, 0 new, 4 matched a catalogue coin
-2026-11-27T02:54:09Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 3 | 59 | 60 on the page, 0 new, 4 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T02:53:06Z | shop | Guy Stuff | 6
-2026-11-27T02:53:06Z | shop | Guardian Gold | 0
-2026-11-27T02:53:06Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 2 | 59 | 60 on the page, 13 new, 4 matched a catalogue coin
-2026-11-27T00:54:44Z | facebook | 1990 2c | 2
-2026-11-27T00:54:42Z | gumtree | 1990 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1990+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T00:54:28Z | ebay_active | 1990 2c | 31
-2026-11-27T00:54:06Z | ebay_sold | 1990 2c | 21
-2026-11-27T00:53:43Z | facebook | 1987 2c | 0 | 11 found, none kept (not coins, or no price)
-2026-11-27T00:53:40Z | gumtree | 1987 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1987+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T00:53:21Z | ebay_active | 1987 2c | 26
-2026-11-27T00:52:58Z | ebay_sold | 1987 2c | 16
-2026-11-27T00:51:50Z | ebay_sold_sweep | Australian decimal coins $15–$20 · page 1 | 59 | 60 on the page, 0 new, 3 matched a catalogue coin
-2026-11-27T00:50:50Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 2 | 59 | 60 on the page, 0 new, 3 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T00:49:58Z | shop | Guardian Gold | 0
-2026-11-27T00:49:58Z | shop | Guy Stuff | 5
-2026-11-27T00:49:58Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 1 | 59 | 60 on the page, 3 new, 3 matched a catalogue coin
-2026-11-27T00:08:35Z | cashconverters | coin categories | 72
-2026-11-27T00:07:31Z | facebook | 1986 2c | 0 | 34 found, none kept (not coins, or no price)
-2026-11-27T00:07:29Z | gumtree | 1986 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1986+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-27T00:07:15Z | ebay_active | 1986 2c | 33
-2026-11-27T00:06:52Z | ebay_sold | 1986 2c | 10
-2026-11-27T00:05:45Z | ebay_sold_sweep | Australian decimal coins $7.50–$10 · page 2 | 59 | 60 on the page, 1 new, 3 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-27T00:04:55Z | ebay_sold_sweep | Australian decimal coins $7.50–$10 · page 1 | 59 | 60 on the page, 0 new, 3 matched a catalogue coin
-2026-11-27T00:04:02Z | shop | Guardian Gold | 0
-2026-11-27T00:04:02Z | shop | Guy Stuff | 5
-2026-11-27T00:04:02Z | ebay_sold_sweep | Australian decimal coins $5–$7.50 · page 2 | 59 | 60 on the page, 5 new, 3 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-26T22:55:33Z | shop | Australian Bullion Company | 18
-2026-11-26T22:55:23Z | shop | Great Southland Bullion | 19
-2026-11-26T22:55:15Z | cashconverters | coin categories | 177
-2026-11-26T22:55:13Z | shop | As Good As Gold | 25
-2026-11-26T22:54:50Z | facebook | 1989 2c | 2
-2026-11-26T22:54:48Z | gumtree | 1989 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1989+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-26T22:54:33Z | ebay_active | 1989 2c | 66
-2026-11-26T22:54:18Z | ebay_sold | 1989 2c | 13
-2026-11-26T22:53:24Z | ebay_sold_sweep | Australian decimal coins $5–$7.50 · page 1 | 58 | 60 on the page, 1 new, 5 matched a catalogue coin
-2026-11-26T22:52:30Z | ebay_sold_sweep | Australian decimal coins $3–$5 · page 2 | 58 | 60 on the page, 1 new, 5 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-26T22:51:34Z | ebay_sold_sweep | Australian decimal coins $3–$5 · page 1 | 58 | 60 on the page, 1 new, 5 matched a catalogue coin
-2026-11-26T22:50:45Z | shop | Prospect Stamps & Coins | 0
-2026-11-26T22:50:45Z | shop | Guardian Gold | 0
-2026-11-26T22:50:45Z | ebay_sold_sweep | Australian decimal coins $2–$3 · page 2 | 58 | 60 on the page, 3 new, 5 matched a catalogue coin · eBay repeated the last page (end of results)
-2026-11-26T21:55:05Z | facebook | 1988 2c | 3
-2026-11-26T21:55:01Z | gumtree | 1988 2c | 0 | 37 found, none kept (not coins, or no price)
-2026-11-26T21:54:48Z | ebay_active | 1988 2c | 42
-2026-11-26T21:54:46Z | shop | City Gold Bullion | 2
-2026-11-26T21:54:31Z | ebay_sold | 1988 2c | 14
-2026-11-26T21:54:09Z | facebook | 1985 2c | 2
-2026-11-26T21:54:06Z | gumtree | 1985 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1985+2c/k0?sort=date (the site asked for a bot check – try again later)
-2026-11-26T21:53:53Z | ebay_active | 1985 2c | 39
+2026-11-27T21:56:29Z | auction:downies | Downies Auctions | 0 | Error: page took too long to load
+2026-11-27T21:55:29Z | cashconverters | coin categories | 32
+2026-11-27T21:55:01Z | facebook | 1988 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T21:54:58Z | gumtree | 1988 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1988+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T21:54:37Z | ebay_active | 1988 5c | 65
+2026-11-27T21:53:51Z | ebay_sold | 1988 5c | 18
+2026-11-27T21:53:13Z | facebook | 1987 5c | 0 | nothing found – page “(1) Facebook”, 3278k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “1 unread chats 1 Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 500 km Sort b” – says “groups Kialla · 38 km Filters Notify Me No 
+2026-11-27T21:53:10Z | gumtree | 1987 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1987+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T21:52:48Z | ebay_active | 1987 5c | 59
+2026-11-27T21:52:20Z | ebay_sold | 1987 5c | 17
+2026-11-27T21:52:16Z | shop | Guardian Gold | 0
+2026-11-27T21:52:16Z | shop | Prospect Stamps & Coins | 0
+2026-11-27T20:53:49Z | cashconverters | coin categories | 156
+2026-11-27T20:53:25Z | facebook | 1984 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T20:53:23Z | gumtree | 1984 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T20:53:07Z | ebay_active | 1984 5c | 56
+2026-11-27T20:52:41Z | ebay_sold | 1984 5c | 16
+2026-11-27T20:52:15Z | facebook | 1983 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T20:52:12Z | gumtree | 1983 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1983+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T20:51:58Z | ebay_active | 1983 5c | 60
+2026-11-27T20:51:27Z | ebay_sold | 1983 5c | 14
+2026-11-27T20:51:00Z | facebook | 1982 5c | 0 | nothing found – page “(1) Facebook”, 3273k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “1 unread chats 1 Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 500 km Sort b” – says “groups Kialla · 38 km Filters Notify Me No 
+2026-11-27T20:50:58Z | gumtree | 1982 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1982+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T20:50:38Z | ebay_active | 1982 5c | 65
+2026-11-27T20:50:10Z | ebay_sold | 1982 5c | 31
+2026-11-27T20:50:06Z | shop | Guy Stuff | 4
+2026-11-27T20:50:06Z | shop | Guardian Gold | 0
+2026-11-27T19:57:17Z | cashconverters | coin categories | 157
+2026-11-27T19:56:54Z | facebook | 1981 5c | 0 | nothing found – page “Facebook”, 3101k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 500 km Sort by: Date listed: N” – says “groups Kialla · 38 km Filters Notify Me No list
+2026-11-27T19:56:50Z | gumtree | 1981 5c | 2
+2026-11-27T19:56:32Z | ebay_active | 1981 5c | 56
+2026-11-27T19:56:08Z | ebay_sold | 1981 5c | 30
+2026-11-27T19:55:41Z | facebook | 1980 5c | 0 | 6 found, none kept (not coins, or no price)
+2026-11-27T19:55:39Z | gumtree | 1980 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1980+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T19:55:23Z | ebay_active | 1980 5c | 57
+2026-11-27T19:54:39Z | ebay_sold | 1980 5c | 30
+2026-11-27T19:54:09Z | facebook | 1979 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T19:54:07Z | gumtree | 1979 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1979+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T19:53:50Z | ebay_active | 1979 5c | 62
+2026-11-27T19:53:18Z | ebay_sold | 1979 5c | 18
+2026-11-27T19:53:08Z | shop | Guy Stuff | 6
+2026-11-27T19:53:08Z | shop | Guardian Gold | 0
+2026-11-27T18:55:01Z | cashconverters | coin categories | 200
+2026-11-27T18:54:37Z | facebook | 1978 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T18:54:34Z | gumtree | 1978 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1978+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T18:54:07Z | ebay_active | 1978 5c | 41
+2026-11-27T18:52:44Z | ebay_sold | 1978 5c | 21
+2026-11-27T18:52:20Z | facebook | 1977 5c | 0 | nothing found – page “Facebook”, 3201k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T18:52:18Z | gumtree | 1977 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1977+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T18:52:02Z | ebay_active | 1977 5c | 58
+2026-11-27T18:51:34Z | ebay_sold | 1977 5c | 16
+2026-11-27T18:51:10Z | facebook | 1976 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T18:51:08Z | gumtree | 1976 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1976+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T18:50:47Z | ebay_active | 1976 5c | 56
+2026-11-27T18:50:16Z | ebay_sold | 1976 5c | 14
+2026-11-27T18:50:13Z | shop | Guy Stuff | 6
+2026-11-27T18:50:13Z | shop | Prospect Stamps & Coins | 0
+2026-11-27T17:53:34Z | cashconverters | coin categories | 180
+2026-11-27T17:53:10Z | facebook | 1975 5c | 0 | nothing found – page “Facebook”, 3203k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T17:53:08Z | gumtree | 1975 5c | 0 | 2 found, none kept (not coins, or no price)
+2026-11-27T17:52:54Z | ebay_active | 1975 5c | 48
+2026-11-27T17:52:32Z | ebay_sold | 1975 5c | 8
+2026-11-27T17:52:07Z | facebook | 1974 5c | 0 | nothing found – page “Facebook”, 3201k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T17:52:04Z | gumtree | 1974 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1974+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T17:51:32Z | ebay_active | 1974 5c | 38
+2026-11-27T17:51:06Z | ebay_sold | 1974 5c | 10
+2026-11-27T17:50:40Z | facebook | 1973 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T17:50:38Z | gumtree | 1973 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1973+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T17:50:19Z | ebay_active | 1973 5c | 41
+2026-11-27T17:49:51Z | ebay_sold | 1973 5c | 9
+2026-11-27T17:49:49Z | shop | Guy Stuff | 6
+2026-11-27T17:49:49Z | shop | Prospect Stamps & Coins | 0
+2026-11-27T17:28:19Z | cashconverters | coin categories | 128
+2026-11-27T17:27:56Z | facebook | 1972 5c | 0 | nothing found – page “Facebook”, 3202k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T17:27:54Z | gumtree | 1972 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1972+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T17:27:35Z | ebay_active | 1972 5c | 57
+2026-11-27T17:27:14Z | ebay_sold | 1972 5c | 25
+2026-11-27T17:26:49Z | facebook | 1971 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T17:26:46Z | gumtree | 1971 5c | 0 | 3 found, none kept (not coins, or no price)
+2026-11-27T17:26:29Z | ebay_active | 1971 5c | 26
+2026-11-27T17:25:47Z | ebay_sold | 1971 5c | 11
+2026-11-27T17:25:19Z | facebook | 1970 5c | 0 | 6 found, none kept (not coins, or no price)
+2026-11-27T17:25:15Z | gumtree | 1970 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1970+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T17:24:57Z | ebay_active | 1970 5c | 41
+2026-11-27T17:24:29Z | ebay_sold | 1970 5c | 9
+2026-11-27T17:24:24Z | shop | Prospect Stamps & Coins | 0
+2026-11-27T17:24:24Z | shop | Guy Stuff | 5
+2026-11-27T15:52:55Z | cashconverters | coin categories | 180
+2026-11-27T15:52:33Z | facebook | 1969 5c | 0 | 2 found, none kept (not coins, or no price)
+2026-11-27T15:52:31Z | gumtree | 1969 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1969+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T15:52:16Z | ebay_active | 1969 5c | 51
+2026-11-27T15:51:53Z | ebay_sold | 1969 5c | 13
+2026-11-27T15:51:30Z | facebook | 1966 5c | 0 | nothing found – page “Facebook”, 3198k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T15:51:27Z | gumtree | 1966 5c | 2
+2026-11-27T15:51:08Z | ebay_active | 1966 5c | 60
+2026-11-27T15:50:53Z | ebay_sold | 1966 5c | 62
+2026-11-27T15:50:25Z | facebook | 1986 5c | 0 | nothing found – page “Facebook”, 3195k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T15:50:23Z | gumtree | 1986 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1986+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T15:50:05Z | ebay_active | 1986 5c | 27
+2026-11-27T15:49:40Z | ebay_sold | 1986 5c | 13
+2026-11-27T15:49:38Z | shop | Guy Stuff | 6
+2026-11-27T15:49:38Z | shop | Guardian Gold | 0
+2026-11-27T14:54:56Z | ebay_sold | 1995 $2 | 86
+2026-11-27T14:54:36Z | lloyds | coin lots | 0 | 24 found, none kept (not coins, or no price)
+2026-11-27T14:54:23Z | auction:noble | Noble Numismatics | 0 | 2 found, none kept (not coins, or no price)
+2026-11-27T14:53:08Z | cashconverters | coin categories | 95
+2026-11-27T14:52:44Z | facebook | 1985 5c | 0 | nothing found – page “Facebook”, 3195k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T14:52:42Z | gumtree | 1985 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1985+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T14:52:26Z | ebay_active | 1985 5c | 40
+2026-11-27T14:52:03Z | ebay_sold | 1985 5c | 26
+2026-11-27T14:51:44Z | facebook | 2026 5c | 0 | nothing found – page “Facebook”, 3195k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T14:51:42Z | gumtree | 2026 5c | 3
+2026-11-27T14:51:24Z | ebay_active | 2026 5c | 66
+2026-11-27T14:51:09Z | ebay_sold | 2026 5c | 59
+2026-11-27T14:50:43Z | facebook | 2025 5c | 0 | nothing found – page “Facebook”, 3193k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T14:50:41Z | gumtree | 2025 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-2025+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T14:50:24Z | ebay_active | 2025 5c | 67
+2026-11-27T14:50:03Z | ebay_sold | 2025 5c | 55
+2026-11-27T14:50:01Z | shop | Guy Stuff | 6
+2026-11-27T14:50:01Z | shop | Guardian Gold | 0
+2026-11-27T13:58:06Z | auction:leski | Leski Auctions | 67
+2026-11-27T13:56:33Z | cashconverters | coin categories | 140
+2026-11-27T13:56:10Z | facebook | 2023 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T13:56:08Z | gumtree | 2023 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-2023+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T13:55:01Z | ebay_active | 2023 5c | 65
+2026-11-27T13:54:34Z | ebay_sold | 2023 5c | 39
+2026-11-27T13:54:05Z | facebook | 2026 2c | 0 | nothing found – page “Facebook”, 3194k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “Marketplace Search results Notify Me Create new listing Filters Balmattum, Victoria, Australia · Within 500 km Sort by: ” – says “ups Balmattum · 38 km Filters Notify Me No list
+2026-11-27T13:54:02Z | gumtree | 2026 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-2026+2c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T13:53:45Z | ebay_active | 2026 2c | 67
+2026-11-27T13:53:23Z | ebay_sold | 2026 2c | 228
+2026-11-27T13:53:20Z | shop | Guy Stuff | 6
+2026-11-27T13:53:20Z | shop | Guardian Gold | 0
+2026-11-27T12:54:59Z | cashconverters | coin categories | 177
+2026-11-27T12:54:35Z | facebook | 2016 2c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T12:54:34Z | gumtree | 2016 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-2016+2c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T12:54:12Z | ebay_active | 2016 2c | 4
+2026-11-27T12:53:56Z | ebay_sold | 2016 2c | 5
+2026-11-27T12:53:31Z | facebook | 2006 2c | 0 | 2 found, none kept (not coins, or no price)
+2026-11-27T12:53:29Z | gumtree | 2006 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-2006+2c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T12:53:09Z | ebay_active | 2006 2c | 34
+2026-11-27T12:52:51Z | ebay_sold | 2006 2c | 25
+2026-11-27T12:52:23Z | facebook | 1983 2c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-27T12:52:20Z | gumtree | 1983 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1983+2c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T12:52:02Z | ebay_active | 1983 2c | 64
+2026-11-27T12:51:16Z | ebay_sold_sweep | Coins, notes & bullion “australian bullion” · page 1 | 162 | 213 on the page, 12 new, 6 matched a catalogue coin · reached sales already stored (before 2026-11-25)
+2026-11-27T12:50:17Z | shop | Guy Stuff | 6
+2026-11-27T12:50:17Z | shop | Guardian Gold | 0
+2026-11-27T12:50:17Z | ebay_sold_sweep | Coins, notes & bullion “perth mint” · page 1 | 171 | 205 on the page, 34 new, 5 matched a catalogue coin · reached sales already stored (before 2026-11-25)
+2026-11-27T11:36:04Z | gumtree | 1983 2c | 0 | Error: 403 from https://www.gumtree.com.au/s-1983+2c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-27T11:35:43Z | ebay_active | 1983 2c | 65
