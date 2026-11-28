@@ -1,22 +1,22 @@
 # Coin Hound 2.63 refresh report
-Written 2026-11-28T05:59:01Z (28 Nov, 4:59 pm Sydney) · refresh slice started 2026-11-28T05:49:50Z, took 552 s
-Totals: {"ebay_sold_sweep":180,"shops":6,"ebay_sold":7,"ebay_active":64,"gumtree":0,"facebook":0,"cashconverters":70,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":0,"claude_removed":0,"alerts":3}
-Time taken (seconds): searching 519 · pricing 4 · reading pages 3 · checks and alerts 25
-Last problem: gumtree (2003 5c): Error: 403 from https://www.gumtree.com.au/s-2003+5c/k0?sort=date (the site asked for a bot check – try again later)
-Stored: 14927 live · 26113 sold
+Written 2026-11-28T07:00:54Z (28 Nov, 6:00 pm Sydney) · refresh slice started 2026-11-28T06:52:44Z, took 490 s
+Totals: {"ebay_sold_sweep":180,"shops":5,"ebay_sold":19,"ebay_active":61,"gumtree":0,"facebook":0,"pages_read":0,"removed_after_reading":0,"ended":0,"claude_checked":1,"claude_removed":0,"alerts":3}
+Time taken (seconds): searching 462 · pricing 4 · reading pages 3 · checks and alerts 20
+Last problem: gumtree (2004 5c): Error: 403 from https://www.gumtree.com.au/s-2004+5c/k0?sort=date (the site asked for a bot check – try again later)
+Stored: 14976 live · 26121 sold
 Sources on: ebay_sold, ebay_active, ebay_auctions, gumtree, facebook, cashconverters, shops, auction_houses, lloyds
 eBay: not paused
 eBay developer keys: none (reading eBay's pages)
 Quick checks: every 30 min · last none yet
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 5: 5 of 19 searches done, 14 left · 251 pages read · 29,334 sales found, 12,989 new, 1,723 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 5: 6 of 19 searches done, 13 left · 254 pages read · 29,514 sales found, 12,998 new, 1,741 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 Past-sales scan (gap-filler: coins with under 3 sales after the sold sweep): 385 of 3170 searches done, 16947 sales found (started 2026-11-22T01:05:28.346Z)
 Linked collection: 1981 wanted, 642 owned, catalogue 2978
 Sold prices shared with the collection app: 795 coins, 3268 matched sales (377 coins with a confident price), last checked 2026-11-28T04:58:24.194Z
 eBay sales from the collection app: 1041 sales in its file (saved 2026-11-23T06:01:05.000Z), 1011 added
-Claude's checks: last applied 2026-11-28T05:58:44Z (file from 2026-11-27T19:39:16Z) – 0 applied, 0 removed, 0 corrected, 0 verified
+Claude's checks: last applied 2026-11-28T07:00:40Z (file from 2026-11-27T19:39:16Z) – 1 applied, 0 removed, 0 corrected, 1 verified
 
 ## Sold sweep
-Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 5: 5 of 19 searches done, 14 left · 251 pages read · 29,334 sales found, 12,989 new, 1,723 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+Sold sweep (eBay sold listings, 240 a page): backfill finished 2026-11-22T01:05:21Z; pass 5: 6 of 19 searches done, 13 left · 254 pages read · 29,514 sales found, 12,998 new, 1,741 matched a catalogue coin · last error 2026-11-27T06:50:20Z: Australian decimal coins $30–$50 · page 2: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
 Fast backfill (charging and on Wi-Fi, app open): not running · last 2026-11-21T23:40:40Z · stopped: conditions · 4 pages this session
 Sales matched to catalogue coins (all sold prices, last 365 days): 795 of 2623 catalogue coins have matched sales (3268 sales); 294 have 3 or more, 377 a confident price
 - Australian decimal coins $0–$1: ? results · 2 pages · 120 sales, 34 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-28
@@ -24,8 +24,8 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 795 of 2623 c
 - Australian decimal coins $2–$3: ? results · 4 pages · 239 sales, 30 new, 18 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-28
 - Australian decimal coins $3–$5: ? results · 2 pages · 120 sales, 14 new, 10 matched (8%) · eBay repeated the last page (end of results) · newest sale 2026-11-28
 - Australian decimal coins $5–$7.50: ? results · 2 pages · 120 sales, 0 new, 11 matched (9%) · eBay repeated the last page (end of results) · newest sale 2026-11-28
-- Australian decimal coins $7.50–$10: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
-- Australian decimal coins $10–$15: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
+- Australian decimal coins $7.50–$10: ? results · 2 pages · 120 sales, 8 new, 12 matched (10%) · eBay repeated the last page (end of results) · newest sale 2026-11-28
+- Australian decimal coins $10–$15: ? results · 1 pages · 60 sales, 1 new, 6 matched (10%) · next page 2 · newest sale 2026-11-28
 - Australian decimal coins $15–$20: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
 - Australian decimal coins $20–$30: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
 - Australian decimal coins $30–$50: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
@@ -40,17 +40,16 @@ Sales matched to catalogue coins (all sold prices, last 365 days): 795 of 2623 c
 - Coins, notes & bullion “australian bullion”: ? results · 0 pages · 0 sales, 0 new, 0 matched (0%) · next page 1 · newest sale 2026-11-27
 Categories eBay offered on these pages: Cointraderjem (3372)
 
-## This refresh: 10 steps, 1 with problems
-cashconverters: 1/1 worked, 70 kept
+## This refresh: 9 steps, 1 with problems
 facebook: 1/1 worked, 0 kept
 gumtree: 0/1 worked, 0 kept
-ebay_active: 1/1 worked, 64 kept
-ebay_sold: 1/1 worked, 7 kept
-ebay_sold_sweep: 3/3 worked, 171 kept
-shops: 2/2 worked, 6 kept
+ebay_active: 1/1 worked, 61 kept
+ebay_sold: 1/1 worked, 19 kept
+ebay_sold_sweep: 3/3 worked, 168 kept
+shops: 2/2 worked, 5 kept
 
 ### Problems this refresh
-- gumtree | 2003 5c | Error: 403 from https://www.gumtree.com.au/s-2003+5c/k0?sort=date (the site asked for a bot check – try again later)
+- gumtree | 2004 5c | Error: 403 from https://www.gumtree.com.au/s-2004+5c/k0?sort=date (the site asked for a bot check – try again later)
 
 ## Shops: 66 on · 40 working · 6 read but nothing found · 0 no online shop · 0 failing · 0 website gone · 20 not read yet
 - Edlins (edlins.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (15 pages) · read 15 pages but found no priced products
@@ -66,18 +65,18 @@ shops: 2/2 worked, 6 kept
       page: /?page_id=686 32703ch · h1 “Contact Information” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0 · classes menu-item×7 menu-item-type-post_type×7 menu-item-object-page×7 nav-item×7 menu-item-623×1 menu-item-home×1 · last tried 2026-11-27T22:27:54Z · last worked 2026-11-27T22:27:54Z
 - Cockatoo Coins (cockatoocoins.com.au): not read yet
 - Coins Australia (coinsaustralia.com.au): ok – 9 kept of 27 found, read through its site map, page by page (77 pages) · moved to https://www.coinsaustralia.com.au · last tried 2026-11-27T22:33:15Z · last worked 2026-11-27T22:33:15Z
-- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (3 pages) · read 3 pages but found no priced products · read in the hidden browser
-      page: / 216312ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
-      page: /shop/ 346044ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
-      page: /product-category/gold/ 353890ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
-      page: /product-category/gold/buy-gold-cast-bars/: hidden browser: this refresh's pages are used up – more next refresh
+- Guardian Gold (guardian-gold.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages in the hidden browser (4 pages) · read 4 pages but found no priced products · read in the hidden browser
+      page: / 216300ch · h1 “Gold & Silver Bullion Dealers Australia” · $ amounts 2 · price elements 17 · buy buttons 0 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 menu-item-has-children×8
+      page: /shop/ 346310ch · h1 “” · $ amounts 73 · price elements 108 · buy buttons 49 · cards read 0 · classes menu-item×51 product×50 type-product×50 has-post-thumbnail×50 product-type-simple×50 product-wrap×50
+      page: /product-category/gold/ 353708ch · h1 “Buy Gold Bullion Online in Australia” · $ amounts 66 · price elements 94 · buy buttons 50 · cards read 0 · classes menu-item×51 product×50 type-product×50 product_cat-gold×50 has-post-thumbnail×50 product-type-simple×50
+      page: /product-category/gold/buy-gold-cast-bars/ 240800ch · h1 “Buy Gold Cast Bars Online” · $ amounts 22 · price elements 38 · buy buttons 18 · cards read 0 · classes menu-item×51 menu-item-type-post_type×28 menu-item-object-page×28 menu-item-type-custom×23 menu-item-object-custom×23 product×18
       page: /product-category/gold/gold-coins/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/gold/buy-gold-minted-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/silver-buy-silver-bars/: hidden browser: this refresh's pages are used up – more next refresh
       page: /product-category/silver/buy-silver-coins/: hidden browser: this refresh's pages are used up – more next refresh
-      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-28T05:51:23Z · last worked 2026-11-28T05:51:23Z
-- Guy Stuff (guystuff.com.au): ok – 6 kept of 72 found, read through browsing its pages in the hidden browser (4 pages) · read in the hidden browser · last tried 2026-11-28T05:51:30Z · last worked 2026-11-28T05:51:30Z
+      page: /product-category/platinum/: hidden browser: this refresh's pages are used up – more next refresh · last tried 2026-11-28T06:54:21Z · last worked 2026-11-28T06:54:21Z
+- Guy Stuff (guystuff.com.au): ok – 5 kept of 48 found, read through browsing its pages in the hidden browser (3 pages) · read in the hidden browser · last tried 2026-11-28T06:54:13Z · last worked 2026-11-28T06:54:13Z
 - Heritage Numismatics (heritagenumismatics.com.au): ok – 27 kept of 58 found, read through its Shopify product feed · 0 stand-in prices replaced from the product page, 1 left out until their page is read · last tried 2026-11-27T22:29:36Z · last worked 2026-11-27T22:29:36Z
 - I.S. Wright (iswright.com.au): NOTHING FOUND – 0 kept of 0 found, read through browsing its pages (3 pages) · read 3 pages but found no priced products · moved to https://www.iswright.com.au
       page: / 16412ch · h1 “” · $ amounts 0 · price elements 0 · buy buttons 0 · cards read 0
@@ -375,6 +374,8 @@ shops: 2/2 worked, 6 kept
 - 25% under | $17.5 vs usual $23.26, 13 sales, high | 50c 2023 Sydney Opera House 50th Anniversary - Al/Bronze UNC | shop:Wynyard Coin Centre | read as: coin 2023 50c unc | AI: coin base  (1) 2023 50c Sydney Opera House 50th Al-Br unc | price not confirmed | https://wynyardcoins.com.au/products/50c-2023-sydney-opera-house-50th-anniversary-unc
     id: shop:wynyardcoins.com.au:44000272679129 · key: 1tfzb4y · Claude: verified 2026-11-27
     description read: Al/Bronze . Uncirculated (UNC).
+- 25% under | $34.62 vs usual $45.95, 3 sales, low | 2004 5c Australian Proof Coin PCGS PR69DCAM | ebay | read as: coin 2004 5c proof | AI: not read | price not confirmed | https://www.ebay.com.au/itm/156820050476
+    id: ebay:156820050476 · key: gfk4rv
 - 25% under | $29 vs usual $38.5 (melt $7.06), 3 sales, low | 2015 10c Australian Koala 1/10oz Silver Coin | shop:Town Hall Coins | read as: coin 2015 10c 0.1oz silver | AI: bullion_coin silver 0.1 (1) 2015 Perth Mint Koala 1/10oz silver bullion coin | price not confirmed | https://townhallcoins.com/products/2015-10c-australian-koala-1-10oz-silver-coin
     id: shop:townhallcoins.com:46862555939056 · key: fu8ond · Claude: corrected 2026-11-27
 - 24% under | $30 vs usual $39.45, 3 sales, low | 2026 $2 The Last Post C Mintmark Coloured Unc Card | shop:Coins & Collectables Victoria | read as: coin 2026 $2 C mintmark unc | AI: coin base  (1) 2026 $2 Last Post coloured C mintmark unc | price not confirmed | https://collectablesemporium.au/products/2026-2-the-last-post-c-mintmark-coloured-unc-card
@@ -547,8 +548,6 @@ shops: 2/2 worked, 6 kept
     description read: *PCGS guarantees the grade and authenticity for life.. *PCGS Gold Shield holder is protected by NFC anti-counterfeiting technology.
 - 13% under | $41.14 vs usual $47, 2 sales, low | 2001 $2, $1, 50c, 20c, 10c, 5c UNC Centenary of Federation 6 x Coin Carded Set | ebay | read as: set 2001 $2 unc | AI: not read | price not confirmed | https://www.ebay.com.au/itm/306822423548
     id: ebay:306822423548 · key: lalii7
-- 13% under | $17.5 vs usual $20, 2 sales, low | 2009 20c Australia Remembers - Australian Service Nurses Unc Coin in Card | shop:Coin City | read as: coin 2009 20c unc | AI: coin base  (1) 2009 20c Australia Remembers - Australian Service Nurses Unc Coin in Card | price not confirmed | https://coincity.com.au/products/2009-20c-australia-remembers-australian-service-nurses-unc-coin-in-card
-    id: shop:coincity.com.au:47817455042881 · key: wbov0p · Claude: verified 2026-11-27
 
 ## Needs checking: 9 listings held back as too cheap to be real
 - 99% under | $30 vs usual $2270.48 (melt $2270.48), 0 sales, melt only | 2023 1kg Kookaburra Silver Coin | BULLIONMARK | shop:Bullionmark | read as: bullion 2023 32.1507oz silver | AI: not read | page/description: {"metal":"silver","metal_by":"purity","weight_oz":32.1507} | price not confirmed | HELD BACK: priced at 1% of the metal value it was read as (32.1507 oz silver) – probably not what it was read as | https://bullionmark.com.au/shop/product/2023-1kg-kookaburra-silver-coin
@@ -579,27 +578,36 @@ shops: 2/2 worked, 6 kept
     id: shop:qmint.com:46b3f745c69551cc · key: 13iq4u6
     description read: Product Description Specifications Discover more treasure Buy the 2021 1/2oz Lunar Series III Year of the Ox Silver Coin, struck from 99.99% pure silver by The Perth Mint. Australian legal tender with a stunning zodiac Ox design. Buy the 2021 1/2oz Lunar Series III Year of the Ox Silver Coin, struck from 99.99% pure silver by The Perth Mint. Australian legal tender with a stunning zodiac Ox design. Category: Home / Shop / Elements / Silver / 2021 1/2oz Lunar Series III Year of the Ox Silver Coin.
 
-## Last 3 days by source (662 steps)
-- 44 shops: every step worked, 26809 kept
+## Last 3 days by source (661 steps)
+- 44 shops: every step worked, 26808 kept
 - auction:downies: 0/4 worked, 0 kept
     4× Error: page took too long to load
-- gumtree: 14/69 worked, 8 kept
+- gumtree: 14/70 worked, 8 kept
     2× Error: 403 from https://www.gumtree.com.au/s-1983+2c/k0?sort=date (the site asked for a bot check – try again later)
     2× Error: 403 from https://www.gumtree.com.au/s-1975+2c/k0?sort=date (the site asked for a bot check – try again later)
     2× Error: 403 from https://www.gumtree.com.au/s-1969+2c/k0?sort=date (the site asked for a bot check – try again later)
 - ebay_sold_sweep: 63/67 worked, 5083 kept
     4× eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
-- ebay_active: 84/85 worked, 3864 kept
+- ebay_active: 85/86 worked, 3925 kept
     1× Error: eBay keeps sending its error page (it limits how fast one visitor can search) – pausing eBay for 30 minutes, until <time>
-- ebay_sold: 146/147 worked, 5234 kept
+- ebay_sold: 142/143 worked, 5140 kept
     1× Error: eBay sent its "Error Page | eBay" page, even in the browser (too many searches too quickly)
+- facebook: 76/76 worked, 19 kept
 - cashconverters: 26/26 worked, 3447 kept
-- facebook: 75/75 worked, 19 kept
 - auction:leski: 4/4 worked, 83 kept
 - lloyds: 4/4 worked, 0 kept
 - auction:noble: 4/4 worked, 0 kept
 
 ## Log, newest first (last 150 steps)
+2026-11-28T06:57:40Z | facebook | 2004 5c | 0 | 1 found, none kept (not coins, or no price)
+2026-11-28T06:57:38Z | gumtree | 2004 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-2004+5c/k0?sort=date (the site asked for a bot check – try again later)
+2026-11-28T06:57:16Z | ebay_active | 2004 5c | 61
+2026-11-28T06:55:44Z | ebay_sold | 2004 5c | 19
+2026-11-28T06:54:38Z | ebay_sold_sweep | Australian decimal coins $10–$15 · page 1 | 56 | 60 on the page, 1 new, 6 matched a catalogue coin
+2026-11-28T06:53:43Z | ebay_sold_sweep | Australian decimal coins $7.50–$10 · page 2 | 56 | 60 on the page, 0 new, 6 matched a catalogue coin · eBay repeated the last page (end of results)
+2026-11-28T06:52:47Z | shop | Guardian Gold | 0
+2026-11-28T06:52:47Z | shop | Guy Stuff | 5
+2026-11-28T06:52:47Z | ebay_sold_sweep | Australian decimal coins $7.50–$10 · page 1 | 56 | 60 on the page, 8 new, 6 matched a catalogue coin
 2026-11-28T05:54:11Z | cashconverters | coin categories | 70
 2026-11-28T05:53:44Z | facebook | 2003 5c | 0 | 2 found, none kept (not coins, or no price)
 2026-11-28T05:53:42Z | gumtree | 2003 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-2003+5c/k0?sort=date (the site asked for a bot check – try again later)
@@ -741,12 +749,3 @@ shops: 2/2 worked, 6 kept
 2026-11-27T21:53:13Z | facebook | 1987 5c | 0 | nothing found – page “(1) Facebook”, 3278k characters, 0 listing links, 0 listings in its data, 0 prices in its text – starts “1 unread chats 1 Marketplace Search results Notify Me Create new listing Filters Kialla, Victoria · Within 500 km Sort b” – says “groups Kialla · 38 km Filters Notify Me No 
 2026-11-27T21:53:10Z | gumtree | 1987 5c | 0 | Error: 403 from https://www.gumtree.com.au/s-1987+5c/k0?sort=date (the site asked for a bot check – try again later)
 2026-11-27T21:52:48Z | ebay_active | 1987 5c | 59
-2026-11-27T21:52:20Z | ebay_sold | 1987 5c | 17
-2026-11-27T21:52:16Z | shop | Guardian Gold | 0
-2026-11-27T21:52:16Z | shop | Prospect Stamps & Coins | 0
-2026-11-27T20:53:49Z | cashconverters | coin categories | 156
-2026-11-27T20:53:25Z | facebook | 1984 5c | 0 | 1 found, none kept (not coins, or no price)
-2026-11-27T20:53:23Z | gumtree | 1984 5c | 0 | 1 found, none kept (not coins, or no price)
-2026-11-27T20:53:07Z | ebay_active | 1984 5c | 56
-2026-11-27T20:52:41Z | ebay_sold | 1984 5c | 16
-2026-11-27T20:52:15Z | facebook | 1983 5c | 0 | 1 found, none kept (not coins, or no price)
